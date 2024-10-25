@@ -1,4 +1,61 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 20|🇷FR-193.243.147.128-004
+  password: 7BcLdsO1WweoGD0X
+  port: 40368
+  server: 193.243.147.128
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇷FR-51.178.87.37-019
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 51.178.87.37
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇫🇷FR-51.178.87.37-021
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 51.178.87.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇶CLOUDFRONT-18.155.69.157-322
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b7de9b5b-aa40-4840-9515-29c731e65774
+  ws-headers:
+    Host: d2qwmj985lowvg.cloudfront.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20|🇦🇶CLOUDFRONT-18.154.206.90-317
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 18a4d335-d146-4642-aaa4-06fd889867ed
+  ws-headers:
+    Host: d3nluaxdi1ucex.cloudfront.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20|🇶CLOUDFRONT-13.35.12.203-320
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6674de98-d01e-4fe5-b4ad-a0c3f487ef6d
+  ws-headers:
+    Host: d1t4p62eo429fi.cloudfront.net
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 21|🇫🇷 法国
