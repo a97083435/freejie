@@ -16,72 +16,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,20,21,25,27|美国3|@ripaojiedian
-  network: tcp
-  port: '39041'
-  server: 183.238.202.173
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.238.202.173
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 11,21|🇨🇳 中国_43
-  network: ws
-  port: '12938'
-  server: z2.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,21|🇨🇳 中国_40
-  network: ws
-  port: '12925'
-  server: z2.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,13,21|🇨🇳 中国_51
-  network: ws
-  port: '12910'
-  server: z8.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z8.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,20,21|🇨🇳 中国_42
-  network: tcp
-  port: '12901'
-  server: z3.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-headers:
-    Host: z3.fragranceninja.com
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 13,20,21,25,27|美国2|@ripaojiedian
   network: tcp
   port: '58831'
@@ -103,6 +37,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13,21|🇨🇳 中国_51
+  network: ws
+  port: '12910'
+  server: z8.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z8.fragranceninja.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13,21|🇨🇳 中国_31
@@ -196,6 +143,20 @@ proxies:
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
   ws-headers:
     Host: 120.232.153.71
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 20,21,25,27|美国3|@ripaojiedian
+  network: tcp
+  port: '39041'
+  server: 183.238.202.173
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.238.202.173
   ws-path: /
 - cipher: aes-128-gcm
   name: 20|🇨🇳CN-36.151.194.51-237
@@ -396,6 +357,32 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: 20,21|🇨🇳 中国_42
+  network: tcp
+  port: '12901'
+  server: z3.fragranceninja.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-headers:
+    Host: z3.fragranceninja.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 中国_43
+  network: ws
+  port: '12938'
+  server: z2.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z2.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 21|🇨🇳 中国_53
   network: ws
   port: '12941'
@@ -412,6 +399,19 @@ proxies:
   name: 21|🇨🇳 中国_44
   network: ws
   port: '12968'
+  server: z2.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z2.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 中国_40
+  network: ws
+  port: '12925'
   server: z2.fragranceninja.com
   tls: true
   type: vmess
