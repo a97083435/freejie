@@ -14,21 +14,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11,29|CN_speednode_0007
-  network: tcp
-  port: 33288
-  server: 183.236.48.161
-  tls: false
+  name: 11,21|🇨🇳 中国_43
+  network: ws
+  port: '12938'
+  server: z2.fragranceninja.com
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z2.fragranceninja.com
+    path: /
 - alterId: 64
   cipher: auto
-  name: '11|广东省广州市 移动 #1'
+  name: 11,21,25,27|美国2|@ripaojiedian
   network: tcp
-  port: '35601'
-  server: 120.232.153.40
+  port: '58831'
+  server: 183.236.48.163
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -45,6 +50,16 @@ proxies:
     headers:
       Host: z2.fragranceninja.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 11,21,25,27|德国|@ripaojiedian
+  network: tcp
+  port: '43526'
+  server: 120.232.153.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -59,15 +74,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇳 中国_50
-  network: tcp
-  port: '25003'
-  server: c.baodesign.top
-  tls: false
-  type: vmess
-  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
 - alterId: 0
   cipher: auto
   name: 21|🇨🇳 中国_55
@@ -88,19 +94,6 @@ proxies:
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇳 中国_43
-  network: ws
-  port: '12938'
-  server: z2.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 21|🇨🇳 中国_31
   network: ws
   port: '12952'
@@ -114,15 +107,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇳 中国_56
-  network: tcp
-  port: '12928'
-  server: z6.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
   name: 21|🇨🇳 中国_53
   network: ws
   port: '12941'
@@ -134,6 +118,24 @@ proxies:
     headers:
       Host: z2.fragranceninja.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 中国_49
+  network: tcp
+  port: '25007'
+  server: c.baodesign.top
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 中国_57
+  network: tcp
+  port: '15086'
+  server: 15086.kuaiyin02.top
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 0
   cipher: auto
   name: 21|🇨🇳 中国_48
@@ -152,25 +154,6 @@ proxies:
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇳 中国_47
-  network: tcp
-  port: '25002'
-  server: b.baodesign.top
-  tls: false
-  type: vmess
-  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
-- alterId: 0
-  cipher: auto
-  name: 21,25,27|日本|@ripaojiedian
-  network: tcp
-  port: '25004'
-  server: d.baodesign.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
 - alterId: 0
   cipher: auto
   name: 21|🇨🇳 中国_44
@@ -212,16 +195,6 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 21,25,27|美国2|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 21|🇨🇳 中国_39
   network: tcp
   port: '42055'
@@ -229,16 +202,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 21,25,27|德国|@ripaojiedian
-  network: tcp
-  port: '43526'
-  server: 120.232.153.71
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   name: 21|🇨🇳 中国_42
@@ -273,6 +236,14 @@ proxies:
   server: dajbxtw.naikonode1.top
   type: ssr
   udp: true
+- alterId: 64
+  cipher: auto
+  name: 29|CN_speednode_0007
+  network: tcp
+  port: 33288
+  server: 183.236.48.161
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   name: 29|CN_speednode_0008
   password: bbO8KazkNBUGb7HP
