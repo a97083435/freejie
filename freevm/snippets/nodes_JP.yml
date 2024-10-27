@@ -1,5 +1,25 @@
 proxies:
 - alterId: 0
+  cipher: auto
+  name: 25,27|日本|@ripaojiedian
+  network: tcp
+  port: '25004'
+  server: d.baodesign.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+- alterId: 0
+  cipher: auto
+  name: 25,27|日本2|@ripaojiedian
+  network: tcp
+  port: '14072'
+  server: 45.159.50.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1a72c7ca-ff6c-4dd8-8efe-388d2bfdf92f
+- alterId: 0
   cipher: none
   name: 25,27|日本3|@ripaojiedian
   network: tcp
@@ -9,20 +29,12 @@ proxies:
   tls: false
   type: vmess
   uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本2|@ripaojiedian
-  password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8
-  port: 10020
-  server: aca-cm-js-4g.cfprefer1.xyz
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.254.211
+  server: 13.229.98.87
   tfo: false
   type: ss
 - alterId: 0
