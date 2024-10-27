@@ -16,19 +16,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,21|🇨🇳 中国_31
-  network: ws
-  port: '12952'
-  server: z3.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z3.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 11,21|🇨🇳 中国_33
   network: tcp
   port: '12960'
@@ -36,21 +23,20 @@ proxies:
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 64
-  cipher: auto
-  name: 11,13,21,25,27|德国|@ripaojiedian
-  network: tcp
-  port: '43526'
-  server: 120.232.153.71
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
-  name: 11,21|🇨🇳 中国_53
+  name: 11,21|🇨🇳 中国_46
+  network: tcp
+  port: '12970'
+  server: z3.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: 0
+  cipher: auto
+  name: 11,13,21|🇨🇳 中国_54
   network: ws
-  port: '12941'
+  port: '12969'
   server: z2.fragranceninja.com
   tls: true
   type: vmess
@@ -58,6 +44,28 @@ proxies:
   ws-opts:
     headers:
       Host: z2.fragranceninja.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 11|广东省中山市 移动
+  network: tcp
+  port: '46665'
+  server: 120.237.79.157
+  tls: false
+  type: vmess
+  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇨🇳 中国_51
+  network: ws
+  port: '12910'
+  server: z8.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z8.fragranceninja.com
     path: /
 - alterId: 0
   cipher: auto
@@ -82,19 +90,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13,21|🇨🇳 中国_54
-  network: ws
-  port: '12969'
-  server: z2.fragranceninja.com
-  tls: true
+  name: 13,21,25,27|德国|@ripaojiedian
+  network: tcp
+  port: '43526'
+  server: 120.232.153.71
+  servername: ''
+  tls: false
   type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -109,15 +114,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇳 中国_46
-  network: tcp
-  port: '12970'
-  server: z3.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 64
   cipher: auto
   name: 21|🇨🇳 广东省广州市 移动
@@ -127,6 +123,50 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 中国_55
+  network: tcp
+  port: '25006'
+  server: b.baodesign.top
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 中国_31
+  network: ws
+  port: '12952'
+  server: z3.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z3.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 中国_53
+  network: ws
+  port: '12941'
+  server: z2.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z2.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 中国_49
+  network: tcp
+  port: '25007'
+  server: c.baodesign.top
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
 - alterId: 0
   cipher: auto
   name: 21|🇨🇳 中国_44
@@ -139,19 +179,6 @@ proxies:
   ws-opts:
     headers:
       Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇳 中国_51
-  network: ws
-  port: '12910'
-  server: z8.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z8.fragranceninja.com
     path: /
 - alterId: 0
   cipher: auto
