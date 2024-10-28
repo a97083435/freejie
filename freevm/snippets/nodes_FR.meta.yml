@@ -1,19 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|法国 OVH
-  network: ws
-  port: 443
-  server: 51.77.20.132
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: a.baradiha.com
-    path: /linkvws
 - cipher: aes-256-gcm
-  name: 20|🇷FR-193.243.147.128-004
+  name: 20|🇫🇷FR-193.243.147.128-048
   password: 7BcLdsO1WweoGD0X
   port: 40368
   server: 193.243.147.128
@@ -30,21 +17,51 @@ proxies:
   port: 800
   server: 51.178.87.37
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0003
-  password: '!!str 3690911436885991424'
-  port: 46665
-  server: 120.232.153.37
+  name: 20|🇷FR-51.77.20.132-074
+  network: ws
+  port: 443
+  server: 51.77.20.132
   skip-cert-verify: true
-  sni: careful-platypus.opossum872.cfd
-  tfo: false
-  tls: false
+  tls: true
   type: vmess
-  udp: true
-  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
-  ws-path: h=%2F%3Fed%3D2048
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-headers:
+    Host: a.baradiha.com
+  ws-path: /linkvws
+- cipher: aes-256-gcm
+  name: 20|🇷FR-54.37.12.219-079
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 54.37.12.219
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 20|🇷FR-23.162.152.177-132
+  network: ws
+  port: 443
+  server: 23.162.152.177
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-headers:
+    Host: 23.162.152.177
+  ws-path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21|🇫🇷 法国 OVH
+  network: ws
+  port: '443'
+  server: 51.77.20.132
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: a.baradiha.com
+    path: /linkvws
 - name: 24|_FR_国
   network: tcp
   password: telegram-id-directvpn
