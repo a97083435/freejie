@@ -1,22 +1,37 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 20|🇷FR-193.243.147.128-29
+  name: 20|🇷FR-193.243.147.128-004
   password: 7BcLdsO1WweoGD0X
   port: 40368
   server: 193.243.147.128
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇷FR-51.178.87.37-19
+  name: 20|🇷FR-51.178.87.37-019
   password: G!yBwPWH3Vao
   port: 810
   server: 51.178.87.37
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇫🇷FR-51.178.87.37-21
+  name: 20|🇫🇷FR-51.178.87.37-021
   password: G!yBwPWH3Vao
   port: 800
   server: 51.178.87.37
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 20,26,29|CN_speednode_0003
+  password: '!!str 3690911436885991424'
+  port: 46665
+  server: 120.232.153.37
+  skip-cert-verify: true
+  sni: careful-platypus.opossum872.cfd
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
+  ws-path: h=%2F%3Fed%3D2048
 - name: 24|_FR_国
   network: tcp
   password: telegram-id-directvpn
