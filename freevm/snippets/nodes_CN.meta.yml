@@ -14,9 +14,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '11,21|中国 #13'
+  network: ws
+  port: '12925'
+  server: z2.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z2.fragranceninja.com
+    path: /
 - alterId: 64
   cipher: auto
-  name: 11,20,21,25,27|德国|@ripaojiedian
+  name: 11,13,20,21,25,27|德国|@ripaojiedian
   network: tcp
   port: '43526'
   server: 120.232.153.71
@@ -30,7 +43,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '11,21|中国 #14'
+  name: '13,21|中国 #14'
   network: ws
   port: '12910'
   server: z8.fragranceninja.com
@@ -43,61 +56,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,21|中国 #1'
+  name: '13,21|中国 #1'
   network: ws
   port: '12941'
-  server: z2.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13,21|中国 #13'
-  network: ws
-  port: '12925'
-  server: z2.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13,20,21|中国 #6'
-  network: tcp
-  port: '12970'
-  server: z3.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-headers:
-    Host: z3.fragranceninja.com
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,29|CN_speednode_0004
-  network: tcp
-  port: 33288
-  server: 183.236.48.161
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.161
-  ws-path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: '13,21|中国 #16'
-  network: ws
-  port: '12938'
   server: z2.fragranceninja.com
   tls: true
   type: vmess
@@ -138,6 +99,19 @@ proxies:
   port: 20005
   server: service.ouluyun9803.com
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '20,21|中国 #6'
+  network: tcp
+  port: '12970'
+  server: z3.fragranceninja.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-headers:
+    Host: z3.fragranceninja.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 20|🇨🇳CN-120.233.31.230-182
@@ -191,6 +165,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: '20,21|中国 #10'
+  network: tcp
+  port: '25002'
+  server: b.baodesign.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+  ws-headers:
+    Host: b.baodesign.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '20,21|中国 #4'
   network: tcp
   port: '12901'
@@ -216,6 +203,19 @@ proxies:
   ws-headers:
     Host: d.baodesign.top
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 20,21,29|CN_speednode_0004
+  network: tcp
+  port: 33288
+  server: 183.236.48.161
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.161
+  ws-path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
   name: 20|🇨🇳CN-120.233.31.230-191
@@ -359,6 +359,19 @@ proxies:
   ws-headers:
     Host: 120.237.79.157
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '21|中国 #16'
+  network: ws
+  port: '12938'
+  server: z2.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z2.fragranceninja.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|中国
