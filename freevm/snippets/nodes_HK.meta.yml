@@ -1,36 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇰HK-89.213.150.72-035
-  password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569
-  port: 40000
-  server: soonhk.soon.guru
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇭🇰 香港 Leaseweb数据中心
-  network: tcp
-  port: '14247'
-  server: 103.75.117.78
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 56d6f1a9-b26a-4f9b-a95a-ff59de60ee51
-  ws-headers:
-    Host: 103.75.117.78
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|中国 #17'
-  network: tcp
-  port: '15086'
-  server: 15086.kuaiyin02.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-  ws-headers:
-    Host: 15086.kuaiyin02.top
-  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
