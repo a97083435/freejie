@@ -528,21 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  3 #1'
+  name: '11,13,16,28|github.com/freefq - 印度  3 #1'
   network: ws
   port: 443
   server: 202.78.162.5
@@ -556,7 +542,21 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
+  name: '11,13,16,21,28|github.com/freefq - 美国CloudFla... #5'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '13,16,21,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -568,22 +568,18 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '13,16,21,28|github.com/freefq - 美国CloudFla... #4'
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
+  name: 14,21|中国
+  network: tcp
+  port: '33288'
+  server: 183.236.48.161
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '13,16,28|github.com/freefq - 印度  2 #1'
+  name: '16,28|github.com/freefq - 印度  2 #1'
   network: ws
   port: 443
   server: 202.78.162.5
@@ -595,15 +591,19 @@ proxies:
     headers:
       Host: irsoft.sytes.net
     path: /@forwardv2ray
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 14,21|中国
-  network: tcp
-  port: '33288'
-  server: 183.236.48.161
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -1188,76 +1188,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-31
-  network: ws
-  port: 443
-  server: speedtest.net
-  servername: mehrjavan.ir
-  tls: true
-  type: vmess
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  name: 25|0|-https://t.me/MrXbin-33
+  name: 25|0|-https://t.me/MrXbin-48
   network: ws
   port: 2095
-  server: singapore.com
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 25|0|-https://t.me/MrXbin-34
-  network: ws
-  port: 2095
-  server: 172.64.194.76
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 25|0|-https://t.me/MrXbin-35
-  network: ws
-  port: 2095
-  server: 172.64.166.28
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 25|0|-https://t.me/MrXbin-36
-  network: ws
-  port: 2095
-  server: 172.64.166.16
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 25|0|-https://t.me/MrXbin-39
-  network: ws
-  port: 2095
-  server: 172.64.166.8
+  server: 172.64.99.22
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
@@ -1267,7 +1201,63 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 25|0|-https://t.me/MrXbin-49
+  network: ws
+  port: 2082
+  server: 172.64.166.2
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-50
+  network: ws
+  port: 2082
+  server: 172.64.175.213
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 25|0|-https://t.me/MrXbin-51
+  network: ws
+  port: 2082
+  server: 172.64.167.29
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-52
+  network: ws
+  port: 2082
+  server: 172.64.167.22
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-58
   network: ws
   port: 2082
   server: 172.64.166.22
@@ -1280,10 +1270,23 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-52
+  name: 25|0|-https://t.me/MrXbin-71
+  network: ws
+  port: 2095
+  server: 172.64.167.19
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-73
   network: ws
   port: 2082
-  server: 172.64.175.88
+  server: 172.64.167.19
   servername: ip18.6929198.xyz
   tls: false
   type: vmess
@@ -1292,35 +1295,49 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-58
+  name: 25|0|-https://t.me/MrXbin-76
   network: ws
-  port: 443
-  server: 23.157.88.6
-  tls: true
+  port: 2082
+  server: 172.64.166.9
+  servername: ip18.6929198.xyz
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: 23.157.88.6
-    path: /linkvws
-- alterId: 1
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-59
+  name: 25|0|-https://t.me/MrXbin-77
   network: ws
-  port: 443
-  server: 23.158.56.145
-  tls: true
+  port: 2095
+  server: 172.64.167.8
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: 23.158.56.145
-    path: /linkvws
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-80
+  network: ws
+  port: 2095
+  server: 172.64.167.15
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 1
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-60
+  name: 25|0|-https://t.me/MrXbin-81
   network: ws
   port: 443
   server: 23.158.56.81
@@ -1331,6 +1348,33 @@ proxies:
     headers:
       Host: 23.158.56.81
     path: /linkvws
+- alterId: 1
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-83
+  network: ws
+  port: 443
+  server: 23.158.56.145
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.145
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-84
+  network: ws
+  port: 443
+  server: speedtest.net
+  servername: mehrjavan.ir
+  tls: true
+  type: vmess
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
 - alterId: 0
   cipher: auto
   name: '25|3,4,5|d*********g.com_0 #2'
