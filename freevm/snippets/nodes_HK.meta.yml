@@ -12,15 +12,15 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 26,29|CN_speednode_0003
-  password: 5b4becce-5739-483f-97ec-68b81a855d68
-  port: 46665
-  server: 120.232.153.37
+  name: 26,29|VN_speednode_0073
+  password: 94d219c9-1afc-4d42-b090-8b3794764380
+  port: 443
+  server: 36.50.134.29
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   udp: true
   uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
 - alterId: 0
@@ -95,3 +95,11 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
+- name: 29|HK_speednode_0027
+  network: tcp
+  port: 33032
+  server: 156.254.115.158
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 72d37e1d-d577-4db3-dc92-3ec65b6d172b
