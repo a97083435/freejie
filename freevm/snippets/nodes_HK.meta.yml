@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 20|HK-203.23.128.33-58
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 203.23.128.33
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -43,20 +49,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|US_speednode_0040
-  password: wkmY1R4EcP
-  port: 443
-  server: 216.128.147.13
-  skip-cert-verify: true
-  sni: z-v2-003274.kailib.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: false
-  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
