@@ -29,13 +29,13 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-120.238.122.159-041
+  name: 20|🇳CN-120.238.122.160-007
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-120.238.122.160-042
+  name: 20|🇨🇳CN-120.238.122.159-026
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 26667
   server: service.ouluyun9803.com
@@ -46,58 +46,22 @@ proxies:
   port: 20005
   server: service.ouluyun9803.com
   type: ss
-- alterId: 64
-  cipher: auto
-  name: '20,21|🇨🇳 广东省广州市 移动 #1'
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 64
-  cipher: auto
-  name: '20,21|🇨🇳 广东省广州市 移动 #3'
-  network: tcp
-  port: '45020'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: 20|🇨🇳CN-120.241.46.110-064
-  network: ws
-  port: 33202
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇭🇰 14|香港7|@ripaojiedian
-  network: tcp
-  port: '60066'
-  server: hk0067.alibabaokz.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 38571ca6-6692-4559-b901-0bc5826b7661
-  ws-headers:
-    Host: hk0067.alibabaokz.com
-  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港|@ripaojiedian
+  password: 62403b40-ee4c-4946-98b7-43ef0b9cb12d
+  port: 11001
+  server: 183.232.229.164
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港9|@ripaojiedian
+  password: 6412f269-3329-4034-82ba-3eb94dfefa41
+  port: 11001
+  server: hk.bazhuayujiasu.cc
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇯🇵 日本|@ripaojiedian
@@ -106,21 +70,29 @@ proxies:
   server: 61.172.235.22
   tfo: false
   type: ss
-- alterId: 0
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本4|@ripaojiedian
+  password: 62403b40-ee4c-4946-98b7-43ef0b9cb12d
+  port: 11002
+  server: 61.172.235.22
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 21,29|CN_speednode_0006
-  network: ws
-  port: 33202
-  server: yd2.ainivp.com
+  client-fingerprint: chrome
+  name: 20,26,29|VN_speednode_0050
+  password: 94d219c9-1afc-4d42-b090-8b3794764380
+  port: 443
+  server: 36.50.134.29
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
+  tls: false
+  type: trojan
+  udp: false
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  ws-path: h=%2FtrSo3btsDgOHHUM6Nb
 - alterId: 0
   cipher: auto
   name: '28|日本2|@ripaojiedian #1'
@@ -135,3 +107,18 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 29|CN_speednode_0006
+  network: ws
+  port: 33202
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray

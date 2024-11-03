@@ -1,64 +1,47 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,25,27|日本2|@ripaojiedian
+  name: 13,20,21,25,27|日本2|@ripaojiedian
   network: tcp
   port: '51313'
   server: 45.159.50.136
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
-- alterId: 64
-  cipher: auto
-  name: 20|🇵JP-134.122.196.66-092
-  network: ws
-  port: 30002
-  server: 134.122.196.66
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: www.37727754.xyz
-  ws-path: /path/351212081517
-- alterId: 64
-  cipher: auto
-  name: 21|🇯🇵 13,14|日本|@ripaojiedian
-  network: ws
-  port: '30002'
-  server: 134.122.196.66
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.37727754.xyz
-    path: /path/351212081517
+    Host: 45.159.50.136
+  ws-path: /
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本3|@ripaojiedian
+  name: 20,26|🇯🇵 日本3|@ripaojiedian
   password: asd123456
   port: 8388
   server: 107.148.6.121
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本4|@ripaojiedian
-  password: 62403b40-ee4c-4946-98b7-43ef0b9cb12d
-  port: 11002
-  server: 61.172.235.22
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.112.215.69
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸 美国
+  network: ws
+  port: '2095'
+  server: 172.64.167.5
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
