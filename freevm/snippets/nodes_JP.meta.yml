@@ -1,32 +1,14 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 13,21|🇯🇵 13,14|日本|@ripaojiedian
-  network: ws
-  port: '30002'
-  server: 134.122.196.66
-  servername: www.37727754.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.37727754.xyz
-    path: /path/351212081517
 - alterId: 0
   cipher: auto
-  name: 13,20,21|🇯🇵 14|日本2|@ripaojiedian
+  name: 13,25,27|日本2|@ripaojiedian
   network: tcp
-  port: '15433'
-  server: 45.159.51.138
+  port: '51313'
+  server: 45.159.50.136
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4947b7ee-a191-4b23-aa2a-7c22d20d5308
-  ws-headers:
-    Host: 45.159.51.138
-  ws-path: /
+  uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
 - alterId: 64
   cipher: auto
   name: 20|🇵JP-134.122.196.66-092
@@ -40,16 +22,19 @@ proxies:
   ws-headers:
     Host: www.37727754.xyz
   ws-path: /path/351212081517
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 25,27|日本2|@ripaojiedian
-  network: tcp
-  port: '51313'
-  server: 45.159.50.136
-  servername: ''
-  tls: false
+  name: 21|🇯🇵 13,14|日本|@ripaojiedian
+  network: ws
+  port: '30002'
+  server: 134.122.196.66
+  tls: true
   type: vmess
-  uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.37727754.xyz
+    path: /path/351212081517
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 26|🇯🇵 日本3|@ripaojiedian
