@@ -1,42 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,25,27|日本|@ripaojiedian
+  name: 13,20,21,25,27|日本|@ripaojiedian
   network: tcp
   port: '23468'
   server: 47.74.8.202
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9f563bc7-0481-41d2-f8fd-a4736ded9bc0
-- alterId: 0
-  cipher: auto
-  name: 21|🇯🇵 14|日本2|@ripaojiedian
-  network: tcp
-  port: '51313'
-  server: 45.159.50.136
-  tls: false
-  type: vmess
-  uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
-- cipher: chacha20-ietf-poly1305
+  ws-headers:
+    Host: 47.74.8.202
+  ws-path: /
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本2|@ripaojiedian
-  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本3|@ripaojiedian
-  password: 38798780-6d99-4896-8e3d-258e630c1265
-  port: 40015
-  server: hzhz2.sssyun.xyz
+  name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.249.197.65
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 52.198.194.170

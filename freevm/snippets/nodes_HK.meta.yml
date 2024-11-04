@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27,29|CN_speednode_0005
+  name: 13,20,21,25,27,29|CN_speednode_0005
   network: tcp
   port: 34565
   server: 120.232.153.71
@@ -11,86 +11,79 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.71
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港3|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '48009'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港4|@ripaojiedian
+  name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '50037'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '2902'
   server: 143.92.42.65
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+  ws-headers:
+    Host: 143.92.42.65
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,25,27|香港7|@ripaojiedian
+  name: 13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '44826'
   server: ambxxid02hk.dorabbb.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 263aba2e-52ac-494a-b25f-32b8d230e61d
+  ws-headers:
+    Host: ambxxid02hk.dorabbb.top
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,25,27|香港8|@ripaojiedian
+  name: 13,20,21,25,27|香港8|@ripaojiedian
   network: tcp
   port: '38848'
   server: 38.147.188.250
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 69e0e169-0702-4454-9d88-259d08e57926
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港|@ripaojiedian
-  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|VN_speednode_0038
-  password: 94d219c9-1afc-4d42-b090-8b3794764380
-  port: 443
-  server: 36.50.134.26
-  skip-cert-verify: true
-  sni: kdlsupport.zendesk.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: false
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 206.119.175.50
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: 38.147.188.250
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
