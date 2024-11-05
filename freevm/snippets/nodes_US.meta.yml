@@ -237,31 +237,32 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: 8880
-  server: 104.21.82.183
+  server: server31.beheshtbaneh.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
   ws-opts:
     headers:
-      Host: server26.beheshtbaneh.com
+      Host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|美国 V2CROSS.COM
+  name: 11,16,21,28|美国测试节点
   network: ws
-  port: 443
-  server: 23.162.200.227
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   ws-opts:
     headers:
-      Host: ''
-    path: /linkvws
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|美国4|@ripaojiedian
@@ -291,32 +292,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
   port: 8880
-  server: server31.beheshtbaneh.com
+  server: 104.21.82.183
   servername: ''
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
+      Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16,21,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #6'
@@ -332,13 +319,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-gcm
-  name: 20|US-154.3.8.151-014
-  password: iUB0923RBA
-  port: 30067
-  server: 154.3.8.151
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇺🇸US-15.204.87.225-015
+  name: 20|US-15.204.87.225-014
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 15.204.87.225
@@ -352,28 +333,40 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-15.204.87.225-018
+  name: 20|🇺🇸US-15.204.87.225-017
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 15.204.87.225
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-15.204.87.225-019
+  name: 20|🇺🇸US-15.204.87.225-018
   password: lGqs95QkFHo2NV
   port: 5499
   server: 15.204.87.225
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-15.204.87.225-020
+  name: 20|🇺🇸US-15.204.87.225-019
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 15.204.87.225
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-15.204.87.217-022
+  name: 20|🇺🇸US-15.204.87.217-021
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 15.204.87.217
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇺🇸US-15.204.87.225-022
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 15.204.87.225
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇺🇸US-15.204.87.225-023
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 15.204.87.225
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -383,19 +376,6 @@ proxies:
   server: 156.146.38.168
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 20|🇸US-38.174.190.80-035
-  network: ws
-  port: 38007
-  server: 38.174.190.80
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 38.174.190.80
-  ws-path: /path/102206282005
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 20,26|🇺🇸 美国2|@ripaojiedian
@@ -406,17 +386,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸 美国 CloudFlare节点
+  name: 21|🇺🇸 美国 V2CROSS.COM
   network: ws
-  port: '2082'
-  server: 104.26.5.66
-  tls: false
+  port: '443'
+  server: 23.162.200.227
+  tls: true
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
