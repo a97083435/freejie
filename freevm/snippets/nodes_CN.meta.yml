@@ -14,6 +14,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|美国4|@ripaojiedian
+  network: tcp
+  port: '52112'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -29,7 +43,7 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-120.238.122.159-028
+  name: 20|🇨🇳CN-120.238.122.160-052
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
@@ -69,6 +83,20 @@ proxies:
   port: 11001
   server: 61.172.235.22
   tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇰🇷 韩国|@ripaojiedian
+  password: 38798780-6d99-4896-8e3d-258e630c1265
+  port: 40016
+  server: hzhz2.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-117.176.203.229-142
+  password: 273a61f5-03b5-4449-9d18-7e914d3808c4
+  port: 30017
+  server: 117.176.203.229
   type: ss
 - alterId: 0
   cipher: auto

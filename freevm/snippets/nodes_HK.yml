@@ -29,14 +29,18 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,25,27|香港3|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '17806'
   server: 38.147.189.182
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9f3d1af9-855a-4ba1-861a-4588240500a7
+  ws-headers:
+    Host: 38.147.189.182
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 13,20,21,25,27|香港5|@ripaojiedian
@@ -51,28 +55,6 @@ proxies:
   ws-headers:
     Host: 143.92.42.65
   ws-path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0002
-  password: b264982e-e333-4085-ac04-406afef23455
-  port: 52112
-  server: 183.236.51.23
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: h=%2F
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 154.197.98.64
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
