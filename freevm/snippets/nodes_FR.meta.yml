@@ -1,22 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|法国 V2CROSS.COM
-  network: ws
-  port: 443
-  server: discord.vpnsell.beauty
-  tls: true
-  type: vmess
-  uuid: a8ed942c-0c14-4061-89f7-c08b90ebea76
-  ws-opts:
-    headers:
-      Host: discord.vpnsell.beauty
-    path: /29516/iliya
 - cipher: aes-256-gcm
   name: 20|🇷FR-193.243.147.128-004
   password: 7BcLdsO1WweoGD0X
   port: 40368
   server: 193.243.147.128
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇷FR-54.37.12.219-037
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 54.37.12.219
   type: ss
 - alterId: 64
   cipher: auto
@@ -31,13 +24,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: h=%2FtrC8BM8bTsAF0AnLYL%3Fed%3D2560
+  ws-path: h=%2F
 - cipher: aes-256-gcm
-  name: 20|🇷FR-149.202.82.172-049
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 149.202.82.172
+  name: 20|🇷FR-54.37.12.219-073
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 54.37.12.219
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|🇫🇷 法国 V2CROSS.COM
+  network: ws
+  port: '443'
+  server: discord.vpnsell.beauty
+  tls: true
+  type: vmess
+  uuid: a8ed942c-0c14-4061-89f7-c08b90ebea76
+  ws-opts:
+    headers:
+      Host: discord.vpnsell.beauty
+    path: /29516/iliya
 - name: 24|_FR_国
   network: tcp
   password: telegram-id-directvpn

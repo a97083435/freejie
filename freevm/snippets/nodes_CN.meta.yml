@@ -16,9 +16,23 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港|@ripaojiedian
+  name: 11,13,20,21,25,27|新加坡2|@ripaojiedian
   network: tcp
-  port: '48009'
+  port: '40002'
+  server: 183.236.48.163
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|美国4|@ripaojiedian
+  network: tcp
+  port: '52112'
   server: 183.236.51.23
   servername: ''
   skip-cert-verify: true
@@ -43,7 +57,7 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-120.238.122.160-052
+  name: 20|🇳CN-120.238.122.160-007
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
@@ -62,10 +76,10 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港4|@ripaojiedian
-  password: 1a9abdcb-57de-4027-8d00-d00efbfc4888
-  port: 11001
-  server: 183.240.255.75
+  name: 20,26|🇰🇷 韩国|@ripaojiedian
+  password: 38798780-6d99-4896-8e3d-258e630c1265
+  port: 40016
+  server: hzhz2.sssyun.xyz
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -78,25 +92,19 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港4|@ripaojiedian
+  password: 1a9abdcb-57de-4027-8d00-d00efbfc4888
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 20,26|🇯🇵 日本|@ripaojiedian
   password: 6cea1c5a-2145-46d2-a18c-039544f7717a
   port: 11001
   server: 61.172.235.22
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇰🇷 韩国|@ripaojiedian
-  password: 38798780-6d99-4896-8e3d-258e630c1265
-  port: 40016
-  server: hzhz2.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-117.176.203.229-142
-  password: 273a61f5-03b5-4449-9d18-7e914d3808c4
-  port: 30017
-  server: 117.176.203.229
   type: ss
 - alterId: 0
   cipher: auto
