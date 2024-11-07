@@ -28,24 +28,56 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇳 江苏省 移动
-  network: tcp
-  port: '15074'
-  server: 15074.kuaiyin02.top
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 64
-  cipher: auto
-  name: 21|🇭🇰 14|香港|@ripaojiedian
-  network: tcp
-  port: '48009'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇳CN-120.238.122.160-027
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20003
+  server: service.ouluyun9803.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇳CN-120.238.122.160-010
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 26667
+  server: service.ouluyun9803.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇳CN-120.238.122.160-011
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20005
+  server: service.ouluyun9803.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港|@ripaojiedian
+  password: 895d48f1-eb49-41bc-8963-c12e407261cf
+  port: 12002
+  server: 58.254.183.32
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港3|@ripaojiedian
+  password: a69ca599-2007-42b1-b69d-c0fc7b4e9ce7
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本|@ripaojiedian
+  password: 13391662-0c19-44cd-a283-2aaa91d87254
+  port: 11001
+  server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇰🇷 韩国|@ripaojiedian
+  password: 38798780-6d99-4896-8e3d-258e630c1265
+  port: 40016
+  server: hzhz2.sssyun.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian

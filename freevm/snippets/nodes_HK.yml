@@ -1,70 +1,32 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港2|@ripaojiedian
+  name: 13,20,21,25,27|香港2|@ripaojiedian
   network: tcp
   port: '56601'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '2902'
   server: 143.92.42.65
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 0
-  cipher: auto
-  name: 21|🇭🇰 14|香港3|@ripaojiedian
-  network: tcp
-  port: '17806'
-  server: 38.147.189.182
-  tls: false
-  type: vmess
-  uuid: 9f3d1af9-855a-4ba1-861a-4588240500a7
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港|@ripaojiedian
-  password: 895d48f1-eb49-41bc-8963-c12e407261cf
-  port: 12002
-  server: 58.254.183.32
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|CN_speednode_0001
-  password: b264982e-e333-4085-ac04-406afef23455
-  port: 46602
-  server: 183.236.51.23
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港3|@ripaojiedian
-  password: a69ca599-2007-42b1-b69d-c0fc7b4e9ce7
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港4|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.36.90.195
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: 143.92.42.65
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
