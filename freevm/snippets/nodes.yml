@@ -526,36 +526,49 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 1
+- alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 443
-  server: b.jannah.homes
-  tls: true
+  port: 2095
+  server: 162.159.140.93
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: b.jannah.homes
-    path: linkvws
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  10 #1'
+  name: 11,16,21,28|美国测试节点
   network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
   tls: true
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 172.64.229.209
+  tls: false
+  type: vmess
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
   port: 2082
   server: 104.16.67.38
@@ -568,21 +581,21 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
+  name: '11,16,28|github.com/freefq - 印度  3 #1'
   network: ws
-  port: 8880
-  server: 104.21.82.183
+  port: 443
+  server: 202.78.162.5
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   ws-opts:
     headers:
-      Host: server26.beheshtbaneh.com
-    path: /
+      Host: sahand.serveminecraft.net
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13,21,25|0|-https://t.me/MrXbin-35
+  name: 13,21,25|0|-https://t.me/MrXbin-31
   network: ws
   port: 2082
   server: 172.64.166.22
@@ -608,7 +621,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|0|--30
+  name: 13,25|0|-https://t.me/MrXbin-30
   network: ws
   port: 2082
   server: 172.64.167.22
@@ -622,9 +635,9 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13,21,25|0|-https://t.me/MrXbin-34
+  name: 13,21|0|--29
   network: ws
-  port: 8080
+  port: '8080'
   server: m003.mmzhk.website
   tls: true
   type: vmess
@@ -831,20 +844,6 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '16,28|github.com/freefq - 印度  3 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 8080
@@ -886,18 +885,32 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 16,21,28|美国测试节点
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: zheshiscp.com
-    path: /77848824
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '16,28|github.com/freefq - 印度  10 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #6'
@@ -1530,9 +1543,9 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21,25|0|-https://t.me/MrXbin-32
+  name: '21|🇺🇸 美国 #3'
   network: ws
-  port: 2095
+  port: '2095'
   server: russia.com
   tls: false
   type: vmess
@@ -1749,23 +1762,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-28
+  name: 25|0|-https://t.me/MrXbin-23
   network: ws
   port: 2082
-  server: 172.64.167.15
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 25|0|-https://t.me/MrXbin-33
-  network: ws
-  port: 2082
-  server: 172.64.166.2
+  server: 172.64.175.213
   servername: ip18.6929198.xyz
   tls: false
   type: vmess
@@ -1774,19 +1774,20 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-38
+  name: 25|0|-https://t.me/MrXbin-28
   network: ws
-  port: 443
-  server: 23.158.56.81
-  tls: true
+  port: 2082
+  server: 172.64.167.10
+  servername: ip18.6929198.xyz
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: 23.158.56.81
-    path: /linkvws
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #20'

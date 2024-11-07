@@ -235,22 +235,49 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 1
+- alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 443
-  server: b.jannah.homes
-  tls: true
+  port: 2095
+  server: 162.159.140.93
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: b.jannah.homes
-    path: linkvws
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 11,16,21,28|美国测试节点
+  network: ws
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 172.64.229.209
+  tls: false
+  type: vmess
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
   port: 2082
   server: 104.16.67.38
@@ -261,20 +288,6 @@ proxies:
     headers:
       Host: late-wave-1d0a.lesijo3430.workers.dev
     path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|美国4|@ripaojiedian
@@ -318,18 +331,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,21,28|美国测试节点
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: zheshiscp.com
-    path: /77848824
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #6'
@@ -457,9 +470,9 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21,25|0|-https://t.me/MrXbin-32
+  name: '21|🇺🇸 美国 #3'
   network: ws
-  port: 2095
+  port: '2095'
   server: russia.com
   tls: false
   type: vmess
