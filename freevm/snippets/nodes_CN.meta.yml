@@ -29,19 +29,19 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-120.238.122.160-027
+  name: 20|🇳CN-120.238.122.160-007
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-120.238.122.160-010
+  name: 20|🇳CN-120.238.122.159-010
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 26667
   server: service.ouluyun9803.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-120.238.122.160-011
+  name: 20|🇳CN-120.238.122.159-011
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20005
   server: service.ouluyun9803.com
@@ -70,6 +70,20 @@ proxies:
   server: 61.172.235.22
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 20,26,29|CN_speednode_0001
+  password: b264982e-e333-4085-ac04-406afef23455
+  port: 46602
+  server: 183.236.51.23
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: h=%2F
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇰🇷 韩国|@ripaojiedian
