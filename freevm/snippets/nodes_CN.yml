@@ -16,22 +16,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,20,21|中国
+  name: 11,13,14,20,21,25,27|美国4|@ripaojiedian
   network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.27
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港2|@ripaojiedian
-  network: tcp
-  port: '56601'
+  port: '52112'
   server: 183.236.51.23
   servername: ''
   skip-cert-verify: true
@@ -40,20 +27,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|新加坡2|@ripaojiedian
-  network: tcp
-  port: '40002'
-  server: 183.236.48.163
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -143,6 +116,19 @@ proxies:
   server: atom.986886.xyz
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 20,21|中国
+  network: tcp
+  port: '58002'
+  server: 120.232.153.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.27
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
