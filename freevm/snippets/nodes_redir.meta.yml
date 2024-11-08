@@ -51,7 +51,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1,6|🇺🇸_US_美国->🇸🇬_SG_新加坡
+  name: '1,6|🇺🇸_US_美国->🇸🇬_SG_新加坡 #1'
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
@@ -100,6 +100,68 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 2|🇺🇸_US_美国->🇸🇬_SG_新加坡
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f
+  ws-opts:
+    headers:
+      Host: rpmlybgzsg2.yofnhkfc.xyz
+    path: /video/3YKfzGw4
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸_US_美国->🇮🇳_IN_印度
+  network: ws
+  port: 2052
+  server: 104.17.156.224
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in4.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '2|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: 2052
+  server: 172.67.164.78
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in3.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 16928
+  server: vip3.niuniupremium.xyz
+  tls: false
+  type: vmess
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '2,28|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: '3,30|🇺🇸_US_美国->🇧🇷_BR_巴西 #2'
   network: ws
   port: 2052
@@ -130,7 +192,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
+  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
   network: ws
   port: 16928
   server: 120.232.240.56
@@ -140,7 +202,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #5'
   network: tcp
   port: 54002
   server: 183.240.235.162
@@ -159,7 +221,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,30|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  name: '3,30|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -177,6 +239,19 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  network: ws
+  port: 2095
+  server: 172.64.175.213
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip21.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
@@ -269,7 +344,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #30'
+  name: '28|🇺🇸_US_美国 #34'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -282,7 +357,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  name: '28|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -319,19 +394,6 @@ proxies:
     headers:
       Host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  name: '28|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国->🇨🇦_CA_加拿大 #15'
