@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|日本3|@ripaojiedian
+  name: 13,20,21|🇯🇵 14|日本3|@ripaojiedian
   network: tcp
   port: '20219'
   server: 107.148.1.76
@@ -15,7 +15,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|日本4|@ripaojiedian
+  name: 13,20,21|🇯🇵 14|日本4|@ripaojiedian
   network: tcp
   port: '17763'
   server: 45.159.50.245
@@ -40,6 +40,22 @@ proxies:
   ws-headers:
     Host: 61.120.9.18
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本3|@ripaojiedian
+  password: 84856344-8644-46e0-98cb-5d54509ee059
+  port: 25617
+  server: atom.986886.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.158.71
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
