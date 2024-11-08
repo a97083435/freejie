@@ -1,36 +1,33 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港|@ripaojiedian
+  password: e182d6b4-403c-40d6-bd66-6d281a67d282
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港2|@ripaojiedian
-  network: tcp
-  port: '56601'
-  server: 183.236.51.23
-  servername: ''
+  client-fingerprint: chrome
+  name: 26,29|JP_speednode_0004
+  password: 8e4248f7-aae5-3a38-b99d-88bf1cd37e0d
+  port: 443
+  server: 35.75.8.137
   skip-cert-verify: true
+  sni: fastly.cdn.steampipe.steamcontent.com
+  tfo: false
   tls: false
-  type: vmess
+  type: trojan
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|中国 #1'
-  network: tcp
-  port: '15086'
-  server: 15086.kuaiyin02.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-  ws-headers:
-    Host: 15086.kuaiyin02.top
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇰HK-203.23.128.33-168
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 203.23.128.33
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港3|@ripaojiedian
+  password: 84856344-8644-46e0-98cb-5d54509ee059
+  port: 14427
+  server: atom.986886.xyz
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
