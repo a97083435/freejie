@@ -16,7 +16,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,20,21|🇨🇳 江苏省 移动
+  name: '11,20,21|中国 #1'
   network: tcp
   port: '15086'
   server: 15086.kuaiyin02.top
@@ -61,10 +61,10 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港|@ripaojiedian
-  password: e182d6b4-403c-40d6-bd66-6d281a67d282
-  port: 11001
-  server: 183.240.255.75
+  name: 20,26|🇭🇰 香港3|@ripaojiedian
+  password: 84856344-8644-46e0-98cb-5d54509ee059
+  port: 14427
+  server: atom.986886.xyz
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -75,6 +75,59 @@ proxies:
   server: 61.172.235.22
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港|@ripaojiedian
+  password: e182d6b4-403c-40d6-bd66-6d281a67d282
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇹🇼 台湾2|@ripaojiedian
+  password: 84856344-8644-46e0-98cb-5d54509ee059
+  port: 42303
+  server: atom.986886.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本3|@ripaojiedian
+  password: 84856344-8644-46e0-98cb-5d54509ee059
+  port: 25617
+  server: atom.986886.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇰🇷 韩国|@ripaojiedian
+  password: 84856344-8644-46e0-98cb-5d54509ee059
+  port: 15760
+  server: atom.986886.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡|@ripaojiedian
+  password: 9b296d1b-dea9-40fd-aef7-a62b083be9ec
+  port: 45782
+  server: atom.986886.xyz
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 20,21|中国
+  network: tcp
+  port: '58002'
+  server: 120.232.153.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.27
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
