@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|日本 V2CROSS.COM
+  network: tcp
+  port: 43720
+  server: 61.120.9.18
+  tls: false
+  type: vmess
+  uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
+- alterId: 0
+  cipher: auto
   name: 13,20,21,25,27|日本|@ripaojiedian
   network: tcp
   port: '15836'
@@ -72,3 +81,35 @@ proxies:
     headers:
       Host: linode.appleid.bf
     path: /CAT
+- name: 29|JP_speednode_0064
+  network: ws
+  port: 443
+  server: zmaoz.faculty.ucdavis.edu
+  servername: zmaoz.faculty.ucdavis.edu
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 041f671a-63f5-4af1-a492-8cbff5797b8a
+  ws-opts:
+    headers:
+      Host: Falcunargo.net
+    path: /5Ve373mPjKg4vceF?ed
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|JP_speednode_0065
+  network: ws
+  port: 443
+  server: live.skornorth.com
+  servername: live.skornorth.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bda686e-b4b8-442d-84bc-3c4842523d23
+  ws-opts:
+    headers:
+      Host: Join_Evay_vpn.ir
+    path: /@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560
