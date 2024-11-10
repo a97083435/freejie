@@ -1063,7 +1063,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0009
+  name: 20,26,29|CN_speednode_0008
   password: '3690911436885991424'
   port: 46602
   server: 183.236.51.23
@@ -1140,7 +1140,7 @@ proxies:
 - alterId: -1
   cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 20,26,29|GB_speednode_0023
+  name: 20,26,29|GB_speednode_0021
   password: shadowsocks
   port: 443
   server: 212.102.47.131
@@ -1154,7 +1154,7 @@ proxies:
   type: ss
 - alterId: -1
   cipher: aes-128-gcm
-  name: 20,29|US_speednode_0071
+  name: 20,29|US_speednode_0061
   password: shadowsocks
   port: 443
   server: 37.19.198.160
@@ -1163,7 +1163,7 @@ proxies:
 - alterId: -1
   cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 20,26,29|US_speednode_0066
+  name: 20,26,29|US_speednode_0056
   password: shadowsocks
   port: 443
   server: 156.146.38.168
@@ -3791,7 +3791,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 29|CN_speednode_0008
+  name: 29|CN_speednode_0009
   network: tcp
   port: 51704
   server: 183.236.51.23
@@ -3800,44 +3800,8 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 29|US_speednode_0085
-  network: ws
-  port: 8443
-  server: 104.21.238.203
-  servername: http1.9290254.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: http1.9290254.xyz
-    path: /github.com/Alvin9999
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- alterId: 0
-  cipher: auto
-  name: 29|US_speednode_0087
-  network: ws
-  port: 8443
-  server: 104.21.238.201
-  servername: http1.9290254.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: http1.9290254.xyz
-    path: /github.com/Alvin9999
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
 - alterId: -1
-  name: 29|US_speednode_0104
+  name: 29|US_speednode_0094
   network: ws
   password: bpb-trojan
   port: 443
@@ -3850,19 +3814,7 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL?ed=2560
-- name: 29|US_speednode_0092
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 104.18.37.111
-  skip-cert-verify: true
-  sni: mindrOOm-5cz.pAgEs.dEV
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mindrOOm-5cz.pAgEs.dEV
-    path: /trC8BM8bTsAF0AnLYL
-- name: 29|US_speednode_0093
+- name: 29|US_speednode_0082
   network: ws
   password: bpb-trojan
   port: 443
@@ -3874,8 +3826,20 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
+- name: 29|US_speednode_0084
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.18.37.111
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL
 - alterId: -1
-  name: 29|US_speednode_0099
+  name: 29|US_speednode_0089
   network: ws
   password: bpb-trojan
   port: 443
