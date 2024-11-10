@@ -581,7 +581,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 13,25|0|-https://t.me/MrXbin-42
+  name: 13,21,25|0|-https://t.me/MrXbin-42
   network: ws
   port: 2082
   server: 172.64.198.249
@@ -609,7 +609,7 @@ proxies:
     path: /m28jcoZZUhkqg6pk11
 - alterId: 0
   cipher: auto
-  name: '13,21|0|--40 #1'
+  name: '13,21|0|--46 #1'
   network: ws
   port: '2082'
   server: 172.64.175.213
@@ -866,7 +866,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-104.21.61.214-024
+  name: 20|🏁RELAY-172.67.215.103-024
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -942,7 +942,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇶FASTLY-151.101.128.144-031
+  name: 20|🇶FASTLY-151.101.64.144-031
   network: ws
   port: 443
   server: gov.uk
@@ -1043,7 +1043,7 @@ proxies:
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-172.64.198.249-023
+  name: 20|RELAY-172.64.198.249-044
   network: ws
   port: 2082
   server: 172.64.198.249
@@ -1052,8 +1052,8 @@ proxies:
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-headers:
-    Host: ip26.6929198.xyz
-  ws-path: github.com/Alvin9999
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
 - cipher: chacha20-ietf-poly1305
   name: 20|SG-188.166.211.235-025
   password: 1TB1N/FO5QA4NoIrAT8IFmf0x3gynq3ZzCIhctObHoY=
@@ -1101,7 +1101,7 @@ proxies:
   ws-path: /linkvws
 - alterId: 1
   cipher: auto
-  name: 20|🏁RELAY-104.21.80.125-033
+  name: 20|🏁RELAY-172.67.181.15-033
   network: ws
   port: 443
   server: darat.homes
@@ -1119,28 +1119,60 @@ proxies:
   server: 149.22.95.183
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: 20|🇺🇸US-38.121.43.204-036
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.121.43.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇱🇹LT-45.87.175.157-037
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.157
+  type: ss
 - cipher: rc4-md5
-  name: 20|🇺🇸US-107.155.57.51-036
+  name: 20|🇺🇸US-107.155.57.51-038
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 107.155.57.51
   type: ss
+- alterId: -1
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 20,26,29|GB_speednode_0023
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.131
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 20|🇺🇸US-54.187.244.22-040
+  password: amazonskr05
+  port: 443
+  server: 54.187.244.22
+  type: ss
+- alterId: -1
+  cipher: aes-128-gcm
+  name: 20,29|US_speednode_0071
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.160
+  type: ss
+  udp: true
+- alterId: -1
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 20,26,29|US_speednode_0066
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
+  tfo: false
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-172.64.167.15-037
-  network: ws
-  port: 2082
-  server: 172.64.167.15
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip16.6929198.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 20|🇶FASTLY-151.101.66.219-038
+  name: 20|🇶FASTLY-151.101.194.219-045
   network: ws
   port: 443
   server: speedtest.net
@@ -1153,7 +1185,7 @@ proxies:
   ws-path: /m28jcoZZUhkqg6pk11
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-172.64.175.213-039
+  name: 20|🏁RELAY-172.64.175.213-046
   network: ws
   port: 2082
   server: 172.64.175.213
@@ -1166,20 +1198,7 @@ proxies:
   ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-172.64.194.76-040
-  network: ws
-  port: 2082
-  server: 172.64.194.76
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip18.6929198.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 20|🏁RELAY-104.21.238.200-041
+  name: 20|RELAY-104.21.238.200-047
   network: ws
   port: 8443
   server: 104.21.238.200
@@ -1192,7 +1211,7 @@ proxies:
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-104.21.238.201-042
+  name: 20|🏁RELAY-104.21.238.201-048
   network: ws
   port: 8443
   server: 104.21.238.201
@@ -1205,7 +1224,7 @@ proxies:
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-104.21.238.202-043
+  name: 20|🏁RELAY-104.21.238.202-049
   network: ws
   port: 8443
   server: 104.21.238.202
@@ -1218,7 +1237,7 @@ proxies:
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-104.21.238.203-044
+  name: 20|🏁RELAY-104.21.238.203-050
   network: ws
   port: 8443
   server: 104.21.238.203
@@ -1333,25 +1352,6 @@ proxies:
   server: node1.cenxiwc.shop
   tfo: false
   type: ss
-- alterId: -1
-  cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 20,26,29|GB_speednode_0023
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.131
-  tfo: false
-  type: ss
-- alterId: -1
-  cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 20,26,29|US_speednode_0066
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
-  tfo: false
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
@@ -1386,7 +1386,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 20|BR-95.164.4.88-099
+  name: 20|BR-95.164.4.88-103
   network: ws
   port: 80
   server: pq-brazil1.09vpn.com
@@ -1399,7 +1399,7 @@ proxies:
   ws-path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-104.19.38.12-100
+  name: 20|🏁RELAY-104.19.38.12-104
   network: ws
   port: 2082
   server: 104.19.38.12
@@ -1412,7 +1412,7 @@ proxies:
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 20|🏁RELAY-104.26.5.103-101
+  name: 20|🏁RELAY-104.26.5.103-105
   network: ws
   port: 2082
   server: 104.26.5.103
@@ -1531,32 +1531,6 @@ proxies:
     headers:
       Host: darat.homes
     path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 21|0|--34
-  network: ws
-  port: '2082'
-  server: 172.64.167.15
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 21|0|--41
-  network: ws
-  port: '2082'
-  server: 172.64.194.76
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 21|电报群：https://t.me/vvkj11
@@ -4194,14 +4168,6 @@ proxies:
     headers:
       Host: mefa.ir
     path: /H?ed=2560
-- alterId: -1
-  cipher: aes-128-gcm
-  name: 29|US_speednode_0071
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.160
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 29|US_speednode_0070
   network: ws
