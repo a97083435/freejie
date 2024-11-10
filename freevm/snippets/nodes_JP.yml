@@ -1,49 +1,33 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 21|日期：11-09
-  network: ws
-  port: '2082'
-  server: 104.26.5.103
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本3|@ripaojiedian
-  password: 6d1a3101-7f94-4290-9a9a-9c238e161371
-  port: 31419
-  server: node1.cenxiwc.shop
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本4|@ripaojiedian
-  password: 6d1a3101-7f94-4290-9a9a-9c238e161371
-  port: 31621
-  server: node2.cenxiwc.shop
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本5|@ripaojiedian
-  password: 6d1a3101-7f94-4290-9a9a-9c238e161371
-  port: 31420
-  server: 111.29.57.108
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.230.104.31
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 57.180.49.182
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇯🇵 日本
+  network: tcp
+  port: '16798'
+  server: 150.66.24.104
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bc6c7c93-9245-47be-bfd7-c34a39d0f155
+  ws-headers:
+    Host: 150.66.24.104
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
