@@ -1,16 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,25,27|香港2|@ripaojiedian
-  network: tcp
-  port: '56601'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '58002'
@@ -23,19 +13,9 @@ proxies:
   ws-headers:
     Host: 120.232.153.27
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 13,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '2902'
-  server: 143.92.42.65
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 64
   cipher: auto
-  name: 13,25,27,29|CN_speednode_0006
+  name: 13,20,21,25,27,29|CN_speednode_0006
   network: tcp
   port: 51704
   server: 183.236.51.23
@@ -45,41 +25,12 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港|@ripaojiedian
-  password: c17c376d-b0e0-4830-b3b1-b8657953e1db
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港3|@ripaojiedian
-  password: 99NH00E1KE8IF6WO
-  port: 15002
-  server: 120.241.45.50
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: e17795f7-e056-4eba-9dfa-b21ffec4e1c0
-  port: 12003
-  server: 120.233.98.235
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 26|🇭🇰 香港7|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港8|@ripaojiedian
+  name: 20,26|🇭🇰 香港8|@ripaojiedian
   password: asd123456
   port: 8388
   server: 103.197.25.35
@@ -87,7 +38,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 26|🇭🇰 香港9|@ripaojiedian
+  name: 20,26|🇭🇰 香港9|@ripaojiedian
   password: asd123456
   port: 8388
   server: 38.147.190.72
