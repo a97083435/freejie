@@ -16,18 +16,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27,29|CN_speednode_0006
+  name: 11,13,20,21,25,27|新加坡2|@ripaojiedian
   network: tcp
-  port: 51704
-  server: 183.236.51.23
+  port: '40002'
+  server: 183.236.48.163
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
+    Host: 183.236.48.163
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -44,7 +43,7 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-120.238.122.159-007
+  name: 20|🇳CN-120.238.122.160-071
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
@@ -56,10 +55,42 @@ proxies:
   server: service.ouluyun9803.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-120.238.122.160-011
+  name: 20|🇳CN-120.238.122.159-011
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20005
   server: service.ouluyun9803.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇰🇷 韩国|@ripaojiedian
+  password: 7a2f5570-f469-4549-9273-549a5c85fb52
+  port: 39206
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港|@ripaojiedian
+  password: Z4X7VYXFPCFSSWXP
+  port: 15013
+  server: 120.241.45.50
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港6|@ripaojiedian
+  password: 047a730c-1f84-4aef-8e32-6c244ee5b92b
+  port: 11001
+  server: 183.232.229.165
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本|@ripaojiedian
+  password: 173c0893-5ab2-4223-88ce-b6e8d512306b
+  port: 33238
+  server: 183.232.159.51
+  tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -67,6 +98,22 @@ proxies:
   password: 99NH00E1KE8IF6WO
   port: 15002
   server: 120.241.45.50
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇹🇼 台湾|@ripaojiedian
+  password: 173c0893-5ab2-4223-88ce-b6e8d512306b
+  port: 34401
+  server: 183.232.159.51
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡|@ripaojiedian
+  password: 173c0893-5ab2-4223-88ce-b6e8d512306b
+  port: 53062
+  server: 183.232.159.51
   tfo: false
   type: ss
 - alterId: 0
