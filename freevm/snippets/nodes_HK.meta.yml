@@ -29,20 +29,6 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港6|@ripaojiedian
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.27
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 13,20,21,25,27|香港X|@ripaojiedian
   network: tcp
   port: '51704'
@@ -173,12 +159,12 @@ proxies:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
 - client-fingerprint: chrome
-  name: 29|HK_speednode_0032
+  name: 29|HK_speednode_0015
   network: ws
   port: 23555
   server: 219.77.65.212
   servername: juzi8186.5112233.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -186,4 +172,4 @@ proxies:
   ws-opts:
     headers:
       Host: juzi8186.5112233.xyz
-    path: /?ed=2560
+    path: /?ed=2560fp=random
