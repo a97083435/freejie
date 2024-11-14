@@ -1,16 +1,8 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 20,26,29|JP_speednode_0034
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 25,26,27,29|CN_speednode_0012
+  name: 13,25,26,27,29|CN_speednode_0012
   network: ws
   port: 33202
   server: yd2.ainivp.com
@@ -25,6 +17,14 @@ proxies:
     headers:
       Host: yd2.ainivp.com
     path: /ray
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 20,26,29|JP_speednode_0034
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇯🇵 日本特殊|@ripaojiedian
