@@ -29,7 +29,7 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-120.238.122.159-007
+  name: 20|🇳CN-120.238.122.160-007
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
@@ -41,10 +41,47 @@ proxies:
   server: service.ouluyun9803.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-120.238.122.159-011
+  name: 20|🇳CN-120.238.122.160-011
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20005
   server: service.ouluyun9803.com
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港|@ripaojiedian
+  password: OBYKR2MBSCVSRDG2
+  port: 15007
+  server: 120.241.45.50
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港3|@ripaojiedian
+  password: MQBXAVFO3NNOEB4Z
+  port: 15011
+  server: 120.241.45.50
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇳CN-120.241.46.110-079
+  network: ws
+  port: 33202
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇰🇷 韩国|@ripaojiedian
+  password: 7a2f5570-f469-4549-9273-549a5c85fb52
+  port: 39202
+  server: hzhz1.sssyun.xyz
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
