@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|日本 东京都Amazon数据中心
+  network: ws
+  port: 11521
+  server: 00000000000000000000000008.node-for-smallairport.win
+  tls: true
+  type: vmess
+  uuid: ab0ab89d-de80-44bd-b938-cafda772976d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 13,21,25,26,27,29|CN_speednode_0007
   network: ws
@@ -16,19 +29,6 @@ proxies:
     headers:
       Host: yd2.ainivp.com
     path: /ray
-- alterId: 1
-  cipher: auto
-  name: 20|JP-92.38.178.93-045
-  network: ws
-  port: 443
-  server: 92.38.178.93
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    Host: 92.38.178.93
-  ws-path: linkvws
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 20,26|🇯🇵 日本2|@ripaojiedian
@@ -37,19 +37,6 @@ proxies:
   server: 149.22.87.240
   tfo: false
   type: ss
-- alterId: 1
-  cipher: auto
-  name: 21|🇯🇵 日本 东京G-Core Lab
-  network: ws
-  port: '443'
-  server: 92.38.178.93
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 92.38.178.93
-    path: linkvws
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
