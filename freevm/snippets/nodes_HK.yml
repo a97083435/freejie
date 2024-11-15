@@ -13,20 +13,6 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 13,20,21|🇭🇰 14|香港5|@ripaojiedian
-  network: tcp
-  port: '28724'
-  server: 103.224.80.27
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 45f7362a-79fd-444f-98b6-e62d7371ca91
-  ws-headers:
-    Host: 103.224.80.27
-  ws-path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港6|@ripaojiedian
@@ -55,6 +41,19 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: h=%2F
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇭🇰 14|香港5|@ripaojiedian
+  network: tcp
+  port: '28724'
+  server: 103.224.80.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 45f7362a-79fd-444f-98b6-e62d7371ca91
+  ws-headers:
+    Host: 103.224.80.27
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
