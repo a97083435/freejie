@@ -1,10 +1,43 @@
 proxies:
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
+  name: 13,21,29|CN_speednode_0007
+  network: ws
+  port: 33202
+  server: yd2.ainivp.com
+  servername: yd2.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 25,27|日本2|@ripaojiedian
+  network: tcp
+  port: '30178'
+  server: 45.159.51.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a0dfa194-ce47-409f-b551-ff520181bfab
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本2|@ripaojiedian
-  password: shadowsocks
+  name: 26|🇯🇵 日本|@ripaojiedian
+  password: bb8b73a1-1b44-4e41-b032-f28e180a3827
+  port: 11001
+  server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 149.22.87.240
+  server: 3.38.209.2
   tfo: false
   type: ss
 - alterId: 0
