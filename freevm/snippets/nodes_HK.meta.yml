@@ -1,21 +1,17 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港2|@ripaojiedian
+  name: 13,21,25,27|香港2|@ripaojiedian
   network: tcp
   port: '56601'
   server: 183.236.51.23
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,25,27|香港5|@ripaojiedian
+  name: 13,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '28724'
   server: 103.224.80.27
@@ -23,33 +19,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 45f7362a-79fd-444f-98b6-e62d7371ca91
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港6|@ripaojiedian
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.27
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|🇺🇸 美国 华盛顿Cogent通信公司 #2'
-  network: tcp
-  port: '39589'
-  server: line.acetace.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-  ws-headers:
-    Host: line.acetace.com
-  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇭🇰 香港|@ripaojiedian
@@ -58,6 +27,19 @@ proxies:
   server: 120.241.45.50
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 26,29|SE_speednode_0044
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 16.171.73.217
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 48a00d77-ecef-4ea9-8d60-c7ea8ea0ea09
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇭🇰 香港3|@ripaojiedian
