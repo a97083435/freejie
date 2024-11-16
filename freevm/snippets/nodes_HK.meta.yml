@@ -1,4 +1,27 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|香港 香港有线电视有限公司
+  network: tcp
+  port: '15086'
+  server: 125.59.146.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- alterId: 0
+  cipher: auto
+  name: 11,20,21|电报群：https://t.me/vvkj11
+  network: tcp
+  port: '30251'
+  server: 34.92.66.193
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+  ws-headers:
+    Host: 34.92.66.193
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港2|@ripaojiedian
