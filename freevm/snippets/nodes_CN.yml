@@ -16,27 +16,13 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|浙江省宁波市 移动
+  name: 11,21|🇨🇳 浙江省宁波市 移动
   network: tcp
-  port: 15073
+  port: '15073'
   server: 15073.kuaiyin02.top
   tls: false
   type: vmess
   uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港6|@ripaojiedian
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.27
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -51,60 +37,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港|@ripaojiedian
-  password: QMOLGIKYZW15TD56
-  port: 15010
-  server: 58.63.250.61
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港4|@ripaojiedian
-  password: 1S4F61F85M49UAJP
-  port: 15003
-  server: 58.63.250.61
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港3|@ripaojiedian
-  password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5
-  port: 30474
-  server: ll-hg.mtls.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-111.47.212.109-147
-  password: ed7828fd-5726-4298-b695-8117d1ffd83e
-  port: 51133
-  server: jp.miaolianyunapp.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-36.150.27.114-148
-  password: 09552568-b718-4e18-96e1-527c1def333a
-  port: 36042
-  server: gzyd3.piaomiaoxu.net
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-36.150.27.114-155
-  password: e36ade52-b834-437c-a5c6-0b858c8cae9c
-  port: 11876
-  server: gzyd5-1.piaomiaoxu.net
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-36.150.27.114-151
-  password: 09552568-b718-4e18-96e1-527c1def333a
-  port: 46989
-  server: gzyd3.piaomiaoxu.net
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-36.150.27.114-152
-  password: 17ac099b-3a2d-4484-b8a4-f58092a03903
-  port: 46989
-  server: gzyd5-1.piaomiaoxu.net
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
