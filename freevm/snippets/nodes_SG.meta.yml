@@ -5,16 +5,19 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13,21,25,27|新加坡2|@ripaojiedian
-  network: tcp
-  port: '40002'
-  server: 183.236.48.163
-  servername: ''
-  tls: false
+  name: 11|新加坡 Digital Ocean数据中心
+  network: ws
+  port: 443
+  server: sg25.jnstore.biz.id
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  ws-opts:
+    headers:
+      Host: sg25.jnstore.biz.id
+    path: /vmess
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇸🇬 狮城特殊|@ripaojiedian
