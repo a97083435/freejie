@@ -16,18 +16,27 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|新加坡2|@ripaojiedian
+  name: 11,13,20,21,25,27|香港6|@ripaojiedian
   network: tcp
-  port: '40002'
-  server: 183.236.48.163
+  port: '58002'
+  server: 120.232.153.27
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.48.163
+    Host: 120.232.153.27
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 11|浙江省宁波市 移动
+  network: tcp
+  port: 15086
+  server: 15086.kuaiyin02.top
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -48,47 +57,15 @@ proxies:
   port: 20001
   server: 183.233.187.157
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本|@ripaojiedian
-  password: ZV56BC6UCQD3NDXG
-  port: 18010
-  server: 58.63.250.61
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本3|@ripaojiedian
-  password: AWWQESJRK4285LIN
-  port: 18007
-  server: 58.63.250.61
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本5|@ripaojiedian
-  password: LQC0I83BPCS02ZTZ
-  port: 18003
-  server: 58.63.250.61
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 20|🇳CN-36.150.215.160-059
   password: 02da78ba-9f16-44e6-a0b6-d19ed9b8c94f
   port: 49971
   server: node-a.dlg365.com
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本4|@ripaojiedian
-  password: PQN6UOVSN1RDYITF
-  port: 18016
-  server: 58.63.250.61
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '28|日本2|@ripaojiedian #1'
+  name: 28|日本2|@ripaojiedian
   network: ws
   port: '20301'
   server: data-jp-v1.usabooks.com.cn
