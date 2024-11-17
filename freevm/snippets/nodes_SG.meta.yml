@@ -5,16 +5,19 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13,21,25,27|新加坡2|@ripaojiedian
-  network: tcp
-  port: '40002'
-  server: 183.236.48.163
-  servername: ''
-  tls: false
+  name: 11|新加坡 DigitalOcean数据中心
+  network: ws
+  port: 443
+  server: tls.99.node-for-bigairport.win
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      Host: tls.99.node-for-bigairport.win
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇸🇬 狮城特殊|@ripaojiedian
