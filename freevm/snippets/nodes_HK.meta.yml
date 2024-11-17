@@ -1,14 +1,24 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13,21|🇭🇰 14|香港5|@ripaojiedian
+  name: 13,25,27|香港3|@ripaojiedian
   network: tcp
-  port: '53385'
-  server: e00618c75712.uxzbpycs.xyz
+  port: '53002'
+  server: 183.236.51.23
   servername: ''
   tls: false
   type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '59952'
+  server: 183.236.48.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 13,21,25,27|香港6|@ripaojiedian
@@ -28,26 +38,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 9e88a10b-655c-5120-89d0-408634169561
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 25,27|香港3|@ripaojiedian
+  name: 21|🇭🇰 14|香港5|@ripaojiedian
   network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
+  port: '53385'
+  server: e00618c75712.uxzbpycs.xyz
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '59952'
-  server: 183.236.48.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇭🇰 香港|@ripaojiedian
