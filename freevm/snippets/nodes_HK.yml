@@ -1,72 +1,60 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港2|@ripaojiedian
+  name: 13,20,21,25,27|香港2|@ripaojiedian
   network: tcp
   port: '56601'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '59952'
   server: 183.236.48.158
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.158
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港6|@ripaojiedian
+  name: 13,20,21,25,27|香港6|@ripaojiedian
   network: tcp
   port: '58002'
   server: 120.232.153.27
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 21|电报群：https://t.me/vvkj11
-  network: tcp
-  port: '30251'
-  server: 34.92.66.193
-  tls: false
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港|@ripaojiedian
-  password: 0MX167RBF00ZI9CR
-  port: 15014
-  server: 58.63.250.61
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|CN_speednode_0004
-  password: nq8205AjYDCpSxFOleRyRZ43DwSY6BCyaXxcN78KSz3F9auClgOZEITAe3p3aD
-  port: 40002
-  server: 183.236.48.163
-  skip-cert-verify: false
-  sni: disciples.missionsec.io
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港4|@ripaojiedian
-  password: Z4ZQB7LIKEVW7H3A
-  port: 15004
-  server: 58.63.250.61
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: 120.232.153.27
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787

@@ -5,9 +5,30 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 20|SG-134.122.184.117-114
+  network: ws
+  port: 30002
+  server: 134.122.184.117
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: www.31402191.xyz
+  ws-path: /path/351212081517
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.151.152.144
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.229.182.85
