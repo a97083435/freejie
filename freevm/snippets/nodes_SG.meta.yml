@@ -7,20 +7,6 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|新加坡2|@ripaojiedian
-  network: tcp
-  port: '40002'
-  server: 183.236.48.163
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 20|🇬SG-134.122.184.117-109
   network: ws
   port: 30002
@@ -32,20 +18,20 @@ proxies:
   ws-headers:
     Host: www.31402191.xyz
   ws-path: /path/351212081517
-- cipher: aes-256-cfb
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.151.152.144
+  name: 26|🇸🇬 新加坡|@ripaojiedian
+  password: 83fd6a24-41c2-4158-ac18-6fcf0b842764
+  port: 10021
+  server: cdn.node1.lilisi.link
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
+  name: 26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.229.182.85
+  server: 43.203.218.87
   tfo: false
   type: ss
 - alterId: 0
