@@ -14,15 +14,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|浙江省宁波市 移动
+  name: 11,13,20,21,25,27|香港6|@ripaojiedian
   network: tcp
-  port: 15086
-  server: 15086.kuaiyin02.top
+  port: '58002'
+  server: 120.232.153.27
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.27
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
