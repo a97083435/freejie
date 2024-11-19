@@ -1,14 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,21,25,26,27|日本2|@ripaojiedian
+  name: 13,21|🇯🇵 13,14|日本2|@ripaojiedian
   network: ws
   port: '33202'
   server: yd2.ainivp.com
   servername: yd2.ainivp.com
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 9204afcd-023e-781f-1abc-c12efccd1344
@@ -16,6 +13,14 @@ proxies:
     headers:
       Host: yd2.ainivp.com
     path: /ray
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.212.229.251
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
