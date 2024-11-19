@@ -5,20 +5,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|新加坡2|@ripaojiedian
-  network: tcp
-  port: '40002'
-  server: 183.236.48.163
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
-  ws-path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 20,26|🇯🇵 日本特殊|@ripaojiedian
@@ -56,3 +42,29 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
+- name: 29|SG_speednode_0068
+  network: ws
+  port: 587
+  server: 8.222.129.84
+  servername: a.mifeng.us.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 29|SG_speednode_0069
+  network: ws
+  port: 587
+  server: 138.2.109.23
+  servername: a.mifeng.us.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
