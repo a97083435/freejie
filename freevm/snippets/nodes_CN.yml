@@ -14,29 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|广东省广州市 移动
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|美国|@ripaojiedian
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -51,6 +28,19 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '58831'
+  server: 183.236.48.163
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: rac.679888.xyz
+  ws-path: /lfljvws
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇰🇷 韩国3|@ripaojiedian
@@ -60,13 +50,13 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-36.151.65.9-143
+  name: 20|🇨🇳CN-36.151.65.9-122
   password: d4eeaa7b-43c6-49dc-8020-7389bba4d033
   port: 39206
   server: hzhz1.sssyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-58.254.183.32-144
+  name: 20|🇨🇳CN-58.254.183.32-123
   password: 08d9dc3c-d2cc-4a08-961c-160c3cf00aed
   port: 12002
   server: 58.254.183.32
