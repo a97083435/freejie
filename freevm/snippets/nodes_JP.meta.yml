@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本 V2CROSS.COM
-  network: ws
-  port: 443
-  server: 146.56.43.53
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 13,21,25,26,27|日本2|@ripaojiedian
   network: ws
@@ -29,14 +16,71 @@ proxies:
     headers:
       Host: app.dingtalk.com
     path: /?ed
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  name: 20|🇵JP-8.209.250.150-110
+  network: ws
   port: 443
-  server: 3.35.137.32
-  tfo: false
-  type: ss
+  server: 8.209.250.150
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-headers:
+    Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+  ws-path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: 20|🇵JP-62.3.6.160-114
+  network: ws
+  port: 5555
+  server: 62.3.6.160
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-headers:
+    Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+  ws-path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: 21|🇯🇵 日本 V2CROSS.COM
+  network: ws
+  port: '443'
+  server: 146.56.43.53
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: '21|🇯🇵 JP | 日本 02 #1'
+  network: ws
+  port: '30001'
+  server: gzo.runjustfast.com
+  tls: true
+  type: vmess
+  uuid: 58bb35bc-8c58-4065-8c5f-9eeedb237eb1
+  ws-opts:
+    headers:
+      Host: jp1.runjustfast.com
+    path: /21a64xdea04c
+- alterId: 0
+  cipher: auto
+  name: '21|🇯🇵 JP | 日本 01 #1'
+  network: ws
+  port: '30001'
+  server: gzog.runjustfast.com
+  tls: true
+  type: vmess
+  uuid: 58bb35bc-8c58-4065-8c5f-9eeedb237eb1
+  ws-opts:
+    headers:
+      Host: jp1.runjustfast.com
+    path: /21a64xdea04c
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356

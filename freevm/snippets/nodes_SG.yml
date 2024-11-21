@@ -5,14 +5,53 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|SG-152.69.219.32-080
+  network: ws
+  port: 443
+  server: 152.69.219.32
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-headers:
+    Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+  ws-path: /obdii.cfd:443/linkws
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.229.238.238
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '21|🇸🇬 SG | 新加坡 01 #1'
+  network: ws
+  port: '30002'
+  server: gzog.runjustfast.com
+  tls: true
+  type: vmess
+  uuid: d6917779-3141-403c-81b7-3e1d3a5b27b6
+  ws-opts:
+    headers:
+      Host: sg1.runjustfast.com
+    path: /2sa6gxdea14c
+- alterId: 0
+  cipher: auto
+  name: '21|🇸🇬 SG | 新加坡 02 #1'
+  network: ws
+  port: '30002'
+  server: gzo.runjustfast.com
+  tls: true
+  type: vmess
+  uuid: 58bb35bc-8c58-4065-8c5f-9eeedb237eb1
+  ws-opts:
+    headers:
+      Host: sg1.runjustfast.com
+    path: /2sa6gxdea14c
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
