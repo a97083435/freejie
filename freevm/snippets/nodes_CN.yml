@@ -14,6 +14,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -42,14 +56,6 @@ proxies:
     Host: rac.679888.xyz
   ws-path: /lfljvws
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇰🇷 韩国3|@ripaojiedian
-  password: b40fb56c-f538-4bf2-951e-b645f48b9937
-  port: 39202
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 20|🇨🇳CN-36.151.65.9-122
   password: d4eeaa7b-43c6-49dc-8020-7389bba4d033
   port: 39206
@@ -63,7 +69,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 28|日本2|@ripaojiedian
+  name: '28|日本2|@ripaojiedian #1'
   network: ws
   port: '20301'
   server: data-jp-v1.usabooks.com.cn
