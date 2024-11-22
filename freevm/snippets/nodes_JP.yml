@@ -1,32 +1,31 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 13,21,25,27|日本2|@ripaojiedian
-  network: tcp
-  port: '59952'
-  server: 183.236.48.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|日本3|@ripaojiedian
+  name: 13,20,21,25,27|日本3|@ripaojiedian
   network: tcp
   port: '11304'
   server: 45.159.50.143
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
+  ws-headers:
+    Host: 45.159.50.143
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20|🇵JP-141.147.147.180-186
+  network: ws
   port: 443
-  server: 3.39.240.246
-  tfo: false
-  type: ss
+  server: 141.147.147.180
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-headers:
+    Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+  ws-path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
