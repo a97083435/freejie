@@ -1,17 +1,17 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,14,20,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
-  port: '58831'
-  server: 183.236.48.163
+  port: '53002'
+  server: 183.236.51.23
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.48.163
+    Host: 183.236.51.23
   ws-path: /
 - alterId: 64
   cipher: auto
@@ -27,6 +27,22 @@ proxies:
   ws-headers:
     Host: 120.232.153.27
   ws-path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港4|@ripaojiedian
+  password: URZYWLLW5LQAYR7X
+  port: 15010
+  server: 36.141.40.92
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港8|@ripaojiedian
+  password: BAIL27GTV8AIK2BC
+  port: 15012
+  server: 58.63.250.61
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
@@ -99,37 +115,12 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
-- name: 29|HK_speednode_0030
-  network: ws
-  port: 587
-  server: 8.217.29.82
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 29|HK_speednode_0031
-  network: ws
-  port: 587
-  server: 8.218.153.62
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 29|HK_speednode_0032
+- name: 29|HK_speednode_0020
   network: ws
   port: 587
   server: 8.218.132.79
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -138,37 +129,12 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 29|HK_speednode_0033
-  network: ws
-  port: 587
-  server: 8.218.152.147
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 29|HK_speednode_0034
-  network: ws
-  port: 587
-  server: 107.150.119.240
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 29|HK_speednode_0035
+- name: 29|HK_speednode_0021
   network: ws
   port: 54321
   server: 59.149.204.218
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
