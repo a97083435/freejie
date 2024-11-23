@@ -16,34 +16,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,14,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,14,20,21,25,27|美国|@ripaojiedian
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 11,13,20,21,25,27|日本2|@ripaojiedian
   network: tcp
   port: '59952'
@@ -55,6 +27,20 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.48.158
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港6|@ripaojiedian
+  network: tcp
+  port: '58002'
+  server: 120.232.153.27
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.27
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -72,22 +58,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 20,26,29|JP_speednode_0024
-  password: b21dc611-652c-3081-bd10-b239f2ae25e4
-  port: 443
-  server: 35.75.8.137
-  skip-cert-verify: true
-  sni: steampipe-partner.akamaized.net
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
-  ws-path: h=%2F%3Fed
-- alterId: 0
-  cipher: auto
-  name: 20|🇨🇳CN-120.226.29.91-122
+  name: 20|🇨🇳CN-120.226.29.91-201
   network: ws
   port: 33202
   server: yd2.ainivp.com
@@ -99,16 +70,26 @@ proxies:
     Host: yd2.ainivp.com
   ws-path: /ray
 - cipher: aes-256-gcm
-  name: 20|🇳CN-36.141.40.92-161
-  password: MAADD8JLM8XKVW56
-  port: 15016
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港4|@ripaojiedian
+  password: URZYWLLW5LQAYR7X
+  port: 15010
   server: 36.141.40.92
+  tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港7|@ripaojiedian
   password: Z1K84W4D8G5KO54J
   port: 15011
+  server: 58.63.250.61
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港8|@ripaojiedian
+  password: BAIL27GTV8AIK2BC
+  port: 15012
   server: 58.63.250.61
   tfo: false
   type: ss
@@ -120,9 +101,40 @@ proxies:
   server: hzhz2.sssyun.xyz
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: '20,21|中国 #4'
+  network: tcp
+  port: '58831'
+  server: 120.232.153.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.27
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-36.151.65.55-200
+  password: bb741d28-cd11-4ce8-8799-459407bacde8
+  port: 32184
+  server: 4.api-catssr.catcloud.host
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-36.141.40.92-202
+  password: MAADD8JLM8XKVW56
+  port: 15016
+  server: 36.141.40.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-36.151.65.9-203
+  password: b40fb56c-f538-4bf2-951e-b645f48b9937
+  port: 39202
+  server: hzhz1.sssyun.xyz
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇨🇳CN-120.226.29.91-124
+  name: 20|🇨🇳CN-120.226.29.91-204
   network: ws
   port: 33416
   server: yd2.ainivp.com
@@ -133,9 +145,28 @@ proxies:
   ws-headers:
     Host: yd2.ainivp.com
   ws-path: /ray
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-114.219.157.122-206
+  password: 486c819c-dc4a-4981-8949-a02a6b327287
+  port: 34001
+  server: gychun.ccdox.icu
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '21|中国 #2'
+  name: '21|中国 #5'
+  network: ws
+  port: '33202'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '21|中国 #6'
   network: ws
   port: '33416'
   server: yd2.ainivp.com
