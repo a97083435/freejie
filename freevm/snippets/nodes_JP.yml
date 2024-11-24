@@ -26,22 +26,6 @@ proxies:
   ws-headers:
     Host: 00000000000000000000000002.node-for-smallairport.win
   ws-path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.199.66.30
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.124.200
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 21|🇯🇵 日本 东京Amazon数据中心
@@ -55,6 +39,30 @@ proxies:
     headers:
       Host: 00000000000000000000000002.node-for-smallairport.win
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本3|@ripaojiedian
+  password: a93aa7ad-a2fd-41c7-a9f4-2ad622d7756d
+  port: 11002
+  server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本4|@ripaojiedian
+  password: 2852c164-1a5b-4628-b668-3554c7aa4453
+  port: 11001
+  server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.64.20.76
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
