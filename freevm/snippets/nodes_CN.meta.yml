@@ -14,6 +14,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,14,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '58831'
+  server: 183.236.48.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,21,25,27|日本2|@ripaojiedian
+  network: tcp
+  port: '59952'
+  server: 183.236.48.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -28,46 +48,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港6|@ripaojiedian
-  password: a93aa7ad-a2fd-41c7-a9f4-2ad622d7756d
-  port: 11001
-  server: 183.232.229.164
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港7|@ripaojiedian
-  password: b9ff32d3-78bf-42a4-8673-61968a1a9545
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本3|@ripaojiedian
-  password: a93aa7ad-a2fd-41c7-a9f4-2ad622d7756d
-  port: 11002
-  server: 61.172.235.22
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本4|@ripaojiedian
-  password: 2852c164-1a5b-4628-b668-3554c7aa4453
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡|@ripaojiedian
-  password: 96a8c243-0219-403e-b8fa-f48f696435e1
-  port: 33577
-  server: iepl1.nezha.tech
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: '28|日本2|@ripaojiedian #1'
