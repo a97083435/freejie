@@ -1,17 +1,27 @@
 proxies:
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: '21|🇺🇸 美国 #2'
+  name: 11|日本 东京G-Core Lab
   network: ws
-  port: '80'
-  server: usnew.lbxjc.site
-  tls: false
+  port: 443
+  server: 92.38.178.93
+  tls: true
   type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
+      Host: 92.38.178.93
+    path: linkvws
+- alterId: 64
+  cipher: auto
+  name: 13,21,25,27|日本2|@ripaojiedian
+  network: tcp
+  port: '59952'
+  server: 183.236.48.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 26|🇯🇵 日本3|@ripaojiedian
