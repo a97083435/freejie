@@ -1,18 +1,14 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|香港3|@ripaojiedian
+  name: 13,25,27|香港4|@ripaojiedian
   network: tcp
-  port: '53002'
-  server: 183.236.51.23
+  port: '18271'
+  server: 38.147.188.139
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
+  uuid: 3ba5dca3-a24b-48f3-a571-60052ab43fef
 - alterId: 64
   cipher: auto
   name: 13,14,20,21,25,27|香港5|@ripaojiedian
@@ -27,36 +23,12 @@ proxies:
   ws-headers:
     Host: 183.236.48.163
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21|🇭🇰 14|香港6|@ripaojiedian
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.27
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 20|HK-218.250.204.209-045
   password: 82fb692e-1c8b-3a65-ad83-23ad9deee111
   port: 61005
   server: 2.forlive.live
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '18271'
-  server: 38.147.188.139
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ba5dca3-a24b-48f3-a571-60052ab43fef
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 26|🇭🇰 香港6|@ripaojiedian
