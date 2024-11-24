@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|香港 Amazon数据中心
-  network: ws
-  port: 443
-  server: hk.fuck-av.com
-  tls: true
-  type: vmess
-  uuid: c9002485-0cfe-4617-86d3-0a9b959247a7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港3|@ripaojiedian
@@ -39,20 +26,6 @@ proxies:
   uuid: 3ba5dca3-a24b-48f3-a571-60052ab43fef
   ws-headers:
     Host: 38.147.188.139
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,14,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
   ws-path: /
 - alterId: 0
   cipher: auto
