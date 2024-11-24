@@ -16,30 +16,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,14,20,21|中国 #9'
+  name: '11,14,20,21|中国 #13'
   network: tcp
-  port: '52112'
-  server: 183.236.51.23
+  port: '58831'
+  server: 120.232.153.27
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
+    Host: 120.232.153.27
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -179,19 +165,6 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '21|中国 #12'
-  network: ws
-  port: '33416'
-  server: yd2.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
   name: '28|日本2|@ripaojiedian #1'
   network: ws
   port: '20301'
@@ -212,27 +185,27 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 29|CN_speednode_0003
-  password: 1285ebd4-be55-4a33-b215-006da491db3f
-  port: 31672
-  server: jsyd.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0005
   password: ed0358e8-c6a1-424e-8fd1-eb2e3ea02af5
   port: 35632
   server: jsyd.yeahfast.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0006
+  name: 29|CN_speednode_0004
+  password: ed0358e8-c6a1-424e-8fd1-eb2e3ea02af5
+  port: 35637
+  server: jsyd.yeahfast.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0005
   password: 1285ebd4-be55-4a33-b215-006da491db3f
-  port: 31636
+  port: 31672
   server: jsyd.yunnode.win
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 29|CN_speednode_0007
-  password: ed0358e8-c6a1-424e-8fd1-eb2e3ea02af5
-  port: 35637
-  server: jsyd.yeahfast.com
+  password: 1285ebd4-be55-4a33-b215-006da491db3f
+  port: 31636
+  server: jsyd.yunnode.win
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 29|CN_speednode_0008
@@ -247,7 +220,7 @@ proxies:
   server: jsyd.yeahfast.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0011
+  name: 29|CN_speednode_0010
   password: ed0358e8-c6a1-424e-8fd1-eb2e3ea02af5
   port: 35634
   server: jsyd.yeahfast.com
