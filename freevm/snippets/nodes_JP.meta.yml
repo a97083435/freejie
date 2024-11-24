@@ -1,17 +1,18 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|日本 东京都Amazon数据中心
-  network: ws
-  port: 13389
-  server: 00000000000000000000000001.node-for-smallairport.win
-  tls: true
+  name: 13,20,21,25,27|日本2|@ripaojiedian
+  network: tcp
+  port: '59952'
+  server: 183.236.48.158
+  servername: ''
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: ab0ab89d-de80-44bd-b938-cafda772976d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.158
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 20|JP-134.122.139.79-050
