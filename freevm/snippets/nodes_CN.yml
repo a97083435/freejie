@@ -28,32 +28,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 20|🇨🇳CN-120.226.29.91-173
-  network: ws
-  port: 33416
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: 20|🇳CN-120.226.29.91-103
-  network: ws
-  port: 33202
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港6|@ripaojiedian
@@ -96,30 +70,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 21|电报群：https://t.me/vvkj11
+  name: 20|🇨🇳CN-120.226.29.91-163
   network: ws
-  port: '33416'
+  port: 33416
   server: yd2.ainivp.com
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: '21|🇨🇳 湖南省 移动 #1'
-  network: ws
-  port: '33202'
-  server: yd2.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
