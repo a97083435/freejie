@@ -1,20 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 13,14,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '58831'
@@ -27,11 +13,29 @@ proxies:
   ws-headers:
     Host: 183.236.48.163
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇰HK-203.23.128.33-275
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 203.23.128.33
+- cipher: aes-128-gcm
+  name: 20|HK-38.150.12.187-031
+  password: 29801756-07f6-40c7-90c1-1a070f9ec0f3
+  port: 50098
+  server: lmnode-1f3c7fda.ixd3fh2v5uq1v3p.lma1b2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 20|🇰HK-38.150.12.187-051
+  password: 29801756-07f6-40c7-90c1-1a070f9ec0f3
+  port: 50068
+  server: lmnode-1f3c7fda.ixd3fh2v5uq1v3p.lma1b2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 20|🇰HK-38.150.12.187-053
+  password: 29801756-07f6-40c7-90c1-1a070f9ec0f3
+  port: 50066
+  server: lmnode-1f3c7fda.ixd3fh2v5uq1v3p.lma1b2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 20|🇰HK-38.150.12.187-108
+  password: 29801756-07f6-40c7-90c1-1a070f9ec0f3
+  port: 50023
+  server: lmnode-1f3c7fda.ixd3fh2v5uq1v3p.lma1b2.com
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
