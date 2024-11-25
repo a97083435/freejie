@@ -1,56 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|香港 Google云计算数据中心
-  network: tcp
-  port: 30251
-  server: 34.92.66.193
-  tls: false
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13,14,21,25,27|香港5|@ripaojiedian
+  name: 13,14,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '58831'
   server: 183.236.48.163
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 21|🇭🇰 14|香港4|@ripaojiedian
-  network: tcp
-  port: '18271'
-  server: 38.147.188.139
-  tls: false
-  type: vmess
-  uuid: 3ba5dca3-a24b-48f3-a571-60052ab43fef
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|US_speednode_0076
-  password: 637308bc-fd52-343d-b573-7693835b8e20
-  port: 443
-  server: 35.88.22.65
-  skip-cert-verify: true
-  sni: origin-a.akamaihd.net
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇰HK-203.23.128.33-275
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 203.23.128.33
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 26|🇭🇰 香港4|@ripaojiedian
@@ -62,30 +30,6 @@ proxies:
   protocol-param: 102946:2LUBMA
   server: 28b09af269781f9b.cdn.jiashule.com
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: 38c4951c-4975-4737-a5d4-7faad420b4c5
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港9|@ripaojiedian
-  password: cbd12f94-bfa2-4079-95bb-50c49d7aaf7e
-  port: 30017
-  server: 117.176.203.229
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港8|@ripaojiedian
-  password: bb741d28-cd11-4ce8-8799-459407bacde8
-  port: 49897
-  server: 4.api-catssr.catcloud.host
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787

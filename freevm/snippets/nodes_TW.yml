@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,25,27|台湾|@ripaojiedian
+  name: 13,20,21,25,27|台湾|@ripaojiedian
   network: tcp
   port: '40201'
   server: r1.xinyo.me
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cd2c81eb-b93c-4349-96f2-878564878445
+  ws-headers:
+    Host: r1.xinyo.me
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇹🇼台湾 01

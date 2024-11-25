@@ -14,6 +14,33 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '11,20,21|中国 #2'
+  network: tcp
+  port: '58831'
+  server: 120.232.153.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.27
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -28,6 +55,97 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港6|@ripaojiedian
+  password: 38c4951c-4975-4737-a5d4-7faad420b4c5
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港9|@ripaojiedian
+  password: cbd12f94-bfa2-4079-95bb-50c49d7aaf7e
+  port: 30017
+  server: 117.176.203.229
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港8|@ripaojiedian
+  password: bb741d28-cd11-4ce8-8799-459407bacde8
+  port: 49897
+  server: 4.api-catssr.catcloud.host
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本3|@ripaojiedian
+  password: 3b2ea7fe-645d-4d79-b899-7170797a3399
+  port: 11003
+  server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本4|@ripaojiedian
+  password: 4bd9a564-e41a-4d4b-9c62-7b2086221a9b
+  port: 11001
+  server: 61.172.235.22
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇳CN-120.226.29.91-177
+  network: ws
+  port: 33416
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 20|🇳CN-120.226.29.91-303
+  network: ws
+  port: 33202
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇳CN-36.151.194.79-308
+  password: b40fb56c-f538-4bf2-951e-b645f48b9937
+  port: 39202
+  server: hzhz1.sssyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇳CN-120.232.217.102-317
+  password: 96a8c243-0219-403e-b8fa-f48f696435e1
+  port: 33577
+  server: iepl1.nezha.tech
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '21|中国 #4'
+  network: ws
+  port: '33202'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
