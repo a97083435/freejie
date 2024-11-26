@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|日本 东京Fastly节点
-  network: ws
-  port: 443
-  server: root.mid.al
-  tls: true
-  type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
-  ws-opts:
-    headers:
-      Host: kim.gov.kp
-    path: /aries?ed=2048
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
@@ -36,6 +23,19 @@ proxies:
   server: 54.248.142.136
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|日期：11-26
+  network: ws
+  port: '33416'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 26|🇯🇵 日本2|@ripaojiedian
