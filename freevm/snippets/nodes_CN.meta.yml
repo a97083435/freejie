@@ -14,47 +14,28 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,13,20,21,25,27|泰国|@ripaojiedian
-  network: tcp
-  port: '45851'
-  server: 110.42.36.15
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 414c79f7-1742-42f1-a7c6-1ccdbdd8e379
-  ws-headers:
-    Host: 110.42.36.15
-  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 11,13,14,20,21,25,27|美国3|@ripaojiedian
+  name: 11|广东省广州市 移动
   network: tcp
-  port: '58831'
+  port: '58002'
   server: 120.232.153.27
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.232.153.27
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 11,13,20,21,25,27|马来西亚|@ripaojiedian
-  network: tcp
-  port: '44342'
-  server: 110.42.38.185
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f57c973d-9475-4d25-87a3-be0a4482f0b3
-  ws-headers:
-    Host: 110.42.38.185
+    Host: 183.236.51.23
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -138,19 +119,6 @@ proxies:
   port: 11001
   server: 61.172.235.22
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|中国
-  network: ws
-  port: '33202'
-  server: yd2.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
