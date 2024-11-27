@@ -16,13 +16,18 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|广东省广州市 移动
+  name: 11,13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
-  port: '52112'
-  server: 183.236.51.23
+  port: '58831'
+  server: 183.236.48.163
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -37,6 +42,40 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 20|🇳CN-120.226.29.91-476
+  network: ws
+  port: 33416
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- alterId: 64
+  cipher: auto
+  name: 20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '52112'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 09jzus.zdzdzd.xyz
+  ws-path: /juzigongyi
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本3|@ripaojiedian
+  password: 6ed66cb3-734d-4cc9-918f-88b3f9e28249
+  port: 11002
+  server: 61.172.235.22
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港4|@ripaojiedian
@@ -71,14 +110,6 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本3|@ripaojiedian
-  password: 6ed66cb3-734d-4cc9-918f-88b3f9e28249
-  port: 11002
-  server: 61.172.235.22
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 20,26|🇺🇸 美国|@ripaojiedian
   password: d3571b43-f940-410c-bf6b-f35d2db19a17
   port: 31650
@@ -87,22 +118,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇳CN-120.226.29.91-421
+  name: 20|🇳CN-120.226.29.91-457
   network: ws
   port: 33202
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: 20|🇳CN-120.226.29.91-440
-  network: ws
-  port: 33416
   server: yd2.ainivp.com
   skip-cert-verify: true
   tls: true
