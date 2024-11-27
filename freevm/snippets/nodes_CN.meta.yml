@@ -16,42 +16,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '11,21|🇨🇳 广东省广州市 移动 #1'
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '11|广东省广州市 移动 #2'
+  name: '11,20,21|🇨🇳 广东省广州市 移动 #2'
   network: tcp
   port: '52112'
   server: 183.236.51.23
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 09jzus.zdzdzd.xyz
+  ws-path: /juzigongyi
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -68,57 +43,181 @@ proxies:
     path: /debian
 - alterId: 64
   cipher: auto
-  name: 21|🇺🇸 14|美国3|@ripaojiedian
+  client-fingerprint: chrome
+  name: 20,26,29|US_speednode_0044
+  password: 24273330-85c9-3a6e-a0fd-58a6076a3a85
+  port: 443
+  server: 34.215.226.60
+  skip-cert-verify: true
+  sni: edge.steam-dns.top.comcast.net
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: h=%2Fjuzigongyi
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港8|@ripaojiedian
+  password: eb2642d8-1ab6-4cbd-826d-d3e9efdf0377
+  port: 11001
+  server: 183.232.229.165
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: '20,21|🇨🇳 广东省广州市 移动 #1'
   network: tcp
-  port: '58831'
+  port: '58002'
   server: 120.232.153.27
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: trojan.burgerip.co.uk
+  ws-path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港7|@ripaojiedian
+  password: cbd12f94-bfa2-4079-95bb-50c49d7aaf7e
+  port: 30017
+  server: 117.176.203.229
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 21|中国
+  name: 20|🇨🇳CN-120.226.29.91-258
   network: ws
-  port: '443'
-  server: 154.206.12.60
+  port: 33202
+  server: yd2.ainivp.com
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 9b38d152-6b12-4de0-a20d-87a8c9034cc4
-  ws-opts:
-    headers:
-      Host: zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir
-    path: '@RaFaV2Bot'
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港4|@ripaojiedian
+  password: 6ed66cb3-734d-4cc9-918f-88b3f9e28249
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇹🇼 台湾|@ripaojiedian
+  password: 75393bce-9f1d-4263-98f0-27bf0f640a77
+  port: 35632
+  server: jsyd.yeahfast.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本3|@ripaojiedian
+  password: 6ed66cb3-734d-4cc9-918f-88b3f9e28249
+  port: 11002
+  server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇺🇸 美国|@ripaojiedian
+  password: d3571b43-f940-410c-bf6b-f35d2db19a17
+  port: 31650
+  server: jsyd.yunnode.win
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '21|中国 #1'
+  name: 20|🇳CN-120.226.29.91-223
   network: ws
-  port: '443'
-  server: 154.197.75.0
+  port: 33416
+  server: yd2.ainivp.com
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 9b38d152-6b12-4de0-a20d-87a8c9034cc4
-  ws-opts:
-    headers:
-      Host: zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir
-    path: '@RaFaV2Bot'
-- alterId: 0
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- alterId: 64
   cipher: auto
-  name: '21|中国 #2'
-  network: ws
-  port: '443'
-  server: 154.211.8.9
-  tls: true
+  name: '20,21|_中国 #14'
+  network: tcp
+  port: '58831'
+  server: 120.232.153.27
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 9b38d152-6b12-4de0-a20d-87a8c9034cc4
-  ws-opts:
-    headers:
-      Host: zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir
-    path: '@RaFaV2Bot'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.27
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-36.151.65.55-263
+  password: bb741d28-cd11-4ce8-8799-459407bacde8
+  port: 49897
+  server: 4.api-catssr.catcloud.host
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-36.151.65.88-289
+  password: bb741d28-cd11-4ce8-8799-459407bacde8
+  port: 13274
+  server: 2.api-catssr.catcloud.host
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '21|中国 #6'
+  name: '20,21|_中国 #13'
+  network: tcp
+  port: '40201'
+  server: r1.xinyo.me
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 41386ba6-b0fe-4070-be67-a6384cf6beb5
+  ws-headers:
+    Host: r1.xinyo.me
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-61.172.235.22-294
+  password: 0620ba28-fc2e-4904-b34a-256883223a8f
+  port: 11003
+  server: 61.172.235.22
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #15'
+  network: tcp
+  port: '44342'
+  server: 110.42.38.185
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f57c973d-9475-4d25-87a3-be0a4482f0b3
+  ws-headers:
+    Host: 110.42.38.185
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #16'
+  network: tcp
+  port: '45851'
+  server: 110.42.36.15
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 414c79f7-1742-42f1-a7c6-1ccdbdd8e379
+  ws-headers:
+    Host: 110.42.36.15
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #3'
   network: ws
-  port: '33416'
+  port: '33202'
   server: yd2.ainivp.com
   tls: true
   type: vmess
@@ -129,30 +228,17 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '21|中国 #4'
+  name: '21|_中国 #1'
   network: ws
-  port: '443'
-  server: 45.205.0.78
+  port: '33416'
+  server: yd2.ainivp.com
   tls: true
   type: vmess
-  uuid: 9b38d152-6b12-4de0-a20d-87a8c9034cc4
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
   ws-opts:
     headers:
-      Host: zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir
-    path: '@RaFaV2Bot'
-- alterId: 0
-  cipher: auto
-  name: '21|中国 #5'
-  network: ws
-  port: '443'
-  server: 154.197.121.247
-  tls: true
-  type: vmess
-  uuid: 9b38d152-6b12-4de0-a20d-87a8c9034cc4
-  ws-opts:
-    headers:
-      Host: zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir
-    path: '@RaFaV2Bot'
+      Host: yd2.ainivp.com
+    path: /ray
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
@@ -168,75 +254,9 @@ proxies:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0001
-  password: 75393bce-9f1d-4263-98f0-27bf0f640a77
-  port: 35635
-  server: jsyd.yeahfast.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0004
-  password: d3571b43-f940-410c-bf6b-f35d2db19a17
-  port: 31640
-  server: jsyd.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0005
-  password: 75393bce-9f1d-4263-98f0-27bf0f640a77
-  port: 35637
-  server: jsyd.yeahfast.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0006
-  password: d3571b43-f940-410c-bf6b-f35d2db19a17
-  port: 31738
-  server: jsyd.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 29|CN_speednode_0007
-  password: d3571b43-f940-410c-bf6b-f35d2db19a17
-  port: 31632
-  server: jsyd.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0008
-  password: d3571b43-f940-410c-bf6b-f35d2db19a17
-  port: 31672
-  server: jsyd.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0009
-  password: 75393bce-9f1d-4263-98f0-27bf0f640a77
-  port: 35630
-  server: jsyd.yeahfast.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0010
-  password: 75393bce-9f1d-4263-98f0-27bf0f640a77
-  port: 35627
-  server: jsyd.yeahfast.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0012
-  password: 671d1256-bf77-446c-9f43-acd17ef2d1c6
-  port: 30003
+  password: a185d8e2-7a35-46a6-8ff6-cb1d92be2d42
+  port: 30002
   server: gdgs.tarioblink.me
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0015
-  password: d3571b43-f940-410c-bf6b-f35d2db19a17
-  port: 31642
-  server: jsyd.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0016
-  password: 75393bce-9f1d-4263-98f0-27bf0f640a77
-  port: 35532
-  server: jsyd.yeahfast.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0017
-  password: d3571b43-f940-410c-bf6b-f35d2db19a17
-  port: 31648
-  server: jsyd.yunnode.win
-  type: ss
