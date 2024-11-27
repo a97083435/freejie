@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 20|🇷FR-193.243.147.128-004
+  name: 20|🇷FR-193.243.147.128-063
   password: 7BcLdsO1WweoGD0X
   port: 40368
   server: 193.243.147.128
@@ -12,70 +12,16 @@ proxies:
   server: 51.178.87.37
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇫🇷FR-149.202.82.172-025
-  password: FoOiGlkAA9yPEGP
-  port: 7307
+  name: 20|🇫🇷FR-149.202.82.172-037
+  password: XKFKl2rULjIp74
+  port: 8008
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇫🇷FR-149.202.82.172-044
+  name: 20|🇷FR-149.202.82.172-054
   password: Y6R9pAtvxxzmGC
-  port: 5000
+  port: 5600
   server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇷FR-149.202.82.172-053
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇷FR-149.202.82.172-080
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇫🇷FR-149.202.82.172-084
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇷FR-54.37.18.75-104
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇫🇷FR-54.37.12.70-166
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 54.37.12.70
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20,29|FR_speednode_0017
-  password: fHMmtjH3MuKYWYvGEqQpdH
-  port: 443
-  server: 62.210.88.22
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇷FR-54.37.12.70-224
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 54.37.12.70
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇫🇷FR-54.37.12.70-225
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 54.37.12.70
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇷FR-54.37.12.70-267
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 54.37.12.70
   type: ss
 - name: 24|_FR_国
   network: tcp
@@ -115,6 +61,12 @@ proxies:
   tls: false
   type: vmess
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
+- cipher: chacha20-ietf-poly1305
+  name: 29|FR_speednode_0017
+  password: fHMmtjH3MuKYWYvGEqQpdH
+  port: 443
+  server: 62.210.88.22
+  type: ss
 - alterId: 0
   cipher: auto
   name: 29|FR_speednode_0018
