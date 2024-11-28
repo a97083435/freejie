@@ -16,13 +16,30 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,21|🇨🇳 广东省广州市 移动 #1'
+  name: '11,14|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
   network: tcp
-  port: '58831'
-  server: 120.232.153.27
+  port: '52112'
+  server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,13,21,25,26,27|香港7|@ripaojiedian
+  network: ws
+  port: '16622'
+  server: m.cnmjin.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
+  ws-opts:
+    headers:
+      Host: 3fe454755ea98eaa00f870f7fa2990c7.mobgslb.tbcache.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,13,21,25,27|香港5|@ripaojiedian
@@ -62,6 +79,15 @@ proxies:
     path: /ray
 - alterId: 64
   cipher: auto
+  name: '21|🇨🇳 广东省广州市 移动 #1'
+  network: tcp
+  port: '58831'
+  server: 120.232.153.27
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: '21|🇨🇳 广东省广州市 移动 #2'
   network: tcp
   port: '58002'
@@ -84,8 +110,14 @@ proxies:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0057
-  password: fef8f119-c6ad-4d92-9fa4-e694be4d6503
-  port: 20008
-  server: gy.666666222.shop
+  name: 29|CN_speednode_0003
+  password: d5c50b78-b868-440c-9759-29035cb02ae4
+  port: 35627
+  server: jsyd.yeahfast.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0005
+  password: ab4c0396-ff75-4a42-9ed3-484237638d11
+  port: 31640
+  server: jsyd.yunnode.win
   type: ss
