@@ -280,15 +280,20 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '14|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
+  name: '14,21|🇺🇸 美国 #80'
+  network: ws
+  port: '2082'
+  server: 190.93.245.103
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '14,21|🇨🇷 哥斯达黎加 #13'
@@ -301,19 +306,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
-  network: ws
-  port: 2095
-  server: 172.64.175.88
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: c3.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
