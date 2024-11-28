@@ -16,33 +16,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港3|@ripaojiedian
+  name: '11,14|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
   network: tcp
-  port: '53002'
+  port: '52112'
   server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '11|广东省广州市 移动 #1'
-  network: tcp
-  port: '58831'
-  server: 120.232.153.27
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '11|广东省广州市 移动 #2'
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -62,44 +39,35 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 20|🇳CN-120.226.29.91-476
+  name: '21|中国 #1'
   network: ws
-  port: 33416
+  port: '33416'
   server: yd2.ainivp.com
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本3|@ripaojiedian
-  password: 6ed66cb3-734d-4cc9-918f-88b3f9e28249
-  port: 11002
-  server: 61.172.235.22
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|CN-117.176.203.229-402
-  password: cbd12f94-bfa2-4079-95bb-50c49d7aaf7e
-  port: 30017
-  server: 117.176.203.229
-  type: ss
-- alterId: 0
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- alterId: 64
   cipher: auto
-  name: 20|🇳CN-120.226.29.91-457
-  network: ws
-  port: 33202
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
+  name: '21|🇨🇳 广东省广州市 移动 #1'
+  network: tcp
+  port: '58831'
+  server: 120.232.153.27
+  tls: false
   type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '21|🇨🇳 广东省广州市 移动 #2'
+  network: tcp
+  port: '58002'
+  server: 120.232.153.27
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
