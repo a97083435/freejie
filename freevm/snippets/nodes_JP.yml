@@ -1,34 +1,29 @@
 proxies:
 - alterId: 1
   cipher: auto
-  name: 11|日本 东京Amazon数据中心
+  name: 21|🇯🇵 日本 东京Amazon数据中心
   network: tcp
-  port: 21586
+  port: '21586'
   server: ov1vf-g06.jp03-7d22-vm0.entry.fr0307a.art
   tls: true
   type: vmess
   uuid: 942245f3-ac32-3198-b673-9ad861cf0d85
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本3|@ripaojiedian
+  password: 6ed66cb3-734d-4cc9-918f-88b3f9e28249
+  port: 11002
+  server: 61.172.235.22
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.250.148.116
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 #77'
-  network: ws
-  port: '2082'
-  server: fbi.gov
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
