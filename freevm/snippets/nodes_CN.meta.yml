@@ -18,7 +18,7 @@ proxies:
   cipher: auto
   name: 11|广东省广州市 移动
   network: tcp
-  port: '58831'
+  port: '58002'
   server: 120.232.153.27
   tls: false
   type: vmess
@@ -124,6 +124,32 @@ proxies:
   server: jsyd.yeahfast.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|中国
+  network: ws
+  port: '33202'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '21|中国 #1'
+  network: ws
+  port: '33416'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
