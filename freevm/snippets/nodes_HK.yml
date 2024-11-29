@@ -1,40 +1,35 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港3|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '53002'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '58831'
   server: 183.236.48.163
   servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|CN_speednode_0008
-  password: 5e2ce79c-170e-484a-8802-40584a1a3a12
-  port: 41490
-  server: 183.236.48.143
   skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 26|🇭🇰 香港4|@ripaojiedian
+  name: 20,26|🇭🇰 香港4|@ripaojiedian
   password: F585FCDB-6351-48D4-82C1-599B5447A589
   port: 40000
   server: soonhk.soon.guru
