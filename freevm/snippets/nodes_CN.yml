@@ -14,25 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -47,6 +28,15 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '58002'
+  server: 120.232.153.27
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
@@ -61,9 +51,133 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0002
-  password: ab4c0396-ff75-4a42-9ed3-484237638d11
-  port: 31640
-  server: jsyd.yunnode.win
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0001
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 835
+  server: 231103level3.unclemanco.com
   type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0002
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 825
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0003
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 919
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0004
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 20012
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0005
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 824
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0009
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 9037
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0011
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 9062
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0012
+  password: ay21d1
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 901
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0013
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 803
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0015
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: df128103272.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: true
+    tls: true
+  port: 812
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
