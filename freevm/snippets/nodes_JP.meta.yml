@@ -1,42 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|日本3|@ripaojiedian
+  name: 13,21,25,27|日本3|@ripaojiedian
   network: tcp
   port: '47118'
   server: 45.159.51.28
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: ea034172-f33d-4f2b-a4a7-c700ca773f7a
-  ws-headers:
-    Host: 45.159.51.28
-  ws-path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.196.65.55
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.231.227.176
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.95.5.168
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 21|日期：11-29
@@ -50,6 +22,22 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本2|@ripaojiedian
+  password: 8d0f3729-0c01-4a94-9b57-6ec8e352ddb6
+  port: 11001
+  server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.196.65.55
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
@@ -90,17 +78,16 @@ proxies:
     headers:
       Host: linode.appleid.bf
     path: /CAT
-- name: 29|JP_speednode_0027
+- name: 29|JP_speednode_0025
   network: ws
-  port: 587
-  server: 64.110.103.142
-  servername: a.mifeng.us.kg
+  port: 443
+  server: ergwork.web.unc.edu
+  servername: ergwork.web.unc.edu
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 3fecfaf1-02c1-436d-83b2-d43ddd82fd59
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
+      Host: sobip.ir
+    path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048

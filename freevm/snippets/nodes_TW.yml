@@ -18,7 +18,7 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 20,26|🇹🇼 台湾2|@ripaojiedian
+  name: 26|🇹🇼 台湾2|@ripaojiedian
   password: F585FCDB-6351-48D4-82C1-599B5447A589
   port: 40020
   server: soontw.soon.guru
@@ -66,3 +66,17 @@ proxies:
     headers:
       Host: tw.appleid.bf
     path: /ws?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 29|TW_speednode_0033
+  network: ws
+  port: 443
+  server: 103.158.228.202
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.47187921.xyz
+    path: /path/191019072927

@@ -1,35 +1,30 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港3|@ripaojiedian
+  name: 13,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '53002'
   server: 183.236.51.23
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
+  client-fingerprint: chrome
+  name: 26,29|CN_speednode_0008
+  password: 5e2ce79c-170e-484a-8802-40584a1a3a12
+  port: 41490
+  server: 183.236.48.143
   skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港4|@ripaojiedian
+  name: 26|🇭🇰 香港4|@ripaojiedian
   password: F585FCDB-6351-48D4-82C1-599B5447A589
   port: 40000
   server: soonhk.soon.guru
@@ -118,3 +113,35 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
+- alpn:
+  - http%2F1.1
+  client-fingerprint: random
+  name: 29|HK_speednode_0023
+  network: ws
+  port: 443
+  server: 8.218.120.79
+  servername: paged.sosorg.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8caec8c9-869a-4121-9309-4251d4e23200
+  ws-opts:
+    headers:
+      Host: paged.sosorg.nyc.mn
+    path: /?ed=2560
+- alpn:
+  - http%2F1.1
+  client-fingerprint: random
+  name: 29|HK_speednode_0024
+  network: ws
+  port: 20443
+  server: 23.26.217.56
+  servername: paged.sosorg.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8caec8c9-869a-4121-9309-4251d4e23200
+  ws-opts:
+    headers:
+      Host: paged.sosorg.nyc.mn
+    path: /?ed=2560

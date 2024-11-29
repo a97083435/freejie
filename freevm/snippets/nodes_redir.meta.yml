@@ -1,19 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,6,20|RELAY-104.19.47.79-1032
+  name: '1,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
   network: ws
   port: 2086
   server: 104.19.47.79
-  skip-cert-verify: true
   sni: ip14.freegradely.xyz
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-headers:
-    Host: ip14.freegradely.xyz
   ws-opts: {}
-  ws-path: github.com/Alvin9999
 - cipher: aes-256-cfb
   name: 1|_FR_->_RU_
   password: f8f7aCzcPKbsF8p3
@@ -258,7 +254,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '14,21|🇺🇸 美国 #72'
+  name: '14,21|🇺🇸 美国 #2'
   network: ws
   port: '2082'
   server: 190.93.244.228
@@ -272,6 +268,19 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: '14,21|🇺🇸 美国 CloudFlare节点 #652'
+  network: ws
+  port: '2086'
+  server: 104.21.238.50
+  tls: false
+  type: vmess
+  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+  ws-opts:
+    headers:
+      Host: p1.613055.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: '14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
   network: ws
   port: '2082'
@@ -282,20 +291,6 @@ proxies:
   ws-opts:
     headers:
       Host: e4.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '14,21|🇺🇸 美国 CloudFlare节点 #241'
-  network: ws
-  port: '2095'
-  server: 104.21.238.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: c3.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -325,6 +320,19 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: '14,21|🇺🇸 美国 CloudFlare节点 #113'
+  network: ws
+  port: '2086'
+  server: 104.26.0.176
+  tls: false
+  type: vmess
+  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+  ws-opts:
+    headers:
+      Host: p1.613055.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: '14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #18'
   network: ws
   port: '2082'
@@ -351,7 +359,21 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '14,21|🇺🇸 美国 #66'
+  name: '14,21|🇺🇸 美国 CloudFlare节点 #438'
+  network: ws
+  port: '2095'
+  server: 104.18.114.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: c3.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '14,21|🇺🇸 美国 #1'
   network: ws
   port: '2082'
   server: 190.93.244.33
@@ -365,22 +387,9 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #22'
+  name: 14|🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
   network: ws
-  port: '2086'
-  server: 104.18.114.165
-  tls: false
-  type: vmess
-  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
-  ws-opts:
-    headers:
-      Host: p1.613055.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '14,21|🇨🇷 哥斯达黎加 #19'
-  network: ws
-  port: '2082'
+  port: 2082
   server: 190.93.247.221
   servername: ''
   tls: false
@@ -392,22 +401,9 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '14,21|🇺🇸 美国 CloudFlare节点 #533'
+  name: '14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #24'
   network: ws
-  port: '2086'
-  server: 104.21.238.21
-  tls: false
-  type: vmess
-  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
-  ws-opts:
-    headers:
-      Host: p1.613055.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '14,21|🇺🇸 美国 CloudFlare节点 #320'
-  network: ws
-  port: '2086'
+  port: 2086
   server: 104.26.0.123
   tls: false
   type: vmess
@@ -444,9 +440,9 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '14,21|🇺🇸 美国 CloudFlare节点 #77'
+  name: '14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #27'
   network: ws
-  port: '2086'
+  port: 2086
   server: 104.18.114.245
   tls: false
   type: vmess
@@ -487,6 +483,33 @@ proxies:
   network: ws
   port: 2095
   server: 104.21.238.18
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: c3.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '14,21|🇺🇸 美国 CloudFlare节点 #661'
+  network: ws
+  port: '2086'
+  server: 104.18.114.156
+  tls: false
+  type: vmess
+  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+  ws-opts:
+    headers:
+      Host: p1.613055.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '14,21|🇺🇸 美国 CloudFlare节点 #333'
+  network: ws
+  port: '2095'
+  server: 104.21.238.70
   servername: ''
   tls: false
   type: vmess
