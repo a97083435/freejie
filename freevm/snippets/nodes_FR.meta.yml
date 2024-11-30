@@ -12,7 +12,7 @@ proxies:
   server: 51.178.87.37
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇷FR-51.195.220.179-0182
+  name: 20,29|GB_speednode_0014
   password: vntxqHhPINXu5Ag6876fXO
   port: 1080
   server: 51.195.220.179
@@ -55,3 +55,17 @@ proxies:
   tls: false
   type: vmess
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
+- client-fingerprint: chrome
+  name: 29|FR_speednode_0013
+  network: ws
+  port: 587
+  server: 141.94.206.40
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560

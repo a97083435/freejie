@@ -1,21 +1,7 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 13,20,21|🇭🇰 14|香港3|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 25,27|香港4|@ripaojiedian
+  name: 13,25,27|香港4|@ripaojiedian
   network: tcp
   port: '18001'
   server: cc3.douyin.com.gbnodex.com
@@ -23,6 +9,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 7362aef8-0201-44a6-8cf2-5e50a3b6873b
+- alterId: 64
+  cipher: auto
+  name: 13,20,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '58831'
+  server: 183.236.48.163
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 26|🇭🇰 香港3|@ripaojiedian
@@ -106,35 +106,16 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: 29|HK_speednode_0023
+- name: 29|HK_speednode_0016
   network: ws
-  port: 443
-  server: 8.218.120.79
-  servername: paged.sosorg.nyc.mn
+  port: 12345
+  server: 42.98.167.229
+  servername: edgetunnel.xiaomayi.nyc.mn
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 8caec8c9-869a-4121-9309-4251d4e23200
+  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
   ws-opts:
     headers:
-      Host: paged.sosorg.nyc.mn
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: 29|HK_speednode_0024
-  network: ws
-  port: 20443
-  server: 23.26.217.56
-  servername: paged.sosorg.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8caec8c9-869a-4121-9309-4251d4e23200
-  ws-opts:
-    headers:
-      Host: paged.sosorg.nyc.mn
-    path: /?ed=2560
+      Host: edgetunnel.xiaomayi.nyc.mn
+    path: /telegram🇨🇳+@wangcai2+/?ed=2048
