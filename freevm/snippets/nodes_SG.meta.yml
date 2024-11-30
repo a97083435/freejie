@@ -7,7 +7,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 20,26,29|SG_speednode_0027
+  name: 20,26,29|SG_speednode_0112
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 68.183.227.45
@@ -42,3 +42,16 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
+- name: 29|SG_speednode_0111
+  network: ws
+  port: 587
+  server: 138.2.109.23
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
