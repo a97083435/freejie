@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,25,27|香港4|@ripaojiedian
+  name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '18001'
   server: cc3.douyin.com.gbnodex.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 7362aef8-0201-44a6-8cf2-5e50a3b6873b
+  ws-headers:
+    Host: cc3.douyin.com.gbnodex.com
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港5|@ripaojiedian
