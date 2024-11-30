@@ -28,58 +28,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 20,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 20|🇳CN-120.226.29.91-0075
-  network: ws
-  port: 33416
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: 20|🇳CN-120.226.29.91-0921
-  network: ws
-  port: 33202
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 64
-  cipher: auto
-  name: '20,21|🇨🇳 广东省广州市 移动 #2'
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: trojan.burgerip.co.uk
-  ws-path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 20,26|🇹🇼 台湾|@ripaojiedian
@@ -98,30 +46,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇳 湖南省 移动
+  name: 20|🇳CN-120.226.29.91-222
   network: ws
-  port: '33416'
+  port: 33202
   server: yd2.ainivp.com
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #1'
-  network: ws
-  port: '33202'
-  server: yd2.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
 - alterId: 0
   cipher: auto
   name: '21|_中国 #2'
