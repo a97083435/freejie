@@ -1,53 +1,32 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,25,27|香港3|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '40972'
   server: 120.232.153.63
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '58831'
   server: 183.236.48.163
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|MX_speednode_0081
-  password: 1f962f36-f751-40c3-91b3-cb6d2360b450
-  port: 18000
-  server: 79.127.229.54
-  skip-cert-verify: true
-  sni: mmbiz10.redapricotcloud.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fa1897db-1925-4c86-a495-939a959af900
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港4|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54002
-  server: h-k02.loveroise.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54000
-  server: h-k01.loveroise.com
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
