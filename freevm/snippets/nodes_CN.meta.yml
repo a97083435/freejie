@@ -14,20 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -42,19 +28,19 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 20,26,29|MX_speednode_0081
+  name: 20,26|🇺🇸 美国2|@ripaojiedian
   password: 1f962f36-f751-40c3-91b3-cb6d2360b450
-  port: 18000
-  server: 79.127.229.54
-  skip-cert-verify: true
+  port: 58831
+  server: 120.232.153.27
+  skip-cert-verify: false
   sni: mmbiz10.redapricotcloud.com
   tfo: false
   tls: false
   type: vmess
-  uuid: fa1897db-1925-4c86-a495-939a959af900
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: h=%2F%2F
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome

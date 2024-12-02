@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|德国 法兰克福Oracle云计算数据中心
+  network: ws
+  port: 443
+  server: frankfurt03.zgjok.com
+  tls: true
+  type: vmess
+  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
+  ws-opts:
+    headers:
+      Host: frankfurt03.zgjok.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14,21|🇫🇷 _法国
   network: ws
   port: '2082'
@@ -62,28 +75,13 @@ proxies:
   tls: false
   type: vmess
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
-- name: 29|FR_speednode_0032
+- name: 29|FR_speednode_0009
   network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 141.11.203.203
-  skip-cert-verify: true
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /%2F
-- name: 29|FR_speednode_0033
-  network: ws
-  port: 443
-  server: 144.24.200.164
-  servername: pvg.aghabeiki.homes
+  port: 22952
+  server: 94.23.121.119
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  uuid: a93dcd5e-b048-4736-b6c7-21d9dc2bb8a4
   ws-opts:
-    headers:
-      Host: pvg.aghabeiki.homes
-    path: /?ed=2744
+    path: /
