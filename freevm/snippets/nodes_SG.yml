@@ -6,7 +6,7 @@ proxies:
   server: 54.179.87.28
   type: ss
 - cipher: aes-256-cfb
-  name: 20,29|SG_speednode_0039
+  name: 20|🇬SG-18.136.105.175-119
   password: amazonskr05
   port: 443
   server: 18.136.105.175
@@ -18,7 +18,7 @@ proxies:
   server: 18.143.178.37
   type: ss
 - cipher: aes-256-cfb
-  name: 20,29|SG_speednode_0038
+  name: 20|🇬SG-13.212.204.100-124
   password: amazonskr05
   port: 443
   server: 13.212.204.100
@@ -60,3 +60,15 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
+- name: 29|SG_speednode_0125
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 92.243.74.60
+  skip-cert-verify: true
+  sni: bpb.my79801.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bpb.my79801.com
+    path: /tr
