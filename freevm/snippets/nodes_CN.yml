@@ -14,20 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -55,7 +41,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: h=%2F
+  ws-path: h=%2Ftr
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港9|@ripaojiedian
@@ -74,7 +60,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇳CN-120.226.29.91-177
+  name: 20|🇳CN-120.226.29.91-667
   network: ws
   port: 33202
   server: yd2.ainivp.com
@@ -85,11 +71,95 @@ proxies:
   ws-headers:
     Host: yd2.ainivp.com
   ws-path: /ray
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-36.138.227.248-660
+  password: 65b1dc20-aa79-4c95-9291-f2f5d9a42f9e
+  port: 40015
+  server: hzhz2.sssyun.xyz
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 21|中国
+  name: 20|🇳CN-120.226.29.91-666
+  network: ws
+  port: 33416
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 21|_中国
+  network: ws
+  port: '2082'
+  server: 45.205.0.93
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #1'
+  network: ws
+  port: '2082'
+  server: 154.197.121.180
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #8'
   network: ws
   port: '33202'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #3'
+  network: ws
+  port: '2082'
+  server: 154.197.80.147
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #4'
+  network: ws
+  port: '2082'
+  server: 156.225.72.128
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #7'
+  network: ws
+  port: '33416'
   server: yd2.ainivp.com
   tls: true
   type: vmess
