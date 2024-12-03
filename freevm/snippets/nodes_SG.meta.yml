@@ -5,17 +5,43 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
+  name: 20,29|SG_speednode_0039
+  password: amazonskr05
+  port: 443
+  server: 18.136.105.175
+  type: ss
+- cipher: aes-256-cfb
+  name: 20|🇸🇬SG-18.143.178.37-123
+  password: amazonskr05
+  port: 443
+  server: 18.143.178.37
+  type: ss
+- cipher: aes-256-cfb
+  name: 20,29|SG_speednode_0038
+  password: amazonskr05
+  port: 443
+  server: 13.212.204.100
+  type: ss
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54030
-  server: s-g04.loveroise.com
+  name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.60.132
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.236.42
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.215.140.43
@@ -34,18 +60,6 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
-- cipher: aes-256-cfb
-  name: 29|SG_speednode_0038
-  password: amazonskr05
-  port: 443
-  server: 13.212.204.100
-  type: ss
-- cipher: aes-256-cfb
-  name: 29|SG_speednode_0039
-  password: amazonskr05
-  port: 443
-  server: 18.136.105.175
-  type: ss
 - name: 29|SG_speednode_0040
   network: ws
   port: 587
