@@ -1,15 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本2|@ripaojiedian
-  password: f0e7fd1e-0469-415f-95da-774021f16f36
-  port: 40003
-  server: soonjp.soon.guru
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 21,29|JP_speednode_0031
+  name: 11,21,29|JP_speednode_0031
   network: ws
   port: 443
   server: root.mid.al
@@ -22,6 +14,14 @@ proxies:
     headers:
       Host: kim.gov.kp
     path: /aries?ed=2048
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本2|@ripaojiedian
+  password: f0e7fd1e-0469-415f-95da-774021f16f36
+  port: 40003
+  server: soonjp.soon.guru
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 21|🇯🇵 _日本
