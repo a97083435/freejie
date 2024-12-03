@@ -10,6 +10,19 @@ proxies:
   uuid: 22acc467-7440-386a-927a-d84be554b37e
 - alterId: 0
   cipher: auto
+  name: 11|德国 法兰克福Oracle云计算数据中心
+  network: ws
+  port: 443
+  server: frankfurt03.zgjok.com
+  tls: true
+  type: vmess
+  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
+  ws-opts:
+    headers:
+      Host: frankfurt03.zgjok.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '14,21|🇺🇸 美国 #41'
   network: ws
   port: '2082'
@@ -72,16 +85,3 @@ proxies:
   tls: false
   type: vmess
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
-- name: 29|FR_speednode_0013
-  network: ws
-  port: 587
-  server: 193.243.147.107
-  servername: a.xn--i-sx6a60i.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg
-    path: /?ed=2560
