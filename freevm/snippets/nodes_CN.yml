@@ -24,6 +24,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,21,25,27|香港7|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -40,7 +50,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #1'
+  name: 21|_中国
   network: ws
   port: '33416'
   server: yd2.ainivp.com
@@ -53,7 +63,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #3'
+  name: '21|_中国 #4'
   network: ws
   port: '33202'
   server: yd2.ainivp.com
@@ -64,6 +74,32 @@ proxies:
     headers:
       Host: yd2.ainivp.com
     path: /ray
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #5'
+  network: ws
+  port: '2082'
+  server: 154.194.12.141
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #6'
+  network: ws
+  port: '2082'
+  server: 154.206.12.71
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
