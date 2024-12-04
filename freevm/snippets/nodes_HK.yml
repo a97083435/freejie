@@ -1,81 +1,45 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港3|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '40972'
   server: 120.232.153.63
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 64
-  cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港9|@ripaojiedian
+  name: 13,20,21,25,27|香港9|@ripaojiedian
   network: tcp
   port: '47292'
   server: 149.104.15.77
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 733eb24f-6e5f-4a1e-9f19-52ddca78aa20
-- alterId: 1
-  cipher: auto
+  ws-headers:
+    Host: 149.104.15.77
+  ws-path: /
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 26,29|JP_speednode_0039
-  password: QwwHvrnN
-  port: 28788
-  server: ccz1q-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: false
-  sni: usla.mjt000.com
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港4|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54002
-  server: h-k02.loveroise.com
+  name: 20,26|🇮🇹 意大利|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54000
-  server: h-k01.loveroise.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港10|@ripaojiedian
-  password: 36a91bbc-8181-4862-a947-eb4379a30fcf
-  port: 11001
-  server: 183.232.229.164
-  tfo: false
+  name: 20,29|CN_speednode_0005
+  password: F585FCDB-6351-48D4-82C1-599B5447A589
+  port: 40000
+  server: soonhk.soon.guru
   type: ss
 - alterId: 0
   cipher: auto
