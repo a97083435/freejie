@@ -1,44 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 20|JP-38.207.130.251-675
-  password: f0e7fd1e-0469-415f-95da-774021f16f36
-  port: 40003
-  server: soonjp.soon.guru
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 21,29|JP_speednode_0031
-  network: ws
-  port: 443
-  server: root.mid.al
-  servername: www.Arizona.edu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
-  ws-opts:
-    headers:
-      Host: kim.gov.kp
-    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
   name: 21|🇯🇵 _日本
   network: ws
   port: '2082'
   server: 91.193.58.5
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '21|🇯🇵 _日本 #1'
-  network: ws
-  port: '2082'
-  server: 156.238.19.199
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
@@ -60,6 +26,14 @@ proxies:
   password: 36a91bbc-8181-4862-a947-eb4379a30fcf
   port: 11001
   server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.236.42
   tfo: false
   type: ss
 - alterId: 0
@@ -219,3 +193,18 @@ proxies:
     headers:
       Host: edg.comorg.us.kg
     path: /Telegram🇨🇳+@WangCai2+/?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 29|JP_speednode_0031
+  network: ws
+  port: 443
+  server: root.mid.al
+  servername: www.Arizona.edu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  ws-opts:
+    headers:
+      Host: kim.gov.kp
+    path: /aries?ed=2048
