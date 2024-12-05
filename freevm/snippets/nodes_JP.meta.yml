@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本 东京Fastly节点
+  name: 11,21|🇯🇵 日本 东京Fastly节点
   network: ws
-  port: 443
+  port: '443'
   server: root.mid.al
   tls: true
   type: vmess
@@ -12,12 +12,19 @@ proxies:
     headers:
       Host: kim.gov.kp
     path: /aries?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇵JP-38.207.130.251-209
-  password: f0e7fd1e-0469-415f-95da-774021f16f36
-  port: 40003
-  server: soonjp.soon.guru
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '21|🇯🇵 _日本 #2'
+  network: ws
+  port: '2082'
+  server: 91.193.58.5
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇯🇵 日本2|@ripaojiedian
@@ -28,10 +35,18 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 26,29|CN_speednode_0004
+  name: 26|🇯🇵 日本3|@ripaojiedian
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54102
   server: j-p04.loveroise.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本4|@ripaojiedian
+  password: 62107dbc-51fc-4ca8-9bd9-67033b6a68f1
+  port: 11001
+  server: 61.172.235.22
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -82,13 +97,7 @@ proxies:
     headers:
       Host: linode.appleid.bf
     path: /CAT
-- cipher: aes-256-cfb
-  name: 29|JP_speednode_0018
-  password: amazonskr05
-  port: 443
-  server: 52.195.205.31
-  type: ss
-- name: 29|JP_speednode_0023
+- name: 29|JP_speednode_0017
   network: ws
   port: 443
   server: 54.199.222.232
@@ -101,20 +110,7 @@ proxies:
     headers:
       Host: v2.yunchun.top
     path: /?ed=2048&Telegram🇨🇳+@WangCai2
-- name: 29|JP_speednode_0026
-  network: ws
-  port: 8443
-  server: 141.11.139.211
-  servername: v2.yunchun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: v2.yunchun.top
-    path: /?ed=2048&Telegram🇨🇳+@WangCai2
-- name: 29|JP_speednode_0035
+- name: 29|JP_speednode_0018
   network: ws
   port: 443
   server: 54.248.121.219
@@ -127,23 +123,10 @@ proxies:
     headers:
       Host: v2.yunchun.top
     path: /?ed=2048&Telegram🇨🇳+@WangCai2
-- name: 29|JP_speednode_0038
+- name: 29|JP_speednode_0019
   network: ws
   port: 30860
   server: 103.20.199.101
-  servername: v2.yunchun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: v2.yunchun.top
-    path: /?ed=2048&Telegram🇨🇳+@WangCai2
-- name: 29|JP_speednode_0040
-  network: ws
-  port: 443
-  server: 52.197.230.94
   servername: v2.yunchun.top
   skip-cert-verify: false
   tls: true
@@ -158,7 +141,7 @@ proxies:
   - h2
   - http%2F1.1
   client-fingerprint: firefox
-  name: 29|JP_speednode_0044
+  name: 29|JP_speednode_0020
   network: ws
   port: 443
   server: Zmaoz.Faculty.UcdavIS.Edu
