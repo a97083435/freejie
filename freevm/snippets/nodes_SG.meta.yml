@@ -6,35 +6,28 @@ proxies:
   server: 54.179.87.28
   type: ss
 - cipher: aes-256-cfb
-  name: 20|🇬SG-13.212.36.13-120
+  name: 20|🇬SG-13.212.36.13-123
   password: amazonskr05
   port: 443
   server: 13.212.36.13
   type: ss
 - cipher: aes-256-cfb
-  name: 20|🇸🇬SG-3.1.195.116-121
+  name: 20|🇬SG-3.1.195.116-124
   password: amazonskr05
   port: 443
   server: 3.1.195.116
   type: ss
 - cipher: aes-256-cfb
-  name: 20,29|SG_speednode_0043
+  name: 20|🇸🇬SG-47.128.225.94-125
   password: amazonskr05
   port: 443
-  server: 18.141.184.102
+  server: 47.128.225.94
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 20|🇸🇬SG-47.128.246.130-124
+  name: 20|🇸🇬SG-47.128.246.130-127
   password: amazonskr05
   port: 443
   server: 47.128.246.130
-  type: ss
-- cipher: aes-256-cfb
-  name: 20|🇸🇬SG-54.169.5.182-128
-  password: amazonskr05
-  port: 443
-  server: 54.169.5.182
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -65,6 +58,13 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
+- cipher: aes-256-cfb
+  name: 29|SG_speednode_0043
+  password: amazonskr05
+  port: 443
+  server: 18.141.184.102
+  type: ss
+  udp: true
 - alpn:
   - h3
   - h2

@@ -14,20 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -42,6 +28,21 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 20,26,29|HK_speednode_0039
+  password: d75a2b07-34f4-454e-84ba-0de806c51b6d
+  port: 46509
+  server: dab1c8faaa893fecbc1e055db0894883.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: ca1.bilibili.com
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: h=%2F%2F
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港8|@ripaojiedian
@@ -60,7 +61,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇳CN-120.226.29.91-201
+  name: 20|🇳CN-120.226.29.91-200
   network: ws
   port: 33202
   server: yd2.ainivp.com
