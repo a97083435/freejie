@@ -1,52 +1,37 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港3|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '32193'
   server: 120.198.71.214
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
-  port: '58831'
-  server: 183.236.48.163
+  port: '46602'
+  server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|CN_speednode_0002
-  password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
-  port: 50052
-  server: 183.236.48.158
-  skip-cert-verify: false
-  sni: vn.mjt000.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港4|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54002
-  server: h-k02.loveroise.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54000
-  server: h-k01.loveroise.com
-  tfo: false
+  name: 20|🇰HK-203.23.128.33-331
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 203.23.128.33
   type: ss
 - client-fingerprint: chrome
   name: 26|🇭🇰 香港8|@ripaojiedian
