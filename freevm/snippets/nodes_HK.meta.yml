@@ -41,14 +41,6 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港9|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 38.147.190.72
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 20|🇰HK-141.11.218.192-188
   password: F585FCDB-6351-48D4-82C1-599B5447A589
@@ -61,6 +53,19 @@ proxies:
   port: 990
   server: 203.23.128.33
   type: ss
+- client-fingerprint: chrome
+  name: 26|🇭🇰 香港8|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 18443
+  server: 18.162.246.4
+  skip-cert-verify: false
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
