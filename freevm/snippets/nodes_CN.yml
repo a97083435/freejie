@@ -14,6 +14,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港7|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -31,7 +45,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0004
+  name: 20,26,29|CN_speednode_0003
   password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
   port: 41020
   server: 183.236.51.23
@@ -102,50 +116,20 @@ proxies:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0004
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54006
+  server: h-k04.loveroise.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 29|CN_speednode_0005
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54004
   server: h-k03.loveroise.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 29|CN_speednode_0006
-  network: ws
-  port: 2083
-  server: v2.ksrd.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 932e174c-7912-3019-95c9-1a0819120297
-  ws-opts:
-    headers:
-      Host: apac-tw-tpe-01-edgecast-v2.getbdns.xyz
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0007
+  name: 29|CN_speednode_0006
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54096
   server: j-p01.loveroise.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 29|CN_speednode_0008
-  network: ws
-  port: 2096
-  server: v3.ksrd.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 932e174c-7912-3019-95c9-1a0819120297
-  ws-opts:
-    headers:
-      Host: apac-th-bkk-01-edgecast-v3.bdnspro.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0009
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54006
-  server: h-k04.loveroise.com
   type: ss
