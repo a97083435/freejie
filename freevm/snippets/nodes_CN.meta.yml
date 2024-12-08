@@ -16,6 +16,20 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  name: 11,13,20,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '58831'
+  server: 183.236.48.163
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
+- alterId: 64
+  cipher: auto
   name: 11,13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '46602'
@@ -56,51 +70,71 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: h=%2F%3Fed%3D2560
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-123.88.148.101-311
-  password: d4eeaa7b-43c6-49dc-8020-7389bba4d033
-  port: 40016
-  server: hzhz2.sssyun.xyz
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: '20,21|_中国 #2'
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: '20,21|_中国 #3'
   network: tcp
-  port: '40972'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '20,21|_中国 #11'
-  network: tcp
-  port: '32193'
-  server: 120.198.71.214
+  port: '56601'
+  server: 183.236.51.23
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.198.71.214
+    Host: 183.236.51.23
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: '20,21|_中国 #14'
+  name: '20,21|_中国 #4'
   network: tcp
-  port: '58831'
-  server: 120.232.153.27
+  port: '40002'
+  server: 183.236.48.163
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.232.153.27
+    Host: 183.236.48.163
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 21|_中国
+  network: ws
+  port: '41003'
+  server: 45.199.138.226
+  tls: true
+  type: vmess
+  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
+  ws-opts:
+    headers:
+      Host: www.36092822.xyz
+    path: /path/1733651459092
+- alterId: 64
+  cipher: auto
+  name: '21|_中国 #1'
+  network: ws
+  port: '41003'
+  server: 45.199.138.226
+  tls: true
+  type: vmess
+  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
+  ws-opts:
+    headers:
+      Host: www.36092822.xyz
+    path: /path/1733477783705
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
