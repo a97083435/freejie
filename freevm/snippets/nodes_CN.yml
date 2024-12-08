@@ -14,20 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -42,6 +28,19 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 20,21|0|--162
+  network: tcp
+  port: '64016'
+  server: in06.my1188.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
+  ws-headers:
+    Host: in06.my1188.org
+  ws-path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
