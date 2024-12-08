@@ -1,17 +1,27 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,20,21|🇭🇰 14|香港3|@ripaojiedian
+  name: 13,25,27|香港3|@ripaojiedian
   network: tcp
-  port: '32193'
-  server: 120.198.71.214
+  port: '35601'
+  server: 120.198.71.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13,20,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '58831'
+  server: 183.236.48.163
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.198.71.214
+    Host: 183.236.48.163
   ws-path: /
 - alterId: 64
   cipher: auto
@@ -33,16 +43,6 @@ proxies:
   port: 990
   server: 203.23.128.33
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '35601'
-  server: 120.198.71.216
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 26|🇭🇰 香港8|@ripaojiedian
   network: ws
