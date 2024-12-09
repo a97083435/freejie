@@ -41,8 +41,40 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 13,20,21,25,27|香港9|@ripaojiedian
+  network: tcp
+  port: '50052'
+  server: 183.236.48.158
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.158
+  ws-path: /
+- cipher: aes-128-gcm
+  name: 20|🇰HK-91.103.122.32-206
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 43683
+  server: lsjd.yunxiang8.mom
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|HK-203.23.128.33-494
+  name: 20|🇰HK-91.103.122.32-216
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 39781
+  server: lsjd.yunxiang8.mom
+  type: ss
+- cipher: aes-128-gcm
+  name: 20|🇰HK-91.103.122.32-308
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 38792
+  server: lsjd.yunxiang8.mom
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|HK-203.23.128.33-741
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 203.23.128.33
