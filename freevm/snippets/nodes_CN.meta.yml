@@ -14,20 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -56,71 +42,20 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: h=%2F%3Fed%3D2560
-- alterId: 64
-  cipher: auto
-  name: '20,21|_中国 #2'
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '20,21|_中国 #3'
-  network: tcp
-  port: '56601'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '20,21|_中国 #4'
-  network: tcp
-  port: '40002'
-  server: 183.236.48.163
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 21|_中国
-  network: ws
-  port: '41003'
-  server: 45.199.138.226
-  tls: true
-  type: vmess
-  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
-  ws-opts:
-    headers:
-      Host: www.36092822.xyz
-    path: /path/1733651459092
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #1'
-  network: ws
-  port: '41003'
-  server: 45.199.138.226
-  tls: true
-  type: vmess
-  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
-  ws-opts:
-    headers:
-      Host: www.36092822.xyz
-    path: /path/1733477783705
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇮🇳 印度|@ripaojiedian
+  password: 220401d9-d4bf-444e-a140-d6c650948e74
+  port: 30003
+  server: gdgs.tarioblink.me
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇳CN-123.88.148.101-252
+  password: d4eeaa7b-43c6-49dc-8020-7389bba4d033
+  port: 40016
+  server: hzhz2.sssyun.xyz
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
