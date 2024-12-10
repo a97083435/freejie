@@ -1,62 +1,93 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '50052'
+  server: 183.236.48.158
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.158
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '58831'
   server: 183.236.48.163
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港7|@ripaojiedian
+  name: 13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '46602'
   server: 183.236.51.23
   servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13,21,25,27|香港9|@ripaojiedian
-  network: tcp
-  port: '41490'
-  server: 183.236.48.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|US_speednode_0078
-  password: ypDt8RkT7J
-  port: 43118
-  server: 89.187.181.172
   skip-cert-verify: true
-  sni: egcmi.phooeyunfold.com
-  tfo: false
   tls: false
-  type: trojan
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港4|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54002
-  server: h-k02.loveroise.com
-  tfo: false
+  name: 20|🇰HK-91.103.122.32-873
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 48491
+  server: lsjd.yunxiang8.mom
+  type: ss
+- cipher: aes-128-gcm
+  name: 20|🇭🇰HK-91.103.122.32-874
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 43684
+  server: lsjd.yunxiang8.mom
   type: ss
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54000
-  server: h-k01.loveroise.com
-  tfo: false
+  name: 20|🇭🇰HK-91.103.122.32-875
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 39895
+  server: lsjd.yunxiang8.mom
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇭🇰HK-91.103.122.32-876
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 39781
+  server: lsjd.yunxiang8.mom
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇭🇰HK-91.103.122.32-877
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 43681
+  server: lsjd.yunxiang8.mom
+  type: ss
+- cipher: aes-128-gcm
+  name: 20|🇭🇰HK-91.103.122.32-878
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 38792
+  server: lsjd.yunxiang8.mom
+  type: ss
+- cipher: aes-128-gcm
+  name: 20|🇭🇰HK-91.103.122.32-880
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 43683
+  server: lsjd.yunxiang8.mom
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇭🇰HK-91.103.122.32-881
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 48492
+  server: lsjd.yunxiang8.mom
   type: ss
 - client-fingerprint: chrome
   name: 26|🇭🇰 香港8|@ripaojiedian

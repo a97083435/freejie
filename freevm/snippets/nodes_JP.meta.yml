@@ -1,7 +1,13 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 20,29|JP_speednode_0006
+  password: amazonskr05
+  port: 443
+  server: 43.206.233.92
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #119'
+  name: 21|🇯🇵 日本 东京Fastly节点
   network: ws
   port: '80'
   server: root.mid.al
@@ -14,23 +20,10 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21|日期：12-10
+  name: '21|🇬🇧 _英国 #2'
   network: ws
   port: '2082'
   server: 45.12.30.237
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '21|🇯🇵 _日本 #2'
-  network: ws
-  port: '2082'
-  server: 91.193.58.5
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
@@ -51,14 +44,6 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本3|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54102
-  server: j-p04.loveroise.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
@@ -99,12 +84,6 @@ proxies:
     headers:
       Host: linode.appleid.bf
     path: /CAT
-- cipher: aes-256-cfb
-  name: 29|JP_speednode_0006
-  password: amazonskr05
-  port: 443
-  server: 43.206.233.92
-  type: ss
 - alpn:
   - h2
   - http/1.1
