@@ -1,14 +1,18 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|香港 Google云计算数据中心
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
-  port: '30251'
-  server: 34.92.66.193
+  port: '58831'
+  server: 183.236.48.163
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港7|@ripaojiedian
