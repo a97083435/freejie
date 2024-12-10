@@ -16,20 +16,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 11,13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '58831'
@@ -57,12 +43,10 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇮🇳 印度|@ripaojiedian
+  name: 20|CN-113.31.144.105-740
   password: 220401d9-d4bf-444e-a140-d6c650948e74
   port: 30003
   server: gdgs.tarioblink.me
-  tfo: false
   type: ss
 - alterId: 0
   cipher: auto

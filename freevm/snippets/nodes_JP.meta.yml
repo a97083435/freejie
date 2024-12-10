@@ -5,20 +5,25 @@ proxies:
   port: 443
   server: 52.195.205.31
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.193.184.18
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 20|JP-94.177.131.71-805
   password: 82fb692e-1c8b-3a65-ad83-23ad9deee111
   port: 61005
   server: 2.forlive.live
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|🇯🇵 _日本
+  network: ws
+  port: '2082'
+  server: 91.193.58.5
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
