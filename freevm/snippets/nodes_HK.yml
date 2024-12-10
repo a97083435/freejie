@@ -1,23 +1,20 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|香港 FDC数据中心
-  network: ws
-  port: 2230
-  server: fdc1.sdwan.day
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
-  ws-opts:
-    headers:
-      Host: ''
-    path: /name
 - alterId: 64
   cipher: auto
   name: 13,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '50052'
   server: 183.236.48.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '58831'
+  server: 183.236.48.163
   servername: ''
   tls: false
   type: vmess
