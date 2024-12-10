@@ -1,20 +1,23 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|香港 FDC数据中心
+  network: ws
+  port: 2230
+  server: fdc1.sdwan.day
+  tls: true
+  type: vmess
+  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
+  ws-opts:
+    headers:
+      Host: ''
+    path: /name
 - alterId: 64
   cipher: auto
   name: 13,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '50052'
   server: 183.236.48.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
   servername: ''
   tls: false
   type: vmess
@@ -42,15 +45,15 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 26,29|CN_speednode_0001
-  password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
-  port: 41020
-  server: 183.236.51.23
-  skip-cert-verify: false
-  sni: vn.mjt000.com
+  name: 26,29|US_speednode_0078
+  password: ypDt8RkT7J
+  port: 43118
+  server: 89.187.181.172
+  skip-cert-verify: true
+  sni: egcmi.phooeyunfold.com
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
