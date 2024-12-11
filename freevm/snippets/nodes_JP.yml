@@ -1,51 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|日本4|@ripaojiedian
+  name: 13,20,21,25,27|日本4|@ripaojiedian
   network: tcp
   port: '38951'
   server: jp1.tiljkc.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
-- alterId: 0
-  cipher: auto
-  name: '21|🇯🇵 _日本 #1'
-  network: ws
-  port: '2082'
-  server: 156.238.19.199
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本2|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54096
-  server: j-p01.loveroise.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本3|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54102
-  server: j-p04.loveroise.com
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.141.231.184
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: jp1.tiljkc.top
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
