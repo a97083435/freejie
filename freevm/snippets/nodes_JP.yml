@@ -1,17 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本 东京Fastly节点
-  network: ws
-  port: 80
-  server: root.mid.al
+  name: 13,21,25,27|日本4|@ripaojiedian
+  network: tcp
+  port: '38951'
+  server: jp1.tiljkc.top
+  servername: ''
   tls: false
   type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
-  ws-opts:
-    headers:
-      Host: kim.gov.kp
-    path: /aries?ed=2048
+  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
 - alterId: 0
   cipher: auto
   name: '21|🇯🇵 _日本 #1'
@@ -89,9 +86,3 @@ proxies:
     headers:
       Host: linode.appleid.bf
     path: /CAT
-- cipher: aes-256-cfb
-  name: 29|JP_speednode_0026
-  password: amazonskr05
-  port: 443
-  server: 52.195.210.20
-  type: ss
