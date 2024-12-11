@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|日本 东京Fastly节点
+  network: ws
+  port: 443
+  server: root.mid.al
+  tls: true
+  type: vmess
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  ws-opts:
+    headers:
+      Host: kim.gov.kp
+    path: /aries?ed=2048
 - cipher: chacha20-ietf-poly1305
   name: 20|JP-194.105.83.3-313
   password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6
