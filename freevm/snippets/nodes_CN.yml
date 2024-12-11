@@ -16,31 +16,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
+  name: 11,20,21|🇭🇰 14|香港3|@ripaojiedian
   network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
+  port: '50052'
+  server: 183.236.48.158
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
+    Host: 183.236.48.158
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -71,8 +56,15 @@ proxies:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0003
+  name: 29|CN_speednode_0006
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61002
+  server: 120.240.88.37
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0011
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54038
-  server: t-wn04.loveroise.com
+  port: 54004
+  server: h-k03.loveroise.com
   type: ss

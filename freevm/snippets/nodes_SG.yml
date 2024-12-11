@@ -5,19 +5,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡 DigitalOcean数据中心
-  network: ws
-  port: 10001
-  server: hk.569520.xyz
-  tls: true
-  type: vmess
-  uuid: c7716936-798d-4237-b101-2d914e6d543a
-  ws-opts:
-    headers:
-      Host: hk.569520.xyz
-    path: /cctv13/4k.m3u8
 - cipher: aes-256-cfb
   name: 20|SG-54.169.5.182-626
   password: amazonskr05
@@ -53,3 +40,30 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
+- cipher: chacha20-ietf
+  name: 29|SG_speednode_0066
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- cipher: rc4-md5
+  name: 29|SG_speednode_0067
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.236
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 29|SG_speednode_0068
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.199.172.224
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 29|SG_speednode_0071
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+  udp: true
