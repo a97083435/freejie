@@ -7,49 +7,95 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|新加坡2|@ripaojiedian
+  name: 13,20,21,25,27|新加坡2|@ripaojiedian
   network: tcp
   port: '34843'
   server: sgp1.tiljkc.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
+  ws-headers:
+    Host: sgp1.tiljkc.top
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|新加坡3|@ripaojiedian
+  name: 13,20,21,25,27|新加坡3|@ripaojiedian
   network: tcp
   port: '34842'
   server: sgp1.tiljkc.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
+  ws-headers:
+    Host: sgp1.tiljkc.top
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇬SG-45.158.59.74-043
+  password: 00f6f0c8-94f2-4963-95f2-2b0c38dd1ade
+  port: 27804
+  server: osijdjxmd15.yunxiangvip.mom
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇬SG-45.158.59.74-156
+  password: 00f6f0c8-94f2-4963-95f2-2b0c38dd1ade
+  port: 27802
+  server: osijdjxmd15.yunxiangvip.mom
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 21|🇸🇬 _新加坡
+  name: 20|🇬SG-192.124.176.87-174
+  network: ws
+  port: 19634
+  server: 192.124.176.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 600b472f-3e43-43a0-8815-a890a607891c
+  ws-headers:
+    Host: 192.124.176.87
+  ws-path: /
+- cipher: aes-256-cfb
+  name: 20|🇬SG-54.169.5.182-289
+  password: amazonskr05
+  port: 443
+  server: 54.169.5.182
+  type: ss
+- cipher: rc4-md5
+  name: 20|🇸🇬SG-68.183.227.236-290
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.236
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇸🇬 _新加坡
   network: tcp
   port: '443'
   server: suddaehihub.sudda.store
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: ad2cea64-7ce8-46eb-b898-5b3a0937416f
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54028
-  server: s-g03.loveroise.com
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.194.222.57
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: suddaehihub.sudda.store
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇸🇬 俄罗斯 新西伯利亚justhost
+  network: ws
+  port: '13560'
+  server: 45.8.158.32
+  tls: false
+  type: vmess
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
