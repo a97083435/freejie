@@ -8,16 +8,15 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,21,25,26,27,29|SG_speednode_0018
+  name: 13,21,25,26,27|新加坡|@ripaojiedian
   network: ws
-  port: 40000
+  port: '40000'
   server: ml01.333210.xyz
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
   ws-opts:
     headers:
@@ -94,9 +93,3 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
-- cipher: aes-256-cfb
-  name: 29|SG_speednode_0017
-  password: amazonskr05
-  port: 443
-  server: 13.213.67.37
-  type: ss
