@@ -9,7 +9,7 @@ proxies:
     method: GET
     path:
     - /ljyed
-  name: 13,20,21,25,26,27|日本2|@ripaojiedian
+  name: 13,21,25,26,27|日本2|@ripaojiedian
   network: http
   port: '53892'
   server: jp1.tiljkc.top
@@ -19,9 +19,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
-  ws-headers:
-    Host: jp1.tiljkc.top
-  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -39,27 +36,6 @@ proxies:
     headers:
       Host: jpjhve0r3125kg1xmz.lovebaipiao.com
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.178.84.59
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|🇯🇵JP-92.38.178.93-123
-  network: ws
-  port: 443
-  server: 92.38.178.93
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    Host: 92.38.178.93
-  ws-path: linkvws
 - alterId: 0
   cipher: auto
   name: 21|日期：12-14
@@ -86,6 +62,22 @@ proxies:
     headers:
       Host: 92.38.178.93
     path: linkvws
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本4|@ripaojiedian
+  password: 364S7BOP8HTUCLZP
+  port: 18011
+  server: 219.135.227.209
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.178.84.59
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
