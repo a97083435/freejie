@@ -1,26 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21|🇭🇰 13,14|香港3|@ripaojiedian
-  network: http
-  port: '41002'
-  server: hk1.tiljkc.top
-  servername: urydh.ljricbrd.top
-  tls: true
-  type: vmess
-  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
-- alterId: 64
-  cipher: auto
-  name: 13,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   http-opts:
     headers:
@@ -29,7 +9,7 @@ proxies:
     method: GET
     path:
     - /ljyed
-  name: 25,26,27|香港6|@ripaojiedian
+  name: 13,25,26,27|香港6|@ripaojiedian
   network: http
   port: '41001'
   server: hk1.tiljkc.top
@@ -39,20 +19,29 @@ proxies:
   tls: true
   type: vmess
   uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
-- alterId: 64
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰 13,14|香港3|@ripaojiedian
+  network: http
+  port: '41002'
+  server: hk1.tiljkc.top
+  tls: true
+  type: vmess
+  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 26,29|HK_speednode_0011
-  password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 44991
-  server: 0bce075b5465c22ad8c82382a5df74ad.v1.cac.node-is.green
+  name: 26,29|US_speednode_0032
+  password: wkmY1R4EcP
+  port: 443
+  server: 45.32.137.6
   skip-cert-verify: true
-  sni: us1.bilibili.com
+  sni: humble-rodent.treefrog761.one
   tfo: false
   tls: false
   type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c105b540-27b2-4211-bf8b-3850166a84af
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 26|🇭🇰 香港3|@ripaojiedian
