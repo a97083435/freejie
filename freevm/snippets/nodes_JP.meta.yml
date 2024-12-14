@@ -2,6 +2,29 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - urydh.ljricbrd.top
+    method: GET
+    path:
+    - /ljyed
+  name: 13,20,21,25,26,27|日本2|@ripaojiedian
+  network: http
+  port: '53892'
+  server: jp1.tiljkc.top
+  servername: urydh.ljricbrd.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
+  ws-headers:
+    Host: jp1.tiljkc.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 13,21,25,26,27|日本3|@ripaojiedian
   network: ws
   port: '2086'
