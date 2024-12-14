@@ -7,15 +7,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|新加坡 Microsoft数据中心
-  network: tcp
-  port: 80
-  server: 20.44.243.190
-  tls: false
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 13,21,25,26,27|新加坡|@ripaojiedian
   network: ws
@@ -31,6 +22,29 @@ proxies:
     headers:
       Host: down.dingtalk.com
     path: /bby
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - urydh.ljricbrd.top
+    method: GET
+    path:
+    - /sg
+  name: 13,20,21,25,26,27|新加坡2|@ripaojiedian
+  network: http
+  port: '21005'
+  server: sg1.tiljkc.top
+  servername: urydh.ljricbrd.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
+  ws-headers:
+    Host: sg1.tiljkc.top
+  ws-path: /
 - cipher: aes-256-cfb
   name: 20|🇬SG-18.141.184.102-052
   password: amazonskr05
