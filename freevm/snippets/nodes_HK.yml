@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '11,21|_中国 #1'
-  network: ws
-  port: '8443'
-  server: 27.50.48.188
-  tls: true
-  type: vmess
-  uuid: 8241ddc8-b5c5-4778-9635-331700c6ff48
-  ws-opts:
-    headers:
-      Host: jk.ylka.us.kg
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13,20,21,25,27|香港6|@ripaojiedian
   network: tcp
   port: '39041'
@@ -25,20 +12,6 @@ proxies:
   uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
   ws-headers:
     Host: hk1.tiljkc.top
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
   ws-path: /
 - alterId: 0
   cipher: auto
