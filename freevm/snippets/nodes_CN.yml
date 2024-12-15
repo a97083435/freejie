@@ -14,20 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -106,32 +92,6 @@ proxies:
   server: 113.99.142.152
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|_中国
-  network: ws
-  port: '8443'
-  server: 154.197.121.35
-  tls: true
-  type: vmess
-  uuid: 8241ddc8-b5c5-4778-9635-331700c6ff48
-  ws-opts:
-    headers:
-      Host: jk.ylka.us.kg
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #1'
-  network: ws
-  port: '8443'
-  server: 27.50.48.188
-  tls: true
-  type: vmess
-  uuid: 8241ddc8-b5c5-4778-9635-331700c6ff48
-  ws-opts:
-    headers:
-      Host: jk.ylka.us.kg
-    path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
