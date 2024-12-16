@@ -237,38 +237,10 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,16,21,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 2086
-  server: 172.67.165.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: 104.19.48.236
+  port: '80'
+  server: 104.16.155.10
   tls: false
   type: vmess
   uuid: e6543319-0574-42ac-b778-1c4325d626f5
@@ -278,44 +250,70 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
+  port: 8080
+  server: www.darkroom.lol
   tls: false
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: server26.beheshtbaneh.com
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 80
+  server: 104.17.213.241
+  tls: false
+  type: vmess
+  uuid: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+  ws-opts:
+    headers:
+      Host: gost.naiunclient.top
     path: /
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #3'
   network: ws
-  port: 2052
-  server: 172.67.112.33
+  port: 80
+  server: gost.cloudflare.182682.xyz
   tls: false
   type: vmess
-  uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d
+  uuid: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
   ws-opts:
     headers:
-      Host: 100-158-80-199.s2.cn-db.top
-    path: /dabai.in104.25.31.219
+      Host: gost.naiunclient.top
+    path: /
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #4'
   network: ws
-  port: 2082
-  server: 104.16.68.38
+  port: 2086
+  server: 162.159.45.183
+  servername: watt-miss-semester-slots.trycloudflare.com
   tls: false
   type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
   ws-opts:
     headers:
-      Host: 38hhuiet-glitter-ee01.lijeyet360.workers.dev
-    path: /hms02.fxiaomi.sbs/link
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 _美国 #4'
+  network: ws
+  port: '80'
+  server: 151.101.2.133
+  tls: false
+  type: vmess
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  ws-opts:
+    headers:
+      Host: kim.gov.kp
+    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
   name: '14|🇺🇸_US_美国 #20'
@@ -346,19 +344,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: 8880
@@ -371,6 +356,34 @@ proxies:
     headers:
       Host: server31.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,21,28|美国测试节点
+  network: ws
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #6'
@@ -494,19 +507,6 @@ proxies:
     headers:
       Host: till-bush-d255.loyabok125.workers.dev
     path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #4'
-  network: ws
-  port: '80'
-  server: 151.101.2.133
-  tls: false
-  type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
-  ws-opts:
-    headers:
-      Host: kim.gov.kp
-    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
   name: 21|🇺🇸 _美国
@@ -1623,3 +1623,18 @@ proxies:
   protocol-param: ''
   server: 52.41.180.11
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 29|US_speednode_0046
+  network: ws
+  port: 60002
+  server: 89.213.182.246
+  servername: argo9.zjccc.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: f20e6bda-c007-4ff9-be3d-0aaf125bc63a
+  ws-opts:
+    headers:
+      Host: argo9.zjccc.nyc.mn
+    path: /serv00?ed=2048
