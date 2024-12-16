@@ -1,52 +1,51 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港6|@ripaojiedian
+  name: 13,20,21,25,27|香港6|@ripaojiedian
   network: tcp
   port: '39041'
   server: hk1.tiljkc.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 92dae006-a1bd-3eea-837e-64c8d09ab291
+  ws-headers:
+    Host: hk1.tiljkc.top
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港7|@ripaojiedian
+  name: 13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '46602'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 26,29|IN_speednode_0008
-  password: '!!str 3648425794742788096'
+  name: 20,26,29|VN_speednode_0048
+  password: 94d219c9-1afc-4d42-b090-8b3794764380
   port: 443
-  server: prime-gator.treefrog761.one
-  skip-cert-verify: false
-  sni: prime-gator.treefrog761.one
+  server: 160.30.21.105
+  skip-cert-verify: true
+  sni: std1.loadingip.com
   tfo: false
   tls: false
   type: trojan
-  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港3|@ripaojiedian
-  password: ANTGT74MO57KLLLE
-  port: 15011
-  server: 219.135.227.209
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港4|@ripaojiedian
-  password: 9UB4OF8WZ0YXIPBD
-  port: 15015
-  server: 219.135.227.209
-  tfo: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: h=%2F%3Fed%3D2560
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇰HK-74.119.193.157-128
+  password: MB9JPCHgZtwzQZ2jy3gMrz2fCIjT6M4FJMbfemIc4XCBcplL
+  port: 51348
+  server: 74.119.193.157
   type: ss
 - client-fingerprint: chrome
   name: 26|🇭🇰 香港5|@ripaojiedian
