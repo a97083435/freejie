@@ -237,57 +237,29 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|美国 V2CROSS.COM
+  name: 11|美国 CloudFlare节点
   network: ws
-  port: 443
-  server: 16.724064.xyz
-  tls: true
-  type: vmess
-  uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
-  ws-opts:
-    headers:
-      Host: 16.724064.xyz
-    path: /zlppvws
-- alterId: 0
-  cipher: auto
-  name: 11,21|🇺🇸 _美国
-  network: ws
-  port: '80'
-  server: 151.101.2.133
+  port: 80
+  server: 104.19.48.236
   tls: false
   type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
   ws-opts:
     headers:
-      Host: kim.gov.kp
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
+      Host: chunchuan.kejixiaoqi666.store
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
+  port: '80'
+  server: 104.16.155.10
   tls: false
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
   ws-opts:
     headers:
-      Host: server26.beheshtbaneh.com
+      Host: chunchuan.kejixiaoqi666.store
     path: /
 - alterId: 0
   cipher: auto
@@ -332,6 +304,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 16,21,28|美国测试节点
   network: ws
   port: '443'
@@ -358,58 +358,75 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: aes-256-gcm
+  name: 20|US-23.157.40.103-014
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 23.157.40.103
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇺🇸US-23.157.40.47-016
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.157.40.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇺🇸US-144.202.112.106-018
+  password: 76dze09gQEvqS_jOuo
+  port: 3913
+  server: 144.202.112.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 20,29|US_speednode_0027
+  password: amazonskr05
+  port: 443
+  server: 54.201.174.149
+  type: ss
+- cipher: rc4-md5
+  name: 20,29|US_speednode_0037
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 79.110.53.169
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 20,29|US_speednode_0026
+  password: amazonskr05
+  port: 443
+  server: 54.191.252.235
+  type: ss
+- cipher: aes-256-cfb
+  name: 20|🇺🇸US-54.200.220.184-073
+  password: amazonskr05
+  port: 443
+  server: 54.200.220.184
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸 美国 CloudFlare节点
+  name: 21|🇺🇸 美国 V2CROSS.COM
+  network: ws
+  port: '443'
+  server: 16.724064.xyz
+  tls: true
+  type: vmess
+  uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
+  ws-opts:
+    headers:
+      Host: 16.724064.xyz
+    path: /zlppvws
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸 _美国
   network: ws
   port: '80'
-  server: 104.16.155.10
+  server: 151.101.2.133
   tls: false
   type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
   ws-opts:
     headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #2'
-  network: ws
-  port: '80'
-  server: 104.17.213.241
-  tls: false
-  type: vmess
-  uuid: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  ws-opts:
-    headers:
-      Host: gost.naiunclient.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #3'
-  network: ws
-  port: '80'
-  server: gost.cloudflare.182682.xyz
-  tls: false
-  type: vmess
-  uuid: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  ws-opts:
-    headers:
-      Host: gost.naiunclient.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #4'
-  network: ws
-  port: '2086'
-  server: 162.159.45.183
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: watt-miss-semester-slots.trycloudflare.com
-    path: /
+      Host: kim.gov.kp
+    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
@@ -465,22 +482,6 @@ proxies:
     headers:
       Host: tr.koiok.us.kg
     path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇺🇸 美国3|@ripaojiedian
-  password: ZV4YVDAYK5O0H3QP
-  port: 17005
-  server: 113.99.142.153
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇺🇸 美国5|@ripaojiedian
-  password: P4RAHM7S01HTCHPW
-  port: 17008
-  server: 113.99.142.152
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #22'
@@ -1480,18 +1481,6 @@ proxies:
       Host: a.prapt1.ir
     path: /?ed=2048&Telegram🇨🇳
 - cipher: aes-256-cfb
-  name: 29|US_speednode_0026
-  password: amazonskr05
-  port: 443
-  server: 54.191.252.235
-  type: ss
-- cipher: aes-256-cfb
-  name: 29|US_speednode_0027
-  password: amazonskr05
-  port: 443
-  server: 54.201.174.149
-  type: ss
-- cipher: aes-256-cfb
   name: 29|US_speednode_0028
   password: amazonskr05
   port: 443
@@ -1519,13 +1508,6 @@ proxies:
   protocol-param: ''
   server: nsus3.irundns.net
   type: ssr
-- cipher: rc4-md5
-  name: 29|US_speednode_0037
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 79.110.53.169
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 29|US_speednode_0041
   obfs: plain
