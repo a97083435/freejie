@@ -237,10 +237,24 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
   network: ws
-  port: 80
-  server: 198.41.209.70
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 _美国 #2'
+  network: ws
+  port: '80'
+  server: usnew.lbxjc.site
   tls: false
   type: vmess
   uuid: e6543319-0574-42ac-b778-1c4325d626f5
@@ -264,17 +278,26 @@ proxies:
     path: /77848824
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
   port: 2086
-  server: 104.16.67.38
+  server: 104.21.89.219
   tls: false
   type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
   ws-opts:
     headers:
-      Host: worker-damp-duadwans.jevesoj131.workers.dev
-    path: /glweidf.cfd/linkws
+      Host: shs.xiaoqi666.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|美国 加州
+  network: tcp
+  port: 2087
+  server: 62.60.132.33
+  tls: false
+  type: vmess
+  uuid: bd2ba6cd-a221-4c91-934a-2b1d48d9fdd2
 - alterId: 0
   cipher: auto
   name: 11,13,25,29|SG_speednode_0019
@@ -292,19 +315,6 @@ proxies:
     path: /serv00?ed=2048
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
-  network: ws
-  port: 80
-  server: gost.cloudflare.182682.xyz
-  tls: false
-  type: vmess
-  uuid: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  ws-opts:
-    headers:
-      Host: gost.naiunclient.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 8080
@@ -315,20 +325,6 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -514,19 +510,6 @@ proxies:
     headers:
       Host: kim.gov.kp
     path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #2'
-  network: ws
-  port: '80'
-  server: usnew.lbxjc.site
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
@@ -1965,6 +1948,21 @@ proxies:
     headers:
       Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
     path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+- alterId: 64
+  cipher: auto
+  name: 29|US_speednode_0050
+  network: ws
+  port: 30000
+  server: 107.167.30.126
+  servername: www.83645422.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
+  ws-opts:
+    headers:
+      Host: www.83645422.xyz
+    path: /path/240811062813
 - alterId: 0
   cipher: auto
   name: 29|US_speednode_0051
