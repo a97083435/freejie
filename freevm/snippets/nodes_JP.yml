@@ -1,28 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|日本2|@ripaojiedian
+  name: 13,20,21,25,27|日本2|@ripaojiedian
   network: tcp
   port: '38951'
   server: jp1.tiljkc.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d1063964-2b13-372c-9b45-28f356e844aa
+  ws-headers:
+    Host: jp1.tiljkc.top
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本5|@ripaojiedian
+  name: 20,26|🇯🇵 日本5|@ripaojiedian
   password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6
   port: 40003
   server: soonjp.soon.guru
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.180.229.222
   tfo: false
   type: ss
 - alterId: 0
