@@ -7,19 +7,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,21|🇸🇬 _新加坡
-  network: ws
-  port: '40000'
-  server: ml01.333210.xyz
-  tls: false
-  type: vmess
-  uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
-  ws-opts:
-    headers:
-      Host: down.dingtalk.com
-    path: /bby
-- alterId: 0
-  cipher: auto
   name: 13,20,21,25,27|新加坡|@ripaojiedian
   network: tcp
   port: '34843'
@@ -28,7 +15,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 92dae006-a1bd-3eea-837e-64c8d09ab291
+  uuid: d1063964-2b13-372c-9b45-28f356e844aa
   ws-headers:
     Host: sg1.tiljkc.top
   ws-path: /
@@ -51,6 +38,27 @@ proxies:
   ws-headers:
     Host: down.dingtalk.com
   ws-path: /bby
+- alterId: 0
+  cipher: auto
+  name: 21|🇸🇬 _新加坡
+  network: ws
+  port: '40000'
+  server: ml01.333210.xyz
+  tls: false
+  type: vmess
+  uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
+  ws-opts:
+    headers:
+      Host: down.dingtalk.com
+    path: /bby
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.38.100.128
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
