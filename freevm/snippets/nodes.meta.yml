@@ -528,17 +528,30 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,21|🇫🇷 _法国 #2'
+  name: 11,21|🇧🇷 巴西圣保罗 CloudFlare节点
   network: ws
   port: '443'
-  server: 163.5.159.231
+  server: 188.114.96.3
   tls: true
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
   ws-opts:
     headers:
-      Host: irvideo.cfd
-    path: /linkws
+      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
+    path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: 8080
+  server: 104.16.67.38
+  tls: false
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
+    path: /hms02.fxiaomi.sbs/link
 - alterId: 64
   cipher: auto
   name: 11,13,21,25,27|香港7|@ripaojiedian
@@ -551,30 +564,40 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #1'
+  name: 11,16,21,28|美国测试节点
   network: ws
-  port: '2086'
-  server: shs.xiaoqi666.xyz
-  tls: false
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
   type: vmess
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   ws-opts:
     headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 80
-  server: 198.41.209.70
+  port: 2095
+  server: 104.16.67.38
   tls: false
   type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
   ws-opts:
     headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
+      Host: uare-truth-7033.rijiwex893.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 64
+  cipher: auto
+  name: '11|广东省广州市 移动 #1'
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13,21,25,27|香港3|@ripaojiedian
@@ -744,20 +767,6 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 16,21,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #6'
   network: ws
   port: 8880
@@ -876,19 +885,6 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: 21|🇧🇷 巴西圣保罗 CloudFlare节点
-  network: ws
-  port: '443'
-  server: 188.114.96.3
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
-    path: /azumase.ren
-- alterId: 0
-  cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #4'
   network: ws
   port: '2086'
@@ -912,6 +908,19 @@ proxies:
   ws-opts:
     headers:
       Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #1'
+  network: ws
+  port: '2086'
+  server: shs.xiaoqi666.xyz
+  tls: false
+  type: vmess
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -939,6 +948,19 @@ proxies:
     headers:
       Host: xjp.daluquan.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: '21|🇫🇷 _法国 #2'
+  network: ws
+  port: '443'
+  server: 163.5.159.231
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
