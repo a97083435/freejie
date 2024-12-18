@@ -7,20 +7,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|新加坡|@ripaojiedian
+  name: 13,20,21,25,27|新加坡|@ripaojiedian
   network: tcp
   port: '29015'
   server: ccc-v3-15.rabbitpro-in-1.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
+  ws-headers:
+    Host: ccc-v3-15.rabbitpro-in-1.com
+  ws-path: /
+- cipher: chacha20-ietf
+  name: 20|🇸SG-103.36.91.32-051
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.203.122.162
+  server: 52.77.239.64
   tfo: false
   type: ss
 - alterId: 0

@@ -1,48 +1,64 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港3|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '39042'
   server: hk1.tiljkc.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2e4e8fd5-5ffa-336c-83a8-d4f1fcf64d46
+  ws-headers:
+    Host: hk1.tiljkc.top
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港4|@ripaojiedian
+  name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '34493'
   server: 120.198.71.214
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '29011'
   server: ccc-v3-11.rabbitpro-in-1.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
+  ws-headers:
+    Host: ccc-v3-11.rabbitpro-in-1.com
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港7|@ripaojiedian
+  name: 13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '46602'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 26,29|HK_speednode_0010
+  name: 20,26,29|HK_speednode_0010
   password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb
   port: 40091
   server: 18.166.212.182
@@ -52,36 +68,13 @@ proxies:
   tls: false
   type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: 01b60010-2e93-4018-af7c-b7546b26febf
-  port: 48043
-  server: js.wnwwv.cn
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港8|@ripaojiedian
-  password: 34f92654-04c2-456f-9418-ababeef0d77b
-  port: 52466
-  server: 114.80.150.220
-  tfo: false
-  type: ss
+  ws-path: h=%2F
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 26|🇭🇰 香港9|@ripaojiedian
+  name: 20,26|🇭🇰 香港9|@ripaojiedian
   password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
   port: 40000
   server: soonhk.soon.guru
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港10|@ripaojiedian
-  password: QM1BB5SMWC47IVWA
-  port: 15010
-  server: 219.135.227.209
   tfo: false
   type: ss
 - alterId: 0
