@@ -1,43 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,20,21|🇧🇪 _比利时
+  name: '11,20,21|🇧🇪 _比利时 #2'
   network: tcp
   port: '80'
-  server: 57.155.31.108
+  server: 57.155.31.98
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b831381d-6324-4d53-ad4f-8cda48b30812
   ws-headers:
-    Host: 57.155.31.108
+    Host: 57.155.31.98
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|🇧🇪 _比利时 #1'
-  network: tcp
-  port: '80'
-  server: 57.155.30.207
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
-  ws-headers:
-    Host: 57.155.30.207
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 11|法国 法国计算机科学大学
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkws
 - cipher: aes-256-gcm
   name: 20|🇫🇷FR-193.243.147.128-046
   password: 7BcLdsO1WweoGD0X
