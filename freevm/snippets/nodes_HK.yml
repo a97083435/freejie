@@ -1,48 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,20,21|🇭🇰 14|香港3|@ripaojiedian
-  network: tcp
-  port: '39042'
-  server: hk1.tiljkc.top
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2e4e8fd5-5ffa-336c-83a8-d4f1fcf64d46
-  ws-headers:
-    Host: hk1.tiljkc.top
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 13,20,21|🇭🇰 14|香港5|@ripaojiedian
-  network: tcp
-  port: '29011'
-  server: ccc-v3-11.rabbitpro-in-1.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
-  ws-headers:
-    Host: ccc-v3-11.rabbitpro-in-1.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   http-opts:
     headers:
@@ -51,7 +9,7 @@ proxies:
     method: GET
     path:
     - /game
-  name: 25,26,27|香港5|@ripaojiedian
+  name: 13,25,26,27|香港5|@ripaojiedian
   network: http
   port: '41002'
   server: hk1.tiljkc.top
@@ -63,7 +21,7 @@ proxies:
   uuid: 869760fe-7f4f-320c-b223-697f8e870088
 - alterId: 0
   cipher: auto
-  name: 25,27|香港6|@ripaojiedian
+  name: 13,25,27|香港6|@ripaojiedian
   network: tcp
   port: '29014'
   server: ccc-v3-14.rabbitpro-in-1.com
@@ -73,7 +31,21 @@ proxies:
   uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
 - alterId: 64
   cipher: auto
-  name: 25,27|香港8|@ripaojiedian
+  name: 13,20,21,25,27|香港7|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 13,25,27|香港8|@ripaojiedian
   network: tcp
   port: '41020'
   server: 183.236.51.23

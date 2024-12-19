@@ -16,17 +16,26 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
+  name: 11|广东省广州市 移动
   network: tcp
-  port: '46602'
+  port: '53002'
   server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
+  network: tcp
+  port: '34493'
+  server: 120.198.71.214
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
+    Host: 120.198.71.214
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -48,6 +57,32 @@ proxies:
   port: 17001
   server: 219.135.227.209
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇭🇰 14|香港3|@ripaojiedian
+  network: tcp
+  port: '39042'
+  server: hk1.tiljkc.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2e4e8fd5-5ffa-336c-83a8-d4f1fcf64d46
+  ws-headers:
+    Host: hk1.tiljkc.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇭🇰 14|香港5|@ripaojiedian
+  network: tcp
+  port: '29011'
+  server: ccc-v3-11.rabbitpro-in-1.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
+  ws-headers:
+    Host: ccc-v3-11.rabbitpro-in-1.com
+  ws-path: /
 - cipher: aes-128-gcm
   name: 20|🇳CN-36.151.65.91-111
   password: 01b60010-2e93-4018-af7c-b7546b26febf
@@ -66,6 +101,45 @@ proxies:
   port: 15010
   server: 219.135.227.209
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|_中国
+  network: tcp
+  port: '38951'
+  server: jp1.tiljkc.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2e4e8fd5-5ffa-336c-83a8-d4f1fcf64d46
+  ws-headers:
+    Host: jp1.tiljkc.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇯🇵 14|日本2|@ripaojiedian
+  network: tcp
+  port: '29021'
+  server: ccc-v3-21.rabbitpro-in-1.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
+  ws-headers:
+    Host: ccc-v3-21.rabbitpro-in-1.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇸🇬 14|新加坡|@ripaojiedian
+  network: tcp
+  port: '29015'
+  server: ccc-v3-15.rabbitpro-in-1.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
+  ws-headers:
+    Host: ccc-v3-15.rabbitpro-in-1.com
+  ws-path: /
 - cipher: aes-256-gcm
   name: 20|🇨🇳CN-219.135.227.209-114
   password: TTK8DSO6MZREEJQ1
