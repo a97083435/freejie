@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|法国 国际航空电讯集团公司(SITA)
+  network: tcp
+  port: 80
+  server: 57.155.31.98
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
   name: 11|法国 法国计算机科学大学
   network: ws
   port: 443
@@ -14,18 +23,13 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11|法国 OVH
-  network: ws
-  port: 443
-  server: 51.77.20.137
-  servername: ''
-  tls: true
+  name: '11|法国 国际航空电讯集团公司(SITA) #1'
+  network: tcp
+  port: 80
+  server: 57.155.30.207
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /linkvws
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
 - alterId: 0
   cipher: auto
   name: 21|🇫🇷 法国 国际航空电讯集团公司(SITA)
