@@ -1,27 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,25,27|日本2|@ripaojiedian
+  name: 13,20,21,25,27|日本2|@ripaojiedian
   network: tcp
   port: '38953'
   server: jp1.tiljkc.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 869760fe-7f4f-320c-b223-697f8e870088
+  ws-headers:
+    Host: jp1.tiljkc.top
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇵JP-194.105.83.3-109
+  name: 20|🇵JP-194.105.83.3-140
   password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6
   port: 40003
   server: soonjp.soon.guru
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26,29|CN_speednode_0013
-  password: YD5ETBMPY0O6L2A9
-  port: 18009
-  server: 219.135.227.209
-  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
