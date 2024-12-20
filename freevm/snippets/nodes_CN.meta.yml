@@ -16,13 +16,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|广东省广州市 移动
+  name: 11,20,21|🇨🇳 广东省广州市 移动
   network: tcp
   port: '53002'
   server: 183.236.51.23
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
   name: 11,13,20,21,25,27|香港5|@ripaojiedian
@@ -53,6 +57,14 @@ proxies:
     path: /debian
 - cipher: aes-256-gcm
   client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本|@ripaojiedian
+  password: YD5ETBMPY0O6L2A9
+  port: 18009
+  server: 219.135.227.209
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
   name: 20,26|🇭🇰 香港3|@ripaojiedian
   password: KGPWD7ZZY2F0ZYPY
   port: 15007
@@ -69,14 +81,6 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本|@ripaojiedian
-  password: YD5ETBMPY0O6L2A9
-  port: 18009
-  server: 219.135.227.209
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
   name: 20,26|🇸🇬 新加坡|@ripaojiedian
   password: CVPPFA5LEN1NRWWO
   port: 16015
@@ -84,58 +88,28 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇳CN-223.109.34.55-104
-  password: ee25411c-4e6b-4f91-b026-07e017d9da81
-  port: 32002
-  server: vmvmvm123.jmvks.cn
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-123.88.148.147-108
-  password: ee25411c-4e6b-4f91-b026-07e017d9da81
-  port: 30005
-  server: vmvm123.umgtb.cn
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇳CN-223.109.34.55-109
-  password: ee25411c-4e6b-4f91-b026-07e017d9da81
-  port: 30008
-  server: vmvmvm123.jmvks.cn
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-223.109.34.55-115
-  password: ee25411c-4e6b-4f91-b026-07e017d9da81
-  port: 30010
-  server: vmvmvm123.jmvks.cn
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇳CN-36.156.184.33-120
-  password: ee25411c-4e6b-4f91-b026-07e017d9da81
-  port: 32110
-  server: xd-js.timiwc.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇳CN-223.109.34.55-122
-  password: ee25411c-4e6b-4f91-b026-07e017d9da81
-  port: 30004
-  server: vmvmvm123.jmvks.cn
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-130
-  password: TTK8DSO6MZREEJQ1
-  port: 17003
-  server: 219.135.227.209
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-131
+  name: 20|🇨🇳CN-219.135.227.209-253
   password: QM1BB5SMWC47IVWA
   port: 15010
   server: 219.135.227.209
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-132
+  name: 20|🇨🇳CN-219.135.227.209-254
   password: BGX8OXD6P10X53LY
   port: 17001
   server: 219.135.227.209
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-219.135.227.209-252
+  password: TTK8DSO6MZREEJQ1
+  port: 17003
+  server: 219.135.227.209
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-171.111.216.155-222
+  password: 79841d85-0f81-4c75-8bd6-5c52db6be5fa
+  port: 30001
+  server: gdgs.tarioblink.me
   type: ss
 - alterId: 0
   cipher: auto
