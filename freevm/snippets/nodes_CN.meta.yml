@@ -14,15 +14,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|广东省 移动
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
-  port: 15002
-  server: 15002.vpdnss.top
+  port: '34493'
+  server: 120.198.71.214
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 11,13,20,21,25,27|香港7|@ripaojiedian
@@ -37,19 +42,6 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,20,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -64,14 +56,19 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本|@ripaojiedian
-  password: YD5ETBMPY0O6L2A9
-  port: 18009
-  server: 219.135.227.209
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: '20,21|🇨🇳 广东省广州市 移动 #1'
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港3|@ripaojiedian
@@ -90,6 +87,14 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本|@ripaojiedian
+  password: YD5ETBMPY0O6L2A9
+  port: 18009
+  server: 219.135.227.209
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
   name: 20,26|🇸🇬 新加坡|@ripaojiedian
   password: CVPPFA5LEN1NRWWO
   port: 16015
@@ -97,25 +102,25 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-253
+  name: 20|🇨🇳CN-219.135.227.209-268
   password: QM1BB5SMWC47IVWA
   port: 15010
   server: 219.135.227.209
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-254
+  name: 20|🇨🇳CN-219.135.227.209-269
   password: BGX8OXD6P10X53LY
   port: 17001
   server: 219.135.227.209
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-252
+  name: 20|🇨🇳CN-219.135.227.209-267
   password: TTK8DSO6MZREEJQ1
   port: 17003
   server: 219.135.227.209
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-171.111.216.155-222
+  name: 20|🇨🇳CN-223.113.53.141-237
   password: 79841d85-0f81-4c75-8bd6-5c52db6be5fa
   port: 30001
   server: gdgs.tarioblink.me
