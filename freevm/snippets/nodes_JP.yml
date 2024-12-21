@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|日本2|@ripaojiedian
+  name: 13,20,21|🇯🇵 14|日本2|@ripaojiedian
   network: tcp
   port: '38951'
   server: jp1.tiljkc.top
@@ -14,12 +14,10 @@ proxies:
     Host: jp1.tiljkc.top
   ws-path: /
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本3|@ripaojiedian
+  name: 20|🇵JP-156.231.104.21-276
   password: 9ZEB8Z1ZXEUHAGUH
   port: 18011
   server: 156.231.104.21
-  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 20|🇵JP-194.105.83.3-261
@@ -28,11 +26,110 @@ proxies:
   server: soonjp.soon.guru
   type: ss
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本4|@ripaojiedian
+  name: 20|🇯🇵JP-156.231.104.11-277
   password: 0JP2PNY1VIZVNSRJ
   port: 18001
   server: 156.231.104.11
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 25,26,27|日本|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: www.visa.com.tw
+  servername: jk.htg8866.us.kg
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 6e064e59-b61c-4b9d-9455-7f143df84ec0
+  ws-opts:
+    headers:
+      Host: jk.htg8866.us.kg
+    path: /65hsr6
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 25,26,27|日本2|@ripaojiedian
+  network: ws
+  port: '30005'
+  server: 89.163.231.19
+  servername: www.80347320.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.80347320.xyz
+    path: /path/240811062813
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 25,26,27|日本3|@ripaojiedian
+  network: ws
+  port: '47778'
+  server: 38.48.227.231
+  servername: www.42266451.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42266451.xyz
+    path: /path/240811062813
+- alterId: 0
+  cipher: auto
+  name: 25,27|日本6|@ripaojiedian
+  network: tcp
+  port: '38953'
+  server: jp1.tiljkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本4|@ripaojiedian
+  password: N2YMKAZFC2O29JGP
+  port: 18002
+  server: 156.231.104.12
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本5|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本7|@ripaojiedian
+  password: D8Q8HROCQRCZCSVC
+  port: 18009
+  server: 156.231.104.19
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本8|@ripaojiedian
+  password: OIGGYGR002SRGG33
+  port: 18003
+  server: 156.231.104.13
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.32.68.164
   tfo: false
   type: ss
 - alterId: 0
