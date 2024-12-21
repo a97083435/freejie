@@ -32,7 +32,7 @@ proxies:
     method: GET
     path:
     - /sgp-1
-  name: 13,21,25,26,27|新加坡2|@ripaojiedian
+  name: 13,20,21,25,26,27|新加坡2|@ripaojiedian
   network: http
   port: '21005'
   server: sg1.tiljkc.top
@@ -42,14 +42,35 @@ proxies:
   tls: true
   type: vmess
   uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.202.1.19
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: sg1.tiljkc.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|🇧🇪 _比利时 #2'
+  network: tcp
+  port: '80'
+  server: 57.155.31.98
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+  ws-headers:
+    Host: 57.155.31.98
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|🇧🇪 _比利时 #3'
+  network: tcp
+  port: '80'
+  server: 57.155.30.207
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+  ws-headers:
+    Host: 57.155.30.207
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
