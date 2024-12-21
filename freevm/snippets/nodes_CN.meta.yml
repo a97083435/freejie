@@ -16,21 +16,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '11,20,21|🇨🇳 广东省广州市 移动 #1'
+  name: 11,20,21|🇨🇳 广东省广州市 移动
   network: tcp
   port: '53002'
   server: 183.236.51.23
@@ -41,6 +27,20 @@ proxies:
   ws-headers:
     Host: ip3.6929198.xyz
   ws-path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -56,111 +56,10 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: aes-256-gcm
-  name: 20|🇳CN-219.135.227.209-270
-  password: KGPWD7ZZY2F0ZYPY
-  port: 15007
-  server: 219.135.227.209
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇨🇳 14|台湾|@ripaojiedian
-  network: tcp
-  port: '20016'
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aa44bc1f-3085-4e33-96e4-fcfc5a18a688
-  ws-headers:
-    Host: i.needss.top
-  ws-path: /
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-266
-  password: YD5ETBMPY0O6L2A9
-  port: 18009
-  server: 219.135.227.209
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇯🇵 14|日本2|@ripaojiedian
-  network: tcp
-  port: '38951'
-  server: jp1.tiljkc.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c1ae98ab-35aa-36bf-b317-857006d2fdfb
-  ws-headers:
-    Host: jp1.tiljkc.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇰🇷 14|韩国|@ripaojiedian
-  network: tcp
-  port: '20021'
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aa44bc1f-3085-4e33-96e4-fcfc5a18a688
-  ws-headers:
-    Host: i.needss.top
-  ws-path: /
-- cipher: aes-256-gcm
-  name: 20|🇳CN-219.135.227.209-264
-  password: CVPPFA5LEN1NRWWO
-  port: 16015
-  server: 219.135.227.209
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇸🇬 14|新加坡2|@ripaojiedian
-  network: tcp
-  port: '34842'
-  server: sg1.tiljkc.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c1ae98ab-35aa-36bf-b317-857006d2fdfb
-  ws-headers:
-    Host: sg1.tiljkc.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇺🇸 14|美国2|@ripaojiedian
-  network: tcp
-  port: '45053'
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f60da64-5a9a-4fe3-925d-4dd45084816e
-  ws-headers:
-    Host: xdd.dashuai.cyou
-  ws-path: /
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-268
-  password: QM1BB5SMWC47IVWA
-  port: 15010
-  server: 219.135.227.209
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-269
-  password: BGX8OXD6P10X53LY
-  port: 17001
-  server: 219.135.227.209
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-267
+  name: 20|🇨🇳CN-219.135.227.209-118
   password: TTK8DSO6MZREEJQ1
   port: 17003
   server: 219.135.227.209
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-223.113.53.141-237
-  password: 79841d85-0f81-4c75-8bd6-5c52db6be5fa
-  port: 30001
-  server: gdgs.tarioblink.me
   type: ss
 - alterId: 0
   cipher: auto

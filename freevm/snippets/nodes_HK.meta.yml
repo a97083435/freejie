@@ -1,22 +1,22 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
-  port: '51704'
-  server: 183.236.51.23
+  port: '34493'
+  server: 120.198.71.214
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
+    Host: 120.198.71.214
   ws-path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 13,25,26,27|香港6|@ripaojiedian
+  name: 13,21,25,26,27|香港6|@ripaojiedian
   network: ws
   port: '30000'
   server: 170.178.186.12
@@ -58,40 +58,6 @@ proxies:
   ws-headers:
     Host: hk1.tiljkc.top
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇨🇳 广东省 移动
-  network: tcp
-  port: '15002'
-  server: 15002.vpdnss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-  ws-headers:
-    Host: 15002.vpdnss.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|_中国
-  network: tcp
-  port: '60317'
-  server: 218.253.32.146
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 996ee9ca-f721-33f6-8a26-ed27df4975f0
-  ws-headers:
-    Host: 218.253.32.146
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港3|@ripaojiedian
-  password: ZpeGa4
-  port: 56018
-  server: db59a98b.b8z9y9a5g9-fb-hk18.6pzfwf.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
