@@ -1,21 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,25,26,27|日本|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: www.visa.com.tw
-  servername: jk.htg8866.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 6e064e59-b61c-4b9d-9455-7f143df84ec0
-  ws-opts:
-    headers:
-      Host: jk.htg8866.us.kg
-    path: /65hsr6
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -112,7 +95,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  name: 26,29|US_speednode_0014
   password: amazonskr05
   port: 443
   server: 52.32.68.164
@@ -158,3 +141,9 @@ proxies:
     headers:
       Host: linode.appleid.bf
     path: /CAT
+- cipher: aes-256-cfb
+  name: 29|JP_speednode_0008
+  password: amazonskr05
+  port: 443
+  server: 13.114.67.166
+  type: ss
