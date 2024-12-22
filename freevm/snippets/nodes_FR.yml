@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇫🇷 _法国 #1'
-  network: ws
-  port: '8443'
-  server: 146.19.21.124
-  tls: true
-  type: vmess
-  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
-  ws-opts:
-    headers:
-      Host: lax2.ibgfw.top
-    path: /dyajvws
 - cipher: aes-256-gcm
   name: 20|🇷FR-193.243.147.128-030
   password: 7BcLdsO1WweoGD0X
@@ -90,23 +77,23 @@ proxies:
     path: /dyajvws
 - alterId: 0
   cipher: auto
+  name: '21|🇫🇷 _法国 #1'
+  network: ws
+  port: '8443'
+  server: 146.19.21.124
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
   name: '21|🇫🇷 _法国 #2'
   network: ws
   port: '8443'
   server: 141.11.202.18
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: '21|🇫🇷 _法国 #3'
-  network: ws
-  port: '8443'
-  server: 45.80.111.223
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
