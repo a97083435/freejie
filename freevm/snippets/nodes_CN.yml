@@ -16,13 +16,18 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|广东省广州市 移动
+  name: 11,13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
-  port: '53002'
+  port: '46602'
   server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 11,13,20,21,25,27|香港5|@ripaojiedian
@@ -36,20 +41,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -65,6 +56,19 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇹🇼 台湾|@ripaojiedian
@@ -82,7 +86,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-176
+  name: 20|🇳CN-219.135.227.209-187
   password: TTK8DSO6MZREEJQ1
   port: 17003
   server: 219.135.227.209
@@ -119,19 +123,6 @@ proxies:
   network: ws
   port: '8443'
   server: 156.225.72.211
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #3'
-  network: ws
-  port: '8443'
-  server: 27.50.48.188
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
