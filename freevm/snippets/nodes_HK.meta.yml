@@ -1,4 +1,21 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,25,26,27|香港3|@ripaojiedian
+  network: ws
+  port: '51201'
+  server: b.naiun.node-is.green
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d570475-a7a6-4242-b733-d5300305b615
+  ws-opts:
+    headers:
+      Host: live.bilibili.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
@@ -15,18 +32,18 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21|🇭🇰 13,14|香港6|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 170.178.186.12
-  servername: www.59477189.xyz
-  tls: true
+  name: 13,20,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59477189.xyz
-    path: /path/240811062813
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港7|@ripaojiedian
@@ -41,37 +58,19 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13,20,21|🇭🇰 14|香港8|@ripaojiedian
-  network: tcp
-  port: '39041'
-  server: hk1.tiljkc.top
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
-  ws-headers:
-    Host: hk1.tiljkc.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 25,26,27|香港3|@ripaojiedian
+  name: 21|🇭🇰 13,14|香港6|@ripaojiedian
   network: ws
-  port: '51201'
-  server: b.naiun.node-is.green
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: '30000'
+  server: 170.178.186.12
+  tls: true
   type: vmess
-  uuid: 2d570475-a7a6-4242-b733-d5300305b615
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: live.bilibili.com
-    path: /
+      Host: www.59477189.xyz
+    path: /path/240811062813
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787

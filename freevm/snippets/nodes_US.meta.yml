@@ -237,6 +237,73 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11,16,21,28|美国测试节点
+  network: ws
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: 8443
+  server: lax2.ibgfw.top
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 64
+  cipher: auto
+  name: '11,21|🇺🇸 _美国 #65'
+  network: ws
+  port: '38002'
+  server: 192.74.250.217
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.63575583.xyz
+    path: /path/1734770191644
+- alterId: 0
+  cipher: auto
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
@@ -250,19 +317,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
-- alterId: 0
-  cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
@@ -291,20 +345,6 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16,21,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #6'
@@ -751,19 +791,6 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '21|🇺🇸 _美国 #65'
-  network: ws
-  port: '38002'
-  server: 192.74.250.217
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.63575583.xyz
-    path: /path/1734770191644
-- alterId: 64
-  cipher: auto
   name: '21|🇺🇸 _美国 #44'
   network: ws
   port: '30001'
@@ -1170,7 +1197,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 28|美国 CloudFlare节点
+  name: '28|美国 CloudFlare节点 #3'
   network: ws
   port: '80'
   server: 104.21.224.8
@@ -1183,7 +1210,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #1'
+  name: '28|美国 CloudFlare节点 #4'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -1197,7 +1224,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #2'
+  name: '28|美国 CloudFlare节点 #5'
   network: ws
   port: 80
   server: 104.21.224.129
@@ -1210,7 +1237,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #3'
+  name: '28|美国 CloudFlare节点 #6'
   network: ws
   port: '80'
   server: 104.21.230.53
@@ -1224,7 +1251,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #4'
+  name: '28|美国 CloudFlare节点 #7'
   network: ws
   port: 80
   server: 104.21.224.56
@@ -1252,7 +1279,7 @@ proxies:
     path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #5'
+  name: '28|美国 CloudFlare节点 #8'
   network: ws
   port: '80'
   server: 104.21.235.76
@@ -1278,7 +1305,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #6'
+  name: '28|美国 CloudFlare节点 #9'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -1319,7 +1346,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #8'
+  name: '28|美国 CloudFlare节点 #11'
   network: ws
   port: 80
   server: 104.21.224.24
@@ -1385,7 +1412,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #10'
+  name: '28|美国 CloudFlare节点 #13'
   network: ws
   port: 80
   server: 104.21.238.90
@@ -1412,7 +1439,7 @@ proxies:
     path: /CAT
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #11'
+  name: '28|美国 CloudFlare节点 #14'
   network: ws
   port: 80
   server: 104.21.237.88
@@ -1439,7 +1466,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #12'
+  name: '28|美国 CloudFlare节点 #15'
   network: ws
   port: 80
   server: 104.21.224.157
@@ -1453,7 +1480,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #13'
+  name: '28|美国 CloudFlare节点 #16'
   network: ws
   port: '80'
   server: 104.21.237.65
@@ -1466,7 +1493,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #14'
+  name: '28|美国 CloudFlare节点 #17'
   network: ws
   port: 80
   server: 104.21.221.135
@@ -1494,7 +1521,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #15'
+  name: '28|美国 CloudFlare节点 #18'
   network: ws
   port: 80
   server: 104.21.237.87
@@ -1545,7 +1572,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #17'
+  name: '28|美国 CloudFlare节点 #20'
   network: ws
   port: 80
   server: 104.21.230.31
@@ -1559,7 +1586,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #18'
+  name: '28|美国 CloudFlare节点 #21'
   network: ws
   port: '80'
   server: 104.21.224.23
@@ -1572,7 +1599,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #19'
+  name: '28|美国 CloudFlare节点 #22'
   network: ws
   port: 80
   server: 104.21.239.76
@@ -1625,7 +1652,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #20'
+  name: '28|美国 CloudFlare节点 #23'
   network: ws
   port: 80
   server: 104.21.228.42
@@ -1639,7 +1666,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #21'
+  name: '28|美国 CloudFlare节点 #24'
   network: ws
   port: '80'
   server: 104.21.234.74
@@ -1665,7 +1692,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #22'
+  name: '28|美国 CloudFlare节点 #25'
   network: ws
   port: '80'
   server: 104.21.230.50
@@ -1679,7 +1706,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #23'
+  name: '28|美国 CloudFlare节点 #26'
   network: ws
   port: '80'
   server: 104.21.228.40
@@ -1693,7 +1720,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #24'
+  name: '28|美国 CloudFlare节点 #27'
   network: ws
   port: '80'
   server: 104.21.228.41
@@ -1706,7 +1733,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #25'
+  name: '28|美国 CloudFlare节点 #28'
   network: ws
   port: 80
   server: 104.21.234.72
@@ -1720,7 +1747,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #26'
+  name: '28|美国 CloudFlare节点 #29'
   network: ws
   port: '80'
   server: 104.21.232.63
@@ -1733,7 +1760,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #27'
+  name: '28|美国 CloudFlare节点 #30'
   network: ws
   port: 80
   server: 104.21.221.95
@@ -1746,7 +1773,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #28'
+  name: '28|美国 CloudFlare节点 #31'
   network: ws
   port: 80
   server: 104.21.224.16
@@ -1759,7 +1786,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #29'
+  name: '28|美国 CloudFlare节点 #32'
   network: ws
   port: 80
   server: 104.21.224.174
@@ -1773,7 +1800,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #30'
+  name: '28|美国 CloudFlare节点 #33'
   network: ws
   port: 80
   server: 104.21.221.215
@@ -1800,7 +1827,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #31'
+  name: '28|美国 CloudFlare节点 #34'
   network: ws
   port: 80
   server: 104.21.226.14
@@ -1826,7 +1853,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #32'
+  name: '28|美国 CloudFlare节点 #35'
   network: ws
   port: 80
   server: 104.21.235.57
@@ -1839,7 +1866,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai08
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #33'
+  name: '28|美国 CloudFlare节点 #36'
   network: ws
   port: 80
   server: 104.21.224.240
@@ -1866,7 +1893,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #34'
+  name: '28|美国 CloudFlare节点 #37'
   network: ws
   port: '80'
   server: 104.21.230.51
@@ -1880,7 +1907,7 @@ proxies:
     path: '/?ed=2048&Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #35'
+  name: '28|美国 CloudFlare节点 #38'
   network: ws
   port: 80
   server: 104.21.231.59
@@ -1921,7 +1948,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #36'
+  name: '28|美国 CloudFlare节点 #39'
   network: ws
   port: 80
   server: 104.21.224.46
@@ -1935,7 +1962,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #37'
+  name: '28|美国 CloudFlare节点 #40'
   network: ws
   port: '80'
   server: 104.21.236.60
@@ -1948,7 +1975,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #38'
+  name: '28|美国 CloudFlare节点 #41'
   network: ws
   port: '80'
   server: 104.21.238.92
@@ -1987,7 +2014,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #39'
+  name: '28|美国 CloudFlare节点 #42'
   network: ws
   port: '80'
   server: 104.21.239.77
@@ -2000,7 +2027,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #40'
+  name: '28|美国 CloudFlare节点 #43'
   network: ws
   port: 8080
   server: 172.67.143.192
@@ -2014,7 +2041,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #41'
+  name: '28|美国 CloudFlare节点 #44'
   network: ws
   port: '80'
   server: 104.21.229.26
@@ -2040,7 +2067,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #42'
+  name: '28|美国 CloudFlare节点 #45'
   network: ws
   port: '80'
   server: 104.21.227.15
@@ -2066,7 +2093,7 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #43'
+  name: '28|美国 CloudFlare节点 #46'
   network: ws
   port: '80'
   server: 104.21.228.20
@@ -2128,7 +2155,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #44'
+  name: '28|美国 CloudFlare节点 #47'
   network: ws
   port: 80
   server: 104.21.231.57
@@ -2142,7 +2169,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #45'
+  name: '28|美国 CloudFlare节点 #48'
   network: ws
   port: '80'
   server: 104.21.229.47
@@ -2153,318 +2180,8 @@ proxies:
     headers:
       Host: a.prapt1.ir
     path: /?ed=2048&Telegram🇨🇳
-- client-fingerprint: randomized
-  name: 29|US_speednode_0018
-  network: ws
-  port: 443
-  server: 151.101.194.228
-  servername: hajlab.ucdavis.edu
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82409acf-abb1-4f97-b4b2-4ebf40e8b507
-  ws-opts:
-    headers:
-      Host: JoinBedee--VPNCUSTOMIZE.ai
-    path: /@VPNCUSTOMIZE-----@VPNCUSTOMIZE-----@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560
-- client-fingerprint: randomized
-  name: 29|US_speednode_0019
-  network: ws
-  port: 443
-  server: 151.101.66.228
-  servername: hajlab.ucdavis.edu
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82409acf-abb1-4f97-b4b2-4ebf40e8b507
-  ws-opts:
-    headers:
-      Host: JoinBedee--VPNCUSTOMIZE.ai
-    path: /@VPNCUSTOMIZE-----@VPNCUSTOMIZE-----@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560
-- client-fingerprint: chrome
-  name: 29|US_speednode_0047
-  network: ws
-  port: 443
-  server: 172.66.44.109
-  servername: meti-u9d.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1187ba87-8ebc-4a07-aa89-b331ed2cb356
-  ws-opts:
-    headers:
-      Host: meti-u9d.pages.dev
-    path: /Telegram-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm/?ed=2048
 - client-fingerprint: random
-  name: 29|US_speednode_0021
-  network: ws
-  port: 443
-  server: 104.24.49.64
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 29|US_speednode_0022
-  network: ws
-  port: 443
-  server: 172.66.44.223
-  servername: cfpage-39t.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba5ce00-09e4-4fce-8d26-35db5b4e38d4
-  ws-opts:
-    headers:
-      Host: cfpage-39t.pages.dev
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- name: 29|US_speednode_0023
-  network: ws
-  port: 443
-  server: 108.162.195.205
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- alpn:
-  - http/1.1
-  client-fingerprint: randomized
-  name: 29|US_speednode_0033
-  network: ws
-  port: 443
-  server: 172.66.44.195
-  servername: 23sPT.pAGEs.dEV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: 23spt.pages.dev
-    path: /JOIN-FILTERK0SH/?ed=2048
-- client-fingerprint: randomized
-  name: 29|US_speednode_0025
-  network: ws
-  port: 80
-  server: 167.82.85.155
-  servername: teleirani.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 87867aff-8709-4463-84ca-99ed550b175d
-  ws-opts:
-    headers:
-      Host: teleirani.ir
-    path: /?ed=2048
-- name: 29|US_speednode_0027
-  network: ws
-  port: 443
-  server: 162.159.44.192
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- name: 29|US_speednode_0028
-  network: ws
-  port: 443
-  server: 172.67.79.211
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- client-fingerprint: random
-  name: 29|US_speednode_0029
-  network: ws
-  port: 443
-  server: 172.64.160.120
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|US_speednode_0030
-  network: ws
-  port: 443
-  server: 162.159.44.205
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- client-fingerprint: randomized
-  name: 29|US_speednode_0031
-  network: ws
-  port: 443
-  server: 151.101.2.228
-  servername: hajlab.ucdavis.edu
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82409acf-abb1-4f97-b4b2-4ebf40e8b507
-  ws-opts:
-    headers:
-      Host: JoinBedee--VPNCUSTOMIZE.ai
-    path: /@VPNCUSTOMIZE-----@VPNCUSTOMIZE-----@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560
-- client-fingerprint: randomized
-  name: 29|US_speednode_0032
-  network: ws
-  port: 443
-  server: 151.101.130.228
-  servername: hajlab.ucdavis.edu
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82409acf-abb1-4f97-b4b2-4ebf40e8b507
-  ws-opts:
-    headers:
-      Host: JoinBedee--VPNCUSTOMIZE.ai
-    path: /@VPNCUSTOMIZE-----@VPNCUSTOMIZE-----@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560
-- alpn:
-  - http/1.1
-  client-fingerprint: randomized
-  name: 29|US_speednode_0034
-  network: ws
-  port: 443
-  server: 172.66.47.61
-  servername: 23sPT.pAGEs.dEV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: 23spt.pages.dev
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- name: 29|US_speednode_0035
-  network: ws
-  port: 443
-  server: 104.26.12.54
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- client-fingerprint: chrome
-  name: 29|US_speednode_0036
-  network: ws
-  port: 443
-  server: 172.66.47.147
-  servername: meti-u9d.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1187ba87-8ebc-4a07-aa89-b331ed2cb356
-  ws-opts:
-    headers:
-      Host: meti-u9d.pages.dev
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- name: 29|US_speednode_0044
-  network: ws
-  port: 443
-  server: 172.66.47.23
-  servername: aksnmaioas.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38720105-063f-40f5-a5eb-f3198b9b617d
-  ws-opts:
-    headers:
-      Host: aksnmaioas.pages.dev
-    path: /Telegram-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm/?ed=2048
-- name: 29|US_speednode_0038
-  network: ws
-  port: 443
-  server: 104.21.64.10
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- client-fingerprint: random
-  name: 29|US_speednode_0039
-  network: ws
-  port: 443
-  server: 188.114.97.158
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|US_speednode_0040
-  network: ws
-  port: 443
-  server: 172.64.35.154
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- client-fingerprint: random
-  name: 29|US_speednode_0041
+  name: 29|US_speednode_0063
   network: ws
   port: 443
   server: 188.114.96.128
@@ -2477,147 +2194,54 @@ proxies:
   ws-opts:
     headers:
       Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: 29|US_speednode_0042
-  network: ws
-  port: 2083
-  server: 104.18.39.232
-  servername: ArGodev11222.PaGes.Dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: argodev11222.pages.dev
-    path: /iEKjUnufUjeTiIrt?ed=2560
-- cipher: rc4-md5
-  name: 29|US_speednode_0043
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 79.110.53.169
-  type: ss
-- name: 29|US_speednode_0045
-  network: ws
-  port: 443
-  server: 104.22.73.111
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- name: 29|US_speednode_0046
-  network: ws
-  port: 443
-  server: 172.67.68.157
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- name: 29|US_speednode_0048
-  network: ws
-  port: 443
-  server: 108.162.195.161
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- client-fingerprint: randomized
-  name: 29|US_speednode_0049
-  network: ws
-  port: 443
-  server: 172.67.214.246
-  servername: 1223-9ux.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6285e567-0c25-4ce2-a2fa-80517c1345e1
-  ws-opts:
-    headers:
-      Host: 1223-9ux.pages.dev
-    path: /?ed=2048
-- name: 29|US_speednode_0050
-  network: ws
-  port: 443
-  server: 162.159.44.154
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- name: 29|US_speednode_0051
-  network: ws
-  port: 443
-  server: 173.245.58.51
-  servername: dabF5Ca6.dE1-1nD.PaGeS.dEv
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9902fc94-31f9-4afe-b37a-82f5790b3d2a
-  ws-opts:
-    headers:
-      Host: dabF5Ca6.dE1-1nD.PaGeS.dEv
     path: /
-- name: 29|US_speednode_0052
+- client-fingerprint: random
+  name: 29|US_speednode_0062
   network: ws
   port: 443
-  server: 104.26.13.54
-  servername: freedom-1rj.pages.dev
+  server: 188.114.97.158
+  servername: lhxt.xiaomi.win
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
   ws-opts:
     headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
-- client-fingerprint: randomized
-  name: 29|US_speednode_0053
-  network: ws
-  port: 2096
-  server: 172.67.214.246
-  servername: 1223-9ux.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6285e567-0c25-4ce2-a2fa-80517c1345e1
-  ws-opts:
-    headers:
-      Host: 1223-9ux.pages.dev
-    path: /Telegram@Linkvws?ed=2048
+      Host: lhxt.xiaomi.win
+    path: /
 - client-fingerprint: random
-  name: 29|US_speednode_0054
+  name: 29|US_speednode_0065
+  network: ws
+  port: 443
+  server: 104.24.49.64
+  servername: lhxt.xiaomi.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+  ws-opts:
+    headers:
+      Host: lhxt.xiaomi.win
+    path: /
+- client-fingerprint: chrome
+  name: 29|US_speednode_0068
+  network: ws
+  port: 443
+  server: 172.64.160.120
+  servername: lhxt.xiaomi.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+  ws-opts:
+    headers:
+      Host: lhxt.xiaomi.win
+    path: /?ed=2560fp=random
+- client-fingerprint: chrome
+  name: 29|US_speednode_0069
   network: ws
   port: 443
   server: 104.16.59.58
@@ -2630,9 +2254,9 @@ proxies:
   ws-opts:
     headers:
       Host: lhxt.xiaomi.win
-    path: /?ed=2560
+    path: /?ed=2560fp=random
 - client-fingerprint: random
-  name: 29|US_speednode_0055
+  name: 29|US_speednode_0030
   network: ws
   port: 443
   server: 104.16.60.155
@@ -2646,64 +2270,207 @@ proxies:
     headers:
       Host: lhxt.xiaomi.win
     path: /?ed=2560
-- client-fingerprint: randomized
-  name: 29|US_speednode_0056
+- client-fingerprint: random
+  name: 29|US_speednode_0037
   network: ws
   port: 443
-  server: 104.18.93.27
-  servername: mahdiv2.pages.dev
+  server: 104.16.123.68
+  servername: lhxt.xiaomi.win
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 0d836bdb-adbc-4863-8c56-dc662e7f6919
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
   ws-opts:
     headers:
-      Host: mahdiv2.pages.dev
-    path: /?ed=2048
-- name: 29|US_speednode_0057
+      Host: lhxt.xiaomi.win
+    path: /?ed=2560fp=random
+- grpc-opts:
+    grpc-mode: multi
+    grpc-service-name: pweo5ty89hinsgdiulo
+  name: 29|US_speednode_0032
+  network: grpc
+  port: 443
+  server: us7.998998.best
+  servername: server31.998877.best
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
+- client-fingerprint: random
+  name: 29|US_speednode_0033
   network: ws
-  port: 80
-  server: speedtest.net
-  servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+  port: 443
+  server: 104.24.186.216
+  servername: lhxt.xiaomi.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+  ws-opts:
+    headers:
+      Host: lhxt.xiaomi.win
+    path: /?ed=2560
+- name: 29|US_speednode_0034
+  network: ws
+  port: 8443
+  server: us6.998998.best
+  servername: server39.998877.best
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
+  ws-opts:
+    headers:
+      Host: server39.998877.best
+    path: /drtgoiuy/fd?ed=2560
+- name: 29|US_speednode_0035
+  network: ws
+  port: 2052
+  server: 104.17.147.22
+  servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
-  uuid: 4108d6ca-bcb5-46c8-9347-8cd7f2ee245a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
-- name: 29|US_speednode_0058
-  network: ws
-  port: 443
-  server: 104.19.173.68
-  servername: freedom-1rj.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
-  ws-opts:
-    headers:
-      Host: freedom-1rj.pages.dev
-    path: /freedom-1rj.pages.dev/?ed=2560
+      Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+    path: /WG9SqpThFFMyTenz?ed=2560
 - alterId: 0
   cipher: auto
-  name: 29|US_speednode_0059
+  name: 29|US_speednode_0036
   network: ws
-  port: 80
-  server: upos-sz-mirrorcf1ov.bilivideo.com
+  port: 443
+  server: us16.998998.best
+  servername: server9.998877.best
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 74133cf5-3e95-4f79-8379-7977f94c493a
+  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
   ws-opts:
     headers:
-      Host: argo9.zjccc.nyc.mn
-    path: /74133cf5-3e95-4f79-8379-7977f94c493a-vm?ed=2048
-- name: 29|US_speednode_0060
+      Host: server9.998877.best
+    path: /drtyhiknu/kf/sgi
+- alterId: 0
+  cipher: auto
+  name: 29|US_speednode_0038
+  network: ws
+  port: 443
+  server: us19.998998.best
+  servername: server2-1.998877.best
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
+  ws-opts:
+    headers:
+      Host: server2.998877.best
+    path: /setfdg/sdfg/sgi?ed=2560
+- name: 29|US_speednode_0039
+  network: ws
+  port: 2082
+  server: 104.18.14.19
+  servername: 13tg.jpl8xmqb.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
+  ws-opts:
+    headers:
+      Host: 13tg.jpl8xmqb.workers.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 29|US_speednode_0066
+  network: ws
+  port: 443
+  server: 104.16.250.188
+  servername: lhxt.xiaomi.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+  ws-opts:
+    headers:
+      Host: lhxt.xiaomi.win
+    path: /?ed=2560fp=random
+- name: 29|US_speednode_0041
+  network: ws
+  port: 443
+  server: 199.232.125.43
+  servername: ELI-V2-RAY.COM
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ec1540bf-39b1-5901-bc00-4aa9c81e27af
+  ws-opts:
+    headers:
+      Host: ELI-V2-RAY.COM
+    path: /
+- name: 29|US_speednode_0043
+  network: ws
+  port: 2086
+  server: 104.21.64.1
+  servername: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 7320522d-56c1-4e35-9fa7-88a151d76828
+  ws-opts:
+    headers:
+      Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
+    path: /DdAtLiofda1FCcda?ed=2560
+- name: 29|US_speednode_0044
+  network: tcp
+  port: 443
+  server: 47.251.95.178
+  servername: 147135001195.sec22org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
+- client-fingerprint: random
+  name: 29|US_speednode_0045
+  network: ws
+  port: 443
+  server: 104.24.139.27
+  servername: lhxt.xiaomi.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+  ws-opts:
+    headers:
+      Host: lhxt.xiaomi.win
+    path: /?ed=2560
+- name: 29|US_speednode_0047
+  network: ws
+  port: 8880
+  server: 216.24.57.130
+  servername: mohsenfitshr.wibibin259.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1b6ae0f5-01dc-4b96-bca9-31c672dcf0aa
+  ws-opts:
+    headers:
+      Host: mohsenfitshr.wibibin259.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- client-fingerprint: random
+  name: 29|US_speednode_0048
+  network: ws
+  port: 443
+  server: 104.24.136.104
+  servername: lhxt.xiaomi.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+  ws-opts:
+    headers:
+      Host: lhxt.xiaomi.win
+    path: /?ed=2560
+- name: 29|US_speednode_0049
   network: ws
   port: 443
   server: 151.101.2.133
@@ -2717,3 +2484,242 @@ proxies:
     headers:
       Host: Eiv2ray.Net
     path: /Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray?ed=2096
+- name: 29|US_speednode_0050
+  network: ws
+  port: 80
+  server: 104.16.46.27
+  servername: cold-snowflake-4912-ppal03.rarenok889.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 98f9fb8e-ac0c-4a54-80ff-dcce095d9fbd
+  ws-opts:
+    headers:
+      Host: cold-snowflake-4912-ppal03.rarenok889.workers.dev
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 29|US_speednode_0051
+  network: ws
+  port: 80
+  server: upos-sz-mirrorcf1ov.bilivideo.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 74133cf5-3e95-4f79-8379-7977f94c493a
+  ws-opts:
+    headers:
+      Host: argo9.zjccc.nyc.mn
+    path: /74133cf5-3e95-4f79-8379-7977f94c493a-vm?ed=2048
+- name: 29|US_speednode_0052
+  network: ws
+  port: 8880
+  server: 172.67.195.126
+  servername: falcunargo-telegram.384f2ed785.workers.Dev
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 44ab0683-1a75-4859-88ce-ef9ffea53c91
+  ws-opts:
+    headers:
+      Host: falcunargo-telegram.384f2ed785.workers.Dev
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: 29|US_speednode_0053
+  network: tcp
+  port: 443
+  server: 147.135.1.195
+  servername: 147135001195.sec22org.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
+- alpn:
+  - h2
+  - http/1.1
+  name: 29|US_speednode_0054
+  network: tcp
+  port: 443
+  server: 147.135.4.2
+  servername: 147135004002.sec20org.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+- alpn:
+  - h2
+  - http/1.1
+  name: 29|US_speednode_0055
+  network: tcp
+  port: 443
+  server: 147135004002.sec20org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+- name: 29|US_speednode_0056
+  network: ws
+  port: 2086
+  server: 104.18.10.128
+  servername: v2raynselling.kir-rasol-kir.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d345d11e-c424-4583-b36e-527ab1f0afa4
+  ws-opts:
+    headers:
+      Host: v2raynselling.kir-rasol-kir.workers.dev
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: 29|US_speednode_0057
+  network: tcp
+  port: 443
+  server: 147135001195.sec22org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
+- cipher: aes-128-cfb
+  name: 29|US_speednode_0058
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  name: 29|US_speednode_0072
+  network: tcp
+  port: 443
+  server: 135.148.177.196
+  servername: 147135001178.sec22org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+- cipher: aes-128-cfb
+  name: 29|US_speednode_0060
+  obfs: plain
+  obfs-param: ''
+  password: shadowsocks
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 184.170.241.194
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 29|US_speednode_0064
+  network: ws
+  port: 8443
+  server: 104.21.13.222
+  servername: lax2.ibgfw.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- name: 29|US_speednode_0067
+  network: ws
+  port: 80
+  server: speedtest.net
+  servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1ad59ede-fb5b-470a-a1b9-4867e2560576
+  ws-opts:
+    headers:
+      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+- alterId: 0
+  cipher: auto
+  name: 29|US_speednode_0070
+  network: ws
+  port: 8443
+  server: 172.67.133.78
+  servername: lax2.ibgfw.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- name: 29|US_speednode_0071
+  network: ws
+  port: 443
+  server: 151.101.66.228
+  servername: pscresearch.faculty.ucdavis.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7f72b445-2293-416b-b036-d6cd2fc7fa39
+  ws-opts:
+    headers:
+      Host: jbtvtcrcd.com
+    path: /ws/?ed=2048
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|US_speednode_0073
+  network: ws
+  port: 443
+  server: 172.67.160.44
+  servername: de.bolagskontaktstockholm.se
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
+  ws-opts:
+    headers:
+      Host: de.bolagskontaktstockholm.se
+    path: /ws
+- name: 29|US_speednode_0074
+  network: ws
+  port: 80
+  server: de.fastly80-3.hosting-ip.com
+  servername: leader-of-www.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: ea4019ed-aa5f-43eb-a967-f8aaf6ded375
+  ws-opts:
+    headers:
+      Host: leader-of-www.com
+    path: /@custom_config?ed=2048
+- name: 29|US_speednode_0075
+  network: ws
+  port: 80
+  server: NUFiLTER.fastly80-2.hosting-ip.com
+  servername: 6.fidsxss11x.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 36a9fad9-3b94-4cf1-856d-81b484d91cc5
+  ws-opts:
+    headers:
+      Host: 6.fidsxss11x.ir
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+- name: 29|US_speednode_0076
+  network: ws
+  port: 80
+  server: AT3.fast.hosting-ip.com
+  servername: kazemi211zerofun.coM
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: ff45f39c-0055-48c5-962e-c2684e613e75
+  ws-opts:
+    headers:
+      Host: kazemi211zerofun.coM
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
