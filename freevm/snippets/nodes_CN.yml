@@ -16,31 +16,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
-  port: '46602'
-  server: 183.236.51.23
+  port: '34493'
+  server: 120.198.71.214
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '51704'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
+    Host: 120.198.71.214
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -123,6 +109,19 @@ proxies:
   network: ws
   port: '8443'
   server: 156.225.72.211
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #3'
+  network: ws
+  port: '8443'
+  server: 27.50.48.188
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
