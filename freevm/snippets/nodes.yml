@@ -528,10 +528,72 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,21|🇦🇿 _阿塞拜疆
+  name: 11,21|🇺🇦 _乌克兰
   network: ws
   port: '8443'
-  server: 5.10.246.166
+  server: 31.43.179.105
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇪🇸 _西班牙 #3'
+  network: ws
+  port: '8443'
+  server: 194.59.5.221
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  10 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇧🇬 _保加利亚 #1'
+  network: ws
+  port: '8443'
+  server: 185.176.26.209
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 64
+  cipher: auto
+  name: 11|广东省广州市 移动
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇩🇪 _德国
+  network: ws
+  port: '8443'
+  server: 77.37.33.244
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -555,138 +617,10 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '11,21|🇬🇧 _英国 #2'
+  name: 11,21|🇷🇺 _俄罗斯
   network: ws
   port: '8443'
-  server: 188.244.122.249
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 11|浙江省宁波市 移动
-  network: tcp
-  port: 15074
-  server: 15074.kuaiyin02.top
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,21|_中国 #2'
-  network: ws
-  port: '8443'
-  server: 156.225.72.211
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇫🇷 _法国 #4'
-  network: ws
-  port: '443'
-  server: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇳🇱 _荷兰 #2'
-  network: ws
-  port: '8443'
-  server: 188.42.145.9
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇧🇬 _保加利亚 #1'
-  network: ws
-  port: '8443'
-  server: 185.176.26.209
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: '11,21|_中国 #5'
-  network: ws
-  port: '8443'
-  server: 45.205.0.22
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: '11,21|_中国 #3'
-  network: ws
-  port: '8443'
-  server: 27.50.48.188
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇱🇹 _立陶宛 #1'
-  network: ws
-  port: '8443'
-  server: 89.116.161.240
+  server: 94.247.142.198
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -710,10 +644,23 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '11,21|🇮🇳 _印度 #1'
+  name: '11,21|🇬🇧 _英国 #3'
+  network: ws
+  port: '443'
+  server: 158.180.228.226
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇱🇹 _立陶宛 #1'
   network: ws
   port: '8443'
-  server: 14.102.229.82
+  server: 89.116.161.240
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -723,50 +670,63 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: '11,21|🇱🇺 _卢森堡 #2'
+  name: '11,21|🇫🇷 _法国 #4'
   network: ws
-  port: '8443'
-  server: 94.242.230.119
+  port: '443'
+  server: irvideo.cfd
   tls: true
   type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
   ws-opts:
     headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11,21|🇷🇺 _俄罗斯
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
-  port: '8443'
-  server: 94.247.142.198
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  3 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
+  port: 8880
+  server: 104.21.82.183
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: sahand.serveminecraft.net
-    path: /@forwardv2ray
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #7'
+  name: '11,21|🇱🇹 _立陶宛 #3'
   network: ws
   port: '8443'
-  server: 167.68.5.215
+  server: 89.116.46.96
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 64
+  cipher: auto
+  name: 11|美国 V2CROSS.COM
+  network: ws
+  port: 38004
+  server: 199.180.101.29
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1734770577466
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇪🇸 _西班牙 #1'
+  network: ws
+  port: '8443'
+  server: 185.251.83.248
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -776,22 +736,9 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: '11,21|🇳🇱 _荷兰 #3'
+  name: '13,21|🇺🇸 美国 CloudFlare节点 #3'
   network: ws
   port: '8443'
-  server: 45.159.218.144
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 13,21,25|0|-https://t.me/MrXbin-51
-  network: ws
-  port: 8443
   server: 172.67.133.78
   servername: lax2.ibgfw.top
   tls: true
@@ -818,6 +765,20 @@ proxies:
     headers:
       Host: live.bilibili.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 13,20,21,25,27|香港7|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 13,20,21,25,27|新加坡2|@ripaojiedian
@@ -877,6 +838,20 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
+  name: '16,28|github.com/freefq - 印度  3 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 8080
@@ -887,6 +862,20 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -902,34 +891,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  10 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 16,21,28|美国测试节点
@@ -2451,19 +2412,6 @@ proxies:
     headers:
       Host: foxlux.fovi.tk
     path: /eisasqa
-- alterId: 0
-  cipher: auto
-  name: '21|🇬🇧 _英国 #3'
-  network: ws
-  port: '443'
-  server: 158.180.228.226
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
 - alterId: 64
   cipher: auto
   name: 21|🇺🇸 美国 华盛顿Cogent通信公司
@@ -2752,6 +2700,19 @@ proxies:
     path: /dyajvws
 - alterId: 0
   cipher: auto
+  name: '21|🇮🇳 _印度 #1'
+  network: ws
+  port: '8443'
+  server: 14.102.229.82
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
   name: '21|🇫🇷 _法国 #1'
   network: ws
   port: '8443'
@@ -2769,32 +2730,6 @@ proxies:
   network: ws
   port: '8443'
   server: 167.68.42.137
-  tls: true
-  type: vmess
-  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
-  ws-opts:
-    headers:
-      Host: lax2.ibgfw.top
-    path: /dyajvws
-- alterId: 0
-  cipher: auto
-  name: '21|🇪🇸 _西班牙 #1'
-  network: ws
-  port: '8443'
-  server: 185.251.83.248
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇦 _乌克兰
-  network: ws
-  port: '8443'
-  server: 31.43.179.105
   tls: true
   type: vmess
   uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
@@ -2869,10 +2804,10 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: '21|🇱🇹 _立陶宛 #3'
+  name: '21|_中国 #2'
   network: ws
   port: '8443'
-  server: 89.116.46.96
+  server: 156.225.72.211
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -2882,10 +2817,36 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: 21|🇩🇪 _德国
+  name: '21|🇳🇱 _荷兰 #2'
   network: ws
   port: '8443'
-  server: 77.37.33.244
+  server: 188.42.145.9
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #3'
+  network: ws
+  port: '8443'
+  server: 27.50.48.188
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: '21|🇱🇺 _卢森堡 #2'
+  network: ws
+  port: '8443'
+  server: 94.242.230.119
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -2919,6 +2880,19 @@ proxies:
     headers:
       Host: lax2.ibgfw.top
     path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: '21|🇳🇱 _荷兰 #3'
+  network: ws
+  port: '8443'
+  server: 45.159.218.144
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
 - alterId: 0
   cipher: auto
   name: '21|🇱🇹 _立陶宛 #5'
@@ -3051,6 +3025,19 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
+  name: 21|🇦🇿 _阿塞拜疆
+  network: ws
+  port: '8443'
+  server: 5.10.246.166
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
   name: 21|🇮🇹 _意大利
   network: ws
   port: '8443'
@@ -3107,6 +3094,19 @@ proxies:
   network: ws
   port: '8443'
   server: 77.232.140.180
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #7'
+  network: ws
+  port: '8443'
+  server: 167.68.5.215
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -3194,19 +3194,6 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: '21|🇪🇸 _西班牙 #3'
-  network: ws
-  port: '8443'
-  server: 194.59.5.221
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
   name: '21|🇺🇸 _美国 #10'
   network: ws
   port: '8443'
@@ -3224,6 +3211,32 @@ proxies:
   network: ws
   port: '8443'
   server: 104.129.166.53
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: '21|🇬🇧 _英国 #2'
+  network: ws
+  port: '8443'
+  server: 188.244.122.249
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #5'
+  network: ws
+  port: '8443'
+  server: 45.205.0.22
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -3411,6 +3424,19 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 64
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-46
+  network: ws
+  port: 38004
+  server: 199.180.101.29
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.70778598.xyz
+    path: /path/1734770577466
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #20'
