@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,25,26,27|香港3|@ripaojiedian
+  name: 13,21,25,26,27|香港3|@ripaojiedian
   network: ws
   port: '51201'
   server: b.naiun.node-is.green
@@ -18,45 +18,38 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港4|@ripaojiedian
+  name: 13,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '34493'
   server: 120.198.71.214
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
+  name: 13,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '51704'
   server: 183.236.51.23
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 21|🇭🇰 13,14|香港6|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 170.178.186.12
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59477189.xyz
-    path: /path/240811062813
+  client-fingerprint: chrome
+  name: 26,29|US_speednode_0015
+  password: UO2beikcWh
+  port: 33261
+  server: 38.59.245.38
+  skip-cert-verify: true
+  sni: vn.mjt000.com
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 99266723-0802-4ef4-9d6c-4dc84c2ffa08
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
