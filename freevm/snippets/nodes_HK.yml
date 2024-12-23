@@ -1,18 +1,14 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13,21|🇭🇰 13,14|香港3|@ripaojiedian
-  network: ws
-  port: '51201'
-  server: b.naiun.node-is.green
+  name: 13,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
   servername: ''
   tls: false
   type: vmess
-  uuid: 2d570475-a7a6-4242-b733-d5300305b615
-  ws-opts:
-    headers:
-      Host: live.bilibili.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
@@ -29,6 +25,20 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
+  name: 13,20,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
   name: 13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '46602'
@@ -41,16 +51,19 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
+  name: 21|🇭🇰 13,14|香港3|@ripaojiedian
+  network: ws
+  port: '51201'
+  server: b.naiun.node-is.green
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2d570475-a7a6-4242-b733-d5300305b615
+  ws-opts:
+    headers:
+      Host: live.bilibili.com
+    path: /
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 26|🇭🇰 香港6|@ripaojiedian
