@@ -526,59 +526,96 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  2 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港4|@ripaojiedian
+  name: 11,13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
-  port: '34493'
-  server: 120.198.71.214
+  port: '51704'
+  server: 183.236.51.23
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.198.71.214
+    Host: 183.236.51.23
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 11|俄罗斯 V2CROSS.COM
+  name: 11,16,21,28|美国测试节点
   network: ws
-  port: '16712'
-  server: 194.87.69.244
-  tls: false
-  type: vmess
-  uuid: 900c898a-c311-47b9-abf0-40de188643a7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|俄罗斯 喀山JustHost
-  network: ws
-  port: 16712
-  server: 46.29.161.224
-  tls: false
-  type: vmess
-  uuid: ce329057-27f0-407b-818a-cda5d1f84601
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11,21|🇺🇸 美国 V2CROSS.COM
-  network: ws
-  port: '38004'
-  server: 199.180.101.29
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   ws-opts:
     headers:
-      Host: ''
-    path: /path/1734770577466
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇫🇷 _法国 #5'
+  network: ws
+  port: '443'
+  server: 163.5.159.231
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇪🇸 _西班牙 #3'
+  network: ws
+  port: '8443'
+  server: 194.59.5.221
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 11|浙江省宁波市 移动
+  network: tcp
+  port: 15002
+  server: 15002.vpdnss.top
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- alterId: 0
+  cipher: auto
+  name: 11|巴西圣保罗 CloudFlare节点
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
+    path: /azumase.ren
 - alterId: 0
   cipher: auto
   name: '13,21|0|--51 #1'
@@ -595,14 +632,11 @@ proxies:
     path: /dyajvws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,21,25,26,27|香港3|@ripaojiedian
+  name: 13,21|🇭🇰 13,14|香港3|@ripaojiedian
   network: ws
   port: '51201'
   server: b.naiun.node-is.green
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 2d570475-a7a6-4242-b733-d5300305b615
@@ -612,17 +646,17 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
-  port: '51704'
-  server: 183.236.51.23
+  port: '34493'
+  server: 120.198.71.214
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
+    Host: 120.198.71.214
   ws-path: /
 - alterId: 64
   cipher: auto
@@ -640,7 +674,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|新加坡2|@ripaojiedian
+  name: '13,20,21|_中国 #6'
   network: tcp
   port: '50792'
   server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
@@ -681,20 +715,6 @@ proxies:
   ws-headers:
     Host: 42.236.73.72
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  2 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 印度  3 #1'
@@ -778,20 +798,6 @@ proxies:
     headers:
       Host: pendar.onthewifi.com
     path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 16,21,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #6'
@@ -1049,11 +1055,11 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 20,26,29|DE_speednode_0003
-  password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
+  password: telegram-id-privatevpns
   port: 4035
   server: 138.201.44.49
   skip-cert-verify: true
-  sni: vn.mjt000.com
+  sni: trojan.burgerip.co.uk
   tfo: false
   tls: false
   type: vmess
@@ -1258,14 +1264,6 @@ proxies:
   port: 8080
   server: 23.251.121.242
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.179.197.216
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   name: 20,29|US_speednode_0026
   password: 14fFPrbezE3HDZzsMOr6
@@ -1350,12 +1348,10 @@ proxies:
     Host: live.bilibili.com
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇹🇼 台湾|@ripaojiedian
+  name: 20|🇳CN-223.113.53.141-186
   password: 5b3f0c6a-7b91-4437-bf4b-008c86e512ed
   port: 30002
   server: gdgs.tarioblink.me
-  tfo: false
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -1366,12 +1362,10 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡3|@ripaojiedian
+  name: 20|🇨🇳CN-223.113.53.141-185
   password: 5b3f0c6a-7b91-4437-bf4b-008c86e512ed
   port: 30001
   server: gdgs.tarioblink.me
-  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -1392,14 +1386,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 52.68.44.53
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.230.239.136
   tfo: false
   type: ss
 - alterId: 0
@@ -2205,19 +2191,6 @@ proxies:
     path: /dyajvws
 - alterId: 0
   cipher: auto
-  name: '21|🇪🇸 _西班牙 #3'
-  network: ws
-  port: '8443'
-  server: 194.59.5.221
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
   name: '21|🇧🇬 _保加利亚 #1'
   network: ws
   port: '8443'
@@ -2307,6 +2280,19 @@ proxies:
     headers:
       Host: lax1.ibgfw.top
     path: /xrenvws
+- alterId: 64
+  cipher: auto
+  name: 21|🇺🇸 美国 V2CROSS.COM
+  network: ws
+  port: '38004'
+  server: 199.180.101.29
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1734770577466
 - alterId: 0
   cipher: auto
   name: '21|🇪🇸 _西班牙 #1'
@@ -3167,19 +3153,6 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: '21|🇫🇷 _法国 #5'
-  network: ws
-  port: '443'
-  server: 163.5.159.231
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
   name: '24|_US__1 #1'
   network: ws
   port: 80
@@ -3295,22 +3268,79 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-46
-  network: ws
-  port: 38004
-  server: 199.180.101.29
-  tls: true
+  name: 25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.70778598.xyz
-    path: /path/1734770577466
+- alterId: 0
+  cipher: auto
+  name: 25,27|台湾|@ripaojiedian
+  network: tcp
+  port: '62506'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea695d03-e64c-4be0-a8ea-6346e286ef60
+- alterId: 0
+  cipher: auto
+  name: 25,27|韩国|@ripaojiedian
+  network: tcp
+  port: '35384'
+  server: 45.94.68.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
 - name: 26,29|HK_speednode_0008
   port: 4000
   server: ftq.ink
   tls: true
   type: http
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 154.197.98.64
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港8|@ripaojiedian
+  password: de6a05b7-6770-46b8-81b5-70675391db6a
+  port: 32001
+  server: vmvmvm123.jmvks.cn
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本2|@ripaojiedian
+  password: de6a05b7-6770-46b8-81b5-70675391db6a
+  port: 32002
+  server: vmvmvm123.jmvks.cn
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.181.162.137
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.238.219.226
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #20'
