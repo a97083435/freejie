@@ -528,34 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  2 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
   name: 11|美国 CloudFlare节点
-  network: ws
-  port: 8080
-  server: de-new01.daluquan.top
-  tls: false
-  type: vmess
-  uuid: 51508ae4-9176-41d6-877a-0e64762c4478
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
   network: ws
   port: 8880
   server: 104.16.61.8
@@ -568,10 +541,10 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 2086
-  server: 104.18.62.204
+  port: 2052
+  server: 104.16.61.8
   tls: false
   type: vmess
   uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
@@ -581,59 +554,37 @@ proxies:
     path: /afrhms07.xfixedfloat.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
-  port: 443
-  server: us16.998998.best
-  tls: true
-  type: vmess
-  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
-  ws-opts:
-    headers:
-      Host: server9.998877.best
-    path: /drtyhiknu/kf/sgi
-- alterId: 64
-  cipher: auto
-  name: 11,20,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11,13,25,27|台湾|@ripaojiedian
-  network: tcp
-  port: '62506'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  port: '8880'
+  server: 104.16.60.8
   servername: ''
   tls: false
   type: vmess
-  uuid: ea695d03-e64c-4be0-a8ea-6346e286ef60
-- alterId: 0
-  cipher: auto
-  name: '11,28|🇺🇸_US_美国 #32'
-  network: ws
-  port: 443
-  server: hms082.gwdef.sbs
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
   ws-opts:
     headers:
-      Host: gwdef.sbs
-    path: /linkws
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: '11,21|🇸🇮 _斯洛文尼亚 #2'
+  name: 11|西班牙 V2CROSS.COM
+  network: ws
+  port: 443
+  server: 149.7.16.248
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vk.com
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '11,21|_中国 #2'
   network: ws
   port: '8443'
-  server: 92.53.188.185
+  server: 156.225.72.211
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -643,30 +594,20 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
+  name: 11|俄罗斯 喀山JustHost
   network: ws
-  port: 443
-  server: cf.fovi.tk
-  tls: true
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxlux.fovi.tk
-    path: /eisasqa
-- alterId: 64
-  cipher: auto
-  name: 13,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
+  port: 16712
+  server: 46.29.161.224
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 0aa72e29-a1fe-4770-a463-0bfa97e7dd33
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港4|@ripaojiedian
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '34493'
   server: 120.198.71.214
@@ -678,6 +619,16 @@ proxies:
   ws-headers:
     Host: 120.198.71.214
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 13,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港5|@ripaojiedian
@@ -706,6 +657,16 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 13,25,27|台湾|@ripaojiedian
+  network: tcp
+  port: '62506'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea695d03-e64c-4be0-a8ea-6346e286ef60
 - alterId: 0
   cipher: auto
   name: 13,25,27|韩国|@ripaojiedian
@@ -745,6 +706,20 @@ proxies:
   ws-headers:
     Host: 42.236.73.72
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '16,28|github.com/freefq - 印度  2 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 印度  3 #1'
@@ -1032,7 +1007,7 @@ proxies:
   server: 51.178.87.37
   type: ss
 - cipher: aes-128-gcm
-  name: 20,29|GB_speednode_0006
+  name: 20|🇧GB-212.102.53.193-181
   password: shadowsocks
   port: 443
   server: 212.102.53.193
@@ -1082,19 +1057,33 @@ proxies:
   ws-headers:
     Host: lax1.ibgfw.top
   ws-path: /xrenvws
-- alterId: 0
+- alterId: 64
+  cipher: auto
+  name: 20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 20,26,29|DE_speednode_0003
-  password: telegram-id-privatevpns
-  port: 4035
-  server: 138.201.44.49
+  name: 20,26,29|US_speednode_0014
+  password: 71409d3e488548e8bb076d229778f008
+  port: 443
+  server: jobsfortheworldtoday.com
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   tfo: false
   tls: false
-  type: vmess
-  uuid: 9398b3da-690f-4648-abb7-9c4118449159
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   name: 20|🇳VN-160.19.78.75-189
   password: Nk9asglDzHzjktVzTkvhaA
@@ -1284,7 +1273,7 @@ proxies:
   server: 43.203.141.93
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20,29|IN_speednode_0009
+  name: 20|🇳IN-64.227.183.64-213
   password: 2S39h4RMyPdGcfcltg1rwD
   port: 55305
   server: 64.227.183.64
@@ -1296,12 +1285,11 @@ proxies:
   server: 23.251.121.242
   type: ss
 - cipher: rc4-md5
-  name: 20,29|US_speednode_0026
+  name: 20|🇺🇸US-79.110.53.169-067
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 79.110.53.169
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 20|🇸US-38.114.114.77-191
   password: KixLvKzwjekG00rm
@@ -1347,7 +1335,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-128-gcm
-  name: 20,29|NL_speednode_0010
+  name: 20|🇳🇱NL-149.34.244.82-210
   password: shadowsocks
   port: 443
   server: 149.34.244.82
@@ -2742,19 +2730,6 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #2'
-  network: ws
-  port: '8443'
-  server: 156.225.72.211
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
   name: '21|🇳🇱 _荷兰 #2'
   network: ws
   port: '8443'
@@ -2915,6 +2890,19 @@ proxies:
   network: ws
   port: '8443'
   server: 89.116.180.69
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: '21|🇸🇮 _斯洛文尼亚 #2'
+  network: ws
+  port: '8443'
+  server: 92.53.188.185
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -3349,7 +3337,7 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- name: 26,29|HK_speednode_0008
+- name: 26,29|HK_speednode_0010
   port: 4000
   server: ftq.ink
   tls: true
@@ -3409,7 +3397,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #5'
+  name: '28|美国 CloudFlare节点 #3'
   network: ws
   port: '80'
   server: 104.21.224.8
@@ -3543,7 +3531,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #6'
+  name: '28|美国 CloudFlare节点 #4'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -3557,7 +3545,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #7'
+  name: '28|美国 CloudFlare节点 #5'
   network: ws
   port: 80
   server: 104.21.224.129
@@ -3570,7 +3558,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #8'
+  name: '28|美国 CloudFlare节点 #6'
   network: ws
   port: '80'
   server: 104.21.230.53
@@ -3598,7 +3586,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #9'
+  name: '28|美国 CloudFlare节点 #7'
   network: ws
   port: 80
   server: 104.21.224.56
@@ -3626,7 +3614,7 @@ proxies:
     path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #10'
+  name: '28|美国 CloudFlare节点 #8'
   network: ws
   port: '80'
   server: 104.21.235.76
@@ -3652,7 +3640,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #11'
+  name: '28|美国 CloudFlare节点 #9'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -3760,7 +3748,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #13'
+  name: '28|美国 CloudFlare节点 #11'
   network: ws
   port: 80
   server: 104.21.224.24
@@ -3963,7 +3951,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #15'
+  name: '28|美国 CloudFlare节点 #13'
   network: ws
   port: 80
   server: 104.21.238.90
@@ -3990,7 +3978,7 @@ proxies:
     path: /CAT
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #16'
+  name: '28|美国 CloudFlare节点 #14'
   network: ws
   port: 80
   server: 104.21.237.88
@@ -4017,7 +4005,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #17'
+  name: '28|美国 CloudFlare节点 #15'
   network: ws
   port: 80
   server: 104.21.224.157
@@ -4040,7 +4028,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #18'
+  name: '28|美国 CloudFlare节点 #16'
   network: ws
   port: '80'
   server: 104.21.237.65
@@ -4081,7 +4069,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #19'
+  name: '28|美国 CloudFlare节点 #17'
   network: ws
   port: 80
   server: 104.21.221.135
@@ -4109,7 +4097,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #20'
+  name: '28|美国 CloudFlare节点 #18'
   network: ws
   port: 80
   server: 104.21.237.87
@@ -4184,7 +4172,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #22'
+  name: '28|美国 CloudFlare节点 #20'
   network: ws
   port: 80
   server: 104.21.230.31
@@ -4212,7 +4200,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #23'
+  name: '28|美国 CloudFlare节点 #21'
   network: ws
   port: '80'
   server: 104.21.224.23
@@ -4248,7 +4236,7 @@ proxies:
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #24'
+  name: '28|美国 CloudFlare节点 #22'
   network: ws
   port: 80
   server: 104.21.239.76
@@ -4315,7 +4303,7 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #25'
+  name: '28|美国 CloudFlare节点 #23'
   network: ws
   port: 80
   server: 104.21.228.42
@@ -4329,7 +4317,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #26'
+  name: '28|美国 CloudFlare节点 #24'
   network: ws
   port: '80'
   server: 104.21.234.74
@@ -4446,7 +4434,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #27'
+  name: '28|美国 CloudFlare节点 #25'
   network: ws
   port: '80'
   server: 104.21.230.50
@@ -4516,7 +4504,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #28'
+  name: '28|美国 CloudFlare节点 #26'
   network: ws
   port: '80'
   server: 104.21.228.40
@@ -4543,7 +4531,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #29'
+  name: '28|美国 CloudFlare节点 #27'
   network: ws
   port: '80'
   server: 104.21.228.41
@@ -4556,7 +4544,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #30'
+  name: '28|美国 CloudFlare节点 #28'
   network: ws
   port: 80
   server: 104.21.234.72
@@ -4584,7 +4572,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #31'
+  name: '28|美国 CloudFlare节点 #29'
   network: ws
   port: '80'
   server: 104.21.232.63
@@ -4597,7 +4585,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #32'
+  name: '28|美国 CloudFlare节点 #30'
   network: ws
   port: 80
   server: 104.21.221.95
@@ -4689,7 +4677,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #33'
+  name: '28|美国 CloudFlare节点 #31'
   network: ws
   port: 80
   server: 104.21.224.16
@@ -4715,7 +4703,7 @@ proxies:
     path: /CAT
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #34'
+  name: '28|美国 CloudFlare节点 #32'
   network: ws
   port: 80
   server: 104.21.224.174
@@ -4729,7 +4717,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #35'
+  name: '28|美国 CloudFlare节点 #33'
   network: ws
   port: 80
   server: 104.21.221.215
@@ -4824,7 +4812,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #36'
+  name: '28|美国 CloudFlare节点 #34'
   network: ws
   port: 80
   server: 104.21.226.14
@@ -4874,7 +4862,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #37'
+  name: '28|美国 CloudFlare节点 #35'
   network: ws
   port: 80
   server: 104.21.235.57
@@ -4887,7 +4875,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai08
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #38'
+  name: '28|美国 CloudFlare节点 #36'
   network: ws
   port: 80
   server: 104.21.224.240
@@ -4914,7 +4902,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #39'
+  name: '28|美国 CloudFlare节点 #37'
   network: ws
   port: '80'
   server: 104.21.230.51
@@ -4928,7 +4916,7 @@ proxies:
     path: '/?ed=2048&Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #40'
+  name: '28|美国 CloudFlare节点 #38'
   network: ws
   port: 80
   server: 104.21.231.59
@@ -5019,7 +5007,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #41'
+  name: '28|美国 CloudFlare节点 #39'
   network: ws
   port: 80
   server: 104.21.224.46
@@ -5033,7 +5021,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #42'
+  name: '28|美国 CloudFlare节点 #40'
   network: ws
   port: '80'
   server: 104.21.236.60
@@ -5060,7 +5048,7 @@ proxies:
     path: /fws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #43'
+  name: '28|美国 CloudFlare节点 #41'
   network: ws
   port: '80'
   server: 104.21.238.92
@@ -5084,6 +5072,19 @@ proxies:
     headers:
       Host: championship-bidding-oxygen-brochure.trycloudflare.com
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: '28|🇺🇸_US_美国 #32'
+  network: ws
+  port: 443
+  server: hms082.gwdef.sbs
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
 - alterId: 64
   cipher: auto
   name: '28|未命名 #3'
@@ -5099,7 +5100,7 @@ proxies:
     path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #44'
+  name: '28|美国 CloudFlare节点 #42'
   network: ws
   port: '80'
   server: 104.21.239.77
@@ -5139,7 +5140,7 @@ proxies:
     path: /github
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #45'
+  name: '28|美国 CloudFlare节点 #43'
   network: ws
   port: 8080
   server: 172.67.143.192
@@ -5163,7 +5164,7 @@ proxies:
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #46'
+  name: '28|美国 CloudFlare节点 #44'
   network: ws
   port: '80'
   server: 104.21.229.26
@@ -5189,7 +5190,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #47'
+  name: '28|美国 CloudFlare节点 #45'
   network: ws
   port: '80'
   server: 104.21.227.15
@@ -5229,7 +5230,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #48'
+  name: '28|美国 CloudFlare节点 #46'
   network: ws
   port: '80'
   server: 104.21.228.20
@@ -5401,7 +5402,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #49'
+  name: '28|美国 CloudFlare节点 #47'
   network: ws
   port: 80
   server: 104.21.231.57
@@ -5415,7 +5416,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #50'
+  name: '28|美国 CloudFlare节点 #48'
   network: ws
   port: '80'
   server: 104.21.229.47
@@ -5450,410 +5451,73 @@ proxies:
     headers:
       Host: tw.appleid.bf
     path: /ws?ed=2048
-- client-fingerprint: random
-  name: 29|CR_speednode_0001
-  network: ws
-  port: 443
-  server: 190.93.246.128
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- http-opts:
-    headers:
-      Host:
-      - Telewebion.com
-    method: GET
-    path:
-    - /
-  name: 29|DE_speednode_0002
-  network: http
-  port: 19984
-  server: 188.245.215.46
-  servername: Telewebion.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 13e15bfe-73f7-4bfe-a386-136451137fc3
-- name: 29|DE_speednode_0004
-  network: ws
-  port: 443
-  server: 212.224.93.93
-  servername: blog.codegethub.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 14ba4514-3846-45c0-aec6-444e5451b95c
-  ws-opts:
-    headers:
-      Host: blog.codegethub.org
-    path: /ws@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel
-- cipher: rc4-md5
-  name: 29|FR_speednode_0005
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 51.158.244.38
-  type: ss
-- name: 29|HK_speednode_0007
-  network: ws
-  port: 443
-  server: 8.218.148.106
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|SG_speednode_0011
-  network: ws
-  port: 443
-  server: 8.222.132.145
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|SG_speednode_0012
-  network: ws
-  port: 443
-  server: 47.245.120.119
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|SG_speednode_0013
-  network: ws
-  port: 443
-  server: 8.222.135.109
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|SG_speednode_0014
-  network: ws
-  port: 443
-  server: 8.219.55.76
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|SG_speednode_0015
-  network: ws
-  port: 443
-  server: 8.219.79.144
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|SG_speednode_0016
-  network: ws
-  port: 443
-  server: 8.219.129.213
-  servername: de.bolagskontaktstockholm.se
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
-  ws-opts:
-    headers:
-      Host: de.bolagskontaktstockholm.se
-    path: /ws
-- name: 29|SG_speednode_0017
-  network: ws
-  port: 443
-  server: 8.222.239.199
-  servername: de.bolagskontaktstockholm.se
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
-  ws-opts:
-    headers:
-      Host: de.bolagskontaktstockholm.se
-    path: /ws
-- name: 29|SG_speednode_0018
-  network: ws
-  port: 443
-  server: 47.245.87.17
-  servername: de.bolagskontaktstockholm.se
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
-  ws-opts:
-    headers:
-      Host: de.bolagskontaktstockholm.se
-    path: /ws
-- name: 29|SG_speednode_0019
-  network: ws
-  port: 443
-  server: 8.222.247.175
-  servername: de.bolagskontaktstockholm.se
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
-  ws-opts:
-    headers:
-      Host: de.bolagskontaktstockholm.se
-    path: /ws
-- name: 29|SG_speednode_0020
-  network: ws
-  port: 443
-  server: 8.222.222.203
-  servername: de.bolagskontaktstockholm.se
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
-  ws-opts:
-    headers:
-      Host: de.bolagskontaktstockholm.se
-    path: /ws
-- name: 29|SG_speednode_0021
-  network: ws
-  port: 443
-  server: 47.245.126.194
-  servername: de.bolagskontaktstockholm.se
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
-  ws-opts:
-    headers:
-      Host: de.bolagskontaktstockholm.se
-    path: /ws
-- name: 29|US_speednode_0022
-  network: ws
-  port: 443
-  server: 104.24.139.27
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- cipher: aes-128-cfb
-  name: 29|US_speednode_0023
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: aes-128-cfb
-  name: 29|US_speednode_0024
-  obfs: plain
-  obfs-param: ''
-  password: shadowsocks
-  port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 184.170.241.194
-  type: ssr
-- client-fingerprint: random
-  name: 29|US_speednode_0025
-  network: ws
-  port: 443
-  server: 172.64.160.120
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  name: 29|US_speednode_0027
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.75.136.21
-  type: ss
-- client-fingerprint: random
-  name: 29|US_speednode_0028
-  network: ws
-  port: 443
-  server: 104.24.186.216
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 29|US_speednode_0029
-  network: ws
-  port: 443
-  server: 104.24.136.104
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 29|US_speednode_0034
-  network: ws
-  port: 443
-  server: 104.24.49.64
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /
-- client-fingerprint: random
-  name: 29|US_speednode_0031
-  network: ws
-  port: 443
-  server: 188.114.97.158
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|US_speednode_0032
-  network: ws
-  port: 8443
-  server: 104.18.38.147
-  servername: server39.998877.best
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
-  ws-opts:
-    headers:
-      Host: server39.998877.best
-    path: /drtgoiuy/fd?ed=2560
-- name: 29|US_speednode_0033
-  network: ws
-  port: 8443
-  server: 172.64.149.109
-  servername: server39.998877.best
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
-  ws-opts:
-    headers:
-      Host: server39.998877.best
-    path: /drtgoiuy/fd?ed=2560
-- client-fingerprint: random
-  name: 29|US_speednode_0035
-  network: ws
-  port: 443
-  server: 104.16.59.58
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560
-- name: 29|US_speednode_0036
-  network: ws
-  port: 443
-  server: 199.232.125.43
-  servername: ELI-V2-RAY.COM
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ec1540bf-39b1-5901-bc00-4aa9c81e27af
-  ws-opts:
-    headers:
-      Host: ELI-V2-RAY.COM
-    path: /
-- cipher: aes-256-gcm
-  name: 29|US_speednode_0037
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 29|US_speednode_0038
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 29|US_speednode_0039
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 38.75.136.21
-  type: ss
-- name: 29|US_speednode_0040
+- name: 29|CH_speednode_0001
   network: ws
   port: 80
-  server: AT3.fast.hosting-ip.com
-  servername: kazemi211zerofun.coM
+  server: 185.18.250.12
+  servername: ana-SErVICe.xAbjCDZ.wORkErs.deV
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: ff45f39c-0055-48c5-962e-c2684e613e75
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: kazemi211zerofun.coM
-    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-- name: 29|US_speednode_0041
+      Host: ana-SErVICe.xAbjCDZ.wORkErs.deV
+    path: /1Y6MN5DFV8zB82Ai?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|DE_speednode_0007
   network: ws
-  port: 8443
-  server: us6.998998.best
-  servername: server39.998877.best
+  port: 443
+  server: 45.63.117.50
+  servername: cpanel3.sassanidempire.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
+  uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
   ws-opts:
     headers:
-      Host: server39.998877.best
-    path: /drtgoiuy/fd?ed=2560
+      Host: cpanel3.sassanidempire.com
+    path: /ws
+- name: 29|HK_speednode_0011
+  port: 4000
+  server: hk9.ftq.ink
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 29|JP_speednode_0012
+  network: ws
+  port: 443
+  server: 4.189.216.218
+  servername: high.work.lzg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4c5f4cf8-b30a-4658-84bb-f0145dd123d4
+  ws-opts:
+    headers:
+      Host: high.work.lzg.me
+    path: /4c5f4cf8-b30a-4658-84bb-f0145dd123d4
+- name: 29|MD_speednode_0013
+  network: tcp
+  port: 443
+  server: 185.235.243.133
+  servername: tr-s.xor-vpn.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 64a1796c-95f8-40e4-9a56-825823212648
+- name: 29|US_speednode_0015
+  network: ws
+  port: 8880
+  server: 216.24.57.130
+  servername: mohsenfitshr.wibibin259.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1b6ae0f5-01dc-4b96-bca9-31c672dcf0aa
+  ws-opts:
+    headers:
+      Host: mohsenfitshr.wibibin259.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560

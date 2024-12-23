@@ -16,17 +16,18 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,20,21|🇨🇳 广东省广州市 移动
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
-  port: '53002'
-  server: 183.236.51.23
+  port: '34493'
+  server: 120.198.71.214
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
+    Host: 120.198.71.214
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -41,6 +42,19 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
 - cipher: chacha20-ietf-poly1305
   name: 20|🇳CN-223.113.53.141-186
   password: 5b3f0c6a-7b91-4437-bf4b-008c86e512ed
@@ -98,19 +112,6 @@ proxies:
     headers:
       Host: lax2.ibgfw.top
     path: /dyajvws
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #2'
-  network: ws
-  port: '8443'
-  server: 156.225.72.211
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
 - alterId: 0
   cipher: auto
   name: '21|_中国 #3'
