@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|台湾|@ripaojiedian
+  name: 13,20,21,25,27|台湾|@ripaojiedian
   network: tcp
   port: '62506'
   server: fiwejniavzoj.xn--fiqs8sjz2bull.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: ea695d03-e64c-4be0-a8ea-6346e286ef60
+  ws-headers:
+    Host: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇹🇼台湾 01

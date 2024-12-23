@@ -16,13 +16,31 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|广东省广州市 移动
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
-  port: '53002'
-  server: 183.236.51.23
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.234.102.229
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -37,15 +55,22 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #1'
-  network: tcp
-  port: '64012'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港8|@ripaojiedian
+  password: de6a05b7-6770-46b8-81b5-70675391db6a
+  port: 32001
+  server: vmvmvm123.jmvks.cn
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本2|@ripaojiedian
+  password: de6a05b7-6770-46b8-81b5-70675391db6a
+  port: 32002
+  server: vmvmvm123.jmvks.cn
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
