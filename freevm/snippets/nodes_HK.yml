@@ -1,20 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '51704'
@@ -26,43 +12,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇰HK-74.119.193.157-038
-  password: MB9JPCHgZtwzQZ2jy3gMrz2fCIjT6M4FJMbfemIc4XCBcplL
-  port: 51348
-  server: 74.119.193.157
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 20,21,29|GB_speednode_0009
-  network: http
-  port: 35384
-  server: 45.94.68.206
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
-  ws-headers:
-    Host: 45.94.68.206
   ws-path: /
 - alterId: 0
   cipher: auto
