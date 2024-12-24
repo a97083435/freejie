@@ -49,6 +49,23 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 20,21,29|GB_speednode_0009
+  network: http
+  port: 35384
+  server: 45.94.68.206
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
+  ws-headers:
+    Host: 45.94.68.206
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
   network: ws
   port: 24101
