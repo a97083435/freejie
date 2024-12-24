@@ -528,74 +528,57 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,13|0|--36
+  name: 11,29|RU_speednode_0020
   network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
+  port: 16712
+  server: 195.58.49.42
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  uuid: 1ded1ec9-7557-4c15-aaac-758bedea64fd
   ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
+    path: /
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 8880
-  server: lamusa.daozhang.site
+  port: 2086
+  server: 104.16.68.38
   tls: false
   type: vmess
-  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
   ws-opts:
     headers:
-      Host: lamusa.daozhang.site
-    path: /?ed=2048
+      Host: rough-wildflower-0b5e.zemel-yesenia1720.workers.dev
+    path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 2082
-  server: 104.16.60.8
+  port: 2052
+  server: 104.16.61.8
   tls: false
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
   ws-opts:
     headers:
-      Host: worker-noisy-paper-fa00.hetoj18200.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
+      Host: free.fnet00.workers.dev
+    path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  2 #1'
+  name: 11,29|RU_speednode_0017
   network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
+  port: 5743
+  server: 195.58.49.86
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182
   ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
+    path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港3|@ripaojiedian
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '52908'
   server: 120.234.102.229
@@ -607,6 +590,33 @@ proxies:
   ws-headers:
     Host: 120.234.102.229
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 13|0|--36
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
@@ -623,9 +633,9 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
-  port: '51704'
+  port: '46602'
   server: 183.236.51.23
   servername: ''
   skip-cert-verify: true
@@ -729,6 +739,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '16,28|github.com/freefq - 印度  2 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 印度  3 #1'
@@ -3889,30 +3913,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|RU_speednode_0017
-  network: ws
-  port: 5743
-  server: 195.58.49.86
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|RU_speednode_0020
-  network: ws
-  port: 16712
-  server: 195.58.49.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1ded1ec9-7557-4c15-aaac-758bedea64fd
   ws-opts:
     path: /
 - alterId: 0
