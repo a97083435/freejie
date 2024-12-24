@@ -237,16 +237,17 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
-  port: 8080
-  server: www.darkroom.lol
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: www.darkroom.lol
+      Host: server26.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -265,6 +266,19 @@ proxies:
   uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
 - alterId: 0
   cipher: auto
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: 8880
@@ -276,20 +290,6 @@ proxies:
   ws-opts:
     headers:
       Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -337,45 +337,59 @@ proxies:
   port: 3913
   server: 144.202.112.106
   type: ss
-- cipher: rc4-md5
-  name: 20|🇺🇸US-107.155.57.11-047
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 20,26,29|VN_speednode_0026
+  password: 25a0ffa0-725c-4d6f-b0d5-c74579753075
+  port: 443
+  server: 103.173.66.155
+  skip-cert-verify: true
+  sni: connectwithemployers.online
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: 20|🇺🇸US-52.32.68.164-048
+  name: 20|🇺🇸US-52.32.68.164-052
   password: amazonskr05
   port: 443
   server: 52.32.68.164
   type: ss
-- cipher: rc4-md5
-  name: 20|🇸US-23.251.121.242-052
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
+- cipher: aes-256-cfb
+  name: 20|🇸US-54.201.174.149-063
+  password: amazonskr05
+  port: 443
+  server: 54.201.174.149
   type: ss
 - cipher: rc4-md5
-  name: 20|🇺🇸US-194.5.215.59-053
+  name: 20|🇸US-79.110.53.169-066
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 79.110.53.169
+  type: ss
+- cipher: rc4-md5
+  name: 20|🇸US-194.5.215.59-067
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 194.5.215.59
   type: ss
 - cipher: rc4-md5
-  name: 20|🇺🇸US-79.110.53.169-055
+  name: 20|🇺🇸US-107.155.57.11-073
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 79.110.53.169
+  server: 107.155.57.11
   type: ss
 - cipher: aes-128-cfb
-  name: 20|🇺🇸US-184.170.241.194-056
+  name: 20|🇺🇸US-184.170.241.194-074
   password: shadowsocks
   port: 443
   server: 184.170.241.194
   type: ss
 - alterId: 64
   cipher: auto
-  name: 20|🇺🇸US-107.167.30.126-059
+  name: 20|🇸US-107.167.30.126-075
   network: ws
   port: 30000
   server: 107.167.30.126
@@ -388,20 +402,7 @@ proxies:
   ws-path: /path/240811062813
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸US-38.150.7.177-061
-  network: ws
-  port: 8049
-  server: us.aik.mom
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 15486dcc-f6e5-411b-acac-d1409375585a
-  ws-headers:
-    Host: tms.dingtalk.com
-  ws-path: /wada12222
-- alterId: 0
-  cipher: auto
-  name: 20|🇺🇸US-149.104.33.113-120
+  name: 20|🇺🇸US-149.104.32.100-138
   network: ws
   port: 443
   server: ccs.kozow.com
@@ -412,19 +413,6 @@ proxies:
   ws-headers:
     Host: ccs.kozow.com
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸 美国 CloudFlare节点
-  network: ws
-  port: '80'
-  server: 104.25.0.0
-  tls: false
-  type: vmess
-  uuid: 13ff895d-fa8a-4d59-fe92-f404e3b87e81
-  ws-opts:
-    headers:
-      Host: jddn.xmnet.us.kg
-    path: /13ff895d
 - alterId: 0
   cipher: auto
   name: 21|🇺🇸 _美国
@@ -1504,3 +1492,18 @@ proxies:
     headers:
       Host: a.prapt1.ir
     path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 29|US_speednode_0023
+  network: ws
+  port: 8049
+  server: us.aik.mom
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 15486dcc-f6e5-411b-acac-d1409375585a
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
