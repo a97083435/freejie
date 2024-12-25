@@ -14,6 +14,34 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港7|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -28,63 +56,17 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 20,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #2'
-  network: tcp
-  port: '62506'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d679491f-583d-462e-a986-fad497702581
-  ws-headers:
-    Host: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #1'
-  network: tcp
-  port: '16919'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d679491f-583d-462e-a986-fad497702581
-  ws-headers:
-    Host: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|_中国
-  network: tcp
-  port: '34842'
-  server: sggp1.pfdsddla.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: caf3f833-6973-3460-a4c7-ede4f574814c
-  ws-headers:
-    Host: sggp1.pfdsddla.com
-  ws-path: /
 - cipher: aes-256-gcm
-  name: 20|🇨🇳CN-36.151.65.208-152
-  password: acbaa4e8-9070-4f2f-baf7-e0a30a527c3b
-  port: 49709
-  server: jehw72eh.iwbh.cn
+  name: 20|🇳CN-58.63.247.145-051
+  password: 67d71e17b8d554e253124693d38bba93
+  port: 22220
+  server: 58.63.247.145
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-58.63.247.145-151
+  password: 67d71e17b8d554e253124693d38bba93
+  port: 22220
+  server: hk2.vps001.info
   type: ss
 - alterId: 0
   cipher: auto
