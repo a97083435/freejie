@@ -16,51 +16,97 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,21|_中国 #12'
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
-  port: '56601'
-  server: 183.236.51.23
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.234.102.229
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 11,13,21,25,27|香港4|@ripaojiedian
+  name: '11,20,21|_中国 #12'
+  network: tcp
+  port: '56601'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,20,21|_中国
+  network: tcp
+  port: '42055'
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '11,20,21|_中国 #14'
+  network: tcp
+  port: '54882'
+  server: 183.236.48.163
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 11,20,21|🇨🇳 浙江省宁波市 移动 数掘科技gfvps.cn
+  network: tcp
+  port: '15074'
+  server: 15074.kuaiyin02.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  ws-headers:
+    Host: 15074.kuaiyin02.top
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '11,20,21|_中国 #16'
+  network: tcp
+  port: '54104'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '34493'
   server: 120.198.71.214
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '11,21|_中国 #14'
-  network: tcp
-  port: '54882'
-  server: 183.236.48.163
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '51704'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|浙江省宁波市 移动 数掘科技gfvps.cn
-  network: tcp
-  port: 15074
-  server: 15074.kuaiyin02.top
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -75,51 +121,87 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-111.47.212.206-114
+  password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5
+  port: 24428
+  server: xm.miloli.cc
+  type: ss
 - alterId: 64
   cipher: auto
-  name: '21|_中国 #21'
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 21|_中国
-  network: tcp
-  port: '42055'
-  server: 120.198.71.219
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #6'
+  name: '20,21|_中国 #6'
   network: tcp
   port: '40565'
   server: 120.232.153.63
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-171.111.216.155-207
+  password: 61e2bba6-a458-4cdb-82e8-e4b6b0791002
+  port: 30002
+  server: gdgs.tarioblink.me
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-58.63.247.145-134
+  password: 67d71e17b8d554e253124693d38bba93
+  port: 22220
+  server: 58.63.247.145
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-171.111.216.155-193
+  password: b43bea1e-4bbd-406e-8bca-be5ee7e807d9
+  port: 30001
+  server: gdgs.tarioblink.me
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-171.111.216.155-199
+  password: b43bea1e-4bbd-406e-8bca-be5ee7e807d9
+  port: 30003
+  server: gdgs.tarioblink.me
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-58.63.247.145-256
+  password: 67d71e17b8d554e253124693d38bba93
+  port: 22220
+  server: hk2.vps001.info
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-223.113.53.186-234
+  password: d4eeaa7b-43c6-49dc-8020-7389bba4d033
+  port: 39206
+  server: hzhz1.sssyun.xyz
+  type: ss
 - alterId: 64
   cipher: auto
-  name: '21|_中国 #16'
+  name: '20,21|_中国 #21'
   network: tcp
-  port: '54104'
+  port: '53002'
   server: 183.236.51.23
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: '21|_中国 #18'
+  name: '20,21|_中国 #18'
   network: tcp
   port: '40434'
   server: 183.236.51.23
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '28|日本2|@ripaojiedian #1'
