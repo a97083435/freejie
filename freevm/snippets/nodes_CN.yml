@@ -16,10 +16,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,21|_中国
+  name: '11,21|_中国 #21'
   network: tcp
-  port: '42055'
-  server: 120.198.71.219
+  port: '53002'
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '11,21|_中国 #16'
+  network: tcp
+  port: '54104'
+  server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -39,10 +48,10 @@ proxies:
     path: /debian
 - alterId: 64
   cipher: auto
-  name: '21|_中国 #21'
+  name: 21|_中国
   network: tcp
-  port: '53002'
-  server: 183.236.51.23
+  port: '42055'
+  server: 120.198.71.219
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -70,15 +79,6 @@ proxies:
   network: tcp
   port: '54882'
   server: 183.236.48.163
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #16'
-  network: tcp
-  port: '54104'
-  server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
