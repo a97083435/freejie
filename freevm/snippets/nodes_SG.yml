@@ -7,42 +7,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '13,20,21|_中国 #1'
-  network: tcp
-  port: '16919'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d679491f-583d-462e-a986-fad497702581
-  ws-headers:
-    Host: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 13,20,21|_中国
-  network: tcp
-  port: '34842'
-  server: sggp1.pfdsddla.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: caf3f833-6973-3460-a4c7-ede4f574814c
-  ws-headers:
-    Host: sggp1.pfdsddla.com
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇸SG-128.199.237.29-040
-  password: RYqeHYa0aQYW7i4TOhzyoT/NwwRhNRjhiobMOn4GNDo=
-  port: 53485
-  server: 128.199.237.29
-  type: ss
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 25,26,27|新加坡|@ripaojiedian
+  name: 13,25,26,27|新加坡|@ripaojiedian
   network: ws
   port: '80'
   server: www.aetv.com
@@ -56,6 +22,12 @@ proxies:
     headers:
       Host: amd.al
     path: /?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇸SG-128.199.237.29-040
+  password: RYqeHYa0aQYW7i4TOhzyoT/NwwRhNRjhiobMOn4GNDo=
+  port: 53485
+  server: 128.199.237.29
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01

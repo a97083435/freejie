@@ -528,121 +528,21 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  10 #1'
+  name: '11,16,28|github.com/freefq - 印度  2 #1'
   network: ws
   port: 443
   server: 202.78.162.5
   servername: ''
   tls: true
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: irsoft.sytes.net
     path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 11|伊朗 V2CROSS.COM
-  network: tcp
-  port: 32718
-  server: 185.29.223.164
-  tls: false
-  type: vmess
-  uuid: c398fa1f-fac5-4d76-9452-f0aee44cbc66
-- alterId: 0
-  cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|法国 法国计算机科学大学
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|美国 戴维逊大学
-  network: ws
-  port: 443
-  server: tls.94.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-opts:
-    headers:
-      Host: tls.94.node-for-bigairport.win
-    path: /
-- alterId: 32
-  cipher: auto
-  name: 11|希腊 V2CROSS.COM
-  network: ws
-  port: 443
-  server: 77.83.141.171
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      Host: vc.fly.dev
-    path: /vc
 - alterId: 64
   cipher: auto
-  name: '13,21|0|--54 #1'
-  network: ws
-  port: '30000'
-  server: 107.167.30.126
-  servername: www.83645422.xyz
-  tls: true
-  type: vmess
-  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
-  ws-opts:
-    headers:
-      Host: www.83645422.xyz
-    path: /path/240811062813
-- alterId: 0
-  cipher: auto
-  name: 13,21,29|RU_speednode_0015
-  network: ws
-  port: 5743
-  server: 195.58.49.50
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13,21,29|RU_speednode_0020
-  network: ws
-  port: 16712
-  server: 195.58.49.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1ded1ec9-7557-4c15-aaac-758bedea64fd
-  ws-opts:
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港3|@ripaojiedian
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '52908'
   server: 120.234.102.229
@@ -654,6 +554,15 @@ proxies:
   ws-headers:
     Host: 120.234.102.229
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 11|乌克兰 V2CROSS.COM
+  network: tcp
+  port: 38585
+  server: 46.38.146.68
+  tls: false
+  type: vmess
+  uuid: e3cc1286-8401-4b1f-b110-dac3a2b15050
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
@@ -698,60 +607,31 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '13,20,21|_中国 #2'
+  name: 13,25,27|日本2|@ripaojiedian
   network: tcp
-  port: '62506'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  port: '38953'
+  server: jpp1.pfdsddla.com
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d679491f-583d-462e-a986-fad497702581
-  ws-headers:
-    Host: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  ws-path: /
+  uuid: 84d83b7e-d390-3aee-901b-257a3a2fe79d
 - alterId: 0
   cipher: auto
-  name: 13,20,21|🇰🇷 14|韩国|@ripaojiedian
-  network: tcp
-  port: '35384'
-  server: 45.94.68.206
+  client-fingerprint: chrome
+  name: 13,25,26,27|新加坡|@ripaojiedian
+  network: ws
+  port: '80'
+  server: www.aetv.com
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
-  ws-headers:
-    Host: 45.94.68.206
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '13,20,21|_中国 #1'
-  network: tcp
-  port: '16919'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d679491f-583d-462e-a986-fad497702581
-  ws-headers:
-    Host: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 13,20,21|_中国
-  network: tcp
-  port: '34842'
-  server: sggp1.pfdsddla.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: caf3f833-6973-3460-a4c7-ede4f574814c
-  ws-headers:
-    Host: sggp1.pfdsddla.com
-  ws-path: /
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -767,6 +647,23 @@ proxies:
   tls: true
   type: vmess
   uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,25,26,27|法国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: primer.ibilibi.li
+  servername: ameblo.jp
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
+  ws-opts:
+    headers:
+      Host: loki.oracle
+    path: /farcry?ed=2560
 - alterId: 0
   cipher: auto
   name: '13,20,21,25|16|d*********g.com_2 #2'
@@ -790,20 +687,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  2 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 印度  3 #1'
@@ -833,6 +716,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -859,6 +756,20 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '16,28|github.com/freefq - 印度  10 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 16,21,28|美国测试节点
@@ -1367,6 +1278,19 @@ proxies:
   ws-headers:
     Host: 195.58.49.42
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #2'
+  network: tcp
+  port: '62506'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d679491f-583d-462e-a986-fad497702581
+  ws-headers:
+    Host: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  ws-path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 20,26|🇯🇵 日本|@ripaojiedian
@@ -1375,6 +1299,45 @@ proxies:
   server: 149.22.87.204
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇰🇷 14|韩国|@ripaojiedian
+  network: tcp
+  port: '35384'
+  server: 45.94.68.206
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
+  ws-headers:
+    Host: 45.94.68.206
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #1'
+  network: tcp
+  port: '16919'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d679491f-583d-462e-a986-fad497702581
+  ws-headers:
+    Host: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20,21|_中国
+  network: tcp
+  port: '34842'
+  server: sggp1.pfdsddla.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: caf3f833-6973-3460-a4c7-ede4f574814c
+  ws-headers:
+    Host: sggp1.pfdsddla.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 20|🏁RELAY-172.67.75.206-096
@@ -1560,6 +1523,43 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 64
+  cipher: auto
+  name: 21|0|--54
+  network: ws
+  port: '30000'
+  server: 107.167.30.126
+  tls: true
+  type: vmess
+  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
+  ws-opts:
+    headers:
+      Host: www.83645422.xyz
+    path: /path/240811062813
+- alterId: 0
+  cipher: auto
+  name: 21,29|RU_speednode_0015
+  network: ws
+  port: 5743
+  server: 195.58.49.50
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,29|RU_speednode_0020
+  network: ws
+  port: 16712
+  server: 195.58.49.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1ded1ec9-7557-4c15-aaac-758bedea64fd
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|🇺🇸 _美国
@@ -1727,50 +1727,6 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 25,27|日本2|@ripaojiedian
-  network: tcp
-  port: '38953'
-  server: jpp1.pfdsddla.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 84d83b7e-d390-3aee-901b-257a3a2fe79d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 25,26,27|新加坡|@ripaojiedian
-  network: ws
-  port: '80'
-  server: www.aetv.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 25,26,27|法国|@ripaojiedian
-  network: ws
-  port: '443'
-  server: primer.ibilibi.li
-  servername: ameblo.jp
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
-  ws-opts:
-    headers:
-      Host: loki.oracle
-    path: /farcry?ed=2560
 - name: 26,29|HK_speednode_0012
   port: 4000
   server: ftq.ink
@@ -1833,7 +1789,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #1'
+  name: 28|美国 CloudFlare节点
   network: ws
   port: '80'
   server: 104.21.224.8
@@ -1967,7 +1923,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #2'
+  name: '28|美国 CloudFlare节点 #1'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -1981,7 +1937,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #3'
+  name: '28|美国 CloudFlare节点 #2'
   network: ws
   port: 80
   server: 104.21.224.129
@@ -1994,7 +1950,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #4'
+  name: '28|美国 CloudFlare节点 #3'
   network: ws
   port: '80'
   server: 104.21.230.53
@@ -2022,7 +1978,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #5'
+  name: '28|美国 CloudFlare节点 #4'
   network: ws
   port: 80
   server: 104.21.224.56
@@ -2050,7 +2006,7 @@ proxies:
     path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #6'
+  name: '28|美国 CloudFlare节点 #5'
   network: ws
   port: '80'
   server: 104.21.235.76
@@ -2076,7 +2032,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #7'
+  name: '28|美国 CloudFlare节点 #6'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -2184,7 +2140,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #9'
+  name: '28|美国 CloudFlare节点 #8'
   network: ws
   port: 80
   server: 104.21.224.24
@@ -2387,7 +2343,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #11'
+  name: '28|美国 CloudFlare节点 #10'
   network: ws
   port: 80
   server: 104.21.238.90
@@ -2414,7 +2370,7 @@ proxies:
     path: /CAT
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #12'
+  name: '28|美国 CloudFlare节点 #11'
   network: ws
   port: 80
   server: 104.21.237.88
@@ -2441,7 +2397,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #13'
+  name: '28|美国 CloudFlare节点 #12'
   network: ws
   port: 80
   server: 104.21.224.157
@@ -2464,7 +2420,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #14'
+  name: '28|美国 CloudFlare节点 #13'
   network: ws
   port: '80'
   server: 104.21.237.65
@@ -2505,7 +2461,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #15'
+  name: '28|美国 CloudFlare节点 #14'
   network: ws
   port: 80
   server: 104.21.221.135
@@ -2533,7 +2489,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #16'
+  name: '28|美国 CloudFlare节点 #15'
   network: ws
   port: 80
   server: 104.21.237.87
@@ -2608,7 +2564,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #18'
+  name: '28|美国 CloudFlare节点 #17'
   network: ws
   port: 80
   server: 104.21.230.31
@@ -2636,7 +2592,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #19'
+  name: '28|美国 CloudFlare节点 #18'
   network: ws
   port: '80'
   server: 104.21.224.23
@@ -2672,7 +2628,7 @@ proxies:
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #20'
+  name: '28|美国 CloudFlare节点 #19'
   network: ws
   port: 80
   server: 104.21.239.76
@@ -2739,7 +2695,7 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #21'
+  name: '28|美国 CloudFlare节点 #20'
   network: ws
   port: 80
   server: 104.21.228.42
@@ -2753,7 +2709,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #22'
+  name: '28|美国 CloudFlare节点 #21'
   network: ws
   port: '80'
   server: 104.21.234.74
@@ -2870,7 +2826,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #23'
+  name: '28|美国 CloudFlare节点 #22'
   network: ws
   port: '80'
   server: 104.21.230.50
@@ -2940,7 +2896,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #24'
+  name: '28|美国 CloudFlare节点 #23'
   network: ws
   port: '80'
   server: 104.21.228.40
@@ -2967,7 +2923,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #25'
+  name: '28|美国 CloudFlare节点 #24'
   network: ws
   port: '80'
   server: 104.21.228.41
@@ -2980,7 +2936,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #26'
+  name: '28|美国 CloudFlare节点 #25'
   network: ws
   port: 80
   server: 104.21.234.72
@@ -3008,7 +2964,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #27'
+  name: '28|美国 CloudFlare节点 #26'
   network: ws
   port: '80'
   server: 104.21.232.63
@@ -3021,7 +2977,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #28'
+  name: '28|美国 CloudFlare节点 #27'
   network: ws
   port: 80
   server: 104.21.221.95
@@ -3113,7 +3069,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #29'
+  name: '28|美国 CloudFlare节点 #28'
   network: ws
   port: 80
   server: 104.21.224.16
@@ -3139,7 +3095,7 @@ proxies:
     path: /CAT
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #30'
+  name: '28|美国 CloudFlare节点 #29'
   network: ws
   port: 80
   server: 104.21.224.174
@@ -3153,7 +3109,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #31'
+  name: '28|美国 CloudFlare节点 #30'
   network: ws
   port: 80
   server: 104.21.221.215
@@ -3248,7 +3204,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #32'
+  name: '28|美国 CloudFlare节点 #31'
   network: ws
   port: 80
   server: 104.21.226.14
@@ -3298,7 +3254,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #33'
+  name: '28|美国 CloudFlare节点 #32'
   network: ws
   port: 80
   server: 104.21.235.57
@@ -3311,7 +3267,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai08
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #34'
+  name: '28|美国 CloudFlare节点 #33'
   network: ws
   port: 80
   server: 104.21.224.240
@@ -3338,7 +3294,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #35'
+  name: '28|美国 CloudFlare节点 #34'
   network: ws
   port: '80'
   server: 104.21.230.51
@@ -3352,7 +3308,7 @@ proxies:
     path: '/?ed=2048&Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #36'
+  name: '28|美国 CloudFlare节点 #35'
   network: ws
   port: 80
   server: 104.21.231.59
@@ -3443,7 +3399,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #37'
+  name: '28|美国 CloudFlare节点 #36'
   network: ws
   port: 80
   server: 104.21.224.46
@@ -3457,7 +3413,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #38'
+  name: '28|美国 CloudFlare节点 #37'
   network: ws
   port: '80'
   server: 104.21.236.60
@@ -3484,7 +3440,7 @@ proxies:
     path: /fws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #39'
+  name: '28|美国 CloudFlare节点 #38'
   network: ws
   port: '80'
   server: 104.21.238.92
@@ -3536,7 +3492,7 @@ proxies:
     path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #40'
+  name: '28|美国 CloudFlare节点 #39'
   network: ws
   port: '80'
   server: 104.21.239.77
@@ -3576,7 +3532,7 @@ proxies:
     path: /github
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #41'
+  name: '28|美国 CloudFlare节点 #40'
   network: ws
   port: 8080
   server: 172.67.143.192
@@ -3600,7 +3556,7 @@ proxies:
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #42'
+  name: '28|美国 CloudFlare节点 #41'
   network: ws
   port: '80'
   server: 104.21.229.26
@@ -3626,7 +3582,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #43'
+  name: '28|美国 CloudFlare节点 #42'
   network: ws
   port: '80'
   server: 104.21.227.15
@@ -3666,7 +3622,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #44'
+  name: '28|美国 CloudFlare节点 #43'
   network: ws
   port: '80'
   server: 104.21.228.20
@@ -3838,7 +3794,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #45'
+  name: '28|美国 CloudFlare节点 #44'
   network: ws
   port: 80
   server: 104.21.231.57
@@ -3852,7 +3808,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #46'
+  name: '28|美国 CloudFlare节点 #45'
   network: ws
   port: '80'
   server: 104.21.229.47
