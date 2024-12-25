@@ -1,6 +1,20 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 13,20,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.234.102.229
+  ws-path: /
+- alterId: 64
+  cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '34493'
@@ -41,6 +55,19 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
+- client-fingerprint: chrome
+  name: 26|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  password: TGCitizenScyu
+  port: 443
+  server: cf.zhetengsha.eu.org
+  skip-cert-verify: false
+  sni: maikeaxiang.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: maikeaxiang.me
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
