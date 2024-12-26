@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|法国 OVH
-  network: ws
-  port: 443
-  server: 51.77.20.137
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: 11|法国 法国计算机科学大学
   network: ws
   port: 443
@@ -27,10 +14,10 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11,21|🇩🇪 _德国
+  name: 11|德国 黑森州法兰克福Amazon数据中心
   network: ws
-  port: '443'
-  server: 3.120.212.75
+  port: 443
+  server: 35.159.161.248
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -38,6 +25,19 @@ proxies:
     headers:
       Host: ylks.zhuk.us.kg
     path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 11|法国 OVH
+  network: ws
+  port: 443
+  server: 51.77.20.137
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /linkvws
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
