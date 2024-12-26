@@ -136,7 +136,21 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
-- name: 29|HK_speednode_0012
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 29|HK_speednode_0013
+  network: http
+  port: 34728
+  server: 149.104.15.104
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c94a21b5-43f6-477d-82a6-cdae1de397c3
+- name: 29|HK_speednode_0015
   port: 4000
   server: hk9.ftq.ink
   tls: true
