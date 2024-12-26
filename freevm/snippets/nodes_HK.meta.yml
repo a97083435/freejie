@@ -15,17 +15,17 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港4|@ripaojiedian
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
-  port: '34493'
-  server: 120.198.71.214
+  port: '51704'
+  server: 183.236.51.23
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.198.71.214
+    Host: 183.236.51.23
   ws-path: /
 - alterId: 64
   cipher: auto
@@ -54,19 +54,16 @@ proxies:
   ws-headers:
     Host: 15074.kuaiyin02.top
   ws-path: /
-- client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  network: ws
-  password: TGCitizenScyu
-  port: 443
-  server: cf.zhetengsha.eu.org
-  skip-cert-verify: false
-  sni: maikeaxiang.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: maikeaxiang.me
-    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 25,27|香港6|@ripaojiedian
+  network: tcp
+  port: '34728'
+  server: 149.104.15.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c94a21b5-43f6-477d-82a6-cdae1de397c3
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787

@@ -16,43 +16,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,20,21|_中国 #14'
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
-  port: '54882'
-  server: 183.236.48.163
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.163
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '11,20,21|_中国 #6'
-  network: tcp
-  port: '40565'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '51704'
-  server: 183.236.51.23
+  port: '34493'
+  server: 120.198.71.214
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
+    Host: 120.198.71.214
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -83,6 +57,19 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
+  name: '20,21|_中国 #14'
+  network: tcp
+  port: '54882'
+  server: 183.236.48.163
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.48.163
+  ws-path: /
+- alterId: 64
+  cipher: auto
   name: 20,21|_中国
   network: tcp
   port: '42055'
@@ -100,6 +87,19 @@ proxies:
   port: 24428
   server: xm.miloli.cc
   type: ss
+- alterId: 64
+  cipher: auto
+  name: '20,21|_中国 #6'
+  network: tcp
+  port: '40565'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 20|🇨🇳CN-171.111.216.155-207
   password: 61e2bba6-a458-4cdb-82e8-e4b6b0791002
@@ -154,19 +154,6 @@ proxies:
   name: '20,21|_中国 #21'
   network: tcp
   port: '53002'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '20,21|_中国 #18'
-  network: tcp
-  port: '40434'
   server: 183.236.51.23
   skip-cert-verify: true
   tls: false
