@@ -526,46 +526,64 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '56601'
-  server: 183.236.51.23
+  name: 11|俄罗斯 V2CROSS.COM
+  network: ws
+  port: 29025
+  server: 176.32.32.68
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: 172.67.164.232
-  tls: true
-  type: vmess
-  uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
+  uuid: da15eb44-cbea-4ea2-82a0-5d0886e78f60
   ws-opts:
     headers:
-      Host: 33.bycf.us.kg
-    path: /rongseven?ed=2048
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #15'
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #1'
   network: ws
   port: '443'
-  server: 18.216.55.100
+  server: 172.67.219.194
   tls: true
   type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
   ws-opts:
     headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
+      Host: adenc36v.xtooltech.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11|俄罗斯 喀山JustHost
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
-  port: 5743
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇨🇳 中国 阿里云
+  network: ws
+  port: '443'
+  server: 8.222.133.161
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇷🇺 俄罗斯 喀山JustHost
+  network: ws
+  port: '5743'
   server: 46.29.161.15
   tls: false
   type: vmess
@@ -576,59 +594,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|美国 Fastly全球Anycast节点
-  network: ws
-  port: 80
-  server: 151.101.2.168
-  tls: false
-  type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 11|印度 V2CROSS.COM
-  network: ws
-  port: 47930
-  server: 103.106.229.29
-  tls: false
-  type: vmess
-  uuid: ec7dd23d-d03b-4262-9793-def9c849a01d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /wada12222
-- alterId: 0
-  cipher: auto
-  name: 11,21|🇷🇺 _俄罗斯
-  network: ws
-  port: '29025'
-  server: 176.32.33.100
-  tls: false
-  type: vmess
-  uuid: 11dc6f86-fde0-4899-81eb-ce7655154f5e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|香港 ThinkDream数据中心
-  network: ws
-  port: 8443
-  server: 27.50.48.188
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 11,29|RU_speednode_0036
+  name: 11,21,29|RU_speednode_0036
   network: ws
   port: 29025
   server: 194.87.69.52
@@ -642,46 +608,69 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|美国 惠普公司
+  name: '11|俄罗斯 V2CROSS.COM #2'
   network: ws
-  port: 443
-  server: 15.235.83.227
-  tls: true
+  port: 29025
+  server: 195.58.49.86
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 727d1e03-2aed-4190-bff5-30890097c1c4
   ws-opts:
     headers:
-      Host: mankadmu.com
-    path: /linkvws
+      Host: 195.58.49.86
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,21,25,27|香港7|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
+  name: '11,21|🇺🇸 _美国 #22'
   network: ws
-  port: 443
-  server: 172.67.219.194
+  port: '443'
+  server: 140.245.66.31
   tls: true
   type: vmess
-  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
   ws-opts:
     headers:
-      Host: adenc36v.xtooltech.cfd
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '11|俄罗斯 喀山JustHost #1'
+  network: ws
+  port: 29025
+  server: 46.29.161.224
+  tls: false
+  type: vmess
+  uuid: 11dc6f86-fde0-4899-81eb-ce7655154f5e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|巴西圣保罗 CloudFlare节点
+  network: ws
+  port: 443
+  server: 188.114.96.2
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: afrhms16v.bestxray.buzz
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11|中国 阿里云
-  network: ws
-  port: 443
-  server: 8.222.133.161
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 13,25|0|-https://t.me/MrXbin-48
+  name: 11,13,21,25|0|-https://t.me/MrXbin-48
   network: ws
   port: 443
   server: sg25.jnstore.biz.id
@@ -695,7 +684,60 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 13,25|0|-https://t.me/MrXbin-52
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: '80'
+  server: 172.67.68.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 023f7aa2-d079-40d8-a730-c681947f10bb
+  ws-opts:
+    headers:
+      Host: rangers-plugins-workshop-respect.trycloudflare.com
+    path: /023f7aa2-d079-40d8-a730-c681947f10bb-vmess
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 _美国 #17'
+  network: ws
+  port: '443'
+  server: 52.42.71.111
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 11|斯洛文尼亚 V2CROSS.COM
+  network: ws
+  port: 8443
+  server: 92.53.190.226
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 _美国 #6'
+  network: ws
+  port: '443'
+  server: 3.146.145.210
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 13,21,25|0|-https://t.me/MrXbin-52
   network: tcp
   port: 38585
   server: 46.38.146.68
@@ -751,16 +793,6 @@ proxies:
   tls: false
   type: vmess
   uuid: c94a21b5-43f6-477d-82a6-cdae1de397c3
-- alterId: 64
-  cipher: auto
-  name: 13,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13,21,25,27|台湾|@ripaojiedian
@@ -950,20 +982,6 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: '16,28|github.com/freefq - 印度  10 #1'
   network: ws
   port: 443
@@ -1043,19 +1061,54 @@ proxies:
     headers:
       Host: pendar.onthewifi.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '56601'
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸 美国 V2CROSS.COM
+  name: 21|🇺🇸 美国 CloudFlare节点
   network: ws
   port: '443'
-  server: 130.162.176.248
+  server: 172.67.164.232
   tls: true
   type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
   ws-opts:
     headers:
-      Host: beyonddbc.sbs
-    path: /linkws
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #13'
+  network: ws
+  port: '443'
+  server: 18.216.55.100
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸 美国 Fastly全球Anycast节点
+  network: ws
+  port: '80'
+  server: 151.101.2.168
+  tls: false
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 21|🇮🇳 印度 V2CROSS.COM
@@ -1067,197 +1120,27 @@ proxies:
   uuid: ec7dd23d-d03b-4262-9793-def9c849a01d
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: ''
+    path: /wada12222
+- alterId: 0
+  cipher: auto
+  name: 21|🇷🇺 俄罗斯 V2CROSS.COM
+  network: ws
+  port: '29025'
+  server: 176.32.33.100
+  tls: false
+  type: vmess
+  uuid: d82cf9dc-4695-4fb8-83ae-56e4a76a0e76
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇳 中国 阿里云
-  network: ws
-  port: '443'
-  server: 8.222.249.108
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇨🇳 中国 阿里云 #1'
-  network: ws
-  port: '443'
-  server: 8.222.148.174
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21,29|RU_speednode_0033
-  network: ws
-  port: 29025
-  server: 195.58.49.86
-  servername: 195.58.49.86
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 727d1e03-2aed-4190-bff5-30890097c1c4
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🇬🇧 英国 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: 193.123.38.142
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸 美国 CloudFlare节点
-  network: ws
-  port: '2086'
-  server: 104.16.60.8
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: 82uple-bird-b087.pemed58443.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 21|🇹🇭 泰国 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: gg.saunghninsi.my.id
-  tls: true
-  type: vmess
-  uuid: 47602aaa-ee17-458a-b149-23d534213904
-  ws-opts:
-    headers:
-      Host: gg.saunghninsi.my.id
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: 104.16.61.8
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: vmess.taxar71054.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇨🇳 中国 阿里云 #2'
-  network: ws
-  port: '443'
-  server: 8.219.209.176
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #2'
-  network: ws
-  port: '443'
-  server: 172.64.103.211
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: glweidf.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #3'
-  network: ws
-  port: '443'
-  server: 172.67.223.119
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 V2CROSS.COM #1'
-  network: ws
-  port: '443'
-  server: 172.99.190.209
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇭 瑞士 Oracle Corporation
-  network: ws
-  port: '443'
-  server: 141.148.232.36
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇨🇳 中国 阿里云 #3'
-  network: ws
-  port: '443'
-  server: 8.219.206.22
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 V2CROSS.COM #2'
-  network: ws
-  port: '443'
-  server: 130.162.225.230
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21|🇸🇮 斯洛文尼亚 V2CROSS.COM
+  name: 21|🇭🇰 香港 ThinkDream数据中心
   network: ws
   port: '8443'
-  server: 92.53.188.185
+  server: 27.50.48.188
   tls: true
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
@@ -1267,227 +1150,62 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 美国 V2CROSS.COM #3'
+  name: 21|🇺🇸 美国 惠普公司
   network: ws
   port: '443'
-  server: 130.162.210.178
+  server: 15.235.83.227
   tls: true
   type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: beyonddsz.cfd
-    path: /linkws
+      Host: mankadmu.com
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21|🇩🇪 德国 法兰克福Oracle云计算数据中心
+  name: 21|🇺🇸 _美国
   network: ws
-  port: '443'
-  server: 132.145.235.194
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 Fastly全球Anycast节点 #1'
-  network: ws
-  port: '80'
-  server: 151.101.2.216
+  port: '2052'
+  server: 10000.cloudflare.182682.xyz
   tls: false
   type: vmess
-  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
+  uuid: c17e3be9-3d25-43cc-ad57-fbadbd70a0d8
   ws-opts:
     headers:
-      Host: 6606.com
-    path: /racevpn
+      Host: dcidous.377886.xyz
+    path: /c17e3be9-3d25-43cc-ad57-fbadbd70a0d8-vmess
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 美国 V2CROSS.COM #4'
+  name: '21|🇺🇸 _美国 #1'
   network: ws
-  port: '443'
-  server: 129.159.192.12
+  port: '8443'
+  server: 152.70.155.147
   tls: true
   type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  uuid: 4c721b77-05e2-45d7-c445-f8c445073908
   ws-opts:
     headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21|🇸🇪 瑞典 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: 144.21.62.32
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇨🇳 中国 阿里云 #4'
-  network: ws
-  port: '443'
-  server: 8.219.251.23
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇷🇺 俄罗斯 V2CROSS.COM #1'
-  network: ws
-  port: '29025'
-  server: 195.58.49.50
-  tls: false
-  type: vmess
-  uuid: 727d1e03-2aed-4190-bff5-30890097c1c4
-  ws-opts:
-    headers:
-      Host: 195.58.49.50
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|🇷🇺 俄罗斯 V2CROSS.COM #2'
-  network: ws
-  port: '29025'
-  server: 176.32.33.124
-  tls: false
-  type: vmess
-  uuid: 11dc6f86-fde0-4899-81eb-ce7655154f5e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|🇸🇪 瑞典 V2CROSS.COM #1'
-  network: ws
-  port: '443'
-  server: 144.21.35.173
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇬🇧 英国 V2CROSS.COM #1'
-  network: ws
-  port: '443'
-  server: 193.123.184.41
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #4'
-  network: ws
-  port: '443'
-  server: 172.67.216.29
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: glweidf.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21|🇮🇪 爱尔兰 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: 143.47.254.118
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 64
-  cipher: auto
-  name: '21|🇨🇳 广东省广州市 移动 #2'
-  network: tcp
-  port: '40565'
-  server: 120.232.153.63
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 V2CROSS.COM #5'
-  network: ws
-  port: '443'
-  server: 129.159.220.5
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 V2CROSS.COM #6'
-  network: ws
-  port: '443'
-  server: 140.238.122.65
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21|🇩🇪 _德国
-  network: ws
-  port: '443'
-  server: 18.198.168.3
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
+      Host: ca.zhuk.us.kg
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇩🇪 _德国 #1'
+  name: '21|🇺🇸 _美国 #2'
   network: ws
-  port: '443'
-  server: 35.159.161.248
+  port: '2053'
+  server: 152.70.155.147
   tls: true
   type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
+  uuid: be30fad5-8916-40cb-ed35-a1b7d32fff2b
   ws-opts:
     headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
+      Host: ca.zhuk.us.kg
+    path: /由零开始
 - alterId: 0
   cipher: auto
-  name: 21|🇯🇵 _日本
+  name: '21|🇺🇸 _美国 #3'
   network: ws
   port: '443'
-  server: 47.91.18.127
+  server: 44.226.147.29
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -1497,43 +1215,69 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸 _美国
+  name: 21|🇮🇳 _印度
   network: ws
   port: '443'
-  server: 3.79.117.14
+  server: 3.7.108.69
   tls: true
   type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
   ws-opts:
     headers:
-      Host: it.zhuk.us.kg
+      Host: ylks.zhuk.us.kg
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: 21|🇬🇧 _英国
+  name: 21|🇯🇵 _日本
   network: ws
   port: '443'
-  server: 35.179.187.249
+  server: 146.56.101.141
   tls: true
   type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
   ws-opts:
     headers:
-      Host: it.zhuk.us.kg
+      Host: ylks.zhuk.us.kg
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #2'
+  name: '21|🇺🇸 _美国 #4'
   network: ws
-  port: '8880'
-  server: s2.db-link02.top
-  tls: false
+  port: '443'
+  server: 18.119.115.240
+  tls: true
   type: vmess
-  uuid: 671c51c8-c6f3-3bf6-8ba4-60ccc56e46cd
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
   ws-opts:
     headers:
-      Host: 100-124-165-7.s2.db-link02.top
-    path: /dabai.in104.25.119.247
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇭 _瑞士
+  network: ws
+  port: '443'
+  server: 141.148.220.141
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #5'
+  network: ws
+  port: '443'
+  server: 54.203.85.46
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
 - alterId: 0
   cipher: auto
   name: 21|🇰🇷 _韩国
@@ -1549,10 +1293,36 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
+  name: '21|🇺🇸 _美国 #7'
+  network: ws
+  port: '443'
+  server: 34.69.150.180
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #8'
+  network: ws
+  port: '443'
+  server: 18.220.206.47
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
   name: 21|🇳🇱 _荷兰
   network: ws
   port: '443'
-  server: 132.226.31.178
+  server: 35.204.231.100
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -1562,10 +1332,10 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #3'
+  name: '21|🇺🇸 _美国 #9'
   network: ws
   port: '443'
-  server: 52.42.71.111
+  server: 3.111.155.29
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -1575,10 +1345,10 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #4'
+  name: '21|🇺🇸 _美国 #10'
   network: ws
   port: '443'
-  server: 159.54.188.89
+  server: 52.89.138.13
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -1588,10 +1358,49 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #5'
+  name: 21|🇬🇧 _英国
   network: ws
   port: '443'
-  server: 140.245.66.31
+  server: 144.21.54.222
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #11'
+  network: ws
+  port: '443'
+  server: 52.41.218.4
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇬🇧 _英国 #1'
+  network: ws
+  port: '443'
+  server: 144.24.90.107
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #12'
+  network: ws
+  port: '443'
+  server: 3.149.244.197
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -1614,358 +1423,7 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #6'
-  network: ws
-  port: '8443'
-  server: 152.70.155.147
-  tls: true
-  type: vmess
-  uuid: 37104d39-5fdd-492a-ba7e-eeb45f083793
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇩🇪 _德国 #2'
-  network: ws
-  port: '443'
-  server: 130.61.23.77
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇯🇵 _日本 #1'
-  network: ws
-  port: '443'
-  server: 158.101.141.78
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇰🇷 _韩国 #1'
-  network: ws
-  port: '443'
-  server: 193.122.107.147
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇩🇪 _德国 #3'
-  network: ws
-  port: '443'
-  server: 18.199.213.201
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇦 _加拿大
-  network: ws
-  port: '443'
-  server: 140.238.158.238
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #7'
-  network: ws
-  port: '443'
-  server: 18.220.206.47
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #8'
-  network: ws
-  port: '443'
-  server: 3.139.107.127
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇬🇧 _英国 #1'
-  network: ws
-  port: '443'
-  server: 144.21.54.222
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #9'
-  network: ws
-  port: '443'
-  server: 3.146.145.210
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #10'
-  network: ws
-  port: '443'
-  server: 3.149.234.141
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #11'
-  network: ws
-  port: '443'
-  server: 192.9.180.162
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #1'
-  network: ws
-  port: '443'
-  server: 47.57.245.232
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #12'
-  network: ws
-  port: '443'
-  server: 3.136.20.191
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #13'
-  network: ws
-  port: '443'
-  server: 3.139.83.4
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
   name: '21|🇺🇸 _美国 #14'
-  network: ws
-  port: '2053'
-  server: 152.70.155.147
-  tls: true
-  type: vmess
-  uuid: ea50fb18-2ec2-4124-83d4-a5dd8eab0ef1
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #16'
-  network: ws
-  port: '443'
-  server: 18.119.115.240
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #17'
-  network: ws
-  port: '443'
-  server: 3.12.71.127
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #18'
-  network: ws
-  port: '443'
-  server: 3.135.212.13
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #19'
-  network: ws
-  port: '443'
-  server: 152.67.231.219
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #20'
-  network: ws
-  port: '443'
-  server: 140.245.66.31
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #21'
-  network: ws
-  port: '443'
-  server: 3.146.145.210
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #22'
-  network: ws
-  port: '443'
-  server: 152.70.155.147
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #23'
-  network: ws
-  port: '8443'
-  server: 152.70.155.147
-  tls: true
-  type: vmess
-  uuid: c8fdbba8-2731-4091-8e3c-a63a36c7e134
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #24'
-  network: ws
-  port: '443'
-  server: 18.119.164.79
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇳🇱 _荷兰 #1'
-  network: ws
-  port: '443'
-  server: 35.204.231.100
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇩🇪 _德国 #4'
-  network: ws
-  port: '443'
-  server: 35.159.161.248
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #25'
   network: ws
   port: '443'
   server: 3.145.32.60
@@ -1978,10 +1436,10 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #26'
+  name: '21|🇯🇵 _日本 #1'
   network: ws
   port: '443'
-  server: 18.118.1.188
+  server: 47.91.18.127
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -1991,36 +1449,10 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #27'
+  name: '21|🇺🇸 _美国 #15'
   network: ws
   port: '443'
-  server: 3.137.221.83
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #28'
-  network: ws
-  port: '443'
-  server: 3.145.163.135
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇩🇪 _德国 #5'
-  network: ws
-  port: '443'
-  server: 130.61.23.77
+  server: 3.76.206.85
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -2030,75 +1462,10 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #29'
+  name: '21|🇺🇸 _美国 #16'
   network: ws
   port: '443'
-  server: 3.136.20.191
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇰🇷 _韩国 #2'
-  network: ws
-  port: '443'
-  server: 149.129.8.215
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #30'
-  network: ws
-  port: '443'
-  server: 3.129.183.128
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #31'
-  network: ws
-  port: '443'
-  server: 150.230.42.80
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #32'
-  network: ws
-  port: '443'
-  server: 54.191.65.60
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #33'
-  network: ws
-  port: '443'
-  server: 3.149.244.197
+  server: 35.81.207.167
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -2108,29 +1475,16 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #34'
+  name: '21|🇮🇳 _印度 #1'
   network: ws
   port: '443'
-  server: 35.95.237.8
+  server: 35.200.238.235
   tls: true
   type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
   ws-opts:
     headers:
-      Host: it.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #2'
-  network: ws
-  port: '443'
-  server: 47.57.233.126
-  tls: true
-  type: vmess
-  uuid: 07a5b509-2d0d-4a07-9cd9-fbb334c75adf
-  ws-opts:
-    headers:
-      Host: it.zhuk.us.kg
+      Host: ylks.zhuk.us.kg
     path: /ylks
 - alterId: 0
   cipher: auto
@@ -2144,6 +1498,617 @@ proxies:
   ws-opts:
     headers:
       Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇳🇱 _荷兰 #1'
+  network: ws
+  port: '443'
+  server: 132.226.31.178
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #18'
+  network: ws
+  port: '443'
+  server: 3.139.107.127
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #19'
+  network: ws
+  port: '443'
+  server: 129.153.223.37
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #20'
+  network: ws
+  port: '443'
+  server: 3.136.20.191
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #21'
+  network: ws
+  port: '443'
+  server: 18.118.1.188
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇯🇵 _日本 #2'
+  network: ws
+  port: '443'
+  server: 158.101.141.78
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇬🇧 _英国 #2'
+  network: ws
+  port: '443'
+  server: 89.168.107.197
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #23'
+  network: ws
+  port: '443'
+  server: 54.208.96.155
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇦 _加拿大
+  network: ws
+  port: '443'
+  server: 35.183.163.195
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #24'
+  network: ws
+  port: '443'
+  server: 3.149.234.141
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #25'
+  network: ws
+  port: '443'
+  server: 44.228.63.60
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 21|🇸🇪 _瑞典
+  network: ws
+  port: '443'
+  server: 217.142.128.252
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #26'
+  network: ws
+  port: '8443'
+  server: 152.70.155.147
+  tls: true
+  type: vmess
+  uuid: 37104d39-5fdd-492a-ba7e-eeb45f083793
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 21|🇩🇪 _德国
+  network: ws
+  port: '443'
+  server: 3.120.212.75
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇯🇵 _日本 #3'
+  network: ws
+  port: '443'
+  server: 158.101.148.105
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 21|🇦🇺 _澳大利亚
+  network: ws
+  port: '443'
+  server: 54.79.133.41
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇬🇧 _英国 #3'
+  network: ws
+  port: '443'
+  server: 144.24.73.232
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇬🇧 _英国 #4'
+  network: ws
+  port: '443'
+  server: 158.180.89.73
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇦🇺 _澳大利亚 #1'
+  network: ws
+  port: '443'
+  server: 129.154.59.99
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇦🇺 _澳大利亚 #2'
+  network: ws
+  port: '443'
+  server: 129.154.50.220
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #27'
+  network: ws
+  port: '443'
+  server: 54.203.85.46
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #28'
+  network: ws
+  port: '443'
+  server: 138.2.122.191
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #29'
+  network: ws
+  port: '443'
+  server: 44.230.218.23
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇬🇧 _英国 #5'
+  network: ws
+  port: '443'
+  server: 144.24.90.107
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 21|🇧🇷 _巴西
+  network: ws
+  port: '443'
+  server: 168.138.165.174
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #30'
+  network: ws
+  port: '443'
+  server: 52.12.162.159
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #31'
+  network: ws
+  port: '443'
+  server: 34.222.135.204
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #32'
+  network: ws
+  port: '443'
+  server: 35.155.38.149
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇧🇷 _巴西 #1'
+  network: ws
+  port: '443'
+  server: 168.138.162.187
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #33'
+  network: ws
+  port: '443'
+  server: 44.227.22.10
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #34'
+  network: ws
+  port: '443'
+  server: 34.82.76.253
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #35'
+  network: ws
+  port: '443'
+  server: 44.224.24.91
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #36'
+  network: ws
+  port: '443'
+  server: 52.11.38.216
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #37'
+  network: ws
+  port: '443'
+  server: 3.29.102.89
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #38'
+  network: ws
+  port: '443'
+  server: 152.67.231.219
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #39'
+  network: ws
+  port: '443'
+  server: 35.91.96.37
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #40'
+  network: ws
+  port: '443'
+  server: 54.202.53.141
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #41'
+  network: ws
+  port: '443'
+  server: 44.227.209.152
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #42'
+  network: ws
+  port: '443'
+  server: 34.219.18.231
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #43'
+  network: ws
+  port: '443'
+  server: 52.13.212.72
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #44'
+  network: ws
+  port: '8443'
+  server: ca.zhuk.us.kg
+  tls: true
+  type: vmess
+  uuid: 4c721b77-05e2-45d7-c445-f8c445073908
+  ws-opts:
+    headers:
+      Host: ca.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #45'
+  network: ws
+  port: '2053'
+  server: ca.zhuk.us.kg
+  tls: true
+  type: vmess
+  uuid: be30fad5-8916-40cb-ed35-a1b7d32fff2b
+  ws-opts:
+    headers:
+      Host: ca.zhuk.us.kg
+    path: /由零开始
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #46'
+  network: ws
+  port: '2083'
+  server: ca.zhuk.us.kg
+  tls: true
+  type: vmess
+  uuid: f3ea2f10-6c47-4c77-f1a7-fadc6a077715
+  ws-opts:
+    headers:
+      Host: ca.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #47'
+  network: ws
+  port: '443'
+  server: ylks.zhuk.us.kg
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #48'
+  network: ws
+  port: '8443'
+  server: ylks.zhuk.us.kg
+  tls: true
+  type: vmess
+  uuid: 37104d39-5fdd-492a-ba7e-eeb45f083793
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #49'
+  network: ws
+  port: '443'
+  server: f.zhuk.us.kg
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #50'
+  network: ws
+  port: '8443'
+  server: f.zhuk.us.kg
+  tls: true
+  type: vmess
+  uuid: 0d40f3c5-d55f-41c7-fd94-737b8715a89e
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
     path: /ylks
 - alterId: 0
   cipher: auto
@@ -2162,7 +2127,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #35'
+  name: '21|🇺🇸 _美国 #51'
   network: ws
   port: '80'
   server: 151.101.194.168
@@ -2188,7 +2153,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21|🇧🇷 _巴西
+  name: '21|🇧🇷 _巴西 #2'
   network: ws
   port: '443'
   server: 188.114.96.3
@@ -2199,6 +2164,33 @@ proxies:
     headers:
       Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
     path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 21,29|RU_speednode_0035
+  network: ws
+  port: 29025
+  server: 194.87.69.50
+  servername: 194.87.69.50
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 59c9c12d-7b09-46dc-ab42-21ad771fb696
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #54'
+  network: ws
+  port: '80'
+  server: 151.101.2.216
+  tls: false
+  type: vmess
+  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
+  ws-opts:
+    headers:
+      Host: 6606.com
+    path: /racevpn
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
@@ -2379,7 +2371,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #2'
+  name: '28|美国 CloudFlare节点 #3'
   network: ws
   port: '80'
   server: 104.21.224.8
@@ -2513,7 +2505,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #3'
+  name: '28|美国 CloudFlare节点 #4'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -2527,7 +2519,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #4'
+  name: '28|美国 CloudFlare节点 #5'
   network: ws
   port: 80
   server: 104.21.224.129
@@ -2540,7 +2532,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #5'
+  name: '28|美国 CloudFlare节点 #6'
   network: ws
   port: '80'
   server: 104.21.230.53
@@ -2568,7 +2560,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #6'
+  name: '28|美国 CloudFlare节点 #7'
   network: ws
   port: 80
   server: 104.21.224.56
@@ -2596,7 +2588,7 @@ proxies:
     path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #7'
+  name: '28|美国 CloudFlare节点 #8'
   network: ws
   port: '80'
   server: 104.21.235.76
@@ -2622,7 +2614,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #8'
+  name: '28|美国 CloudFlare节点 #9'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -2730,7 +2722,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #10'
+  name: '28|美国 CloudFlare节点 #11'
   network: ws
   port: 80
   server: 104.21.224.24
@@ -2933,7 +2925,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #12'
+  name: '28|美国 CloudFlare节点 #13'
   network: ws
   port: 80
   server: 104.21.238.90
@@ -2960,7 +2952,7 @@ proxies:
     path: /CAT
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #13'
+  name: '28|美国 CloudFlare节点 #14'
   network: ws
   port: 80
   server: 104.21.237.88
@@ -2987,7 +2979,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #14'
+  name: '28|美国 CloudFlare节点 #15'
   network: ws
   port: 80
   server: 104.21.224.157
@@ -3010,7 +3002,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #15'
+  name: '28|美国 CloudFlare节点 #16'
   network: ws
   port: '80'
   server: 104.21.237.65
@@ -3051,7 +3043,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #16'
+  name: '28|美国 CloudFlare节点 #17'
   network: ws
   port: 80
   server: 104.21.221.135
@@ -3079,7 +3071,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #17'
+  name: '28|美国 CloudFlare节点 #18'
   network: ws
   port: 80
   server: 104.21.237.87
@@ -3154,7 +3146,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #19'
+  name: '28|美国 CloudFlare节点 #20'
   network: ws
   port: 80
   server: 104.21.230.31
@@ -3182,7 +3174,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #20'
+  name: '28|美国 CloudFlare节点 #21'
   network: ws
   port: '80'
   server: 104.21.224.23
@@ -3218,7 +3210,7 @@ proxies:
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #21'
+  name: '28|美国 CloudFlare节点 #22'
   network: ws
   port: 80
   server: 104.21.239.76
@@ -3285,7 +3277,7 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #22'
+  name: '28|美国 CloudFlare节点 #23'
   network: ws
   port: 80
   server: 104.21.228.42
@@ -3299,7 +3291,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #23'
+  name: '28|美国 CloudFlare节点 #24'
   network: ws
   port: '80'
   server: 104.21.234.74
@@ -3416,7 +3408,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #24'
+  name: '28|美国 CloudFlare节点 #25'
   network: ws
   port: '80'
   server: 104.21.230.50
@@ -3486,7 +3478,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #25'
+  name: '28|美国 CloudFlare节点 #26'
   network: ws
   port: '80'
   server: 104.21.228.40
@@ -3513,7 +3505,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #26'
+  name: '28|美国 CloudFlare节点 #27'
   network: ws
   port: '80'
   server: 104.21.228.41
@@ -3526,7 +3518,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #27'
+  name: '28|美国 CloudFlare节点 #28'
   network: ws
   port: 80
   server: 104.21.234.72
@@ -3554,7 +3546,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #28'
+  name: '28|美国 CloudFlare节点 #29'
   network: ws
   port: '80'
   server: 104.21.232.63
@@ -3567,7 +3559,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #29'
+  name: '28|美国 CloudFlare节点 #30'
   network: ws
   port: 80
   server: 104.21.221.95
@@ -3659,7 +3651,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #30'
+  name: '28|美国 CloudFlare节点 #31'
   network: ws
   port: 80
   server: 104.21.224.16
@@ -3685,7 +3677,7 @@ proxies:
     path: /CAT
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #31'
+  name: '28|美国 CloudFlare节点 #32'
   network: ws
   port: 80
   server: 104.21.224.174
@@ -3699,7 +3691,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #32'
+  name: '28|美国 CloudFlare节点 #33'
   network: ws
   port: 80
   server: 104.21.221.215
@@ -3794,7 +3786,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #33'
+  name: '28|美国 CloudFlare节点 #34'
   network: ws
   port: 80
   server: 104.21.226.14
@@ -3844,7 +3836,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #34'
+  name: '28|美国 CloudFlare节点 #35'
   network: ws
   port: 80
   server: 104.21.235.57
@@ -3857,7 +3849,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai08
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #35'
+  name: '28|美国 CloudFlare节点 #36'
   network: ws
   port: 80
   server: 104.21.224.240
@@ -3884,7 +3876,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #36'
+  name: '28|美国 CloudFlare节点 #37'
   network: ws
   port: '80'
   server: 104.21.230.51
@@ -3898,7 +3890,7 @@ proxies:
     path: '/?ed=2048&Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #37'
+  name: '28|美国 CloudFlare节点 #38'
   network: ws
   port: 80
   server: 104.21.231.59
@@ -3989,7 +3981,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #38'
+  name: '28|美国 CloudFlare节点 #39'
   network: ws
   port: 80
   server: 104.21.224.46
@@ -4003,7 +3995,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #39'
+  name: '28|美国 CloudFlare节点 #40'
   network: ws
   port: '80'
   server: 104.21.236.60
@@ -4030,7 +4022,7 @@ proxies:
     path: /fws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #40'
+  name: '28|美国 CloudFlare节点 #41'
   network: ws
   port: '80'
   server: 104.21.238.92
@@ -4082,7 +4074,7 @@ proxies:
     path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #41'
+  name: '28|美国 CloudFlare节点 #42'
   network: ws
   port: '80'
   server: 104.21.239.77
@@ -4122,7 +4114,7 @@ proxies:
     path: /github
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #42'
+  name: '28|美国 CloudFlare节点 #43'
   network: ws
   port: 8080
   server: 172.67.143.192
@@ -4146,7 +4138,7 @@ proxies:
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #43'
+  name: '28|美国 CloudFlare节点 #44'
   network: ws
   port: '80'
   server: 104.21.229.26
@@ -4172,7 +4164,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #44'
+  name: '28|美国 CloudFlare节点 #45'
   network: ws
   port: '80'
   server: 104.21.227.15
@@ -4212,7 +4204,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #45'
+  name: '28|美国 CloudFlare节点 #46'
   network: ws
   port: '80'
   server: 104.21.228.20
@@ -4384,7 +4376,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #46'
+  name: '28|美国 CloudFlare节点 #47'
   network: ws
   port: 80
   server: 104.21.231.57
@@ -4398,7 +4390,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|美国 CloudFlare节点 #47'
+  name: '28|美国 CloudFlare节点 #48'
   network: ws
   port: '80'
   server: 104.21.229.47
@@ -4538,16 +4530,16 @@ proxies:
   uuid: 64a1796c-95f8-40e4-9a56-825823212648
 - alterId: 0
   cipher: auto
-  name: 29|RU_speednode_0035
+  name: 29|RU_speednode_0033
   network: ws
   port: 29025
-  server: 194.87.69.50
-  servername: 194.87.69.50
+  server: 195.58.49.86
+  servername: 195.58.49.86
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 59c9c12d-7b09-46dc-ab42-21ad771fb696
+  uuid: 727d1e03-2aed-4190-bff5-30890097c1c4
   ws-opts:
     path: /
 - alterId: 0

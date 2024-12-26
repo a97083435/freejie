@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|香港 ThinkDream数据中心
-  network: ws
-  port: 8443
-  server: 27.50.48.188
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
 - alterId: 64
   cipher: auto
   name: 13,21,25,27|香港3|@ripaojiedian
@@ -52,16 +39,19 @@ proxies:
   tls: false
   type: vmess
   uuid: c94a21b5-43f6-477d-82a6-cdae1de397c3
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
+  name: 21|🇭🇰 香港 ThinkDream数据中心
+  network: ws
+  port: '8443'
+  server: 27.50.48.188
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome

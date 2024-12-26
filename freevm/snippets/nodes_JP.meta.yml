@@ -14,7 +14,7 @@ proxies:
   name: 21|🇯🇵 _日本
   network: ws
   port: '443'
-  server: 47.91.18.127
+  server: 146.56.101.141
   tls: true
   type: vmess
   uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
@@ -27,6 +27,19 @@ proxies:
   name: '21|🇯🇵 _日本 #1'
   network: ws
   port: '443'
+  server: 47.91.18.127
+  tls: true
+  type: vmess
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇯🇵 _日本 #2'
+  network: ws
+  port: '443'
   server: 158.101.141.78
   tls: true
   type: vmess
@@ -34,6 +47,19 @@ proxies:
   ws-opts:
     headers:
       Host: ylks.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇯🇵 _日本 #3'
+  network: ws
+  port: '443'
+  server: 158.101.148.105
+  tls: true
+  type: vmess
+  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
+  ws-opts:
+    headers:
+      Host: f.zhuk.us.kg
     path: /ylks
 - cipher: aes-128-gcm
   client-fingerprint: chrome
