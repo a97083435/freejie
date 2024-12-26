@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
 - alterId: 64
   cipher: auto
   name: '3,30|🇨🇳_CN_中国 #1'
@@ -14,6 +8,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '11,20,21|_中国 #16'
+  network: tcp
+  port: '54104'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 11,13,20,21,25,27|香港4|@ripaojiedian
@@ -136,19 +143,6 @@ proxies:
   port: 39206
   server: hzhz1.sssyun.xyz
   type: ss
-- alterId: 64
-  cipher: auto
-  name: '20,21|_中国 #16'
-  network: tcp
-  port: '54104'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 64
   cipher: auto
   name: '20,21|_中国 #21'
