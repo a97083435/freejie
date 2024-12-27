@@ -7,11 +7,10 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 11,13,21,25,27|香港5|@ripaojiedian
+  name: '3,30|🇨🇳_CN_中国 #1'
   network: tcp
-  port: '51704'
-  server: 183.236.51.23
-  servername: ''
+  port: 54882
+  server: 183.240.235.162
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -20,7 +19,20 @@ proxies:
   name: 11|中国 阿里云
   network: ws
   port: 443
-  server: 8.219.209.8
+  server: 8.219.254.97
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '11|中国 阿里云 #1'
+  network: ws
+  port: 443
+  server: 8.222.180.229
   tls: true
   type: vmess
   uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
@@ -110,12 +122,3 @@ proxies:
   port: 30003
   server: 171.111.216.155
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 30|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
