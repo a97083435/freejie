@@ -13,6 +13,12 @@ proxies:
   ws-headers:
     Host: jpp1.pfdsddla.com
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇯🇵JP-194.105.83.3-180
+  password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6
+  port: 40003
+  server: soonjp.soon.guru
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 20,26,29|JP_speednode_0029
@@ -21,17 +27,13 @@ proxies:
   server: 149.22.87.204
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇯🇵JP-94.177.131.71-039
-  password: 6027e101-7084-3b4a-be0d-ff1230366180
-  port: 61002
-  server: 4.forlive.live
-  type: ss
-- cipher: aes-256-cfb
-  name: 20|🇯🇵JP-18.179.197.216-077
-  password: amazonskr05
-  port: 443
-  server: 18.179.197.216
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -41,108 +43,9 @@ proxies:
   server: 3.112.236.3
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|🇵JP-47.91.18.127-160
-  network: ws
-  port: 443
-  server: 47.91.18.127
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-headers:
-    Host: ylks.zhuk.us.kg
-  ws-path: /ylks
-- alterId: 0
-  cipher: auto
-  name: 20|🇵JP-158.101.141.78-172
-  network: ws
-  port: 443
-  server: 158.101.141.78
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-headers:
-    Host: ylks.zhuk.us.kg
-  ws-path: /ylks
-- alterId: 0
-  cipher: auto
-  name: 20|🇵JP-158.101.148.105-181
-  network: ws
-  port: 443
-  server: 158.101.148.105
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
-  ws-headers:
-    Host: f.zhuk.us.kg
-  ws-path: /ylks
-- alterId: 0
-  cipher: auto
-  name: 21|🇯🇵 _日本
-  network: ws
-  port: '443'
-  server: 146.56.101.141
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇯🇵 _日本 #1'
-  network: ws
-  port: '443'
-  server: 47.91.18.127
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇯🇵 _日本 #2'
-  network: ws
-  port: '443'
-  server: 158.101.141.78
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇯🇵 _日本 #3'
-  network: ws
-  port: '443'
-  server: 158.101.148.105
-  tls: true
-  type: vmess
-  uuid: d84b52dc-2554-4032-d4f8-cf403d9139f2
-  ws-opts:
-    headers:
-      Host: f.zhuk.us.kg
-    path: /ylks
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本3|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 107.148.6.121
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 57.181.42.233
