@@ -1,18 +1,17 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
-  skip-cert-verify: true
-  tls: false
+  name: 11,21|_中国
+  network: ws
+  port: '443'
+  server: 47.243.236.86
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
-  ws-path: /
+  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
+  ws-opts:
+    headers:
+      Host: ylks.zhuk.us.kg
+    path: /ylks
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
@@ -43,20 +42,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,20,21|🇭🇰 14|香港6|@ripaojiedian
-  network: tcp
-  port: '34728'
-  server: 149.104.15.104
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c94a21b5-43f6-477d-82a6-cdae1de397c3
-  ws-headers:
-    Host: 149.104.15.104
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 20|🇰HK-47.243.236.86-158
   network: ws
   port: 443
@@ -68,6 +53,36 @@ proxies:
   ws-headers:
     Host: ylks.zhuk.us.kg
   ws-path: /ylks
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 20,21,29|HK_speednode_0013
+  network: http
+  port: 34728
+  server: 149.104.15.104
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c94a21b5-43f6-477d-82a6-cdae1de397c3
+  ws-headers:
+    Host: 149.104.15.104
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇭🇰 14|香港6|@ripaojiedian
+  network: tcp
+  port: '34728'
+  server: 149.104.15.104
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c94a21b5-43f6-477d-82a6-cdae1de397c3
+  ws-headers:
+    Host: 149.104.15.104
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 20|🇭🇰HK-46.232.123.24-215
   password: 81c6686e-50fa-4ee7-9699-beb66d91a77b
@@ -392,19 +407,6 @@ proxies:
   port: 50667
   server: ie01.ssyhi.xyz
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|_中国
-  network: ws
-  port: '443'
-  server: 47.243.236.86
-  tls: true
-  type: vmess
-  uuid: e8fa89a3-8e16-43dd-fd7c-1f4b04316186
-  ws-opts:
-    headers:
-      Host: ylks.zhuk.us.kg
-    path: /ylks
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 26|🇭🇰 香港6|@ripaojiedian

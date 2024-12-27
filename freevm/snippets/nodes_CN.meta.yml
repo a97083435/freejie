@@ -16,19 +16,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,20,21|🇨🇳 广东省广州市 移动 #1'
-  network: tcp
-  port: '56601'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 11,13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '46602'
@@ -40,6 +27,20 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.234.102.229
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -55,6 +56,32 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: '20,21|🇨🇳 广东省广州市 移动 #1'
+  network: tcp
+  port: '56601'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #1'
+  network: tcp
+  port: '60852'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 17e51677-587d-4312-972a-3f51afd2fe4f
+  ws-headers:
+    Host: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 20|🇨🇳CN-120.232.217.158-214
   password: 81c6686e-50fa-4ee7-9699-beb66d91a77b
