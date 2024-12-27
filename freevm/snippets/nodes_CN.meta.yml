@@ -14,19 +14,32 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇨🇳 中国 阿里云
+  network: ws
+  port: '443'
+  server: 8.222.180.229
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港7|@ripaojiedian
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
-  port: '46602'
-  server: 183.236.51.23
+  port: '52908'
+  server: 120.234.102.229
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
+    Host: 120.234.102.229
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -55,19 +68,6 @@ proxies:
   ws-headers:
     Host: ip3.6929198.xyz
   ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇳 中国 阿里云
-  network: ws
-  port: '443'
-  server: 8.222.180.229
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: '28|日本2|@ripaojiedian #1'
