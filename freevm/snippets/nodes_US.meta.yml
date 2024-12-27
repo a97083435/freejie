@@ -250,18 +250,31 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
+  name: 11,16,21,28|美国测试节点
   network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   ws-opts:
     headers:
-      Host: server26.beheshtbaneh.com
-    path: /
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 _美国 #6'
+  network: ws
+  port: '80'
+  server: 151.101.2.216
+  tls: false
+  type: vmess
+  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
+  ws-opts:
+    headers:
+      Host: 6606.com
+    path: /racevpn
 - alterId: 0
   cipher: auto
   name: '11,21|🇺🇸 _美国 #5'
@@ -277,7 +290,7 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -288,6 +301,19 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 _美国 #7'
+  network: ws
+  port: '80'
+  server: 151.101.2.168
+  tls: false
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
@@ -304,18 +330,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,21,28|美国测试节点
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: zheshiscp.com
-    path: /77848824
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #6'
@@ -478,19 +504,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #6'
-  network: ws
-  port: '80'
-  server: 151.101.2.216
-  tls: false
-  type: vmess
-  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
-  ws-opts:
-    headers:
-      Host: 6606.com
-    path: /racevpn
-- alterId: 0
-  cipher: auto
   name: 21|🇺🇸 美国 教育网
   network: ws
   port: '443'
@@ -515,19 +528,6 @@ proxies:
     headers:
       Host: ylks.zhuk.us.kg
     path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #7'
-  network: ws
-  port: '80'
-  server: 151.101.2.168
-  tls: false
-  type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #2'
