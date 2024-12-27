@@ -1,49 +1,51 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港4|@ripaojiedian
+  name: 13,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '34493'
   server: 120.198.71.214
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '51704'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港7|@ripaojiedian
+  name: 13,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '46602'
   server: 183.236.51.23
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 26,29|IN_speednode_0028
+  password: '!!str 3648425794742788096'
+  port: 443
+  server: 13.235.160.41
+  skip-cert-verify: true
+  sni: mint-pangolin.treefrog761.one
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港6|@ripaojiedian
+  name: 26|🇭🇰 香港6|@ripaojiedian
   password: asd123456
   port: 8388
   server: 154.197.26.120
