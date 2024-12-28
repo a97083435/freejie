@@ -1,16 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 13,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '34493'
@@ -42,17 +32,16 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 26,29|IN_speednode_0028
-  password: '!!str 3648425794742788096'
-  port: 443
-  server: 13.235.160.41
+  name: 26,29|TW_speednode_0063
+  password: 1a668915-d98f-4440-8bac-2c51d508f811
+  port: 30337
+  server: 1.170.241.81
   skip-cert-verify: true
-  sni: mint-pangolin.treefrog761.one
+  sni: ddns.200566.xyz
   tfo: false
   tls: false
   type: trojan
-  udp: true
-  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
@@ -125,3 +114,8 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
+- name: 29|HK_speednode_0037
+  port: 4000
+  server: hk9.ftq.ink
+  tls: true
+  type: http
