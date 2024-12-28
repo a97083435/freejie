@@ -1,15 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: 21|🇨🇦 加拿大 魁北克省博阿努瓦OVH数据中心
-  network: grpc
-  port: '443'
+  name: 11|加拿大 魁北克省博阿努瓦OVH数据中心
+  network: tcp
+  port: 80
   server: 51.79.27.204
+  tls: false
+  type: vmess
+  uuid: 97244a00-16ba-43ce-9e6b-f6002290e485
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 20,26,29|TW_speednode_0063
+  password: 1a668915-d98f-4440-8bac-2c51d508f811
+  port: 30337
+  server: 1.170.241.81
+  skip-cert-verify: true
+  sni: ddns.200566.xyz
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: h=%2F
+- alterId: 0
+  cipher: auto
+  name: 20|🇦CA-192.18.159.129-190
+  network: ws
+  port: 443
+  server: 192.18.159.129
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 55d1bdb3-170b-420e-a07d-b08bac0c6cff
+  uuid: b9559c23-1379-4eef-e628-a6e87cc620c5
+  ws-headers:
+    Host: us.zhuk.us.kg
+  ws-path: /ylks
 - alterId: 0
   cipher: auto
   name: 28|🇨🇦_CA_加拿大

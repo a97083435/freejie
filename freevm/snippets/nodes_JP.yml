@@ -1,31 +1,99 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,13,21,25,26,27|新加坡|@ripaojiedian
+  name: 11,21|🇦🇺 _澳大利亚
   network: ws
-  port: '80'
-  server: www.aetv.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: '443'
+  server: 43.206.192.211
+  tls: true
   type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  uuid: b9559c23-1379-4eef-e628-a6e87cc620c5
   ws-opts:
     headers:
-      Host: amd.al
-    path: /?ed=2048
+      Host: us.zhuk.us.kg
+    path: /ylks
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|日本2|@ripaojiedian
+  name: 13,20,21,25,27|日本2|@ripaojiedian
   network: tcp
   port: '38953'
   server: jpp1.pfdsddla.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: fa98714c-1d2b-3b60-81e0-f7151110e801
+  ws-headers:
+    Host: jpp1.pfdsddla.com
+  ws-path: /
+- cipher: aes-256-cfb
+  name: 20,29|JP_speednode_0040
+  password: amazonskr05
+  port: 443
+  server: 13.115.231.64
+  type: ss
+- cipher: aes-256-cfb
+  name: 20|🇯🇵JP-18.179.197.216-079
+  password: amazonskr05
+  port: 443
+  server: 18.179.197.216
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 20,26,29|JP_speednode_0039
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.181.176.227
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.181.162.137
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇵JP-194.105.83.3-125
+  password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6
+  port: 40003
+  server: soonjp.soon.guru
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇵JP-158.101.141.78-176
+  network: ws
+  port: 443
+  server: 158.101.141.78
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b9559c23-1379-4eef-e628-a6e87cc620c5
+  ws-headers:
+    Host: us.zhuk.us.kg
+  ws-path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 20|🇵JP-43.206.192.211-197
+  network: ws
+  port: 443
+  server: 43.206.192.211
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b9559c23-1379-4eef-e628-a6e87cc620c5
+  ws-headers:
+    Host: us.zhuk.us.kg
+  ws-path: /ylks
 - alterId: 0
   cipher: auto
   name: 21|🇯🇵 _日本
@@ -39,22 +107,6 @@ proxies:
     headers:
       Host: us.zhuk.us.kg
     path: /ylks
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 26,29|JP_speednode_0039
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.181.162.137
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
@@ -95,12 +147,6 @@ proxies:
     headers:
       Host: linode.appleid.bf
     path: /CAT
-- cipher: aes-256-cfb
-  name: 29|JP_speednode_0040
-  password: amazonskr05
-  port: 443
-  server: 13.115.231.64
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 29|JP_speednode_0041
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
