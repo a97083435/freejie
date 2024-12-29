@@ -5,6 +5,23 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,21,25,26,27|新加坡|@ripaojiedian
+  network: ws
+  port: '80'
+  server: www.aetv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
 - cipher: aes-256-cfb
   name: 20,29|SG_speednode_0056
   password: amazonskr05
@@ -94,6 +111,14 @@ proxies:
   ws-headers:
     Host: us.zhuk.us.kg
   ws-path: /ylks
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇸🇬 新加坡2|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54030
+  server: s-g04.loveroise.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
