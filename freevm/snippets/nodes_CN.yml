@@ -26,19 +26,29 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,21|_中国 #18'
+  name: '11,21|_中国 #3'
   network: tcp
-  port: '53002'
+  port: '40434'
   server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,21,25,27|香港3|@ripaojiedian
+  name: 11,13,21,25,27|香港7|@ripaojiedian
   network: tcp
-  port: '52908'
-  server: 120.234.102.229
+  port: '46602'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
+  server: 183.236.51.23
   servername: ''
   tls: false
   type: vmess
@@ -57,34 +67,21 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 21|_中国
-  network: ws
-  port: '36449'
-  server: 117.173.88.171
+  name: '21|_中国 #18'
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
   tls: false
   type: vmess
-  uuid: 3ecd0217-870c-4bac-bb00-5c1e6bc6fd0a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: '21|_中国 #1'
   network: tcp
   port: '50004'
   server: 112.132.212.19
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #3'
-  network: tcp
-  port: '40434'
-  server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
