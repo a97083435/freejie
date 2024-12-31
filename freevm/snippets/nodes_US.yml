@@ -235,23 +235,94 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 1
+  cipher: auto
+  name: 11,21|🇯🇵 日本 东京都Amazon数据中心
+  network: tcp
+  port: '28783'
+  server: 1oj86-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
 - alterId: 0
   cipher: auto
-  name: 11|美国 Fastly全球Anycast节点
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
   network: ws
-  port: '80'
-  server: 151.101.130.168
+  port: 8880
+  server: server31.beheshtbaneh.com
   servername: ''
   tls: false
   type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
   ws-opts:
     headers:
-      Host: amd.al
-    path: /?ed=2048
+      Host: server31.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
+  name: '11,21|🇺🇸 _美国 #43'
+  network: ws
+  port: '8888'
+  server: 38.150.7.183
+  tls: false
+  type: vmess
+  uuid: 7fff60ed-59db-4cc6-a5ad-cf4274e57a50
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
+- alterId: 1
+  cipher: auto
+  name: '11,21|🇺🇸 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中... #1'
+  network: tcp
+  port: '11773'
+  server: kshjl-g01.jp02-9a99-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
+- alterId: 1
+  cipher: auto
+  name: '11|美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 #2'
+  network: tcp
+  port: 444
+  server: podpm-g01.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: '8880'
+  server: 104.18.11.143
+  tls: false
+  type: vmess
+  uuid: e658e8b4-e439-4479-bf80-1c44bcda900b
+  ws-opts:
+    headers:
+      Host: yd.changyouVPN.top
+    path: /?ed=2048
+- alterId: 1
+  cipher: auto
+  name: '11|美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 #3'
+  network: tcp
+  port: 444
+  server: vh1ty-g01.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
+- alterId: 1
+  cipher: auto
+  name: '11|美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 #4'
+  network: tcp
+  port: 444
+  server: kailn-g01.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
+- alterId: 0
+  cipher: auto
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -264,20 +335,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #1'
-  network: ws
-  port: '80'
-  server: 151.101.2.168
-  tls: false
-  type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -288,66 +346,6 @@ proxies:
   ws-opts:
     headers:
       Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,21,25|0|-https://t.me/MrXbin-60
-  network: ws
-  port: 38004
-  server: 199.180.101.29
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.70778598.xyz
-    path: /path/1734770577466
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 _美国 #2'
-  network: ws
-  port: '80'
-  server: 151.101.194.168
-  tls: false
-  type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - api.teborder.com
-    method: GET
-    path:
-    - /qfubCCSCeI
-  name: 13,21,25,26,27|美国2|@ripaojiedian
-  network: http
-  port: '42122'
-  server: shcm.pfdsddla.com
-  servername: api.teborder.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2c610eac-882d-3944-a7c4-674c033f0073
-- alterId: 0
-  cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -377,22 +375,83 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 1
+  cipher: auto
+  name: 21|🇺🇸 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中...
+  network: tcp
+  port: '11773'
+  server: izacl-g01.jp02-9a99-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #46'
+  network: ws
+  port: '80'
+  server: 151.101.2.168
+  tls: false
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
 - alterId: 64
   cipher: auto
-  name: 21|🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+  name: 21|🇺🇸 美国 华盛顿Cogent通信公司
   network: ws
-  port: '38007'
-  server: 142.4.108.131
+  port: '38003'
+  server: 38.14.107.226
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: ''
-    path: /path/283126261303
+    path: /path/340434130032
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸 _美国
+  name: '21|🇺🇸 _美国 #11'
+  network: ws
+  port: '8013'
+  server: 156.229.162.206
+  tls: false
+  type: vmess
+  uuid: 1a474b28-0885-44c9-8eee-61e4e5ced5db
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #3'
+  network: ws
+  port: '8443'
+  server: www.wto.org
+  tls: true
+  type: vmess
+  uuid: 678cda7b-ec03-407e-d778-d625fce60cc4
+  ws-opts:
+    headers:
+      Host: jj.htg8866.us.kg
+    path: /65ertdy6r5wer5t
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #5'
+  network: ws
+  port: '8443'
+  server: fbi.gov
+  tls: true
+  type: vmess
+  uuid: 678cda7b-ec03-407e-d778-d625fce60cc4
+  ws-opts:
+    headers:
+      Host: jj.htg8866.us.kg
+    path: /65ertdy6r5wer5t
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #45'
   network: ws
   port: '80'
   server: 151.101.2.216
@@ -403,6 +462,344 @@ proxies:
     headers:
       Host: 6606.com
     path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #7'
+  network: ws
+  port: '2096'
+  server: 104.25.255.103
+  tls: true
+  type: vmess
+  uuid: 678cda7b-ec03-407e-d778-d625fce60cc4
+  ws-opts:
+    headers:
+      Host: jj.htg8866.us.kg
+    path: /65ertdy6r5wer5t
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #8'
+  network: ws
+  port: '2096'
+  server: 104.18.169.168
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #9'
+  network: ws
+  port: '8443'
+  server: whatismyipaddress.com
+  tls: true
+  type: vmess
+  uuid: 5669a125-54cb-42c5-d41f-3d5caf1213b7
+  ws-opts:
+    headers:
+      Host: df.htg8866.us.kg
+    path: /87iof67ri754s6456
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #10'
+  network: ws
+  port: '2096'
+  server: 104.18.79.53
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #41'
+  network: ws
+  port: '80'
+  server: 151.101.194.133
+  tls: false
+  type: vmess
+  uuid: 3ecf9ef9-d4e7-4eb4-a16d-c6e7b2a39af4
+  ws-opts:
+    headers:
+      Host: 7707.dev
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #15'
+  network: ws
+  port: '80'
+  server: ir.fast.hosting-ip.com
+  tls: false
+  type: vmess
+  uuid: ee05113d-7258-4cd4-bb28-4d82d1b6ebb2
+  ws-opts:
+    headers:
+      Host: banknabi-mahdi313.IR.
+    path: /?ed=80/#id-telegram:@vpn_whal<---
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #17'
+  network: ws
+  port: '8880'
+  server: lamusa.daozhang.site
+  tls: false
+  type: vmess
+  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
+  ws-opts:
+    headers:
+      Host: lamusa.daozhang.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #18'
+  network: ws
+  port: '2096'
+  server: 104.18.181.238
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #20'
+  network: ws
+  port: '8443'
+  server: www.okcupid.com
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #21'
+  network: ws
+  port: '8443'
+  server: www.visa.com.sg
+  tls: true
+  type: vmess
+  uuid: 5669a125-54cb-42c5-d41f-3d5caf1213b7
+  ws-opts:
+    headers:
+      Host: df.htg8866.us.kg
+    path: /87iof67ri754s6456
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #44'
+  network: ws
+  port: '80'
+  server: 151.101.194.168
+  tls: false
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #25'
+  network: ws
+  port: '8443'
+  server: 104.19.218.236
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #26'
+  network: ws
+  port: '8443'
+  server: fbi.gov
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #27'
+  network: ws
+  port: '443'
+  server: 172.67.164.232
+  tls: true
+  type: vmess
+  uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #28'
+  network: ws
+  port: '8443'
+  server: whatismyipaddress.com
+  tls: true
+  type: vmess
+  uuid: 678cda7b-ec03-407e-d778-d625fce60cc4
+  ws-opts:
+    headers:
+      Host: jj.htg8866.us.kg
+    path: /65ertdy6r5wer5t
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #29'
+  network: ws
+  port: '2096'
+  server: 104.19.218.236
+  tls: true
+  type: vmess
+  uuid: 678cda7b-ec03-407e-d778-d625fce60cc4
+  ws-opts:
+    headers:
+      Host: jj.htg8866.us.kg
+    path: /65ertdy6r5wer5t
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #30'
+  network: ws
+  port: '2096'
+  server: 104.18.79.53
+  tls: true
+  type: vmess
+  uuid: 678cda7b-ec03-407e-d778-d625fce60cc4
+  ws-opts:
+    headers:
+      Host: jj.htg8866.us.kg
+    path: /65ertdy6r5wer5t
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #32'
+  network: ws
+  port: '2096'
+  server: 104.18.169.168
+  tls: true
+  type: vmess
+  uuid: 678cda7b-ec03-407e-d778-d625fce60cc4
+  ws-opts:
+    headers:
+      Host: jj.htg8866.us.kg
+    path: /65ertdy6r5wer5t
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #33'
+  network: ws
+  port: '2096'
+  server: 104.17.201.138
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #34'
+  network: ws
+  port: '8443'
+  server: www.visa.com.sg
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #35'
+  network: ws
+  port: '8443'
+  server: fbi.gov
+  tls: true
+  type: vmess
+  uuid: 5669a125-54cb-42c5-d41f-3d5caf1213b7
+  ws-opts:
+    headers:
+      Host: df.htg8866.us.kg
+    path: /87iof67ri754s6456
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #36'
+  network: ws
+  port: '8443'
+  server: www.visakorea.com
+  tls: true
+  type: vmess
+  uuid: 678cda7b-ec03-407e-d778-d625fce60cc4
+  ws-opts:
+    headers:
+      Host: jj.htg8866.us.kg
+    path: /65ertdy6r5wer5t
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #38'
+  network: ws
+  port: '8443'
+  server: www.visa.com.tw
+  tls: true
+  type: vmess
+  uuid: 678cda7b-ec03-407e-d778-d625fce60cc4
+  ws-opts:
+    headers:
+      Host: jj.htg8866.us.kg
+    path: /65ertdy6r5wer5t
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #39'
+  network: ws
+  port: '8443'
+  server: www.wto.org
+  tls: true
+  type: vmess
+  uuid: 5669a125-54cb-42c5-d41f-3d5caf1213b7
+  ws-opts:
+    headers:
+      Host: df.htg8866.us.kg
+    path: /87iof67ri754s6456
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #40'
+  network: ws
+  port: '8443'
+  server: whatismyipaddress.com
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #42'
+  network: ws
+  port: '8443'
+  server: www.okcupid.com
+  tls: true
+  type: vmess
+  uuid: 5669a125-54cb-42c5-d41f-3d5caf1213b7
+  ws-opts:
+    headers:
+      Host: df.htg8866.us.kg
+    path: /87iof67ri754s6456
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
@@ -455,6 +852,14 @@ proxies:
     mode: http
   port: 45938
   server: console.02.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇺🇸 美国2|@ripaojiedian
+  password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5
+  port: 33396
+  server: xm.miloli.cc
   tfo: false
   type: ss
 - alterId: 0
