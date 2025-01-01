@@ -1,23 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '11,21|🇯🇵 _日本 #1'
+  client-fingerprint: chrome
+  name: 11,13,21,25,26,27|新加坡|@ripaojiedian
   network: ws
-  port: '443'
-  server: 54.199.222.232
-  tls: true
+  port: '80'
+  server: www.aetv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
   ws-opts:
     headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
+      Host: amd.al
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 11,21|🇯🇵 _日本
+  name: 11,21|🇦🇺 _澳大利亚
   network: ws
   port: '443'
-  server: 54.248.121.219
+  server: 43.204.208.173
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -113,6 +117,32 @@ proxies:
   ws-headers:
     Host: nl.zhuk.us.kg
   ws-path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 21|🇯🇵 _日本
+  network: ws
+  port: '443'
+  server: 54.248.121.219
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇯🇵 _日本 #1'
+  network: ws
+  port: '443'
+  server: 54.199.222.232
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
