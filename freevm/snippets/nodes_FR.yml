@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '11,21|🇩🇪 _德国 #7'
+  name: 11,21|🇫🇷 _法国
   network: ws
   port: '443'
-  server: 18.196.70.197
+  server: 35.181.77.67
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -14,10 +14,23 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: 11,21|🇫🇷 _法国
+  name: '11,21|🇩🇪 _德国 #2'
   network: ws
   port: '443'
-  server: 35.181.77.67
+  server: 3.126.159.12
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇩🇪 _德国 #5'
+  network: ws
+  port: '443'
+  server: 3.127.55.133
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -104,19 +117,6 @@ proxies:
   ws-headers:
     Host: nl.zhuk.us.kg
   ws-path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇩🇪 _德国 #2'
-  network: ws
-  port: '443'
-  server: 3.126.159.12
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
 - alterId: 0
   cipher: auto
   name: 21|🇩🇪 _德国
