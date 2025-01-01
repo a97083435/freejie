@@ -237,10 +237,23 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #11'
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: 8880
+  server: 104.18.10.143
+  tls: false
+  type: vmess
+  uuid: d80abe95-43ea-4114-a19b-fb0040f5f8ed
+  ws-opts:
+    headers:
+      Host: yd.changyouVPN.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇩🇪 _德国 #1'
   network: ws
   port: '443'
-  server: 34.225.195.136
+  server: 18.199.155.218
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -250,10 +263,10 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #27'
+  name: '11,21|🇺🇸 _美国 #19'
   network: ws
   port: '443'
-  server: 129.146.7.98
+  server: 3.18.169.201
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -261,60 +274,48 @@ proxies:
     headers:
       Host: nl.zhuk.us.kg
     path: /ylks
+- alterId: 1
+  cipher: auto
+  name: 11|美国科罗拉多州布隆菲尔德市 Level3
+  network: tcp
+  port: 46484
+  server: jp05-vm0.entry.srthdw.art
+  tls: false
+  type: vmess
+  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
 - alterId: 0
   cipher: auto
-  name: 11|美国 加利福尼亚州洛杉矶Dedipath数据中心
+  name: 11,13,25,29|CY_speednode_0069
   network: ws
   port: 443
   server: gs09.guoshi1520.com
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 681e76bc-c19e-4614-ca47-95ba2253a5a3
   ws-opts:
     headers:
-      Host: ''
+      Host: gs09.guoshi1520.com
     path: /681e76bc
-- alterId: 64
-  cipher: auto
-  name: 11|美国 加利福尼亚州森尼韦尔市PEG TECH公司
-  network: tcp
-  port: 45017
-  server: 142.0.134.244
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|美国 V2CROSS.COM
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 199.232.214.133
+  server: cf.fovi.tk
   tls: true
   type: vmess
-  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   ws-opts:
     headers:
-      Host: loki.oracle
-    path: /farcry?ed=2560
+      Host: foxlux.fovi.tk
+    path: /eisasqa
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
-  network: ws
-  port: 8880
-  server: lamusa.daozhang.site
-  tls: false
-  type: vmess
-  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
-  ws-opts:
-    headers:
-      Host: lamusa.daozhang.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 _美国 #15'
+  name: '11,21|🇺🇸 _美国 #8'
   network: ws
   port: '443'
-  server: 3.215.143.191
+  server: 3.69.0.8
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -324,10 +325,10 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #17'
+  name: '11,21|🇺🇸 _美国 #18'
   network: ws
   port: '443'
-  server: 3.129.183.128
+  server: 3.13.196.41
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -337,98 +338,48 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '11|美国 加利福尼亚州洛杉矶Dedipath数据中心 #1'
+  name: '11,21|🇺🇸 _美国 #14'
+  network: ws
+  port: '443'
+  server: 3.140.211.75
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 11,21,29|US_speednode_0087
+  network: ws
+  port: 2053
+  server: 152.70.155.147
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: aa704947-e163-4133-b485-f8032f8f1286
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: 11,13,25,29|CY_speednode_0070
   network: ws
   port: 443
   server: mlq001.facai2024.com
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: d86de5d5-1114-4685-999a-75fca2b6f964
   ws-opts:
     headers:
-      Host: ''
+      Host: mlq001.facai2024.com
     path: /d86de5d5
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #21'
-  network: ws
-  port: '443'
-  server: 18.236.13.188
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: 11|美国 华盛顿Cogent通信公司
-  network: ws
-  port: 8888
-  server: 38.150.7.183
-  tls: false
-  type: vmess
-  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /wada12222
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 _美国 #24'
-  network: ws
-  port: '443'
-  server: 129.146.168.102
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 _美国 #28'
-  network: ws
-  port: '443'
-  server: 34.219.53.148
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 _美国 #3'
-  network: ws
-  port: '443'
-  server: 3.67.25.193
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 _美国 #13'
-  network: ws
-  port: '443'
-  server: 129.159.84.71
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -439,23 +390,6 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,13,21,25,26,27|法国|@ripaojiedian
-  network: ws
-  port: '443'
-  server: primer.ibilibi.li
-  servername: ameblo.jp
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
-  ws-opts:
-    headers:
-      Host: loki.oracle
-    path: /farcry?ed=2560
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
@@ -938,6 +872,19 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
+  name: '21|🇺🇸 _美国 #3'
+  network: ws
+  port: '443'
+  server: 3.67.25.193
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
   name: '21|🇺🇸 _美国 #4'
   network: ws
   port: '443'
@@ -990,19 +937,6 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #8'
-  network: ws
-  port: '443'
-  server: 3.69.0.8
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
   name: '21|🇺🇸 _美国 #9'
   network: ws
   port: '443'
@@ -1029,6 +963,19 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
+  name: '21|🇺🇸 _美国 #11'
+  network: ws
+  port: '443'
+  server: 34.225.195.136
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
   name: '21|🇺🇸 _美国 #12'
   network: ws
   port: '443'
@@ -1042,10 +989,23 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #14'
+  name: '21|🇺🇸 _美国 #13'
   network: ws
   port: '443'
-  server: 3.140.211.75
+  server: 129.159.84.71
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #15'
+  network: ws
+  port: '443'
+  server: 3.215.143.191
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -1068,23 +1028,10 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #18'
+  name: '21|🇺🇸 _美国 #17'
   network: ws
   port: '443'
-  server: 3.13.196.41
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #19'
-  network: ws
-  port: '443'
-  server: 3.18.169.201
+  server: 3.129.183.128
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -1098,6 +1045,19 @@ proxies:
   network: ws
   port: '443'
   server: 3.144.191.4
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #21'
+  network: ws
+  port: '443'
+  server: 18.236.13.188
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -1133,6 +1093,19 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
+  name: '21|🇺🇸 _美国 #24'
+  network: ws
+  port: '443'
+  server: 129.146.168.102
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
   name: '21|🇺🇸 _美国 #25'
   network: ws
   port: '443'
@@ -1146,14 +1119,26 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: 21,29|US_speednode_0087
+  name: '21|🇺🇸 _美国 #27'
   network: ws
-  port: 2053
-  server: 152.70.155.147
-  skip-cert-verify: false
+  port: '443'
+  server: 129.146.7.98
   tls: true
   type: vmess
-  uuid: aa704947-e163-4133-b485-f8032f8f1286
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #28'
+  network: ws
+  port: '443'
+  server: 34.219.53.148
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
   ws-opts:
     headers:
       Host: nl.zhuk.us.kg

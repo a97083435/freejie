@@ -14,6 +14,46 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.234.102.229
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,21|_中国 #5'
+  network: ws
+  port: '25216'
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '11,20,21|🇨🇳 广东省广州市 移动 #1'
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -70,19 +110,6 @@ proxies:
   server: zx1.1010520.xyz
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: '20,21|🇨🇳 广东省广州市 移动 #1'
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇹🇼 台湾|@ripaojiedian
@@ -132,19 +159,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇳 湖北省荆门市 联通
-  network: ws
-  port: '25256'
-  server: us1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: us1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
   name: '21|_中国 #1'
   network: ws
   port: '443'
@@ -158,19 +172,6 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #2'
-  network: ws
-  port: '25284'
-  server: cu.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
   name: '21|_中国 #4'
   network: ws
   port: '25216'
@@ -181,19 +182,6 @@ proxies:
   ws-opts:
     headers:
       Host: cm.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #5'
-  network: ws
-  port: '25216'
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
