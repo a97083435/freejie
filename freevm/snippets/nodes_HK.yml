@@ -11,16 +11,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 13,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '51704'
@@ -41,6 +31,7 @@ proxies:
   uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: 26|🇸🇬 新加坡2|@ripaojiedian
   password: '!!str 3723507166611775488'
   port: 443
@@ -51,14 +42,16 @@ proxies:
   tls: false
   type: trojan
   uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
-- cipher: chacha20-ietf-poly1305
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
   name: 26|🇭🇰 香港6|@ripaojiedian
-  password: a8ac2fb2-4487-4685-aa33-7a19a9cb99f3
-  port: 35502
-  server: gw.liangyuandianwan.com
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 26|🇭🇰 香港7|@ripaojiedian
   password: 7243745919d6de49a5db
   plugin: obfs
