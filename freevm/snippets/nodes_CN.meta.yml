@@ -14,25 +14,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|广东省广州市 移动
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  tls: false
+  name: 11|中国 阿里云
+  network: ws
+  port: 443
+  server: 8.219.254.97
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -91,19 +85,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #10'
-  network: ws
-  port: '25230'
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
 - alterId: 64
   cipher: auto
   name: '21|_中国 #8'
@@ -128,6 +109,17 @@ proxies:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
 - cipher: rc4-md5
+  name: 29|CN_speednode_0002
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6605
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
   name: 29|CN_speednode_0003
   password: RenzheCloudSS
   plugin: obfs
@@ -145,7 +137,7 @@ proxies:
   plugin-opts:
     host: 78fe8292462.microsoft.com
     mode: http
-  port: 6603
+  port: 6604
   server: bs3.jymzffbquawl.com
   type: ss
   udp: true
@@ -156,8 +148,8 @@ proxies:
   plugin-opts:
     host: 78fe8292462.microsoft.com
     mode: http
-  port: 4600
-  server: bs3.jymzffbquawl.com
+  port: 6607
+  server: pr3.jymzffbquawl.com
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -167,133 +159,12 @@ proxies:
   plugin-opts:
     host: 78fe8292462.microsoft.com
     mode: http
-  port: 4608
+  port: 6603
   server: bs3.jymzffbquawl.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 29|CN_speednode_0008
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 6600
-  server: bs3.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0009
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 3601
-  server: pr1.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0010
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 4609
-  server: bs3.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0011
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 6605
-  server: bs3.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0012
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 6602
-  server: bs3.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0013
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 4607
-  server: bs3.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0014
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 4602
-  server: pr3.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0015
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 3609
-  server: bs1.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0016
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 6607
-  server: pr3.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0017
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 6604
-  server: bs3.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0018
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 3601
-  server: bs1.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0019
+  name: 29|CN_speednode_0007
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
@@ -304,18 +175,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 29|CN_speednode_0020
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 3609
-  server: pr1.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0021
+  name: 29|CN_speednode_0008
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
@@ -326,7 +186,29 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 29|CN_speednode_0022
+  name: 29|CN_speednode_0009
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4600
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0010
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4602
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0011
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
@@ -337,29 +219,40 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 29|CN_speednode_0023
+  name: 29|CN_speednode_0013
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
     host: 78fe8292462.microsoft.com
     mode: http
-  port: 3606
-  server: bs1.jymzffbquawl.com
+  port: 6600
+  server: bs3.jymzffbquawl.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 29|CN_speednode_0024
+  name: 29|CN_speednode_0014
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
     host: 78fe8292462.microsoft.com
     mode: http
-  port: 3603
+  port: 3609
   server: bs1.jymzffbquawl.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 29|CN_speednode_0025
+  name: 29|CN_speednode_0015
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4607
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0016
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
@@ -370,18 +263,40 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 29|CN_speednode_0026
+  name: 29|CN_speednode_0017
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
     host: 78fe8292462.microsoft.com
     mode: http
-  port: 3602
+  port: 3601
   server: pr1.jymzffbquawl.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 29|CN_speednode_0027
+  name: 29|CN_speednode_0019
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3601
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0020
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4609
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0021
   password: RenzheCloudSS
   plugin: obfs
   plugin-opts:
@@ -391,10 +306,56 @@ proxies:
   server: pr1.jymzffbquawl.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0028
-  password: f5136746-de79-46d0-b3be-d15d9992fa07
-  port: 18769
-  server: zx3.1010520.xyz
+- cipher: rc4-md5
+  name: 29|CN_speednode_0022
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3609
+  server: pr1.jymzffbquawl.com
   type: ss
   udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0023
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3602
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0024
+  password: ba9d2c35-523c-459e-b288-b7103d106d29
+  port: 30003
+  server: gdgs.tarioblink.me
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 29|CN_speednode_0025
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  servername: cu.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+- alterId: 0
+  cipher: auto
+  name: 29|CN_speednode_0026
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: cu.awslcn.info
+    path: /
