@@ -16,6 +16,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  name: 11,13,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: '11,21|_中国 #2'
   network: tcp
   port: '53002'
@@ -25,19 +35,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11|广东省广州市 移动 #1'
+  name: 11,13,21,25,27|香港4|@ripaojiedian
   network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
+  port: '34493'
+  server: 120.198.71.214
   servername: ''
   tls: false
   type: vmess
@@ -62,19 +63,6 @@ proxies:
   network: ws
   port: '443'
   server: 47.57.245.232
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #1'
-  network: ws
-  port: '443'
-  server: 47.57.14.118
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
