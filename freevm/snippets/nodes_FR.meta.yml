@@ -14,36 +14,10 @@ proxies:
     path: /ylks
 - alterId: 0
   cipher: auto
-  name: 11,21|🇫🇷 _法国
-  network: ws
-  port: '443'
-  server: 35.181.77.67
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
   name: '11,21|🇩🇪 _德国 #2'
   network: ws
   port: '443'
   server: 18.184.55.249
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇩🇪 _德国 #3'
-  network: ws
-  port: '443'
-  server: 18.185.254.189
   tls: true
   type: vmess
   uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
@@ -68,6 +42,19 @@ proxies:
     headers:
       Host: loki.oracle
     path: /farcry?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 21|🇫🇷 _法国
+  network: ws
+  port: '443'
+  server: 35.181.77.67
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
 - name: 24|_FR_国
   network: tcp
   password: telegram-id-directvpn
