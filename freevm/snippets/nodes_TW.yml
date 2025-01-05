@@ -11,6 +11,19 @@ proxies:
   server: console.03.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 26|🇹🇼 台湾2|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 26547
+  server: 211.75.73.126
+  skip-cert-verify: false
+  sni: tr.koxok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koxok.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 28|🇹🇼台湾 01
@@ -53,9 +66,3 @@ proxies:
     headers:
       Host: tw.appleid.bf
     path: /ws?ed=2048
-- cipher: aes-256-cfb
-  name: 29|TW_speednode_0046
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
