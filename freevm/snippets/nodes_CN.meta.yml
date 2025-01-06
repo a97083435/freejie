@@ -16,22 +16,18 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,21|_中国 #8'
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
-  port: '56601'
-  server: 183.236.51.23
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '11,21|_中国 #6'
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.234.102.229
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -48,29 +44,181 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
+  name: 20|🇳CN-223.113.140.208-072
+  network: ws
+  port: 80
+  server: 619d3460-e201-be79-d7f9-b8c85f7ba8e4.castlepeakhospital.moe
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ef29bee2-2169-450b-804b-598b1e963109
+  ws-headers:
+    Host: tms.dingtalk.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇹🇼 台湾2|@ripaojiedian
+  password: f7036518-37d8-3637-b5b8-bef1cbe629e6
+  port: 53924
+  server: best.cutecloud.link
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇨🇳CN-175.6.162.11-139
+  network: ws
+  port: 21001
+  server: csct.xxxxxx.one
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 437c6b4b-d508-4662-a508-cf3337b836b3
+  ws-headers:
+    Host: jp1.runjustfast.com
+  ws-path: /21a64xdea04c
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26,29|CN_speednode_0024
+  password: ba9d2c35-523c-459e-b288-b7103d106d29
+  port: 30003
+  server: gdgs.tarioblink.me
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇳CN-183.236.51.60-138
+  network: ws
+  port: 25216
+  server: cm.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: cm.awslcn.info
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20,29|CN_speednode_0025
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  servername: cu.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: cu.awslcn.info
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20|🇨🇳CN-119.36.154.75-141
+  network: ws
+  port: 25256
+  server: us1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: us1.awslcn.info
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20|🇨🇳CN-183.236.51.60-143
+  network: ws
+  port: 25216
+  server: cm1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: cm1.awslcn.info
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20|🇳CN-111.29.57.71-146
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: cm1.awslcn.info
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 21|_中国
   network: ws
   port: '443'
-  server: 47.57.245.232
+  server: 8.219.254.97
   tls: true
   type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
   ws-opts:
     headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #2'
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: beyonddsz.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #10'
+  name: '21|_中国 #1'
+  network: ws
+  port: '25216'
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: cm.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,29|CN_speednode_0026
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: cu.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #4'
+  network: ws
+  port: '25256'
+  server: us1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: us1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #5'
+  network: ws
+  port: '25216'
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #6'
   network: ws
   port: '25230'
   server: cm1.awslcn.info
@@ -81,6 +229,19 @@ proxies:
     headers:
       Host: cm1.awslcn.info
     path: /
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #7'
+  network: ws
+  port: '443'
+  server: 8.222.180.229
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: '28|日本2|@ripaojiedian #1'
@@ -335,28 +496,3 @@ proxies:
   server: pr1.jymzffbquawl.com
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|CN_speednode_0025
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  servername: cu.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-- alterId: 0
-  cipher: auto
-  name: 29|CN_speednode_0026
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
