@@ -235,32 +235,45 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: 104.18.21.219
+  tls: false
+  type: vmess
+  uuid: 3a18edb8-80c1-4cba-b912-4f10513da259
+  ws-opts:
+    headers:
+      Host: ovh.reonolimits.my.id
+    path: /vmessws
 - alterId: 64
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #67'
+  name: '11,21|🇺🇸 _美国 #37'
   network: ws
-  port: '36003'
-  server: 137.175.23.130
+  port: '37001'
+  server: 192.74.231.199
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.23178778.xyz
+      Host: www.57277774.xyz
     path: /path/1736040833184
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #97'
+  name: '11|美国 加利福尼亚州圣何塞PEG TECH数据中心 #1'
   network: ws
-  port: '80'
-  server: cf-vod.nimo.tv
-  tls: false
+  port: 37002
+  server: 192.74.247.135
+  tls: true
   type: vmess
-  uuid: 4ffc214f-6e89-4097-a791-a5cb22bd9319
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: ovh.reonolimits.my.id
-    path: /vmessws
+      Host: ''
+    path: /path/1736043833184
 - alterId: 0
   cipher: auto
   name: '11,21|🇺🇸 _美国 #94'
@@ -276,15 +289,30 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11,25|0|-https://t.me/MrXbin-57
+  name: '11,21|🇺🇸 _美国 #67'
   network: ws
-  port: 38007
-  server: 38.174.190.80
+  port: '36003'
+  server: 137.175.23.130
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    path: /path/102206282005
+    headers:
+      Host: www.23178778.xyz
+    path: /path/1736040833184
+- alterId: 64
+  cipher: auto
+  name: '11,21|🇺🇸 _美国 #86'
+  network: ws
+  port: '31003'
+  server: 192.74.240.108
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.73276259.xyz
+    path: /path/1735984102656
 - alterId: 0
   cipher: auto
   name: 13,21|🇺🇸 14|美国2|@ripaojiedian
@@ -795,19 +823,6 @@ proxies:
     path: /path/1736040833184
 - alterId: 64
   cipher: auto
-  name: '21|🇺🇸 _美国 #37'
-  network: ws
-  port: '37001'
-  server: 192.74.231.199
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.57277774.xyz
-    path: /path/1736040833184
-- alterId: 64
-  cipher: auto
   name: '21|🇺🇸 _美国 #38'
   network: ws
   port: '38004'
@@ -1172,19 +1187,6 @@ proxies:
     path: /path/1736040833184
 - alterId: 64
   cipher: auto
-  name: '21|🇺🇸 _美国 #86'
-  network: ws
-  port: '31003'
-  server: 192.74.240.108
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.73276259.xyz
-    path: /path/1735984102656
-- alterId: 64
-  cipher: auto
   name: '21|🇺🇸 _美国 #87'
   network: ws
   port: '31003'
@@ -1261,6 +1263,19 @@ proxies:
     headers:
       Host: 100-158-204-97.s3.db-link01.top
     path: /dabai.in104.24.107.6
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #97'
+  network: ws
+  port: '80'
+  server: cf-vod.nimo.tv
+  tls: false
+  type: vmess
+  uuid: 4ffc214f-6e89-4097-a791-a5cb22bd9319
+  ws-opts:
+    headers:
+      Host: ovh.reonolimits.my.id
+    path: /vmessws
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸 _美国 #96'
