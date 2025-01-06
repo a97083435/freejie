@@ -16,13 +16,22 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,21|_中国 #2'
+  name: '11,21|_中国 #8'
   network: tcp
-  port: '53002'
+  port: '56601'
   server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|浙江省宁波市 移动 数掘科技gfvps.cn
+  network: tcp
+  port: 15074
+  server: 15074.kuaiyin02.top
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 0
   cipher: auto
   name: 11|中国 阿里云
@@ -50,15 +59,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 21|_中国
@@ -72,6 +72,15 @@ proxies:
     headers:
       Host: nl.zhuk.us.kg
     path: /ylks
+- alterId: 64
+  cipher: auto
+  name: '21|_中国 #2'
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: '21|_中国 #6'
@@ -94,18 +103,9 @@ proxies:
     headers:
       Host: cm1.awslcn.info
     path: /
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #8'
-  network: tcp
-  port: '56601'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 28|日本2|@ripaojiedian
+  name: '28|日本2|@ripaojiedian #1'
   network: ws
   port: '20301'
   server: data-jp-v1.usabooks.com.cn
@@ -227,6 +227,16 @@ proxies:
   server: pr1.jymzffbquawl.com
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0012
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
 - cipher: rc4-md5
   name: 29|CN_speednode_0013
   password: RenzheCloudSS
@@ -282,6 +292,16 @@ proxies:
   server: pr1.jymzffbquawl.com
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0018
+  password: 9d29e58723af34cad8da
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45909
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
 - cipher: rc4-md5
   name: 29|CN_speednode_0019
   password: RenzheCloudSS
@@ -337,12 +357,6 @@ proxies:
   server: pr1.jymzffbquawl.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0024
-  password: ba9d2c35-523c-459e-b288-b7103d106d29
-  port: 30003
-  server: gdgs.tarioblink.me
-  type: ss
 - alterId: 0
   cipher: auto
   name: 29|CN_speednode_0025
