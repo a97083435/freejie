@@ -528,109 +528,59 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
+  name: '11,16,28|github.com/freefq - 印度  3 #1'
   network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   ws-opts:
     headers:
-      Host: www.darkroom.lol
+      Host: sahand.serveminecraft.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  10 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 _美国 #1'
+  network: ws
+  port: '80'
+  server: 104.18.21.219
+  tls: false
+  type: vmess
+  uuid: 3a18edb8-80c1-4cba-b912-4f10513da259
+  ws-opts:
+    headers:
+      Host: ovh.reonolimits.my.id
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|俄罗斯 V2CROSS.COM
-  network: ws
-  port: '10881'
-  server: 195.58.49.86
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 11,20,21|🇮🇷 _伊朗
-  network: tcp
-  port: '37885'
-  server: 92.242.220.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc
-  ws-headers:
-    Host: 92.242.220.22
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,14,20,21,25,27|美国|@ripaojiedian
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: 2086
-  server: 172.67.165.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|美国 V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 45.144.48.128
-  tls: true
-  type: vmess
-  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 64
-  cipher: auto
-  name: 11,25|0|-https://t.me/MrXbin-66
-  network: ws
-  port: 38007
-  server: 38.174.190.80
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/102206282005
-- alterId: 0
-  cipher: auto
-  name: 11,21|🇫🇷 _法国
-  network: ws
-  port: '443'
-  server: 163.5.159.231
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港3|@ripaojiedian
@@ -707,6 +657,20 @@ proxies:
     headers:
       Host: jp1.runjustfast.com
     path: /21a64xdea04c
+- alterId: 64
+  cipher: auto
+  name: 13,14,20,21,25,27|美国|@ripaojiedian
+  network: tcp
+  port: '52112'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -754,31 +718,16 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '16,28|github.com/freefq - 印度  3 #1'
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
+  port: 8080
+  server: www.darkroom.lol
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
+      Host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
@@ -808,20 +757,6 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  10 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 16,21,28|美国测试节点
@@ -1368,6 +1303,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 20,21|🇮🇷 _伊朗
+  network: tcp
+  port: '37885'
+  server: 92.242.220.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc
+  ws-headers:
+    Host: 92.242.220.22
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 20|🇳CN-183.236.51.60-138
   network: ws
   port: 25216
@@ -1586,19 +1534,6 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #1'
-  network: ws
-  port: '80'
-  server: 104.18.21.219
-  tls: false
-  type: vmess
-  uuid: 3a18edb8-80c1-4cba-b912-4f10513da259
-  ws-opts:
-    headers:
-      Host: ovh.reonolimits.my.id
-    path: /vmessws
-- alterId: 0
-  cipher: auto
   name: '21|🇩🇪 _德国 #1'
   network: ws
   port: '443'
@@ -1701,6 +1636,19 @@ proxies:
   ws-opts:
     headers:
       Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 21|🇫🇷 _法国
+  network: ws
+  port: '443'
+  server: 163.5.159.231
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
     path: /linkws
 - alterId: 0
   cipher: auto
@@ -1830,6 +1778,17 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 64
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-66
+  network: ws
+  port: 38007
+  server: 38.174.190.80
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/102206282005
 - alterId: 0
   cipher: auto
   name: 25|0|-https://t.me/MrXbin-67
