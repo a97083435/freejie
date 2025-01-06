@@ -16,26 +16,22 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,21|_中国 #2'
+  name: '11,21|_中国 #8'
   network: tcp
-  port: '53002'
+  port: '56601'
   server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '11,21|_中国 #10'
-  network: ws
-  port: '25230'
-  server: cm1.awslcn.info
+  name: '11,21|_中国 #6'
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
   tls: false
   type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -65,22 +61,26 @@ proxies:
     path: /ylks
 - alterId: 64
   cipher: auto
-  name: '21|_中国 #6'
+  name: '21|_中国 #2'
   network: tcp
-  port: '46602'
+  port: '53002'
   server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '21|_中国 #8'
-  network: tcp
-  port: '56601'
-  server: 183.236.51.23
+  name: '21|_中国 #10'
+  network: ws
+  port: '25230'
+  server: cm1.awslcn.info
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
 - alterId: 0
   cipher: auto
   name: '28|日本2|@ripaojiedian #1'
