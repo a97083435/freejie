@@ -235,32 +235,33 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: 11|美国 华盛顿Cogent通信公司
-  network: ws
-  port: 38007
-  server: 38.174.190.72
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/100318230503
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #24'
+  name: 11|美国 V2CROSS.COM
   network: ws
-  port: '80'
-  server: cf-vod.nimo.tv
-  tls: false
+  port: 443
+  server: 199.232.214.133
+  tls: true
   type: vmess
-  uuid: 4ffc214f-6e89-4097-a791-a5cb22bd9319
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
   ws-opts:
     headers:
-      Host: ovh.reonolimits.my.id
-    path: /vmessws
+      Host: loki.oracle
+    path: /farcry?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
@@ -277,7 +278,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 104.19.133.74
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -287,20 +301,6 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -603,6 +603,19 @@ proxies:
     headers:
       Host: 23.158.56.227
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #24'
+  network: ws
+  port: '80'
+  server: cf-vod.nimo.tv
+  tls: false
+  type: vmess
+  uuid: 4ffc214f-6e89-4097-a791-a5cb22bd9319
+  ws-opts:
+    headers:
+      Host: ovh.reonolimits.my.id
+    path: /vmessws
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸 _美国 #25'
