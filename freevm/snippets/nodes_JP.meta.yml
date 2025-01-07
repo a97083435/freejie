@@ -16,12 +16,12 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 20,26,29|NL_speednode_0050
-  password: '!!str 3723507166611775488'
+  name: 20,26,29|VN_speednode_0097
+  password: 34ec6bdf-602c-4bbe-933a-5c0823524201
   port: 443
-  server: concrete-buzzard.boa152.lol
-  skip-cert-verify: false
-  sni: concrete-buzzard.boa152.lol
+  server: Cmc5.5gsieuvip.vn
+  skip-cert-verify: true
+  sni: major-reindeer.boa152.lol
   tfo: false
   tls: false
   type: trojan
@@ -29,15 +29,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: h=%2F
 - cipher: aes-256-cfb
-  name: 20,29|JP_speednode_0043
+  name: 20|🇯🇵JP-43.206.231.196-048
   password: amazonskr05
   port: 443
   server: 43.206.231.196
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本|@ripaojiedian
+  name: 26,29|CN_speednode_0025
   password: U5GAQMMIFQ2FD44A
   port: 18003
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -91,3 +90,30 @@ proxies:
     headers:
       Host: linode.appleid.bf
     path: /CAT
+- name: 29|JP_speednode_0057
+  network: ws
+  port: 443
+  server: 64.110.104.30
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 29|JP_speednode_0058
+  network: ws
+  port: 8889
+  server: 160.16.242.208
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
