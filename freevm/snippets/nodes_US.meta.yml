@@ -251,6 +251,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 11,16,21,28|美国测试节点
+  network: ws
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
   name: '11,16,21,28|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: 8880
@@ -276,20 +290,6 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11,16,21,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 64
   cipher: auto
   name: 13,21,25,27|美国|@ripaojiedian
