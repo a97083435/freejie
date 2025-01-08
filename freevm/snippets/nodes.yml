@@ -528,31 +528,18 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  10 #1'
+  name: '11,16,28|github.com/freefq - 印度  3 #1'
   network: ws
   port: 443
   server: 202.78.162.5
   servername: ''
   tls: true
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: sahand.serveminecraft.net
     path: /@forwardv2ray
-- alterId: 64
-  cipher: auto
-  name: 11|美国 V2CROSS.COM
-  network: ws
-  port: 37006
-  server: 198.200.48.248
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1736329715306
 - alterId: 0
   cipher: auto
   name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
@@ -566,6 +553,61 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|美国|@ripaojiedian
+  network: tcp
+  port: '52112'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
+  network: tcp
+  port: '34493'
+  server: 120.198.71.214
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 11|俄罗斯 V2CROSS.COM
+  network: ws
+  port: 44053
+  server: 195.58.49.86
+  tls: false
+  type: vmess
+  uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  10 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港3|@ripaojiedian
@@ -582,37 +624,9 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '51704'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|美国|@ripaojiedian
-  network: tcp
-  port: '52112'
   server: 183.236.51.23
   servername: ''
   skip-cert-verify: true
@@ -689,20 +703,6 @@ proxies:
   ws-opts:
     headers:
       Host: irsoft.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  3 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
