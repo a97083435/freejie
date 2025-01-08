@@ -1,11 +1,16 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 20|🇯🇵JP-43.206.231.196-049
+  password: amazonskr05
+  port: 443
+  server: 43.206.231.196
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13,21|🇯🇵 13,14|日本2|@ripaojiedian
+  name: 21|🇯🇵 13,14|日本2|@ripaojiedian
   network: ws
   port: '21001'
   server: csct.xxxxxx.one
-  servername: jp1.runjustfast.com
   tls: true
   type: vmess
   uuid: 437c6b4b-d508-4662-a508-cf3337b836b3
@@ -13,12 +18,6 @@ proxies:
     headers:
       Host: jp1.runjustfast.com
     path: /21a64xdea04c
-- cipher: aes-256-cfb
-  name: 20|🇯🇵JP-43.206.231.196-049
-  password: amazonskr05
-  port: 443
-  server: 43.206.231.196
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇯🇵 日本特殊|@ripaojiedian
