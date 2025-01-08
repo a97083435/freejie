@@ -526,20 +526,20 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #2'
-  network: ws
-  port: '2086'
-  server: 172.67.165.53
+  name: 11,13,20,21,25,27|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.234.102.229
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
@@ -556,31 +556,57 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|英国 V2CROSS.COM
-  network: ws
-  port: 44053
-  server: 5.39.252.204
-  tls: false
-  type: vmess
-  uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港3|@ripaojiedian
+  name: 11,14,20,21|🇮🇷 _伊朗
   network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
+  port: '37885'
+  server: 92.242.220.22
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc
   ws-headers:
-    Host: 120.234.102.229
+    Host: 92.242.220.22
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  2 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 64
+  cipher: auto
+  name: 11|美国 加利福尼亚州洛杉矶Sharktech数据中心
+  network: ws
+  port: 30000
+  server: 67.21.82.46
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42263493.xyz
+    path: /path/240811062813
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  tls: true
+  type: vmess
+  uuid: eca1ba8f-b25f-4d47-a31f-530e95a3d1f6
+  ws-opts:
+    headers:
+      Host: 00.likelike.us.kg
+    path: /serv00?ed=2048
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
@@ -684,19 +710,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 14,20,21|🇮🇷 _伊朗
-  network: tcp
-  port: '37885'
-  server: 92.242.220.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc
-  ws-headers:
-    Host: 92.242.220.22
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 14,21|_中国
   network: ws
   port: '25230'
@@ -709,20 +722,6 @@ proxies:
     headers:
       Host: cm1.awslcn.info
     path: /
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  2 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 印度  3 #1'
@@ -1464,6 +1463,19 @@ proxies:
   network: ws
   port: '2086'
   server: 104.21.89.219
+  tls: false
+  type: vmess
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #2'
+  network: ws
+  port: '2086'
+  server: 172.67.165.53
   tls: false
   type: vmess
   uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
