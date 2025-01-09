@@ -1,20 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
-  ws-path: /
-- alterId: 64
-  cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '34493'
@@ -41,6 +27,14 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26,29|HK_speednode_0048
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
@@ -113,3 +107,27 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
+- name: 29|HK_speednode_0049
+  network: ws
+  password: SSorg
+  port: 443
+  server: 154.211.8.90
+  skip-cert-verify: false
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /
+- name: 29|HK_speednode_0050
+  network: ws
+  password: SSorg
+  port: 2087
+  server: 154.211.8.98
+  skip-cert-verify: false
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /
