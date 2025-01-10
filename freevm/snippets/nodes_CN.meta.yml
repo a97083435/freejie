@@ -16,26 +16,18 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,20,21|_中国 #3'
+  name: 11,13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
-  port: '40972'
-  server: 120.232.153.63
+  port: '51704'
+  server: 183.236.51.23
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '11|广东省广州市 移动 #1'
-  network: tcp
-  port: 31878
-  server: 183.236.48.172
-  tls: false
-  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -144,6 +136,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '20,21|_中国 #3'
+  network: tcp
+  port: '40972'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  ws-headers:
+    Host: 120.232.153.63
   ws-path: /
 - alterId: 64
   cipher: auto
