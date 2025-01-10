@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡|@ripaojiedian
@@ -36,27 +42,10 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
-- name: 29|SG_speednode_0097
-  network: ws
-  password: SSorg
-  port: 8443
-  server: 27.50.48.154
-  skip-cert-verify: false
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /
-- name: 29|SG_speednode_0099
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 27.50.49.251
-  skip-cert-verify: false
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /
+- cipher: aes-256-cfb
+  name: 29|SG_speednode_0015
+  password: amazonskr05
+  port: 443
+  server: 47.129.162.86
+  type: ss
+  udp: true

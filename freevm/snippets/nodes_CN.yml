@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
 - alterId: 64
   cipher: auto
   name: '3,30|🇨🇳_CN_中国 #1'
@@ -12,16 +18,25 @@ proxies:
   cipher: auto
   name: 11|广东省广州市 移动
   network: tcp
-  port: '53002'
-  server: 183.236.51.23
+  port: 31878
+  server: 183.236.48.172
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,14,21,25,27|美国|@ripaojiedian
+  name: '11|广东省广州市 移动 #1'
   network: tcp
-  port: '52112'
+  port: 41490
+  server: 183.236.48.172
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
   server: 183.236.51.23
   servername: ''
   tls: false
@@ -56,38 +71,16 @@ proxies:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
 - cipher: aes-256-gcm
-  name: 29|CN_speednode_0006
-  password: W6L2Z5COWF4TGC8S
-  port: 16015
-  server: qh62onjn.slashdevslashnetslashtun.net
+  name: 29|CN_speednode_0001
+  password: b6b2c224-9845-4ad6-b33f-d46a46a72768
+  port: 10022
+  server: hdhdaswjp.cfprefer1.xyz
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 29|CN_speednode_0007
-  password: 6LE2F7E2WQWGJEYG
-  port: 15003
-  server: qh62onjn.slashdevslashnetslashtun.net
+  name: 29|CN_speednode_0002
+  password: b6b2c224-9845-4ad6-b33f-d46a46a72768
+  port: 10041
+  server: hdhdaswjp.cfprefer1.xyz
   type: ss
-- cipher: aes-256-gcm
-  name: 29|CN_speednode_0014
-  password: Y4JZ69NZ4IMSVWMC
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0015
-  password: c4843eba-b070-403f-b43f-ef1ef7db571e
-  port: 35501
-  server: gw.liangyuandianwan.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0018
-  password: c4843eba-b070-403f-b43f-ef1ef7db571e
-  port: 35507
-  server: gw.liangyuandianwan.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0019
-  password: c4843eba-b070-403f-b43f-ef1ef7db571e
-  port: 35504
-  server: gw.liangyuandianwan.com
-  type: ss
+  udp: true
