@@ -1,4 +1,32 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,29|FR_speednode_0043
+  network: ws
+  port: 443
+  server: 163.5.159.231
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11,21,25,29|FR_speednode_0042
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - cipher: aes-256-gcm
   name: 20|🇷FR-193.243.147.128-004
   password: 7BcLdsO1WweoGD0X
@@ -47,49 +75,9 @@ proxies:
   port: 443
   server: 62.210.88.22
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 20,26,29|JP_speednode_0055
-  password: c4843eba-b070-403f-b43f-ef1ef7db571e
-  port: 443
-  server: usa.lydurlclub.top
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: h=%2F
-- cipher: aes-256-gcm
-  name: 20|🇫🇷FR-46.202.130.110-038
-  password: auPD89z7JneRsFA228YwFMrhGKAmG30Atq6HbZY4Ka8=
-  port: 49693
-  server: 46.202.130.110
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇷FR-163.5.159.231-076
-  network: ws
-  port: 443
-  server: 163.5.159.231
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-headers:
-    Host: irvideo.cfd
-  ws-path: /linkws
-- cipher: aes-256-cfb
-  name: 20|🇫🇷FR-51.15.15.82-068
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.15.82
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|🇫🇷FR-163.5.159.231-213
+  name: 20|🇫🇷FR-163.5.159.231-207
   network: ws
   port: 443
   server: irvideo.cfd
@@ -100,34 +88,6 @@ proxies:
   ws-headers:
     Host: irvideo.cfd
   ws-path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21,29|FR_speednode_0043
-  network: ws
-  port: 443
-  server: 163.5.159.231
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21,29|FR_speednode_0042
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
 - name: 24|_FR_国
   network: tcp
   password: telegram-id-directvpn
