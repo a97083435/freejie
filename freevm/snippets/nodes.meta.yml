@@ -528,44 +528,17 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
+  name: 11,21|🇫🇷 _法国
   network: ws
-  port: 2082
-  server: 104.16.155.10
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-38-62-25.s5.db-link02.top
-    path: /dabai.in104.18.42.172
-- alterId: 0
-  cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  2 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
+  port: '443'
+  server: irvideo.cfd
   tls: true
   type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
   ws-opts:
     headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 11|巴西圣保罗 CloudFlare节点
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
-    path: /azumase.ren
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 11|英国 V2CROSS.COM
@@ -581,17 +554,92 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,21|🇺🇸 美国 CloudFlare节点
+  name: '11,20,21|🇮🇷 _伊朗 #1'
+  network: tcp
+  port: '37885'
+  server: 92.242.220.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc
+  ws-headers:
+    Host: 92.242.220.22
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 11|美国 CloudFlare节点
   network: ws
-  port: '8880'
-  server: s2.db-link02.top
+  port: 2086
+  server: s4.db-link01.top
+  servername: ''
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-40-188-237.s2.db-link02.top
-    path: /dabai.in172.64.36.170
+      Host: 100-74-179-50.s4.db-link01.top
+    path: /dabai.in172.67.42.220
+- alterId: 64
+  cipher: auto
+  name: 11|美国 V2CROSS.COM
+  network: ws
+  port: 37004
+  server: 108.186.26.168
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1736464712891
+- alterId: 64
+  cipher: auto
+  name: 11|美国 华盛顿Cogent通信公司
+  network: ws
+  port: 31005
+  server: 38.11.50.70
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1736503352193
+- alterId: 64
+  cipher: auto
+  name: '11|美国 V2CROSS.COM #1'
+  network: ws
+  port: 37006
+  server: 198.200.48.250
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1736589334800
+- alterId: 0
+  cipher: auto
+  name: 11|广东省 移动
+  network: tcp
+  port: 3503
+  server: ocean.2022.2023.mlinuu.top
+  tls: false
+  type: vmess
+  uuid: fa678492-65dd-3df0-800d-11f138b868ab
+- alterId: 0
+  cipher: auto
+  name: 11|俄罗斯 V2CROSS.COM
+  network: ws
+  port: 11325
+  server: 195.58.49.50
+  tls: false
+  type: vmess
+  uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,20,21|🇨🇳 广东省广州市 移动
@@ -607,45 +655,58 @@ proxies:
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
-  network: ws
-  port: 8080
-  server: s2.cn-db.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-134-56-190.s2.cn-db.top
-    path: /dabai.in104.21.93.35
-- alterId: 0
-  cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  10 #1'
+  name: '11,16,28|github.com/freefq - 印度  3 #1'
   network: ws
   port: 443
   server: 202.78.162.5
   servername: ''
   tls: true
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: sahand.serveminecraft.net
     path: /@forwardv2ray
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13|0|--19
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 443
-  server: 163.5.159.231
-  tls: true
+  port: 2052
+  server: 104.16.155.10
+  tls: false
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: irvideo.cfd
-    path: /linkws
+      Host: 100-102-247-92.s1.db-link02.top
+    path: /dabai.in104.25.175.137
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 8443
+  server: ff.kncc2.top
+  tls: true
+  type: vmess
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /89c344f2
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港3|@ripaojiedian
@@ -659,20 +720,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 120.234.102.229
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '51704'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -703,17 +750,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '16,28|github.com/freefq - 印度  3 #1'
+  name: '16,28|github.com/freefq - 印度  2 #1'
   network: ws
   port: 443
   server: 202.78.162.5
   servername: ''
   tls: true
   type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   ws-opts:
     headers:
-      Host: sahand.serveminecraft.net
+      Host: irsoft.sytes.net
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
@@ -770,6 +817,20 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '16,28|github.com/freefq - 印度  10 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 16,21,28|美国测试节点
@@ -1264,19 +1325,6 @@ proxies:
   port: 23456
   server: 185.22.155.228
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '20,21|🇮🇷 _伊朗 #1'
-  network: tcp
-  port: '37885'
-  server: 92.242.220.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc
-  ws-headers:
-    Host: 92.242.220.22
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 20|🇷IR-83.147.216.173-146
   password: zUQvFioae7KzAZ2GCMgNum
@@ -1562,6 +1610,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 21|🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: '8880'
+  server: s2.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-40-188-237.s2.db-link02.top
+    path: /dabai.in172.64.36.170
+- alterId: 0
+  cipher: auto
   name: 21|🇺🇸 美国 Fastly全球Anycast节点
   network: ws
   port: '443'
@@ -1693,19 +1754,6 @@ proxies:
     path: /racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn
 - alterId: 0
   cipher: auto
-  name: 21|🇫🇷 _法国
-  network: ws
-  port: '443'
-  server: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
   name: '24|_US__1 #1'
   network: ws
   port: 80
@@ -1819,6 +1867,19 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-29
+  network: ws
+  port: 443
+  server: 163.5.159.231
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - name: 26|tg频道:@ripaojiedian
   port: 4000
   server: ftq.ink
