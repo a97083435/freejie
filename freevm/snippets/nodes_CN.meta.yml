@@ -14,6 +14,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|浙江省宁波市 移动 数掘科技gfvps.cn
+  network: tcp
+  port: 15074
+  server: 15074.kuaiyin02.top
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 64
   cipher: auto
   name: 11,13,20,21,25,27|香港5|@ripaojiedian
@@ -28,29 +37,6 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '11|广东省广州市 移动 #1'
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -65,74 +51,24 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本2|@ripaojiedian
-  password: PUYELFF4VNSZ7OYX
-  port: 18003
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇳CN-219.135.227.210-205
-  password: 5TKI8YZMUS7LMA9E
-  port: 15007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
 - alterId: 64
   cipher: auto
-  name: 20,21|🇨🇳 广东省广州市 移动
+  name: '20,21|🇨🇳 广东省广州市 移动 #1'
   network: tcp
-  port: '41490'
-  server: 183.236.48.172
+  port: '53002'
+  server: 183.236.51.23
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.48.172
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '20,21|🇨🇳 广东省广州市 移动 #2'
-  network: tcp
-  port: '31878'
-  server: 183.236.48.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.172
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 20,21|🇭🇰 14|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港8|@ripaojiedian
-  password: QDMKYVHZQVM77KA8
-  port: 15013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本|@ripaojiedian
-  password: V86WNPYR4ORBV2LH
-  port: 18001
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- cipher: aes-128-gcm
+  name: 20|🇳CN-111.29.57.244-045
+  password: 3732a541-6792-47dc-bba5-c435a66c9ee7
+  port: 565
+  server: cmlayer2.exitlag.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -144,25 +80,44 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港8|@ripaojiedian
+  password: QDMKYVHZQVM77KA8
+  port: 15013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港9|@ripaojiedian
+  password: WEL8AJ5ROLX2DH05
+  port: 15003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本|@ripaojiedian
+  password: V86WNPYR4ORBV2LH
+  port: 18001
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本2|@ripaojiedian
+  password: PUYELFF4VNSZ7OYX
+  port: 18003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
   name: 20,26|🇸🇬 新加坡4|@ripaojiedian
   password: LBNV7AS85Y44SFN6
   port: 16008
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 20,21|🇺🇸 14|美国|@ripaojiedian
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇺🇸 美国2|@ripaojiedian
@@ -171,9 +126,15 @@ proxies:
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-219.135.227.210-182
+  password: 5TKI8YZMUS7LMA9E
+  port: 15007
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇳CN-183.236.51.60-207
+  name: 20|🇨🇳CN-183.236.51.60-184
   network: ws
   port: 25230
   server: cm1.awslcn.info
