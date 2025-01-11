@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|日本 东京都Amazon数据中心
+  network: ws
+  port: 14443
+  server: tls.14.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
   network: ws
   port: 12345

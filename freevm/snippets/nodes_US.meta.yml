@@ -237,132 +237,70 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11,29|US_speednode_0048
+  network: ws
+  port: 443
+  server: 199.232.214.133
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
+  ws-opts:
+    headers:
+      Host: loki.oracle
+    path: /farcry?ed=2560
+- alterId: 0
+  cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 2095
-  server: s2.cn-db.top
-  servername: ''
+  port: 2082
+  server: s3.db-link01.top
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-105-115-119.s2.cn-db.top
-    path: /dabai.in104.21.15.107
-- alterId: 0
-  cipher: auto
-  name: 11|美国 Fastly全球Anycast节点
-  network: ws
-  port: 443
-  server: 151.101.194.133
-  tls: true
-  type: vmess
-  uuid: c69f3029-ae1e-45ca-aa08-70970f14dfd2
-  ws-opts:
-    headers:
-      Host: telegram-isvvpn.ir
-    path: /racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn
+      Host: 100-6-204-129.s3.db-link01.top
+    path: /dabai.in104.25.204.117
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
   network: ws
   port: 2086
-  server: s4.db-link01.top
-  servername: ''
+  server: shs.xiaoqi666.xyz
   tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
   ws-opts:
     headers:
-      Host: 100-74-179-50.s4.db-link01.top
-    path: /dabai.in172.67.42.220
-- alterId: 0
-  cipher: auto
-  name: '11,16,21,28|github.com/freefq - 美国CloudFla... #4'
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
+      Host: shs.xiaoqi666.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
+  name: '11,21|🇺🇸 _美国 #1'
   network: ws
-  port: 2095
+  port: '80'
+  server: 151.101.2.216
+  tls: false
+  type: vmess
+  uuid: c69f3029-ae1e-45ca-aa08-70970f14dfd2
+  ws-opts:
+    headers:
+      Host: telegram-ISVvpn.ir
+    path: /racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #1'
+  network: ws
+  port: '2052'
   server: 104.16.155.10
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-209-47-141.s2.db-link02.top
-    path: /dabai.in104.20.27.115
-- alterId: 0
-  cipher: auto
-  name: '11|美国 Fastly全球Anycast节点 #1'
-  network: ws
-  port: 80
-  server: bia-vpn-whal.fast.hosting-ip.com
-  tls: false
-  type: vmess
-  uuid: d140fc28-16c3-40ea-b1aa-8582969ea246
-  ws-opts:
-    headers:
-      Host: khamenei-313.IR.
-    path: /?ed=80/#id-telegram:--->@vpn_whal<---
-- alterId: 64
-  cipher: auto
-  name: 11|美国 加利福尼亚州森尼韦尔市PEG TECH公司
-  network: tcp
-  port: 45017
-  server: 142.0.134.245
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
-  network: ws
-  port: 8443
-  server: ff.kncc2.top
-  tls: true
-  type: vmess
-  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /89c344f2
-- alterId: 64
-  cipher: auto
-  name: 11|美国 加利福尼亚州圣何塞PEG TECH
-  network: ws
-  port: 38007
-  server: 142.4.108.147
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/181721272114
-- alterId: 64
-  cipher: auto
-  name: '11|美国 加利福尼亚州森尼韦尔市PEG TECH公司 #1'
-  network: ws
-  port: 31005
-  server: 142.0.136.9
-  tls: true
-  type: vmess
-  uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1736552084931
+      Host: 100-102-247-92.s1.db-link02.top
+    path: /dabai.in104.25.175.137
 - alterId: 64
   cipher: auto
   name: 11|美国 华盛顿Cogent通信公司
@@ -378,10 +316,63 @@ proxies:
     path: /path/1736464712891
 - alterId: 64
   cipher: auto
-  name: 11|美国 V2CROSS.COM
+  name: 11|美国 加利福尼亚州圣何塞PEG TECH数据中心
   network: ws
-  port: 36003
-  server: 137.175.23.131
+  port: 30004
+  server: 192.74.236.130
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1730194244147
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: 8080
+  server: s3.db-link01.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-147-253-240.s3.db-link01.top
+    path: /dabai.in172.67.39.176
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #4'
+  network: ws
+  port: 2082
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-38-62-25.s5.db-link02.top
+    path: /dabai.in104.18.42.172
+- alterId: 64
+  cipher: auto
+  name: 11|美国加利福尼亚州洛杉矶 PetaExpress
+  network: ws
+  port: 38005
+  server: 198.2.195.9
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1736589334800
+- alterId: 64
+  cipher: auto
+  name: '11|美国 V2CROSS.COM #1'
+  network: ws
+  port: 38004
+  server: 199.180.101.23
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -391,18 +382,17 @@ proxies:
     path: /path/1736589334800
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
+  name: '16,21,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
-  port: 2052
-  server: s1.cn-db.top
-  servername: ''
+  port: 8080
+  server: www.darkroom.lol
   tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: 100-70-193-42.s1.cn-db.top
-    path: /dabai.in104.18.179.207
+      Host: www.darkroom.lol
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 美国CloudFla... #5'
@@ -719,19 +709,6 @@ proxies:
     path: /path/1736589334800
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #1'
-  network: ws
-  port: '2052'
-  server: 104.16.155.10
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-102-247-92.s1.db-link02.top
-    path: /dabai.in104.25.175.137
-- alterId: 0
-  cipher: auto
   name: 21,29|US_speednode_0064
   network: ws
   port: 8443
@@ -758,19 +735,6 @@ proxies:
     headers:
       Host: jgw350m.pai50288.uk
     path: /3686f557
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 _美国 #1'
-  network: ws
-  port: '80'
-  server: 151.101.2.216
-  tls: false
-  type: vmess
-  uuid: c69f3029-ae1e-45ca-aa08-70970f14dfd2
-  ws-opts:
-    headers:
-      Host: telegram-ISVvpn.ir
-    path: /racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
@@ -2174,20 +2138,6 @@ proxies:
     headers:
       Host: usa.warpo.me
     path: /bing
-- alterId: 0
-  cipher: auto
-  name: 29|US_speednode_0048
-  network: ws
-  port: 443
-  server: 199.232.214.133
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
-  ws-opts:
-    headers:
-      Host: loki.oracle
-    path: /farcry?ed=2560
 - name: 29|US_speednode_0049
   network: ws
   password: SSorg
