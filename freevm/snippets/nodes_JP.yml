@@ -1,33 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21|🇯🇵 14|日本3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: tky1.sdwan.day
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
-  ws-opts:
-    headers:
-      Host: tky1.sdwan.day
-    path: /name
-- alterId: 0
-  cipher: auto
-  name: 13|14|日本3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: tky1.sdwan.day
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
-  ws-opts:
-    headers:
-      Host: ''
-    path: /name
-- alterId: 0
-  cipher: auto
   name: 20|JP-54.64.57.36-029
   network: ws
   port: 443
@@ -77,6 +50,19 @@ proxies:
     headers:
       Host: tls.85.node-for-bigairport.win
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇯🇵 14|日本3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: tky1.sdwan.day
+  tls: true
+  type: vmess
+  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
+  ws-opts:
+    headers:
+      Host: tky1.sdwan.day
+    path: /name
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇯🇵 日本特殊|@ripaojiedian
