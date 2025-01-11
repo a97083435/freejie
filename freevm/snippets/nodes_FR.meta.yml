@@ -54,21 +54,9 @@ proxies:
   port: 8080
   server: 54.37.18.75
   type: ss
-- cipher: aes-256-gcm
-  name: 20|🇷FR-46.202.130.110-157
-  password: auPD89z7JneRsFA228YwFMrhGKAmG30Atq6HbZY4Ka8=
-  port: 49693
-  server: 46.202.130.110
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇫🇷FR-45.158.171.66-182
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.66
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇫🇷FR-163.5.159.231-184
+  name: 20|🇫🇷FR-163.5.159.231-209
   network: ws
   port: 443
   server: irvideo.cfd
@@ -79,6 +67,18 @@ proxies:
   ws-headers:
     Host: irvideo.cfd
   ws-path: /linkws
+- cipher: aes-256-gcm
+  name: 20|🇷FR-46.202.130.110-182
+  password: auPD89z7JneRsFA228YwFMrhGKAmG30Atq6HbZY4Ka8=
+  port: 49693
+  server: 46.202.130.110
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇫🇷FR-45.158.171.66-207
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.66
+  type: ss
 - name: 24|_FR_国
   network: tcp
   password: telegram-id-directvpn
