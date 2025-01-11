@@ -16,18 +16,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港5|@ripaojiedian
+  name: '11,20,21|🇨🇳 广东省广州市 移动 #1'
   network: tcp
-  port: '51704'
+  port: '53002'
   server: 183.236.51.23
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -42,19 +41,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: '20,21|🇨🇳 广东省广州市 移动 #1'
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
 - cipher: aes-128-gcm
   name: 20|🇳CN-111.29.57.244-045
   password: 3732a541-6792-47dc-bba5-c435a66c9ee7
@@ -150,17 +136,9 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
-- cipher: aes-256-gcm
-  name: 29|CN_speednode_0001
-  password: b6b2c224-9845-4ad6-b33f-d46a46a72768
-  port: 10022
-  server: hdhdaswjp.cfprefer1.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|CN_speednode_0002
-  password: b6b2c224-9845-4ad6-b33f-d46a46a72768
-  port: 10041
-  server: hdhdaswjp.cfprefer1.xyz
-  type: ss
-  udp: true
+- name: 29|CN_speednode_0005
+  password: lovemm.23
+  port: 22889
+  server: 42.192.52.227
+  type: socks5
+  username: zeaslity
