@@ -5,28 +5,6 @@ proxies:
   port: 15082
   server: 59.56.77.178
   type: ss
-- alterId: 64
-  cipher: auto
-  name: '3,30|🇨🇳_CN_中国 #1'
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '11,20,21|🇨🇳 广东省广州市 移动 #1'
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -41,12 +19,19 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: aes-128-gcm
-  name: 20|🇳CN-111.29.57.244-045
-  password: 3732a541-6792-47dc-bba5-c435a66c9ee7
-  port: 565
-  server: cmlayer2.exitlag.xyz
-  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 20,26,29|CN_speednode_0004
+  password: 7daf833c-37b9-4afc-8495-96590f03f781
+  port: 21332
+  server: 120.232.217.96
+  skip-cert-verify: true
+  sni: 120.232.217.96
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇸🇬 新加坡|@ripaojiedian
@@ -55,6 +40,19 @@ proxies:
   server: ctmm.gscloud.bond
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港8|@ripaojiedian
@@ -104,14 +102,14 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.210-182
+  name: 20|🇨🇳CN-219.135.227.210-147
   password: 5TKI8YZMUS7LMA9E
   port: 15007
   server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇨🇳CN-183.236.51.60-184
+  name: 20|🇨🇳CN-183.236.51.60-149
   network: ws
   port: 25230
   server: cm1.awslcn.info
@@ -136,3 +134,12 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 30|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
