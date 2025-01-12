@@ -1,18 +1,17 @@
 proxies:
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0004
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21332
-  server: 120.232.217.96
-  skip-cert-verify: true
-  sni: 120.232.217.96
-  tfo: false
-  tls: false
-  type: trojan
+  name: 21|🇨🇦 _加拿大
+  network: ws
+  port: '36002'
+  server: 142.171.106.180
+  tls: true
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: h=%2F
+  ws-opts:
+    headers:
+      Host: www.46340825.xyz
+    path: /path/1736675571410
 - alterId: 0
   cipher: auto
   name: 28|🇨🇦_CA_加拿大
