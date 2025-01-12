@@ -5,19 +5,30 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|SG-8.219.209.8-029
+  network: ws
+  port: 443
+  server: 8.219.209.8
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-headers:
+    Host: beyonddsz.cfd
+  ws-path: /linkws
 - cipher: aes-256-cfb
-  name: 20|🇬SG-47.129.162.86-059
+  name: 20|🇬SG-47.129.162.86-058
   password: amazonskr05
   port: 443
   server: 47.129.162.86
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.195.182.124
-  tfo: false
+- cipher: chacha20-ietf
+  name: 20|🇬SG-103.36.91.32-064
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
 - alterId: 0
   cipher: auto

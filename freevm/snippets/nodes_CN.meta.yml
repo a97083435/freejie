@@ -16,19 +16,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|中国 阿里云
-  network: ws
-  port: 443
-  server: 8.219.209.8
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -41,42 +28,13 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 20,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-113.99.142.172-177
-  password: QDMKYVHZQVM77KA8
-  port: 15013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇳CN-219.135.227.210-181
-  password: WEL8AJ5ROLX2DH05
-  port: 15003
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-113.99.142.172-173
-  password: V86WNPYR4ORBV2LH
-  port: 18001
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.210-180
-  password: PUYELFF4VNSZ7OYX
-  port: 18003
-  server: qh62onjn.slashdevslashnetslashtun.net
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港6|@ripaojiedian
+  password: 54f4e2f4-f0e1-4a15-a0cf-3a3234ab58fb
+  port: 11001
+  server: 183.232.229.164
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -87,36 +45,54 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-178
+  name: 20|🇳CN-113.99.142.172-201
+  password: QDMKYVHZQVM77KA8
+  port: 15013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-219.135.227.210-202
+  password: WEL8AJ5ROLX2DH05
+  port: 15003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-113.99.142.172-205
+  password: V86WNPYR4ORBV2LH
+  port: 18001
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-219.135.227.210-206
+  password: PUYELFF4VNSZ7OYX
+  port: 18003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇳CN-219.135.227.209-209
   password: LBNV7AS85Y44SFN6
   port: 16008
   server: w72tapyb.slashdevslashnetslashtun.net
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.209-175
+  name: 20|🇳CN-219.135.227.209-211
   password: YRCK2D16NISDAPEV
   port: 17004
   server: w72tapyb.slashdevslashnetslashtun.net
   type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-219.135.227.210-172
-  password: 5TKI8YZMUS7LMA9E
-  port: 15007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇨🇳CN-183.236.51.60-174
+  name: 21|🇨🇳 中国 阿里云
   network: ws
-  port: 25230
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
+  port: '443'
+  server: 8.219.209.8
+  tls: true
   type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-headers:
-    Host: cm1.awslcn.info
-  ws-path: /
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
