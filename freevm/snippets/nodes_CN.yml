@@ -28,61 +28,24 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港6|@ripaojiedian
-  password: 54f4e2f4-f0e1-4a15-a0cf-3a3234ab58fb
-  port: 11001
-  server: 183.232.229.164
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡|@ripaojiedian
-  password: f16d3752-7bae-474e-87dc-f892df2caeaf
-  port: 31620
-  server: ctmm.gscloud.bond
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|🇨🇳CN-111.29.57.71-222
-  network: ws
-  port: 25230
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-headers:
-    Host: cm1.awslcn.info
-  ws-path: /
 - alterId: 64
   cipher: auto
-  name: '20,21|_中国 #2'
+  name: '21|_中国 #2'
   network: tcp
   port: '56601'
   server: 183.236.51.23
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 64
   cipher: auto
-  name: '20,21|_中国 #8'
+  name: '21|_中国 #8'
   network: tcp
   port: '50052'
   server: 183.236.48.158
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.48.158
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
