@@ -237,9 +237,9 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
+  name: 11,21|🇺🇸 美国 CloudFlare节点
   network: ws
-  port: 2082
+  port: '2082'
   server: s1.cn-db.top
   tls: false
   type: vmess
@@ -250,9 +250,9 @@ proxies:
     path: /dabai.in172.64.27.73
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #1'
   network: ws
-  port: 2096
+  port: '2096'
   server: www.okcupid.com
   tls: true
   type: vmess
@@ -276,9 +276,9 @@ proxies:
     path: /dabai.in104.18.42.172
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #3'
   network: ws
-  port: 2086
+  port: '2086'
   server: 172.67.165.53
   tls: false
   type: vmess
@@ -303,9 +303,9 @@ proxies:
     path: /dabai.in172.64.15.161
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #5'
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #5'
   network: ws
-  port: 2053
+  port: '2053'
   server: 104.19.251.200
   tls: true
   type: vmess
@@ -330,9 +330,9 @@ proxies:
     path: /dabai.in104.20.8.162
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #7'
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #7'
   network: ws
-  port: 80
+  port: '80'
   server: 104.17.221.248
   tls: false
   type: vmess
@@ -343,7 +343,7 @@ proxies:
     path: /dabai.in104.17.169.115
 - alterId: 0
   cipher: auto
-  name: 11,21|🇺🇸 美国 CloudFlare节点
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #8'
   network: ws
   port: '2052'
   server: s1.cn-db.top
@@ -356,9 +356,9 @@ proxies:
     path: /dabai.in172.64.9.180
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #9'
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #9'
   network: ws
-  port: 2086
+  port: '2086'
   server: 104.21.89.219
   tls: false
   type: vmess
@@ -468,142 +468,36 @@ proxies:
   port: 5500
   server: 23.157.40.103
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 20,26,29|FR_speednode_0012
-  password: JFchk1TxFG
-  port: 1935
-  server: 13.39.244.105
-  skip-cert-verify: false
-  sni: x1fr-amazon.devefun.net
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: h=%2F
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-167.88.63.21-031
+  name: 20|🇸US-167.88.63.21-034
   password: cdBIDV42DCwnfIN
-  port: 8119
+  port: 8118
   server: 167.88.63.21
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 20|🇸US-38.33.55.79-033
-  network: ws
-  port: 37002
-  server: 38.33.55.79
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 38.33.55.79
-  ws-path: /path/1734170291489
 - cipher: aes-256-gcm
-  name: 20|🇸US-23.157.40.87-036
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 23.157.40.87
+  name: 20|🇸US-167.88.63.21-039
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 167.88.63.21
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇸US-23.157.40.87-038
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.157.40.87
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇸US-23.157.40.5-046
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 23.157.40.5
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇺🇸US-167.88.63.21-049
+  name: 20|🇺🇸US-167.88.63.21-043
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 167.88.63.21
   type: ss
-- cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.5-053
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 23.157.40.5
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.87-059
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 23.157.40.87
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.5-060
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 23.157.40.5
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.87-074
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 23.157.40.87
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇸US-23.157.40.5-195
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 23.157.40.5
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.5-086
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 23.157.40.5
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇸US-23.157.40.5-087
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 23.157.40.5
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇸US-23.157.40.87-088
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 23.157.40.87
-  type: ss
-- cipher: rc4-md5
-  name: 20|🇸US-138.199.42.68-090
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.42.68
-  type: ss
 - cipher: aes-256-cfb
-  name: 20|🇺🇸US-35.90.11.23-091
+  name: 20|🇺🇸US-35.90.11.23-052
   password: amazonskr05
   port: 443
   server: 35.90.11.23
   type: ss
-- cipher: rc4-md5
-  name: 20|🇺🇸US-23.251.121.242-094
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|🇺🇸US-74.207.254.199-097
-  network: ws
+- cipher: aes-256-cfb
+  name: 20|🇺🇸US-35.88.145.21-055
+  password: amazonskr05
   port: 443
-  server: hms02opi.fxiaomi.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-headers:
-    Host: hms02.fxiaomi.sbs
-  ws-path: /link
+  server: 35.88.145.21
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇺🇸 美国3|@ripaojiedian
@@ -613,57 +507,76 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.5-193
+  name: 20|🇺🇸US-23.157.40.5-150
   password: zDNVedRFPQexG9v
   port: 6379
   server: 23.157.40.5
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.87-194
+  name: 20|🇺🇸US-23.157.40.87-151
   password: XKFKl2rULjIp74
   port: 8009
   server: 23.157.40.87
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇸US-23.157.40.5-200
+  name: 20|🇺🇸US-23.157.40.5-152
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 23.157.40.5
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇸US-23.157.40.5-157
   password: faBAoD54k87UJG7
   port: 2375
   server: 23.157.40.5
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.5-201
+  name: 20|🇺🇸US-23.157.40.5-158
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 23.157.40.5
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.5-202
+  name: 20|🇺🇸US-23.157.40.5-159
   password: KixLvKzwjekG00rm
   port: 8080
   server: 23.157.40.5
   type: ss
 - cipher: aes-256-gcm
-  name: 20|🇺🇸US-23.157.40.5-203
+  name: 20|🇸US-23.157.40.5-160
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 23.157.40.5
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 21|🇺🇸 美国 华盛顿Cogent通信公司
-  network: ws
-  port: '37002'
-  server: 38.33.55.79
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1734170291489
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #1'
+  name: '21|🇺🇸 美国 CloudFlare节点 #4'
+  network: ws
+  port: '2052'
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-174-237-7.s3.db-link01.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #6'
+  network: ws
+  port: '2082'
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-6-81-226.s1.db-link02.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #10'
   network: ws
   port: '8443'
   server: ff.kncc2.top
@@ -674,71 +587,6 @@ proxies:
     headers:
       Host: ff.kncc2.top
     path: /89c344f2
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸 美国 V2CROSS.COM
-  network: ws
-  port: '8443'
-  server: 45.144.48.128
-  tls: true
-  type: vmess
-  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #3'
-  network: ws
-  port: '80'
-  server: 104.16.155.10
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-49-141-209.s1.db-link02.top
-    path: /dabai.in104.17.169.115
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #4'
-  network: ws
-  port: '8443'
-  server: 104.21.96.1
-  tls: true
-  type: vmess
-  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
-  ws-opts:
-    headers:
-      Host: ff.kncc2.top
-    path: /89c344f2
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #5'
-  network: ws
-  port: '8443'
-  server: 104.21.112.1
-  tls: true
-  type: vmess
-  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
-  ws-opts:
-    headers:
-      Host: ff.kncc2.top
-    path: /89c344f2
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #6'
-  network: ws
-  port: '8880'
-  server: 104.17.213.241
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-44-229-26.s4.db-link01.top
-    path: /dabai.in172.67.5.70
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
