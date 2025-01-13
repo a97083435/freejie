@@ -14,34 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -58,7 +30,7 @@ proxies:
     path: /debian
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本4|@ripaojiedian
+  name: 20,26,29|CN_speednode_0012
   password: MMRTIYVECN33018T
   port: 18001
   server: 8tv68qhq.slashdevslashnetslashtun.net
@@ -66,7 +38,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港5|@ripaojiedian
+  name: 20,26,29|CN_speednode_0005
   password: NFYDVXE3DMWI2M3W
   port: 15005
   server: 8tv68qhq.slashdevslashnetslashtun.net
@@ -82,7 +54,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡4|@ripaojiedian
+  name: 20,26,29|CN_speednode_0004
   password: 6KYL3YM7UAOAE94Q
   port: 16016
   server: w72tapyb.slashdevslashnetslashtun.net
@@ -90,7 +62,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本3|@ripaojiedian
+  name: 20,26,29|CN_speednode_0007
   password: D56RP4I5E1CWLAE3
   port: 18016
   server: w72tapyb.slashdevslashnetslashtun.net
@@ -106,7 +78,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡5|@ripaojiedian
+  name: 20,26,29|CN_speednode_0009
   password: FAJT26PIM7CB71OZ
   port: 16003
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -167,19 +139,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 21|_中国
-  network: ws
-  port: '25230'
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
   name: '21|_中国 #1'
   network: ws
   port: '25240'
@@ -205,3 +164,15 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0006
+  password: a3dd20d5-01ab-464d-b13f-a00409b9bcac
+  port: 27131
+  server: dns.a123.my
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0008
+  password: a3dd20d5-01ab-464d-b13f-a00409b9bcac
+  port: 59362
+  server: dns.a123.my
+  type: ss
