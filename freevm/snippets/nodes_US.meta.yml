@@ -493,12 +493,10 @@ proxies:
   server: 35.89.145.123
   type: ss
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇺🇸 美国3|@ripaojiedian
+  name: 20|🇸US-23.154.136.247-176
   password: faBAoD54k87UJG7
   port: 2376
   server: 23.154.136.247
-  tfo: false
   type: ss
 - cipher: aes-256-gcm
   name: 20|🇺🇸US-23.157.40.5-170
@@ -623,6 +621,31 @@ proxies:
     headers:
       host: mm3.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 25,26,27|美国3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: us1.cowvpn.org
+  servername: us1cf.cowvpn.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  ws-opts:
+    headers:
+      Host: us1cf.cowvpn.org
+    path: /cctv13/vmess_us1cf
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇺🇸 美国4|@ripaojiedian
+  password: 3a2ba863-cbce-4991-84ac-4505c2253183
+  port: 53120
+  server: dns.a123.my
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #20'
@@ -1547,7 +1570,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: 28|美国3|@ripaojiedian
+  name: '28|美国3|@ripaojiedian #1'
   network: tcp
   port: '3389'
   server: 139.59.24.215

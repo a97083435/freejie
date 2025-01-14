@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港3|@ripaojiedian
+  name: '13,20,21|_中国 #4'
   network: tcp
   port: '52908'
   server: 120.234.102.229
@@ -38,6 +38,22 @@ proxies:
   ws-headers:
     Host: 38.147.189.188
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港3|@ripaojiedian
+  password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  port: 6181
+  server: 45.250.184.183
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港7|@ripaojiedian
+  password: 3a2ba863-cbce-4991-84ac-4505c2253183
+  port: 44471
+  server: dns.a123.my
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
