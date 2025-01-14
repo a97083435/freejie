@@ -709,14 +709,16 @@ proxies:
     path: /89c344f2
 - alterId: 64
   cipher: auto
-  name: 13,21,25|0|-https://t.me/MrXbin-28
+  name: '13,21|0|--28 #1'
   network: ws
-  port: 38007
+  port: '38007'
   server: 38.174.190.80
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
+    headers:
+      Host: ''
     path: /path/102206282005
 - alterId: 0
   cipher: auto
