@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '21|🇫🇷 _法国 #3'
+  network: ws
+  port: '443'
+  server: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
   name: '21|🇫🇷 _法国 #4'
   network: ws
   port: '443'
@@ -57,10 +70,10 @@ proxies:
     method: GET
     path:
     - /
-  name: 29|FR_speednode_0013
+  name: 29|FR_speednode_0008
   network: http
   port: 22671
-  server: 91.134.66.21
+  server: 91.134.66.127
   servername: telewebion.com
   skip-cert-verify: false
   tls: false
