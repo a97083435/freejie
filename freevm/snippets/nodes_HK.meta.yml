@@ -1,18 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,25,27|香港3|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '45051'
   server: xdd.dashuai.cyou
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 00f81c36-f346-4ca6-9074-eef73fff794e
+  ws-headers:
+    Host: xdd.dashuai.cyou
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,25,26,27|香港5|@ripaojiedian
+  name: 13,21,25,26,27|香港5|@ripaojiedian
   network: ws
   port: '443'
   server: hk-bmg.cowvpn.org
@@ -26,45 +30,6 @@ proxies:
     headers:
       Host: hk-bmgcf.cowvpn.org
     path: /cctv13/vmess_hk-bmgcf
-- alterId: 0
-  cipher: auto
-  name: 21|🇭🇰 14|香港7|@ripaojiedian
-  network: tcp
-  port: '45050'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: ebb96eed-2827-43ac-b539-4e4d7b0ab99b
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|IN_speednode_0021
-  password: '!!str 3648425794742788096'
-  port: 443
-  server: 5.8.35.208
-  skip-cert-verify: false
-  sni: loving-boa.treefrog761.one
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 5f011b57-a456-45ae-aa2c-f976780e56c3
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港6|@ripaojiedian
-  password: 2N0M0MMOXEJMXKPN
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港7|@ripaojiedian
-  password: 2MT8DJ2LPPCI5PH8
-  port: 15003
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
@@ -137,18 +102,8 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
-- alpn:
-  - http/1.1
-  name: 29|HK_speednode_0020
-  network: ws
-  port: 2087
-  server: 154.211.8.227
-  servername: amedo.esslh.filegear-sg.me
-  skip-cert-verify: false
+- name: 29|HK_speednode_0019
+  port: 4000
+  server: hk9.ftq.ink
   tls: true
-  type: vless
-  uuid: 70186b61-319d-42f2-9807-7df9594aa385
-  ws-opts:
-    headers:
-      Host: amedo.esslh.filegear-sg.me
-    path: /?ed=2560
+  type: http
