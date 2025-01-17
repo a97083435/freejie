@@ -12,7 +12,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 26,29|IN_speednode_0020
+  name: 26,29|IN_speednode_0026
   password: '!!str 3648425794742788096'
   port: 443
   server: 5.8.35.208
@@ -25,7 +25,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 26,29|CN_speednode_0001
+  name: 26,29|CN_speednode_0004
   password: 7243745919d6de49a5db
   plugin: obfs
   plugin-opts:
@@ -123,3 +123,27 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 29|HK_speednode_0023
+  network: http
+  port: 16785
+  server: 103.30.76.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
+- name: 29|HK_speednode_0024
+  port: 4000
+  server: hk9.ftq.ink
+  tls: true
+  type: http
+- name: 29|HK_speednode_0025
+  port: 4000
+  server: ftq.ink
+  tls: true
+  type: http
