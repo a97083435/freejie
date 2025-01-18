@@ -713,20 +713,6 @@ proxies:
     path: /89c344f2
 - alterId: 0
   cipher: auto
-  name: '13,20,21|0|--54 #1'
-  network: tcp
-  port: '64016'
-  server: in06.my1188.org
-  servername: us01.wechat-cdn-us01.one
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
-  ws-headers:
-    Host: in06.my1188.org
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '16785'
@@ -1405,6 +1391,19 @@ proxies:
   port: 8388
   server: 154.197.26.237
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|0|--54
+  network: tcp
+  port: '64016'
+  server: in06.my1188.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
+  ws-headers:
+    Host: in06.my1188.org
+  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港3|@ripaojiedian
