@@ -1,28 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,25,27|日本|@ripaojiedian
+  name: 13,20,21,25,27|日本|@ripaojiedian
   network: tcp
   port: '63494'
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本2|@ripaojiedian
-  password: HEFXL9QGFUT6ET4L
-  port: 18013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  ws-path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.34.189.113
+  server: 54.199.222.156
   tfo: false
   type: ss
 - alterId: 0

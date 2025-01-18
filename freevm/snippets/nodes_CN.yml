@@ -16,14 +16,18 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,21,25,27|香港4|@ripaojiedian
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '53002'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -38,9 +42,160 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡|@ripaojiedian
+  password: f16d3752-7bae-474e-87dc-f892df2caeaf
+  port: 31620
+  server: ctmm.gscloud.bond
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇳CN-219.135.227.209-045
+  password: 6KYL3YM7UAOAE94Q
+  port: 16016
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港3|@ripaojiedian
+  password: APEX7RPQ1FUAGNY7
+  port: 15015
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港7|@ripaojiedian
+  password: 2MT8DJ2LPPCI5PH8
+  port: 15003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本2|@ripaojiedian
+  password: HEFXL9QGFUT6ET4L
+  port: 18013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡2|@ripaojiedian
+  password: 9O695G99XQ9IB757
+  port: 16008
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡4|@ripaojiedian
+  password: H5IGGU6EPG7XR7X4
+  port: 16014
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇺🇸 美国|@ripaojiedian
+  password: HD2EP67ORMTTF1PW
+  port: 17006
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 20|🇨🇳CN-119.167.230.43-083
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-headers:
+    Host: zxjp-c.tkong.cc
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #7'
+  name: 20|🇨🇳CN-183.236.51.60-374
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: cm1.awslcn.info
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-45.250.184.183-371
+  password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  port: 6181
+  server: 45.250.184.183
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-219.135.227.210-362
+  password: 2N0M0MMOXEJMXKPN
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: 20|🇨🇳CN-219.135.227.209-364
+  password: BUP3OYED8WELSLPM
+  port: 16004
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-58.63.247.149-370
+  password: 7243745919d6de49a5db
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 20,21|🇭🇰 香港_Telegram@kxswa_11
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 112.132.212.19
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 20,21|🇭🇰 香港_Telegram@kxswa_12
+  network: tcp
+  port: '50002'
+  server: 47.116.173.76
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 47.116.173.76
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #2'
+  network: ws
+  port: '20244'
+  server: t-w1.aespa.tech
+  tls: true
+  type: vmess
+  uuid: 0e2a9721-8832-4aa8-9a18-52749b153f68
+  ws-opts:
+    headers:
+      Host: t-w1.aespa.tech
+    path: /vsvsa/ada
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰 香港_Telegram@kxswa_13
   network: ws
   port: '25230'
   server: cm1.awslcn.info
@@ -51,64 +206,6 @@ proxies:
     headers:
       Host: cm1.awslcn.info
     path: /
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #1'
-  network: ws
-  port: '41003'
-  server: 45.199.138.226
-  tls: true
-  type: vmess
-  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
-  ws-opts:
-    headers:
-      Host: www.36092822.xyz
-    path: /path/1737106641750
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #2'
-  network: tcp
-  port: '40972'
-  server: 120.232.153.63
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #3'
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #4'
-  network: tcp
-  port: '50052'
-  server: 183.236.48.158
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #5'
-  network: tcp
-  port: '56601'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #6'
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian

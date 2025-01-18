@@ -1,43 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '16785'
   server: 103.30.76.250
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|US_speednode_0026
-  password: vZl3dFcxdE
-  port: 443
-  server: 18-189-26-136.nip.io
-  skip-cert-verify: false
-  sni: 18-189-26-136.nip.io
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港3|@ripaojiedian
-  password: APEX7RPQ1FUAGNY7
-  port: 15015
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港7|@ripaojiedian
-  password: 2MT8DJ2LPPCI5PH8
-  port: 15003
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
+  ws-headers:
+    Host: 103.30.76.250
+  ws-path: /
+- cipher: chacha20-ietf
+  name: 20|🇰HK-154.197.26.237-064
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
   type: ss
 - alterId: 0
   cipher: auto
