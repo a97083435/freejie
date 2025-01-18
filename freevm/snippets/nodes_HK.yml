@@ -1,23 +1,61 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
+  name: 13,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '16785'
   server: 103.30.76.250
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
-  ws-headers:
-    Host: 103.30.76.250
-  ws-path: /
-- cipher: chacha20-ietf
-  name: 20|🇰HK-154.197.26.237-064
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
+- alterId: 64
+  cipher: auto
+  name: 21|🇭🇰 香港_Telegram@kxswa_11
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 21|🇭🇰 香港_Telegram@kxswa_12
+  network: tcp
+  port: '50002'
+  server: 47.116.173.76
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 26,29|US_speednode_0104
+  password: '!!str 3723507166611775488'
+  port: 443
+  server: nearby-hedgehog.boa152.lol
+  skip-cert-verify: false
+  sni: nearby-hedgehog.boa152.lol
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 0785c6af-4aac-49a0-9533-95d41d990384
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港3|@ripaojiedian
+  password: APEX7RPQ1FUAGNY7
+  port: 15015
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港7|@ripaojiedian
+  password: 2MT8DJ2LPPCI5PH8
+  port: 15003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -91,3 +129,14 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 29|HK_speednode_0033
+  network: ws
+  port: 17926
+  server: 212.192.12.70
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dae301f8-eeda-473f-aa6c-306b5061c48d
