@@ -492,46 +492,8 @@ proxies:
   port: 5601
   server: 167.88.63.21
   type: ss
-- cipher: rc4-md5
-  name: 20|🇸US-107.151.182.253-059
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.151.182.253
-  type: ss
-- cipher: aes-256-cfb
-  name: 20|🇸US-34.222.155.226-068
-  password: amazonskr05
-  port: 443
-  server: 34.222.155.226
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20,21|0|--54
-  network: tcp
-  port: '54735'
-  server: 38.147.160.151
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0785c6af-4aac-49a0-9533-95d41d990384
-  ws-headers:
-    Host: 38.147.160.151
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 20|🇺🇸US-142.4.108.141-075
-  network: ws
-  port: 38007
-  server: 142.4.108.141
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: www.66827194.xyz
-  ws-path: /path/1723457615032
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇸US-64.74.163.130-398
+  name: 20|🇺🇸US-64.74.163.130-438
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 64.74.163.130
@@ -575,22 +537,9 @@ proxies:
     headers:
       Host: ff.kncc2.top
     path: /89c344f2
-- alterId: 2
-  cipher: auto
-  name: 21|🇺🇸 13,14|美国3|@ripaojiedian
-  network: ws
-  port: '22643'
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #2'
+  name: 21|🇺🇸 _美国
   network: ws
   port: '2086'
   server: shs.xiaoqi666.xyz
@@ -643,22 +592,6 @@ proxies:
     headers:
       host: mm3.shabijichang.com
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇺🇸 美国|@ripaojiedian
-  password: 8FW4QUIM9HH9WV1I
-  port: 17002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇺🇸 美国2|@ripaojiedian
-  password: OBIS73L4TXP0JP12
-  port: 17014
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #20'
@@ -1960,3 +1893,18 @@ proxies:
     headers:
       Host: mmdserver.us.kg
     path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 29|US_speednode_0110
+  network: ws
+  port: 38007
+  server: 142.4.108.141
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.66827194.xyz
+    path: /path/1723457615032
