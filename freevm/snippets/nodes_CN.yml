@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
 - alterId: 64
   cipher: auto
   name: '3,30|🇨🇳_CN_中国 #1'
@@ -56,6 +62,32 @@ proxies:
   port: 15003
   server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇨🇳 14|台湾|@ripaojiedian
+  network: tcp
+  port: '62506'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
+  ws-headers:
+    Host: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇯🇵 14|日本|@ripaojiedian
+  network: tcp
+  port: '63494'
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
+  ws-headers:
+    Host: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  ws-path: /
 - cipher: aes-256-gcm
   name: 20|🇨🇳CN-113.99.142.172-382
   password: HEFXL9QGFUT6ET4L
