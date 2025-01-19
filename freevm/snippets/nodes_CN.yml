@@ -112,38 +112,32 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 20|🇨🇳CN-111.29.57.71-426
-  network: ws
-  port: 25230
-  server: cm1.awslcn.info
+  name: 20,21|_中国
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: cm1.awslcn.info
+    Host: 120.234.102.229
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-45.250.184.183-427
-  password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
-  port: 6181
-  server: 45.250.184.183
-  type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '21|_中国 #1'
-  network: ws
-  port: '25230'
-  server: cm1.awslcn.info
+  name: '20,21|_中国 #2'
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
