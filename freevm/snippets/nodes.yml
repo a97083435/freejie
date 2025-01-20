@@ -713,9 +713,9 @@ proxies:
     path: /89c344f2
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25|0|-https://t.me/MrXbin-31
+  name: 13,20,21|0|--62
   network: tcp
-  port: 80
+  port: '80'
   server: 94.182.150.231
   skip-cert-verify: true
   tls: false
@@ -744,7 +744,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,25|0|-https://t.me/MrXbin-35
+  name: 13|0|--35
   network: ws
   port: 8880
   server: s2.db-link01.top
@@ -757,7 +757,7 @@ proxies:
     path: /dabai.in172.64.0.32
 - alterId: 0
   cipher: auto
-  name: 13,25|0|-https://t.me/MrXbin-43
+  name: 13,25|0|-https://t.me/MrXbin-84
   network: tcp
   port: 80
   server: 94.182.150.230
@@ -2222,6 +2222,20 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-85
+  network: ws
+  port: 443
+  server: 00.likelike.us.kg
+  servername: 00.likelike.us.kg
+  tls: true
+  type: vmess
+  uuid: 680e91d7-01ff-4082-b71a-472d5236adee
+  ws-opts:
+    headers:
+      Host: 00.likelike.us.kg
+    path: /serv00?ed=2048
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 26|🇯🇵 日本3|@ripaojiedian
