@@ -713,18 +713,38 @@ proxies:
     path: /89c344f2
 - alterId: 0
   cipher: auto
-  name: 13,20,21|🇨🇳 14|台湾|@ripaojiedian
-  network: tcp
-  port: '19490'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  client-fingerprint: chrome
+  name: 13,25,26,27|香港3|@ripaojiedian
+  network: ws
+  port: '8226'
+  server: 89.185.31.75
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 2c735365-79bf-4ecf-ba0d-86202fa24cca
-  ws-headers:
-    Host: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  ws-path: /
+  uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
+  ws-opts:
+    headers:
+      Host: v12.emovpn.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,25,26,27|韩国2|@ripaojiedian
+  network: ws
+  port: '40396'
+  server: sd3.forlive.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1387,6 +1407,19 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇨🇳 14|台湾|@ripaojiedian
+  network: tcp
+  port: '19490'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2c735365-79bf-4ecf-ba0d-86202fa24cca
+  ws-headers:
+    Host: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇯🇵 日本|@ripaojiedian
@@ -2437,40 +2470,6 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 25,26,27|香港3|@ripaojiedian
-  network: ws
-  port: '8226'
-  server: 89.185.31.75
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
-  ws-opts:
-    headers:
-      Host: v12.emovpn.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 25,26,27|韩国2|@ripaojiedian
-  network: ws
-  port: '40396'
-  server: sd3.forlive.live
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - name: 26|tg频道:@ripaojiedian
   port: 4002
   server: krecs.ftq.ink
