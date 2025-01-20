@@ -709,22 +709,16 @@ proxies:
     path: /89c344f2
 - alterId: 0
   cipher: auto
-  name: 13,25|0|-https://t.me/MrXbin-62
-  network: tcp
-  port: 80
-  server: 94.182.150.231
+  name: 13,25,29|RU_speednode_0040
+  network: ws
+  port: 17926
+  server: 194.87.69.50
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
-- alterId: 0
-  cipher: auto
-  name: 13|0|--66
-  network: tcp
-  port: 80
-  server: 94.182.150.230
-  tls: false
-  type: vmess
-  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
+  udp: true
+  uuid: a0913106-9749-42c3-964f-71d21e6dd517
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   http-opts:
@@ -740,15 +734,15 @@ proxies:
   type: vmess
   udp: true
   uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13|0|--71
+  name: 13,25|0|-https://t.me/MrXbin-62
   network: tcp
-  port: 45017
-  server: 137.175.20.92
+  port: 80
+  server: 94.182.150.231
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1271,18 +1265,6 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 25,29|RU_speednode_0040
-  network: ws
-  port: 17926
-  server: 194.87.69.50
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a0913106-9749-42c3-964f-71d21e6dd517
-  ws-opts: {}
 - name: 26|tg频道:@ripaojiedian
   port: 4002
   server: krecs.ftq.ink
