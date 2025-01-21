@@ -410,7 +410,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,30|🇺🇸_US_美国 #40'
+  name: '3,30|🇺🇸_US_美国 #41'
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -479,7 +479,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,30|🇺🇸_US_美国 #41'
+  name: '3,30|🇺🇸_US_美国 #42'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -498,7 +498,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '3,30|🇺🇸_US_美国 #42'
+  name: '3,30|🇺🇸_US_美国 #43'
   network: ws
   port: 8080
   server: russia.com
@@ -724,16 +724,16 @@ proxies:
   uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
 - alterId: 0
   cipher: auto
-  name: '13,21|0|--84 #1'
+  name: 13,21,25|0|-https://t.me/MrXbin-55
   network: tcp
-  port: '80'
+  port: 80
   server: 94.182.150.230
   tls: false
   type: vmess
   uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
 - alterId: 0
   cipher: auto
-  name: 13,21,25|0|-https://t.me/MrXbin-105
+  name: 13,21,25|0|-https://t.me/MrXbin-46
   network: ws
   port: 443
   server: 00.likelike.us.kg
@@ -747,14 +747,11 @@ proxies:
     path: /serv00?ed=2048
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,21,25,26,27|香港3|@ripaojiedian
+  name: 13,21|🇭🇰 13,14|香港3|@ripaojiedian
   network: ws
   port: '8226'
   server: 89.185.31.75
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
@@ -764,14 +761,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,21,25,26,27|韩国2|@ripaojiedian
+  name: 13,21|🇰🇷 13,14|韩国2|@ripaojiedian
   network: ws
   port: '40396'
   server: sd3.forlive.live
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
@@ -806,6 +800,20 @@ proxies:
   tls: true
   type: vmess
   uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+- alterId: 0
+  cipher: auto
+  name: '14|🇺🇸_US_美国 #20'
+  network: ws
+  port: 2086
+  server: 190.93.245.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 印度  2 #1'
@@ -1256,14 +1264,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-92
+  name: 25|0|-https://t.me/MrXbin-50
   network: ws
-  port: 17926
-  server: 195.58.49.86
-  tls: false
+  port: 443
+  server: irvideo.cfd
+  tls: true
   type: vmess
-  uuid: 0d144c6f-1919-4bda-a60b-36b944633a56
-  ws-opts: {}
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 25,29|RU_speednode_0040
@@ -1278,13 +1289,52 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-102
+  name: 25,29|RU_speednode_0037
+  network: ws
+  port: 17926
+  server: 195.58.49.50
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c882b684-ab94-4b46-b34e-609d1f3b5c0f
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 25|0|-https://t.me/MrXbin-63
   network: tcp
   port: 80
   server: 94.182.150.231
   tls: false
   type: vmess
   uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
+- alterId: 0
+  cipher: auto
+  name: 25,27|德国|@ripaojiedian
+  network: tcp
+  port: '2082'
+  server: 64.225.109.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 25,26,27|俄罗斯|@ripaojiedian
+  network: ws
+  port: '17926'
+  server: 194.87.69.52
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c3f7ff71-8e83-4983-94fd-c7bc4018b824
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - name: 26|tg频道:@ripaojiedian
   port: 4002
   server: krecs.ftq.ink
@@ -1304,6 +1354,17 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港3|@ripaojiedian
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40239
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇭🇰 香港5|@ripaojiedian
@@ -1347,14 +1408,6 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 43104
-  server: p221.panda001.net
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡|@ripaojiedian
@@ -1369,22 +1422,6 @@ proxies:
   password: TOU9PB2B767TFQVU
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡3|@ripaojiedian
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡4|@ripaojiedian
-  password: 3164812a-caea-4cd7-acad-9cf0627aac08
-  port: 30001
-  server: gdgs.tarioblink.me
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -1408,7 +1445,7 @@ proxies:
   name: 26|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.136.200.60
+  server: 47.128.244.15
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1416,7 +1453,7 @@ proxies:
   name: 26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.234.231
+  server: 54.255.240.168
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1424,9 +1461,28 @@ proxies:
   name: 26|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.112.254.144
+  server: 18.142.225.149
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26,29|NL_speednode_0032
+  password: dongtaiwang.com
+  port: 33333
+  server: 109.104.154.146
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 27|6aaZ5rivM3xAcmlwYW9qaWVkaWFu
+  obfs: plain
+  obfs-param: Y2QyYjY5MjkwMi42NjAyYjg0NjM0NjQxMDg1MDYubWljcm9zb2Z0LmNvbQ
+  password: ENZ52K
+  port: '40239'
+  protocol: auth_aes128_md5
+  protocol-param: OTI5MDI6cEZXR09R
+  server: 3.link-hub.click
+  type: ssr
 - cipher: rc4-md5
   name: 27|5pel5pysM3xAcmlwYW9qaWVkaWFu
   obfs: plain
@@ -1439,7 +1495,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #20'
+  name: '28|🇺🇸_US_美国 #21'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -1545,7 +1601,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #33'
+  name: '28|🇺🇸_US_美国 #34'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -1777,7 +1833,7 @@ proxies:
     path: f8c92b3b
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #21'
+  name: '28|🇺🇸_US_美国 #22'
   network: ws
   port: 2095
   server: russia.com
@@ -1843,7 +1899,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #35'
+  name: '28|🇺🇸_US_美国 #36'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -1884,7 +1940,7 @@ proxies:
     path: /zBLPou
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #22'
+  name: '28|🇺🇸_US_美国 #23'
   network: ws
   port: 80
   server: 172.67.116.48
@@ -2180,7 +2236,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #36'
+  name: '28|🇺🇸_US_美国 #37'
   network: ws
   port: 2052
   server: 104.21.82.39
@@ -2193,7 +2249,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #26'
+  name: '28|🇺🇸_US_美国 #27'
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev
@@ -2214,7 +2270,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #27'
+  name: '28|🇺🇸_US_美国 #28'
   network: ws
   port: 80
   server: 104.21.234.52
@@ -2304,7 +2360,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #28'
+  name: '28|🇺🇸_US_美国 #29'
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -2854,7 +2910,7 @@ proxies:
     path: /look
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #29'
+  name: '28|🇺🇸_US_美国 #30'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -3116,7 +3172,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #31'
+  name: '28|🇺🇸_US_美国 #32'
   network: ws
   port: 8080
   server: 162.159.134.23
@@ -3129,7 +3185,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #32'
+  name: '28|🇺🇸_US_美国 #33'
   network: ws
   port: 443
   server: hms082.gwdef.sbs
@@ -3258,7 +3314,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #34'
+  name: '28|🇺🇸_US_美国 #35'
   network: ws
   port: 2086
   server: cfcdn1.sanfencdn9.com
@@ -3336,7 +3392,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #37'
+  name: '28|🇺🇸_US_美国 #38'
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -3376,7 +3432,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #38'
+  name: '28|🇺🇸_US_美国 #39'
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -3389,7 +3445,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #39'
+  name: '28|🇺🇸_US_美国 #40'
   network: ws
   port: 8880
   server: russia.com
@@ -3483,7 +3539,7 @@ proxies:
       Host: a.prapt1.ir
     path: /?ed=2048&Telegram🇨🇳
 - cipher: chacha20-ietf
-  name: 28|6aaZ5rivM3xAcmlwYW9qaWVkaWFu
+  name: '28|6aaZ5rivM3xAcmlwYW9qaWVkaWFu #1'
   obfs: tls1.2_ticket_auth
   obfs-param: NWRiOTkxMDE4Mi5taWNyb3NvZnQuY29t
   password: Fhbe0z
@@ -3733,13 +3789,6 @@ proxies:
     headers:
       Host: amepo.ambercc.filegear-sg.me
     path: /
-- cipher: aes-256-gcm
-  name: 29|NL_speednode_0032
-  password: dongtaiwang.com
-  port: 33333
-  server: 109.104.154.146
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 29|PL_speednode_0033
   password: rpgbNnU9rDDU4aWZ
@@ -3757,17 +3806,6 @@ proxies:
   type: vless
   udp: true
   uuid: c7d45aba-0fae-4701-9222-a46a42ec0d89
-- alterId: 0
-  cipher: auto
-  name: 29|RU_speednode_0037
-  network: ws
-  port: 17926
-  server: 195.58.49.50
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c882b684-ab94-4b46-b34e-609d1f3b5c0f
 - name: 29|SE_speednode_0041
   network: ws
   port: 2501
