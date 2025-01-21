@@ -709,19 +709,33 @@ proxies:
     path: /89c344f2
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 13,21,25,29|DE_speednode_0015
-  network: http
-  port: 2082
-  server: 64.225.109.206
-  skip-cert-verify: true
-  tls: false
+  name: 13,21,25,29|US_speednode_0111
+  network: ws
+  port: 443
+  server: 00.likelike.us.kg
+  servername: 00.likelike.us.kg
+  skip-cert-verify: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+  uuid: 680e91d7-01ff-4082-b71a-472d5236adee
+  ws-opts:
+    headers:
+      Host: 00.likelike.us.kg
+    path: /serv00?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13,25|0|-https://t.me/MrXbin-50
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 13,21,25|0|-https://t.me/MrXbin-55
@@ -733,46 +747,48 @@ proxies:
   uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
 - alterId: 0
   cipher: auto
-  name: 13,21,25|0|-https://t.me/MrXbin-46
+  name: 13,25|0|-https://t.me/MrXbin-56
   network: ws
-  port: 443
-  server: 00.likelike.us.kg
-  servername: 00.likelike.us.kg
-  tls: true
-  type: vmess
-  uuid: 680e91d7-01ff-4082-b71a-472d5236adee
-  ws-opts:
-    headers:
-      Host: 00.likelike.us.kg
-    path: /serv00?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13,21|🇭🇰 13,14|香港3|@ripaojiedian
-  network: ws
-  port: '8226'
-  server: 89.185.31.75
-  servername: ''
+  port: 17926
+  server: 194.87.69.50
   tls: false
   type: vmess
-  uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
-  ws-opts:
-    headers:
-      Host: v12.emovpn.buzz
-    path: /
+  uuid: 5f6c0370-735f-4ed0-9a2d-b10ffa417b03
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 13,21|🇰🇷 13,14|韩国2|@ripaojiedian
-  network: ws
-  port: '40396'
-  server: sd3.forlive.live
-  servername: ''
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13,21,25,29|DE_speednode_0022
+  network: http
+  port: 2082
+  server: 64.225.109.206
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  udp: true
+  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+- alterId: 0
+  cipher: auto
+  name: 13,25|0|-https://t.me/MrXbin-62
+  network: ws
+  port: 17926
+  server: 195.58.49.50
+  tls: false
+  type: vmess
+  uuid: de3695e9-b174-4788-ba90-16bc9e46f53c
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13,25|0|-https://t.me/MrXbin-63
+  network: tcp
+  port: 80
+  server: 94.182.150.231
+  tls: false
+  type: vmess
+  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -786,6 +802,33 @@ proxies:
   tls: false
   type: vmess
   uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13,25,27|德国|@ripaojiedian
+  network: tcp
+  port: '2082'
+  server: 64.225.109.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,25,26,27|俄罗斯|@ripaojiedian
+  network: ws
+  port: '17926'
+  server: 194.87.69.52
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c3f7ff71-8e83-4983-94fd-c7bc4018b824
   ws-opts:
     headers:
       Host: ''
@@ -1032,6 +1075,32 @@ proxies:
     path: /89c344f2
 - alterId: 0
   cipher: auto
+  name: 21|🇭🇰 13,14|香港3|@ripaojiedian
+  network: ws
+  port: '8226'
+  server: 89.185.31.75
+  tls: false
+  type: vmess
+  uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
+  ws-opts:
+    headers:
+      Host: v12.emovpn.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇰🇷 13,14|韩国2|@ripaojiedian
+  network: ws
+  port: '40396'
+  server: sd3.forlive.live
+  tls: false
+  type: vmess
+  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '21|🇷🇺 _俄罗斯 #13'
   network: ws
   port: '17926'
@@ -1123,12 +1192,14 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 _美国 #3'
+  name: 21,29|US_speednode_0100
   network: ws
-  port: '80'
+  port: 80
   server: s5.db-link02.top
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
@@ -1264,91 +1335,18 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 25|0|-https://t.me/MrXbin-50
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 25,29|RU_speednode_0040
-  network: ws
-  port: 17926
-  server: 194.87.69.50
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a0913106-9749-42c3-964f-71d21e6dd517
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 25,29|RU_speednode_0037
-  network: ws
-  port: 17926
-  server: 195.58.49.50
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c882b684-ab94-4b46-b34e-609d1f3b5c0f
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 25|0|-https://t.me/MrXbin-63
-  network: tcp
+  client-fingerprint: chrome
+  name: 26,29|IR_speednode_0040
+  password: telegram-id-directvpn
   port: 80
   server: 94.182.150.231
-  tls: false
-  type: vmess
-  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
-- alterId: 0
-  cipher: auto
-  name: 25,27|德国|@ripaojiedian
-  network: tcp
-  port: '2082'
-  server: 64.225.109.206
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 25,26,27|俄罗斯|@ripaojiedian
-  network: ws
-  port: '17926'
-  server: 194.87.69.52
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c3f7ff71-8e83-4983-94fd-c7bc4018b824
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|US_speednode_0052
-  password: '3648425794742788096'
-  port: 45017
-  server: 137.175.20.92
-  skip-cert-verify: false
-  sni: loving-boa.treefrog761.one
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 26|🇭🇰 香港3|@ripaojiedian
@@ -1429,12 +1427,13 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 26|🇺🇸 美国2|@ripaojiedian
+  name: 26,29|CN_speednode_0020
   password: 1XQDHG7MU61NKDX2
   port: 17008
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇯🇵 日本特殊|@ripaojiedian
@@ -1445,12 +1444,13 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  name: 26,29|SG_speednode_0066
   password: amazonskr05
   port: 443
   server: 54.255.240.168
   tfo: false
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇰🇷 韩国特殊|@ripaojiedian
@@ -1461,7 +1461,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 26,29|NL_speednode_0032
+  name: 26,29|NL_speednode_0056
   password: dongtaiwang.com
   port: 33333
   server: 109.104.154.146
@@ -3557,32 +3557,31 @@ proxies:
     headers:
       Host: tw.appleid.bf
     path: /ws?ed=2048
-- name: 29|AM_speednode_0001
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 188.164.159.3
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 29|AT_speednode_0001
+  password: ZmQwZjFk
+  port: 8388
+  server: 95.164.36.59
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|AM_speednode_0002
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 188.164.159.248
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 29|AT_speednode_0002
+  password: ZmQwZjFk
+  port: 8388
+  server: at1.opensocks.site
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
+- cipher: aes-256-cfb
+  name: 29|CH_speednode_0003
+  obfs: plain
+  obfs-param: ''
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  protocol: origin
+  protocol-param: ''
+  server: 84.17.53.160
+  type: ssr
+  udp: true
 - cipher: aes-256-cfb
   name: 29|CH_speednode_0004
   password: f8f7aCzcPKbsF8p3
@@ -3590,16 +3589,89 @@ proxies:
   server: 84.17.53.160
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: 29|CN_speednode_0005
+  password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3
+  port: 50002
+  server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0006
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40206
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0007
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40208
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0012
+  password: 061d42d5-4e6a-4661-be04-80dcfb15b08f
+  port: 49319
+  server: yoyo.cmyiphone.top
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 29|CN_speednode_0008
+  name: 29|CN_speednode_0013
   password: hGkQ6915tD
-  port: 15084
+  port: 16088
   server: 120.232.81.50
   type: ss
   udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0014
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40210
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0015
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40254
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0011
+  name: 29|CN_speednode_0018
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 29|CN_speednode_0019
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -3613,286 +3685,327 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- alterId: 2
-  cipher: auto
-  name: 29|CN_speednode_0012
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 29|CN_speednode_0013
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 29|DE_speednode_0016
-  password: utPu0eizp4HYbLpn28OOEZ
-  port: 55198
-  server: 79.137.202.71
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 29|DK_speednode_0018
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.186.79.53
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 29|EC_speednode_0019
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.47.253.171
-  type: ss
-  udp: true
-- name: 29|ES_speednode_0020
-  network: ws
-  password: Aimer
-  port: 443
-  server: 185.114.72.148
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 29|FR_speednode_0021
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.110
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 29|GB_speednode_0025
-  password: AIsvzXnT1Z6NFoeadqyDCq
-  port: 11329
-  server: 109.120.186.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 29|IE_speednode_0026
-  password: ZDAxZDE2
+  name: 29|FR_speednode_0031
+  password: ZWRiM2Ix
   port: 8388
-  server: 95.164.44.221
+  server: 185.234.64.35
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 29|IS_speednode_0030
+  name: 29|GB_speednode_0032
+  password: EOk/bIj8XER6b0kjVQxuM/iLMTE7P8h/PT/RCI2Z2wg=
+  port: 37904
+  server: 45.150.32.46
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|IE_speednode_0038
+  password: drqi55BCvwi3nOXulYjGLQ
+  port: 25444
+  server: 13.79.171.214
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|IS_speednode_0041
   password: MDZhNTAz
   port: 8388
   server: 89.221.224.166
   type: ss
   udp: true
-- name: 29|LU_speednode_0031
-  network: ws
-  password: Aimer
-  port: 81
-  server: 45.80.209.25
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
 - cipher: aes-256-cfb
-  name: 29|PL_speednode_0033
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 29|SG_speednode_0042
+  name: 29|JP_speednode_0042
   password: amazonskr05
   port: 443
-  server: 18.142.185.146
+  server: 18.183.250.250
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 29|SG_speednode_0043
+  name: 29|JP_speednode_0043
   password: amazonskr05
   port: 443
-  server: 13.229.206.58
+  server: 13.230.174.203
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: 29|SG_speednode_0044
-  password: 14fFPrbezE3HDZzsMOr6
+- cipher: aes-256-cfb
+  name: 29|JP_speednode_0044
+  password: amazonskr05
+  port: 443
+  server: 18.182.13.204
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|JP_speednode_0046
+  password: amazonskr05
+  port: 443
+  server: 54.199.222.156
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|KR_speednode_0047
+  password: qwerREWQ@@
+  port: 37041
+  server: 121.170.203.147
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|KR_speednode_0048
+  password: qwerREWQ@@
+  port: 34847
+  server: 218.50.149.114
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|KR_speednode_0049
+  password: amazonskr05
+  port: 443
+  server: 3.34.189.113
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|KR_speednode_0050
+  password: qwerREWQ@@
+  port: 28290
+  server: p220.panda001.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|KR_speednode_0052
+  password: qwerREWQ@@
+  port: 52963
+  server: 221.139.79.57
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|LT_speednode_0053
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 68.183.227.4
+  server: 45.87.175.171
   type: ss
   udp: true
-- name: 29|SG_speednode_0045
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 206.238.236.63
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|SG_speednode_0046
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.3
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
 - cipher: aes-256-cfb
-  name: 29|US_speednode_0057
+  name: 29|LT_speednode_0054
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.36.61.59
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|NL_speednode_0055
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 193.29.139.189
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|PH_speednode_0057
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 154.90.37.139
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|PT_speednode_0058
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 29|RU_speednode_0060
+  network: ws
+  port: 33395
+  server: 45.8.159.241
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+- alterId: 0
+  cipher: auto
+  name: 29|RU_speednode_0061
+  network: ws
+  port: 17926
+  server: 194.87.69.52
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d2dd8b01-d993-4895-afc4-8cf71346477b
+- alterId: 0
+  cipher: auto
+  name: 29|RU_speednode_0064
+  network: ws
+  port: 17926
+  server: 195.58.49.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3e200091-324f-47ec-a767-15782ca937f8
+- alterId: 0
+  cipher: auto
+  name: 29|RU_speednode_0065
+  network: ws
+  port: 17926
+  server: 195.58.49.86
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84551ec3-0575-4ea0-9db6-fae0f442c4fe
+- cipher: aes-256-cfb
+  name: 29|SG_speednode_0067
+  password: amazonskr05
+  port: 443
+  server: 13.213.58.54
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 29|SG_speednode_0068
+  password: asd123456
+  port: 8388
+  server: 202.162.109.169
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0073
+  password: amazonskr05
+  port: 443
+  server: 34.221.178.146
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 29|US_speednode_0074
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 29|US_speednode_0083
+  network: ws
+  port: 8880
+  server: s1.db-link01.top
+  servername: 100-250-32-53.s1.db-link01.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-250-32-53.s1.db-link01.top
+    path: /dabai.in172.67.95.35
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0087
+  password: amazonskr05
+  port: 443
+  server: 34.211.250.149
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0102
+  password: amazonskr05
+  port: 443
+  server: 52.41.99.171
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0113
+  password: amazonskr05
+  port: 443
+  server: 35.167.62.123
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0114
+  password: amazonskr05
+  port: 443
+  server: 34.210.56.216
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0115
+  password: amazonskr05
+  port: 443
+  server: 54.202.49.210
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0117
+  password: amazonskr05
+  port: 443
+  server: 34.221.162.184
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0121
+  password: amazonskr05
+  port: 443
+  server: 34.219.177.229
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0122
+  password: amazonskr05
+  port: 443
+  server: 54.190.19.18
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 29|US_speednode_0123
+  obfs: plain
+  obfs-param: ''
+  password: shadowsocks
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 184.170.241.194
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0124
+  obfs: plain
+  obfs-param: ''
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 34.221.178.146
+  type: ssr
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|US_speednode_0125
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 139.64.165.230
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|US_speednode_0126
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 139.64.165.230
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0127
   password: amazonskr05
   port: 443
   server: 54.187.174.202
   type: ss
   udp: true
-- name: 29|US_speednode_0062
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 108.165.152.65
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
+- cipher: aes-256-cfb
+  name: 29|US_speednode_0129
+  obfs: plain
+  obfs-param: ''
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 34.211.250.149
+  type: ssr
   udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|US_speednode_0064
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 108.165.152.241
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|US_speednode_0066
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 108.165.152.25
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|US_speednode_0069
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 108.165.152.78
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|US_speednode_0070
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 154.219.5.137
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|US_speednode_0074
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 156.225.72.246
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|US_speednode_0075
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.14
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|US_speednode_0077
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.55
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
-- name: 29|US_speednode_0079
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 199.34.228.164
-  skip-cert-verify: false
-  sni: amepo.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: amepo.ambercc.filegear-sg.me
-    path: /
