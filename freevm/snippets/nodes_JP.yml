@@ -11,17 +11,24 @@ proxies:
   port: 443
   server: 18.182.13.204
   type: ss
-- cipher: rc4-md5
+- alterId: 0
+  cipher: auto
+  name: 25,27|日本|@ripaojiedian
+  network: tcp
+  port: '63494'
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdc67dd7-1a08-4ac4-b04b-6f04d5dbadff
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本3|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40219
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.151.193.123
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
