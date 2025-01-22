@@ -64,93 +64,47 @@ proxies:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
 - cipher: aes-256-cfb
-  name: 29|CN_speednode_0005
+  name: 29|CN_speednode_0001
   password: hGkQ6915tD
   port: 15084
   server: 120.232.81.50
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0005
+  password: c152af8c9b8e2d691b40b6d747f335fe
+  port: 59354
+  server: jq8wh4wq.gym0boy.com
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
   name: 29|CN_speednode_0006
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49210
-  server: south.sf0jm.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0008
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49224
-  server: south.sf0jm.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0009
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49228
-  server: south.sf0jm.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0010
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49219
-  server: south.sf0jm.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0011
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49230
-  server: south.sf0jm.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0012
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49104
-  server: south.sf0jm.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0013
   password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
   port: 23733
   server: cu1.guguyun.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 29|CN_speednode_0014
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
 - cipher: aes-128-gcm
-  name: 29|CN_speednode_0015
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49217
-  server: south.sf0jm.xyz
+  name: 29|CN_speednode_0007
+  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
+  port: 46595
+  server: bj.xissyun.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0016
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49202
-  server: south.sf0jm.xyz
-  type: ss
+- cipher: rc4-md5
+  name: 29|CN_speednode_0009
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40239
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
   udp: true
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0017
+  name: 29|CN_speednode_0011
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -163,31 +117,3 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0018
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49205
-  server: south.sf0jm.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0019
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49211
-  server: south.sf0jm.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0020
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0021
-  password: 875fdcc7-332c-43f9-8a06-8bd28ad96680
-  port: 49229
-  server: south.sf0jm.xyz
-  type: ss
-  udp: true
