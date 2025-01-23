@@ -1,31 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|香港 Amazon数据中心
-  network: ws
-  port: 42358
-  server: 0000000000000000000000000076.cgroup-node-for-bigairport.sbs
-  tls: true
-  type: vmess
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港6|@ripaojiedian
@@ -121,7 +94,7 @@ proxies:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
 - cipher: aes-256-cfb
-  name: 29|HK_speednode_0044
+  name: 29|HK_speednode_0034
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: iFqnzSscN

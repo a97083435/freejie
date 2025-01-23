@@ -14,6 +14,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -38,7 +52,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0023
+  name: 20,26,29|CN_speednode_0019
   password: U177NTV9CLY0D3SP
   port: 17002
   server: w72tapyb.slashdevslashnetslashtun.net
@@ -55,7 +69,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0022
+  name: 20,26,29|CN_speednode_0018
   password: F2KVLB8XGXPPA7OX
   port: 15006
   server: 219.135.227.210
@@ -80,7 +94,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0016
+  name: 20,26,29|CN_speednode_0013
   password: BS6J1MEQANXXVHQL
   port: 16002
   server: 219.135.227.210
@@ -89,7 +103,7 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0014
+  name: 20,26,29|CN_speednode_0011
   password: LQVGZB307SUYK23Y
   port: 16009
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -172,42 +186,35 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0009
+  name: 29|CN_speednode_0008
   password: 5cc14127-cf4e-4e6b-a222-beeddb02ff66
   port: 30001
   server: gdgs.tarioblink.me
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0011
-  password: 061d42d5-4e6a-4661-be04-80dcfb15b08f
-  port: 49319
-  server: yoyo.cmyiphone.top
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 29|CN_speednode_0012
+  name: 29|CN_speednode_0009
   password: hGkQ6915tD
   port: 15084
   server: 120.232.81.50
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 29|CN_speednode_0015
+  name: 29|CN_speednode_0012
   password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
   port: 46595
   server: bj.xissyun.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0017
+  name: 29|CN_speednode_0014
   password: 5cc14127-cf4e-4e6b-a222-beeddb02ff66
   port: 30003
   server: gdgs.tarioblink.me
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 29|CN_speednode_0018
+  name: 29|CN_speednode_0015
   password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
   port: 23733
   server: cu1.guguyun.xyz
@@ -215,7 +222,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0019
+  name: 29|CN_speednode_0016
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
@@ -230,7 +237,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0020
+  name: 29|CN_speednode_0017
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
