@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|香港 Amazon数据中心
+  network: ws
+  port: 42358
+  server: 0000000000000000000000000076.cgroup-node-for-bigairport.sbs
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港4|@ripaojiedian
@@ -13,19 +26,19 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港7|@ripaojiedian
+  name: 13,20,21,25,27|香港6|@ripaojiedian
   network: tcp
-  port: '49301'
-  server: yoyo.cmyiphone.top
+  port: '44614'
+  server: 120.198.71.219
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 061d42d5-4e6a-4661-be04-80dcfb15b08f
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: yoyo.cmyiphone.top
+    Host: 120.198.71.219
   ws-path: /
 - cipher: chacha20-ietf
   client-fingerprint: chrome
