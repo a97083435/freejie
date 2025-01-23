@@ -1,71 +1,45 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13,21,25,27|香港6|@ripaojiedian
+  name: 13,20,21,25,27|香港6|@ripaojiedian
   network: tcp
   port: '44614'
   server: 120.198.71.219
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港7|@ripaojiedian
+  name: 13,20,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '49301'
   server: yoyo.cmyiphone.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 061d42d5-4e6a-4661-be04-80dcfb15b08f
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|IN_speednode_0038
-  password: c443be95-725d-4da3-a60f-d35af5bfbff8
-  port: 17728
-  server: 150.230.139.203
-  skip-cert-verify: true
-  sni: data.52daishu.life
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: yoyo.cmyiphone.top
+  ws-path: /
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 26|🇭🇰 香港3|@ripaojiedian
+  name: 20,26|🇭🇰 香港3|@ripaojiedian
   password: asd123456
   port: 8388
   server: 103.149.183.61
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港5|@ripaojiedian
-  password: L1SLK5APNHD6Z7P0
-  port: 15013
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港8|@ripaojiedian
-  password: F2KVLB8XGXPPA7OX
-  port: 15006
-  server: 219.135.227.210
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇰HK-141.98.234.93-165
+  password: WfmxKX2FBJRU0Ie9VLIYDL
+  port: 20012
+  server: 141.98.234.93
   type: ss
 - alterId: 0
   cipher: auto

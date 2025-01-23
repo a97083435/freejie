@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
 - alterId: 64
   cipher: auto
   name: '3,30|🇨🇳_CN_中国 #1'
@@ -14,19 +8,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11,21|_中国
-  network: ws
-  port: '25230'
-  server: cm1.awslcn.info
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -41,6 +36,104 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港8|@ripaojiedian
+  password: F2KVLB8XGXPPA7OX
+  port: 15006
+  server: 219.135.227.210
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡|@ripaojiedian
+  password: f16d3752-7bae-474e-87dc-f892df2caeaf
+  port: 31620
+  server: ctmm.gscloud.bond
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇨🇳CN-183.236.51.60-189
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: cm1.awslcn.info
+  ws-path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇺🇸 美国|@ripaojiedian
+  password: 71GJL31AYF3CXZ2K
+  port: 17007
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港5|@ripaojiedian
+  password: L1SLK5APNHD6Z7P0
+  port: 15013
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本|@ripaojiedian
+  password: 62TRHAZ070VS0QX3
+  port: 18009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本2|@ripaojiedian
+  password: 9OAJ48AFCGC9UHFK
+  port: 18003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡3|@ripaojiedian
+  password: BS6J1MEQANXXVHQL
+  port: 16002
+  server: 219.135.227.210
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡4|@ripaojiedian
+  password: LQVGZB307SUYK23Y
+  port: 16009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇺🇸 美国2|@ripaojiedian
+  password: U177NTV9CLY0D3SP
+  port: 17002
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #1'
+  network: ws
+  port: '25230'
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
