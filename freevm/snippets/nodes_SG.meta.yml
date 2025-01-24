@@ -38,3 +38,31 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
+- cipher: aes-256-cfb
+  name: 29|SG_speednode_0059
+  password: amazonskr05
+  port: 443
+  server: 13.215.173.202
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 29|SG_speednode_0060
+  password: amazonskr05
+  port: 443
+  server: 18.142.225.149
+  type: ss
+  udp: true
+- name: 29|SG_speednode_0061
+  network: ws
+  port: 80
+  server: 103.253.145.213
+  servername: zoom.us
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: f6880deb-1c08-4dae-9715-0a175a6519ae
+  ws-opts:
+    headers:
+      Host: zoom.us
+    path: /FREE By Tharuwa (0767597317)
