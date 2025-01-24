@@ -13,6 +13,20 @@ proxies:
   ws-headers:
     Host: 183.236.51.23
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 13,20,21,25,27|香港6|@ripaojiedian
+  network: tcp
+  port: '44614'
+  server: 120.198.71.219
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 13,20,21,25,27|香港7|@ripaojiedian
@@ -27,20 +41,43 @@ proxies:
   ws-headers:
     Host: yoyo.cmyiphone.top
   ws-path: /
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港3|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.61
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 20|🇰HK-141.98.234.93-165
   password: WfmxKX2FBJRU0Ie9VLIYDL
   port: 20012
   server: 141.98.234.93
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 25|13|🇭🇰 香港2|@ripaojiedian
+  network: tcp
+  port: 48109
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 25|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 54104
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 26|🇭🇰 香港|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 443
+  server: 103.44.255.81
+  skip-cert-verify: false
+  sni: tr.koxok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koxok.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
