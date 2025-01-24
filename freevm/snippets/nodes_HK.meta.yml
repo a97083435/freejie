@@ -1,59 +1,47 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: '13,20,21,25|13|🇭🇰 香港3|@ripaojiedian #1'
+  name: '13,21,25|13|🇭🇰 香港2|@ripaojiedian #1'
   network: tcp
-  port: 54104
+  port: 48109
   server: 183.236.51.23
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港4|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港6|@ripaojiedian
+  name: 13,21,25,27|香港6|@ripaojiedian
   network: tcp
   port: '44614'
   server: 120.198.71.219
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.219
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|香港7|@ripaojiedian
+  name: 13,21,25,27|香港7|@ripaojiedian
   network: tcp
   port: '49301'
   server: yoyo.cmyiphone.top
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 061d42d5-4e6a-4661-be04-80dcfb15b08f
-  ws-headers:
-    Host: yoyo.cmyiphone.top
-  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 21|VMESS-未知>香港-NF解锁香港地区非自制剧-ChatG...
+  network: ws
+  port: 443
+  server: hk1.899994.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: hk1.899994.xyz
+    path: /index
 - client-fingerprint: chrome
   name: 26|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -67,6 +55,28 @@ proxies:
     headers:
       Host: tr.koxok.us.kg
     path: /?ed=2560
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 26,29|US_speednode_0074
+  password: bc5cf4d1-2efb-49f5-98c3-c350f08c1f51
+  port: 443
+  server: us3.p9999.space
+  skip-cert-verify: true
+  sni: bilibili.com
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港5|@ripaojiedian
+  password: L1SLK5APNHD6Z7P0
+  port: 15013
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787

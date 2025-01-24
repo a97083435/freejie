@@ -1,17 +1,50 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '13,20,21,25|13|🇯🇵 日本3|@ripaojiedian #1'
+  name: 11|日本 东京Amazon数据中心
+  network: ws
+  port: 42359
+  server: 0000000000000000000000000078.cgroup-node-for-bigairport.sbs
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '13,21,25|13|🇯🇵 日本3|@ripaojiedian #1'
   network: tcp
   port: 63494
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: be46b1b6-fe82-4540-8daa-37eca69e77ae
-  ws-headers:
-    Host: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  ws-path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本|@ripaojiedian
+  password: 62TRHAZ070VS0QX3
+  port: 18009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本2|@ripaojiedian
+  password: 9OAJ48AFCGC9UHFK
+  port: 18003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.78.205.26
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
