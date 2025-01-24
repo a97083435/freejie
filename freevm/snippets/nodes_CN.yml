@@ -16,9 +16,23 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '11,13,20,21,25|13|🇭🇰 香港2|@ripaojiedian #1'
+  name: 11,13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
-  port: 48109
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 11,20,21|_中国
+  network: tcp
+  port: '46602'
   server: 183.236.51.23
   skip-cert-verify: true
   tls: false
@@ -29,16 +43,16 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: '11,20,21|_中国 #1'
+  name: '11,13,20,21,25|13|🇭🇰 香港3|@ripaojiedian #1'
   network: tcp
-  port: '52908'
-  server: 120.234.102.229
+  port: 54104
+  server: 183.236.51.23
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.234.102.229
+    Host: 183.236.51.23
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -126,16 +140,16 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 20,21|_中国
+  name: '20,21|_中国 #1'
   network: tcp
-  port: '46602'
-  server: 183.236.51.23
+  port: '52908'
+  server: 120.234.102.229
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
+    Host: 120.234.102.229
   ws-path: /
 - alterId: 0
   cipher: auto
