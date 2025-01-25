@@ -16,6 +16,20 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  name: 11,13,20,21,25,27|香港2|@ripaojiedian
+  network: tcp
+  port: '48109'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
   name: 11,13,20,21,25,27|香港6|@ripaojiedian
   network: tcp
   port: '44614'
@@ -44,14 +58,6 @@ proxies:
     path: /debian
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇺🇸 美国|@ripaojiedian
-  password: 71GJL31AYF3CXZ2K
-  port: 17007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
   name: 20,26,29|CN_speednode_0009
   password: 5KM1ZLFIVE4AVS2A
   port: 15011
@@ -59,6 +65,23 @@ proxies:
   tfo: false
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26,29|CN_speednode_0010
+  password: EKL22E7LU1P3EPZC
+  port: 16015
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡3|@ripaojiedian
+  password: BS6J1MEQANXXVHQL
+  port: 16002
+  server: 219.135.227.210
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇯🇵 日本|@ripaojiedian
@@ -86,19 +109,10 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26,29|CN_speednode_0010
-  password: EKL22E7LU1P3EPZC
-  port: 16015
+  name: 20,26|🇺🇸 美国|@ripaojiedian
+  password: 71GJL31AYF3CXZ2K
+  port: 17007
   server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡3|@ripaojiedian
-  password: BS6J1MEQANXXVHQL
-  port: 16002
-  server: 219.135.227.210
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -110,7 +124,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-128-gcm
-  name: 20|🇨🇳CN-183.94.30.201-117
+  name: 20|🇨🇳CN-183.94.30.201-111
   password: 516f7847-0f7c-48dd-8b02-9f87b1dad5fc
   port: 25805
   server: nktodw3gtxxtmi2m6ih38vv2rllkysstyw6f.biliapi.xyz
