@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡|@ripaojiedian
@@ -9,12 +15,13 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡2|@ripaojiedian
+  name: 26,29|CN_speednode_0010
   password: EKL22E7LU1P3EPZC
   port: 16015
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡3|@ripaojiedian
@@ -44,31 +51,24 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
-- cipher: aes-256-cfb
-  name: 29|SG_speednode_0059
-  password: amazonskr05
-  port: 443
-  server: 13.215.173.202
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 29|SG_speednode_0060
-  password: amazonskr05
-  port: 443
-  server: 18.142.225.149
-  type: ss
-  udp: true
-- name: 29|SG_speednode_0061
-  network: ws
-  port: 80
-  server: 103.253.145.213
-  servername: zoom.us
-  skip-cert-verify: false
-  tls: false
+- alpn:
+  - h2
+  name: 29|SG_speednode_0044
+  port: 8443
+  server: 156.146.56.207
+  servername: sin-sg-01.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: f6880deb-1c08-4dae-9715-0a175a6519ae
-  ws-opts:
-    headers:
-      Host: zoom.us
-    path: /FREE By Tharuwa (0767597317)
+  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
+- alpn:
+  - h2
+  name: 29|SG_speednode_0045
+  port: 8443
+  server: sin-sg-01.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b

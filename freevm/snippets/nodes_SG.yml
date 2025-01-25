@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡|@ripaojiedian
@@ -9,12 +15,13 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡2|@ripaojiedian
+  name: 26,29|CN_speednode_0010
   password: EKL22E7LU1P3EPZC
   port: 16015
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡3|@ripaojiedian
@@ -44,17 +51,3 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
-- cipher: aes-256-cfb
-  name: 29|SG_speednode_0059
-  password: amazonskr05
-  port: 443
-  server: 13.215.173.202
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 29|SG_speednode_0060
-  password: amazonskr05
-  port: 443
-  server: 18.142.225.149
-  type: ss
-  udp: true
