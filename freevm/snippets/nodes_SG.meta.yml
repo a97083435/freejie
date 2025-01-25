@@ -5,38 +5,30 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡|@ripaojiedian
-  password: f16d3752-7bae-474e-87dc-f892df2caeaf
-  port: 31620
-  server: ctmm.gscloud.bond
-  tfo: false
+- alterId: 0
+  cipher: auto
+  name: '20,21|🇺🇸 _美国 #1'
+  network: tcp
+  port: '26936'
+  server: 140.245.115.5
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e60c190d-dcbc-4acc-964f-9daba65643c1
+  ws-headers:
+    Host: 140.245.115.5
+  ws-path: /
+- cipher: chacha20-ietf
+  name: 20|🇸🇬SG-103.36.91.32-055
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26,29|CN_speednode_0010
-  password: EKL22E7LU1P3EPZC
-  port: 16015
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡3|@ripaojiedian
-  password: BS6J1MEQANXXVHQL
-  port: 16002
-  server: 219.135.227.210
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.152.137
-  tfo: false
+- cipher: chacha20-ietf
+  name: 20|🇸🇬SG-202.162.109.169-057
+  password: asd123456
+  port: 8388
+  server: 202.162.109.169
   type: ss
 - alterId: 0
   cipher: auto

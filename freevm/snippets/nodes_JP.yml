@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本东京 Amazon数据中心
+  name: 11|日本 东京都Amazon数据中心
   network: ws
-  port: 33443
-  server: tls.19.node-for-bigairport.win
+  port: 44443
+  server: tls.13.node-for-bigairport.win
   tls: true
   type: vmess
   uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
@@ -14,42 +14,52 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|🇯🇵 日本 东京Amazon数据中心
+  name: 20|JP-52.196.190.225-025
   network: ws
-  port: '22358'
-  server: 0000000000000000000000000075.cgroup-node-for-bigairport.sbs
+  port: 33443
+  server: tls.19.node-for-bigairport.win
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: 0000000000000000000000000075.cgroup-node-for-bigairport.sbs
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26|🇯🇵 日本|@ripaojiedian
-  password: 62TRHAZ070VS0QX3
-  port: 18009
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
+  ws-headers:
+    Host: tls.19.node-for-bigairport.win
+  ws-path: /
+- cipher: aes-256-cfb
+  name: 20|🇯🇵JP-13.231.234.231-056
+  password: amazonskr05
+  port: 443
+  server: 13.231.234.231
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 26,29|CN_speednode_0011
-  password: HK94FBWD4KFIPD9F
-  port: 18015
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.152.137
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.65.53.22
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|🇯🇵 日本东京 Amazon数据中心
+  network: ws
+  port: '33443'
+  server: tls.19.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: tls.19.node-for-bigairport.win
+    path: /
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
