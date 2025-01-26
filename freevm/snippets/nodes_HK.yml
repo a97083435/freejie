@@ -1,4 +1,23 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|香港 UCloud
+  network: tcp
+  port: 13688
+  server: 118.193.34.236
+  tls: false
+  type: vmess
+  uuid: 93127065-1a5b-4816-d009-5bf5e0aa10b6
+- alterId: 0
+  cipher: auto
+  name: '11|香港 UCloud #1'
+  network: tcp
+  port: '15366'
+  server: 118.193.39.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 30d50840-88b1-474b-a17f-9fca177918d2
 - alterId: 64
   cipher: auto
   name: 13,20,21,25,27|香港2|@ripaojiedian
@@ -26,6 +45,20 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.51.23
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 13,20,21,25,27|香港6|@ripaojiedian
+  network: tcp
+  port: '44614'
+  server: 120.198.71.219
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
   ws-path: /
 - alterId: 0
   cipher: auto
