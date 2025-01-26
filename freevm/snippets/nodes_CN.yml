@@ -16,6 +16,28 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 11|广东省 移动
+  network: tcp
+  port: 15074
+  server: 15074.kuaiyin02.top
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- alterId: 0
+  cipher: auto
+  name: '11,21|_中国 #3'
+  network: ws
+  port: '25230'
+  server: 183.236.51.60
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: 183.236.51.60
+    path: /
+- alterId: 0
+  cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -28,46 +50,43 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇹🇼 台湾|@ripaojiedian
+  password: 9e2a92c6-bbe6-49fa-a280-e6f8f3eed7c5
+  port: 30228
+  server: pretw.capoonetwork.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本3|@ripaojiedian
+  password: 9e2a92c6-bbe6-49fa-a280-e6f8f3eed7c5
+  port: 19550
+  server: prejp.capoonetwork.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡|@ripaojiedian
+  password: f16d3752-7bae-474e-87dc-f892df2caeaf
+  port: 31620
+  server: ctmm.gscloud.bond
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 21|_中国
-  network: tcp
-  port: '21066'
-  server: 118.193.38.173
-  tls: false
-  type: vmess
-  uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #1'
-  network: tcp
-  port: '52825'
-  server: 118.193.34.158
-  tls: false
-  type: vmess
-  uuid: 67ff500a-8484-4ed8-cf8f-b8d341534140
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #2'
-  network: tcp
-  port: '13688'
-  server: 118.193.34.236
-  tls: false
-  type: vmess
-  uuid: 93127065-1a5b-4816-d009-5bf5e0aa10b6
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #3'
+  name: 20|🇳CN-183.236.51.60-206
   network: ws
-  port: '25230'
+  port: 25230
   server: 183.236.51.60
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: 183.236.51.60
-    path: /
+  ws-headers:
+    Host: 183.236.51.60
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
@@ -108,13 +127,6 @@ proxies:
   password: HK94FBWD4KFIPD9F
   port: 18015
   server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0012
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
   type: ss
   udp: true
 - cipher: rc4-md5

@@ -7,43 +7,50 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|新加坡 DigitalOcean数据中心
+  name: 13,20,21,25,27|新加坡2|@ripaojiedian
+  network: tcp
+  port: '53896'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 38eda6f2-6e04-4484-8f82-e859e76612d6
+  ws-headers:
+    Host: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20,29|CN_speednode_0012
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 20|🇬SG-13.215.202.147-046
+  password: amazonskr05
+  port: 80
+  server: 13.215.202.147
+  type: ss
+- cipher: chacha20-ietf
+  name: 20|🇸🇬SG-103.36.91.32-077
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|🇸🇬 新加坡 DigitalOcean数据中心
   network: ws
-  port: 443
+  port: '443'
   server: tls.81.node-for-bigairport.win
   tls: true
   type: vmess
   uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
   ws-opts:
     headers:
-      Host: ''
+      Host: tls.81.node-for-bigairport.win
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13,21,25,27|新加坡2|@ripaojiedian
-  network: tcp
-  port: '53896'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 38eda6f2-6e04-4484-8f82-e859e76612d6
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡|@ripaojiedian
-  password: f16d3752-7bae-474e-87dc-f892df2caeaf
-  port: 31620
-  server: ctmm.gscloud.bond
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.72.50
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
