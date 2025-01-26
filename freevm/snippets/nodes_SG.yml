@@ -7,6 +7,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 11|新加坡 DigitalOcean数据中心
+  network: ws
+  port: 443
+  server: tls.81.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13,21,25,27|新加坡2|@ripaojiedian
   network: tcp
   port: '53896'
