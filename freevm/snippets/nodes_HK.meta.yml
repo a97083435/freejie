@@ -1,17 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,21|🇦🇺 _澳大利亚
-  network: ws
-  port: '1935'
-  server: 43.154.34.74
-  tls: true
+  name: 11,21|_中国
+  network: tcp
+  port: '21066'
+  server: 118.193.38.173
+  tls: false
   type: vmess
-  uuid: 5ee5f222-f3b3-4f6a-b3ac-83b7c71a0212
-  ws-opts:
-    headers:
-      Host: letgo.soranokiseki.v6.army
-    path: /5ee5f222-f3b3-4f6a-b3ac-83b7c71a0212-vmess
+  uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8
+- alterId: 64
+  cipher: auto
+  name: 13,21,25,27|香港2|@ripaojiedian
+  network: tcp
+  port: '48109'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 13,21,25,27|香港3|@ripaojiedian
