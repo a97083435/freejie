@@ -16,32 +16,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,13,20,21,25,27|香港2|@ripaojiedian
+  name: 11,13,21,25,27|香港6|@ripaojiedian
   network: tcp
-  port: '48109'
-  server: 183.236.51.23
+  port: '44614'
+  server: 120.198.71.219
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港3|@ripaojiedian
-  network: tcp
-  port: '54104'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -56,36 +38,46 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇳CN-45.250.184.183-044
-  password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
-  port: 6181
-  server: 45.250.184.183
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇹🇼 台湾|@ripaojiedian
-  password: 9e2a92c6-bbe6-49fa-a280-e6f8f3eed7c5
-  port: 30228
-  server: pretw.capoonetwork.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本3|@ripaojiedian
-  password: 9e2a92c6-bbe6-49fa-a280-e6f8f3eed7c5
-  port: 19550
-  server: prejp.capoonetwork.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡|@ripaojiedian
-  password: f16d3752-7bae-474e-87dc-f892df2caeaf
-  port: 31620
-  server: ctmm.gscloud.bond
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|_中国
+  network: tcp
+  port: '21066'
+  server: 118.193.38.173
+  tls: false
+  type: vmess
+  uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #1'
+  network: tcp
+  port: '52825'
+  server: 118.193.34.158
+  tls: false
+  type: vmess
+  uuid: 67ff500a-8484-4ed8-cf8f-b8d341534140
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #2'
+  network: tcp
+  port: '13688'
+  server: 118.193.34.236
+  tls: false
+  type: vmess
+  uuid: 93127065-1a5b-4816-d009-5bf5e0aa10b6
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #3'
+  network: ws
+  port: '25230'
+  server: 183.236.51.60
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: 183.236.51.60
+    path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
