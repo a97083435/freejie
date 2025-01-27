@@ -1,48 +1,17 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 20|🇷FR-193.243.147.128-004
-  password: 7BcLdsO1WweoGD0X
-  port: 40368
-  server: 193.243.147.128
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇷FR-45.158.171.110-071
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.110
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇫🇷FR-163.5.159.231-142
+  name: 11|法国 V2CROSS.COM
   network: ws
-  port: 443
-  server: irvideo.cfd
-  skip-cert-verify: true
+  port: 8443
+  server: 141.11.203.194
   tls: true
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-headers:
-    Host: irvideo.cfd
-  ws-path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 20|🇷FR-163.5.159.231-159
-  network: ws
-  port: 443
-  server: 163.5.159.231
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-headers:
-    Host: irvideo.cfd
-  ws-path: /linkws
-- cipher: aes-256-gcm
-  name: 20|🇷FR-163.172.118.110-160
-  password: dongtaiwang.com
-  port: 12345
-  server: 163.172.118.110
-  type: ss
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
 - alterId: 0
   cipher: auto
   name: 21|VMESS-未知>法国-NF解锁法国地区非自制剧-ChatG...
