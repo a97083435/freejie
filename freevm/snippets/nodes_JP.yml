@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|日本|@ripaojiedian
+  name: 13,20,21|🇯🇵 14|日本|@ripaojiedian
   network: tcp
   port: '19690'
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
@@ -13,14 +13,16 @@ proxies:
   ws-headers:
     Host: ywtwepcnwlou.xn--fiqs8sjz2bull.com
   ws-path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.72.50
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 25,27|日本|@ripaojiedian
+  network: tcp
+  port: '52380'
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 38eda6f2-6e04-4484-8f82-e859e76612d6
 - client-fingerprint: chrome
   name: 26|🇯🇵 日本2|@ripaojiedian
   network: ws
@@ -34,6 +36,14 @@ proxies:
     headers:
       Host: tr.koxok.us.kg
     path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.114.24.98
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
