@@ -16,6 +16,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: '11,21|_中国 #3'
+  network: ws
+  port: '25230'
+  server: 183.236.51.60
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: 183.236.51.60
+    path: /
+- alterId: 0
+  cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -88,19 +101,6 @@ proxies:
   ws-headers:
     Host: 183.236.51.60
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #3'
-  network: ws
-  port: '25230'
-  server: 183.236.51.60
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-opts:
-    headers:
-      Host: 183.236.51.60
-    path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
