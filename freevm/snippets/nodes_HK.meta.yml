@@ -1,16 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #2'
+  name: 11,20,21|_中国
   network: tcp
-  port: '13688'
-  server: 118.193.34.236
+  port: '21066'
+  server: 118.193.38.173
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 93127065-1a5b-4816-d009-5bf5e0aa10b6
+  uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8
   ws-headers:
-    Host: 118.193.34.236
+    Host: 118.193.38.173
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -59,39 +60,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港6|@ripaojiedian
-  network: tcp
-  port: '44614'
-  server: 120.198.71.219
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.219
-  ws-path: /
 - cipher: aes-256-cfb
   name: 20|🇭🇰HK-112.213.102.228-078
   password: qwerREWQ@@
   port: 4231
   server: 112.213.102.228
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 20,21|_中国
-  network: tcp
-  port: '21066'
-  server: 118.193.38.173
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8
-  ws-headers:
-    Host: 118.193.38.173
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '20,21|_中国 #1'
@@ -104,6 +78,19 @@ proxies:
   uuid: 67ff500a-8484-4ed8-cf8f-b8d341534140
   ws-headers:
     Host: 118.193.34.158
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #2'
+  network: tcp
+  port: '13688'
+  server: 118.193.34.236
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93127065-1a5b-4816-d009-5bf5e0aa10b6
+  ws-headers:
+    Host: 118.193.34.236
   ws-path: /
 - alterId: 0
   cipher: auto
