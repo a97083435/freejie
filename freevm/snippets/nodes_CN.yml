@@ -28,27 +28,39 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡|@ripaojiedian
+  password: f16d3752-7bae-474e-87dc-f892df2caeaf
+  port: 31620
+  server: ctmm.gscloud.bond
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #2'
-  network: tcp
-  port: '21066'
-  server: 118.193.38.173
+  name: 20|🇨🇳CN-111.29.57.71-186
+  network: ws
+  port: 25216
+  server: cm1.awslcn.info
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: cm1.awslcn.info
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #4'
+  name: 21|_中国
   network: ws
-  port: '25230'
-  server: 183.236.51.60
+  port: '25216'
+  server: cm1.awslcn.info
   tls: false
   type: vmess
   uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
   ws-opts:
     headers:
-      Host: 183.236.51.60
+      Host: cm1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto

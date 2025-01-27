@@ -18,44 +18,85 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港3|@ripaojiedian
+  name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '45017'
   server: 142.0.134.242
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 142.0.134.242
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港4|@ripaojiedian
+  name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '40565'
   server: 120.232.153.63
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '51037'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港6|@ripaojiedian
+  name: 13,20,21,25,27|香港6|@ripaojiedian
   network: tcp
   port: '44614'
   server: 120.198.71.219
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20,29|speednode_0043
+  password: a81dd416-d6dc-4268-b088-57ca0447b448
+  port: 51184
+  server: qq.miaolianyunapp.com
+  type: ss
+- cipher: chacha20-ietf
+  name: 20,29|speednode_0006
+  password: asd123456
+  port: 8388
+  server: 154.197.26.120
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇰HK-212.192.12.70-078
+  network: ws
+  port: 23532
+  server: 212.192.12.70
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5549a8c5-5d90-4abb-b1df-3182009206a0
+  ws-headers:
+    Host: 212.192.12.70
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 21|VMESS-未知>香港-NF解锁香港地区非自制剧-ChatG...
@@ -70,24 +111,6 @@ proxies:
     headers:
       Host: hk1.899994.xyz
     path: /index
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #5'
-  network: tcp
-  port: '52825'
-  server: 118.193.34.158
-  tls: false
-  type: vmess
-  uuid: 67ff500a-8484-4ed8-cf8f-b8d341534140
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #3'
-  network: tcp
-  port: '13688'
-  server: 118.193.34.236
-  tls: false
-  type: vmess
-  uuid: 93127065-1a5b-4816-d009-5bf5e0aa10b6
 - client-fingerprint: chrome
   name: 26|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -101,20 +124,6 @@ proxies:
     headers:
       Host: tr.koxok.us.kg
     path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|speednode_0047
-  password: '!!str 3763495894587285504'
-  port: 443
-  server: 3.250.247.186
-  skip-cert-verify: true
-  sni: daring-puma.goat627.mom
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
