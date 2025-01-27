@@ -1,21 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,20,21|🇯🇵 14|日本|@ripaojiedian
-  network: tcp
-  port: '19690'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
+  name: 11|日本 东京都Amazon数据中心
+  network: ws
+  port: 443
+  server: tls.06.node-for-bigairport.win
+  tls: true
   type: vmess
-  uuid: 38eda6f2-6e04-4484-8f82-e859e76612d6
-  ws-headers:
-    Host: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  ws-path: /
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      Host: tls.06.node-for-bigairport.win
+    path: /
 - alterId: 0
   cipher: auto
-  name: 25,27|日本|@ripaojiedian
+  name: 13,25,27|日本|@ripaojiedian
   network: tcp
   port: '52380'
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
