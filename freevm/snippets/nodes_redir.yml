@@ -172,7 +172,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,30|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
+  name: '3,30|🇺🇸_US_美国->🇨🇳_CN_中国 #4'
   network: ws
   port: 8080
   server: 104.19.47.16
@@ -192,7 +192,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
+  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #5'
   network: ws
   port: 16928
   server: 120.232.240.56
@@ -202,7 +202,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #6'
   network: tcp
   port: 54002
   server: 183.240.235.162
@@ -241,23 +241,32 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '14,21|_中国 #1'
+  name: '14|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
   network: ws
-  port: '25230'
-  server: 183.236.51.60
+  port: 25238
+  server: us1.awslcn.info
   servername: ''
   tls: false
   type: vmess
   uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
   ws-opts:
     headers:
-      Host: 183.236.51.60
+      Host: us1.awslcn.info
     path: /
+- alterId: 64
+  cipher: auto
+  name: '14|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
+  network: tcp
+  port: 45017
+  server: 137.175.20.81
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '14,21|_中国 #2'
+  name: '14|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
   network: ws
-  port: '25230'
+  port: 25240
   server: cm1.awslcn.info
   servername: ''
   tls: false
@@ -333,7 +342,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #34'
+  name: '28|🇺🇸_US_美国 #33'
   network: ws
   port: 8080
   server: 162.159.1.33
