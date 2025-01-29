@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|日本 东京都亚马逊(Amazon)公司数据中心
+  network: ws
+  port: 22443
+  server: tls.11.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   name: 20,29|speednode_0022
   password: amazonskr05

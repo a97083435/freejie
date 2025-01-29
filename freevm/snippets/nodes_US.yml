@@ -240,43 +240,30 @@ proxies:
   name: 11|美国 CloudFlare节点
   network: ws
   port: 8443
-  server: 104.21.80.1
+  server: 104.21.64.1
   tls: true
   type: vmess
   uuid: a0605527-28e4-449c-80ee-5642cc16a8af
   ws-opts:
     headers:
-      Host: it0.899994.xyz
+      Host: nl.899994.xyz
     path: /index
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 443
-  server: s1.datasheetserver.com
+  port: 8443
+  server: portland.899994.xyz
   tls: true
   type: vmess
-  uuid: 051e3f0c-c139-4c7c-9559-41222b72ca20
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
   ws-opts:
     headers:
       Host: ''
-    path: /datasheet
+    path: /index
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #2'
-  network: ws
-  port: 80
-  server: hsj.lbxjc.online
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
   network: ws
   port: 8443
   server: it0.899994.xyz
@@ -289,135 +276,169 @@ proxies:
     path: /index
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #7'
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #9'
   network: ws
-  port: '80'
-  server: s1.db-link02.top
+  port: '443'
+  server: www.visa.com.tw
+  tls: true
+  type: vmess
+  uuid: 42d6df5d-e21a-4d4e-8863-50da907543cc
+  ws-opts:
+    headers:
+      Host: halloween-validity-tooth-hammer.trycloudflare.com
+    path: /vmess-argo?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #4'
+  network: ws
+  port: 8880
+  server: 104.16.155.10
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-49-141-209.s1.db-link02.top
-    path: /dabai.in104.17.169.115
+      Host: 100-151-81-36.s4.db-link01.top
+    path: /dabai.in104.24.185.219
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #5'
   network: ws
+  port: 8080
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-79-28-26.s1.db-link01.top
+    path: /dabai.in172.64.55.203
+- alterId: 0
+  cipher: auto
+  name: 11|美国 V2CROSS.COM
+  network: ws
+  port: 8443
+  server: 162.120.94.103
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #6'
+  network: ws
   port: 8880
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #7'
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #8'
+  network: ws
+  port: 443
+  server: azarbayjab1.1p1.pages.dev
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /irvideo.cfd/linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #9'
+  network: ws
+  port: 8080
   server: s5.db-link02.top
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-85-25-119.s5.db-link02.top
-    path: /dabai.in104.19.220.104
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #6'
-  network: ws
-  port: 443
-  server: 198.41.211.189
-  tls: true
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    headers:
-      Host: northflank.107421.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #7'
-  network: ws
-  port: 443
-  server: tokyo.899994.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
-  ws-opts:
-    headers:
-      Host: tokyo.899994.xyz
-    path: /index
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #8'
-  network: ws
-  port: 2052
-  server: s2.db-link02.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-34-100-44.s2.db-link02.top
-    path: /dabai.in172.64.6.224
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #9'
-  network: ws
-  port: 8443
-  server: 104.21.112.1
-  tls: true
-  type: vmess
-  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
-  ws-opts:
-    headers:
-      Host: nl.899994.xyz
-    path: /index
+      Host: 100-149-191-2.s5.db-link02.top
+    path: /dabai.in104.20.16.209
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #10'
   network: ws
-  port: 2086
-  server: s2.db-link01.top
+  port: 2095
+  server: 104.16.155.10
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-154-72-114.s2.db-link01.top
-    path: /dabai.in172.67.68.139
+      Host: 100-209-47-141.s2.db-link02.top
+    path: /dabai.in104.20.27.115
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #11'
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #12'
   network: ws
-  port: 443
-  server: www.speedtest.net
-  tls: true
+  port: '2086'
+  server: s5.db-link02.top
+  tls: false
   type: vmess
-  uuid: 2ee82b54-c039-5ab1-9efa-47cce8e62e64
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: is1.v2vmess.site
-    path: /vmess#@v2ray_spatial
+      Host: 100-68-4-71.s5.db-link02.top
+    path: /dabai.in104.25.98.224
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #12'
   network: ws
-  port: 8443
-  server: 104.21.64.1
+  port: 443
+  server: se.899994.xyz
   tls: true
   type: vmess
   uuid: a0605527-28e4-449c-80ee-5642cc16a8af
   ws-opts:
     headers:
-      Host: nl.899994.xyz
+      Host: ''
     path: /index
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #13'
   network: ws
-  port: 2086
+  port: 2082
   server: s2.cn-db.top
   tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: 6e07bf0c-06d0-3b3b-9468-9463b119e64c
   ws-opts:
     headers:
-      Host: 100-28-190-253.s2.cn-db.top
-    path: /dabai.in104.18.128.173
+      Host: 100-119-106-139.s2.cn-db.top
+    path: /dabai.in172.64.53.101
+- alterId: 64
+  cipher: auto
+  name: '11,14|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
+  network: tcp
+  port: 45017
+  server: 137.175.20.81
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -639,6 +660,19 @@ proxies:
     path: /dabai.in104.20.125.64
 - alterId: 0
   cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #7'
+  network: ws
+  port: '80'
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-49-141-209.s1.db-link02.top
+    path: /dabai.in104.17.169.115
+- alterId: 0
+  cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #8'
   network: ws
   port: '8443'
@@ -650,19 +684,6 @@ proxies:
     headers:
       Host: buffalo.899994.xyz
     path: /index
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #9'
-  network: ws
-  port: '443'
-  server: www.visa.com.tw
-  tls: true
-  type: vmess
-  uuid: 42d6df5d-e21a-4d4e-8863-50da907543cc
-  ws-opts:
-    headers:
-      Host: halloween-validity-tooth-hammer.trycloudflare.com
-    path: /vmess-argo?ed=2048
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #10'
@@ -689,19 +710,6 @@ proxies:
     headers:
       Host: 100-223-71-166.s1.db-link02.top
     path: /dabai.in172.64.9.208
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #12'
-  network: ws
-  port: '2086'
-  server: s5.db-link02.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-68-4-71.s5.db-link02.top
-    path: /dabai.in104.25.98.224
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #13'
