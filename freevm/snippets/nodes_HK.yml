@@ -1,74 +1,33 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '51037'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇭🇰 香港 UCloud
-  network: tcp
-  port: '40908'
-  server: 118.193.33.237
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 43740b3d-16b7-4d31-cf20-f1eab5e35bc9
-  ws-headers:
-    Host: m.ctrip.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇭🇰 14|香港3|@ripaojiedian
-  network: tcp
-  port: '40975'
-  server: 38.147.188.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ab2867d9-5abe-4b18-836b-b3ea69df3e4f
-  ws-headers:
-    Host: 38.147.188.17
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #6'
-  network: ws
-  port: '443'
-  server: hk1.899994.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
-  ws-opts:
-    headers:
-      Host: hk1.899994.xyz
-    path: /index
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 26|🇭🇰 香港3|@ripaojiedian
+  name: 20,26|🇭🇰 香港3|@ripaojiedian
   password: 03f2af77-f215-4e86-86cd-72f2d6d69e0c
   port: 41411
   server: south.sf0jm.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 26|🇭🇰 香港4|@ripaojiedian
-  password: 81898fd1-12c9-4197-8017-26ec0b242647
-  port: 30018
-  server: 114.132.40.118
+  name: 20,26|🇳🇱 荷兰|@ripaojiedian
+  password: 03f2af77-f215-4e86-86cd-72f2d6d69e0c
+  port: 49207
+  server: south.sf0jm.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇰HK-156.226.173.220-427
+  network: ws
+  port: 56214
+  server: 156.226.173.220
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 394294cc-eb0f-4f17-8453-5edbed60f4ee
+  ws-headers:
+    Host: default.hk.akile-5.ddns.ad.989567.xyz
+  ws-path: /login
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787

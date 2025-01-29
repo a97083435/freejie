@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,25,26,27|台湾|@ripaojiedian
+  name: 13,21,25,26,27|台湾|@ripaojiedian
   network: ws
   port: '85'
   server: tsadfhyifgk.461553.best
@@ -16,6 +16,38 @@ proxies:
     headers:
       Host: www.douyin.com
     path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: 20|🇹TW-111.243.121.195-093
+  network: ws
+  port: 85
+  server: tsadfhyifgk.461553.best
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 08972930-1dc6-444b-914d-7cd4f7937f37
+  ws-headers:
+    Host: www.douyin.com
+  ws-path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: 20|🇹🇼TW-111.243.121.195-096
+  network: ws
+  port: 25770
+  server: pppasdfjetyj.461553.best
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 08972930-1dc6-444b-914d-7cd4f7937f37
+  ws-headers:
+    Host: www.douyin.com
+  ws-path: /?ed=1024
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇹TW-1.162.158.47-447
+  password: e6c75b36-6a4a-4471-b35c-a67532ef1530
+  port: 30443
+  server: 1.162.158.47
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇹🇼台湾 01

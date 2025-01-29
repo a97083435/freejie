@@ -1,18 +1,50 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇦CA-79.127.233.170-367
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 79.127.233.170
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 21|VMESS-未知>加拿大-NF解锁加拿大自制剧-ChatGP...
+  name: '21|🇺🇸 _美国 #61'
   network: ws
-  port: 8443
+  port: '8443'
   server: ovhwuxian.pai50288.uk
   servername: ''
-  tls: false
+  tls: true
   type: vmess
   uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6
   ws-opts:
     headers:
       Host: ovhwuxian.pai50288.uk
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇦 _加拿大
+  network: ws
+  port: '38848'
+  server: 74.48.159.226
+  tls: false
+  type: vmess
+  uuid: 20fed645-619c-4ca1-c00e-743ea8a3b51f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /6c8e5a1b
+- alterId: 0
+  cipher: auto
+  name: '21|🇨🇦 _加拿大 #1'
+  network: ws
+  port: '38848'
+  server: proxy.cc-la.152618.xyz
+  tls: false
+  type: vmess
+  uuid: 20fed645-619c-4ca1-c00e-743ea8a3b51f
+  ws-opts:
+    headers:
+      Host: proxy.cc-la.152618.xyz
+    path: /6c8e5a1b
 - alterId: 0
   cipher: auto
   name: 28|🇨🇦_CA_加拿大
