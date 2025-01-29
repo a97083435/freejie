@@ -5,67 +5,30 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇬SG-167.172.66.86-037
-  password: NNIeMQR4QmdhxWfCeMABoh
-  port: 25900
-  server: 167.172.66.86
-  type: ss
-- cipher: aes-256-cfb
-  name: 20,29|speednode_0007
-  password: amazonskr05
-  port: 443
-  server: 47.128.239.238
-  type: ss
-- cipher: chacha20-ietf
-  name: 20|🇸🇬SG-103.36.91.32-080
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.229.117.61
+  name: 26|🇸🇬 新加坡2|@ripaojiedian
+  password: 89JKYYJT9GRMVWVW
+  port: 16008
+  server: 219.135.227.210
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇸🇬 新加坡3|@ripaojiedian
+  password: NKYSJ7T1AFPJLYVG
+  port: 16003
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
+  name: 26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.143.147.45
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.169.74.60
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇸🇬SG-64.176.85.73-332
-  password: oXGp1+ihlfKg826H
-  port: 1866
-  server: 64.176.85.73
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '20,21|🇺🇸 _美国 #52'
-  network: tcp
-  port: '26936'
-  server: 140.245.115.5
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e60c190d-dcbc-4acc-964f-9daba65643c1
-  ws-headers:
-    Host: 140.245.115.5
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
