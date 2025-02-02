@@ -5,19 +5,24 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|新加坡 亚马逊(Amazon)公司数据中心
+  network: ws
+  port: 22443
+  server: tls.18.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 20|🇸SG-188.253.5.199-028
   password: 3FB23A19-9424-40C7-9139-3540228283FA
   port: 40005
   server: sgp.fastsoonlink.com
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡|@ripaojiedian
-  password: DCCLUB5YPGIF01PJ
-  port: 16009
-  server: 154.196.244.19
-  tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: 20,29|speednode_0005
@@ -49,64 +54,12 @@ proxies:
   port: 443
   server: 13.229.70.25
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡2|@ripaojiedian
-  password: 8VB49D7PPZFHBJES
-  port: 16011
-  server: 154.196.244.21
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡3|@ripaojiedian
-  password: BCSHUPDQ1CGQ1W0Q
-  port: 16013
-  server: 154.196.244.23
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.255.22.224
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP...
   network: ws
   port: 80
   server: 104.19.48.236
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP... #1'
-  network: ws
-  port: 80
-  server: 104.17.213.241
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP... #2'
-  network: ws
-  port: 80
-  server: 104.16.155.10
   servername: ''
   tls: false
   type: vmess
@@ -143,6 +96,38 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇸🇬 新加坡|@ripaojiedian
+  password: 1C4J5UPOMXZ9Q6R3
+  port: 16015
+  server: 154.196.244.25
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇸🇬 新加坡2|@ripaojiedian
+  password: YQCL9XWR1282EOSS
+  port: 16004
+  server: 154.196.244.14
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇸🇬 新加坡3|@ripaojiedian
+  password: QKKO3C3UB1C57I58
+  port: 16008
+  server: 154.196.244.18
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.151.148.166
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
