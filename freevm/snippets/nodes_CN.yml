@@ -14,15 +14,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|广东省广州市 移动
-  network: tcp
-  port: 45402
-  server: 120.232.153.123
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -37,109 +28,28 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 20,21|_中国
+  name: 21|🇨🇳 广东省广州市 移动
   network: tcp
-  port: '50033'
-  server: 50033.baidu-cdn.top
-  skip-cert-verify: true
+  port: '45402'
+  server: 120.232.153.123
   tls: false
   type: vmess
-  uuid: 540a5d31-cd1f-41bd-b5bd-92126f2cdc85
-  ws-headers:
-    Host: 50033.baidu-cdn.top
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-120.233.87.89-055
-  password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6
-  port: 46247
-  server: jef20t3hhgi49hqubitpy4ytrt5qnzv1.02.01.de.k7h.lol
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-123.88.148.44-383
-  password: d4eeaa7b-43c6-49dc-8020-7389bba4d033
-  port: 39206
-  server: hzhz1.sssyun.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-171.111.197.110-059
-  password: 220401d9-d4bf-444e-a140-d6c650948e74
-  port: 30003
-  server: gdgs.tarioblink.me
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-060
-  password: 16b28c14-54e0-457b-8dcf-443f7977c2bb
-  port: 58847
-  server: southvip1.pkyun.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨CN-120.233.87.89-382
-  password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6
-  port: 44191
-  server: llwsbpu765uu86ihz88yqy4hu3rbehpd.02.01.it.k7h.lol
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-066
-  password: 40df69d5-91b4-47bd-a75c-8998612ef666
-  port: 58830
-  server: southvip1.pkyun.xyz
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 20,21|0|🇺🇸7 |  2.7MB/s
-  network: tcp
-  port: '50009'
-  server: 50009.baidu-cdn.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 540a5d31-cd1f-41bd-b5bd-92126f2cdc85
-  ws-headers:
-    Host: 50009.baidu-cdn.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20|🇨🇳CN-111.47.212.184-070
+  name: 21|_中国
   network: ws
-  port: 80
-  server: 111.47.212.184
-  skip-cert-verify: true
+  port: '12889'
+  server: cs.ktmhy.cc
   tls: false
   type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
-  ws-headers:
-    Host: tms.dingtalk.com
-  ws-path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港3|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡|@ripaojiedian
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: 103.216.253.197
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-113.99.142.171-387
-  password: 5QCGV4AXFQAJE5KA
-  port: 18012
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-45.250.184.183-389
-  password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
-  port: 6181
-  server: 45.250.184.183
-  type: ss
+  uuid: 89718007-5cb2-42db-bbb6-15b6dcdd8e41
+  ws-opts:
+    headers:
+      Host: cs.ktmhy.cc
+    path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian

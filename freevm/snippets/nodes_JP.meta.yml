@@ -1,26 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇨🇳 广东省 移动
-  network: tcp
-  port: '48898'
-  server: gy.youaremygod.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
-  ws-headers:
-    Host: gy.youaremygod.top
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇯🇵JP-52.197.171.218-061
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: japan-5.keenvpn.me
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本|@ripaojiedian
+  name: 26|🇯🇵 日本|@ripaojiedian
   password: FS0NUQEKML4CH312
   port: 18001
   server: 156.231.104.11
@@ -28,7 +9,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本2|@ripaojiedian
+  name: 26|🇯🇵 日本2|@ripaojiedian
   password: H0P889CX07EQNGNV
   port: 18005
   server: 156.231.104.15
@@ -36,25 +17,11 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.206.239.0
+  server: 13.215.205.85
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.248.40.18
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|🇯🇵JP-156.231.104.17-402
-  password: Y7YAFIFIFLS9Z3PX
-  port: 18007
-  server: 156.231.104.17
   type: ss
 - alterId: 0
   cipher: auto

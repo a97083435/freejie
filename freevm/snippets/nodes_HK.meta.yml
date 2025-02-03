@@ -18,76 +18,50 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
+  name: 13,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '40565'
   server: 120.232.153.63
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港2|@ripaojiedian
+  name: 26|🇭🇰 香港2|@ripaojiedian
   password: B6FC093YFC5P71QH
   port: 15015
   server: 156.245.190.24
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港3|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港4|@ripaojiedian
+  name: 26|🇭🇰 香港4|@ripaojiedian
   password: E5OU5DTSKBZCOFIQ
   port: 15012
   server: 156.245.190.21
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: 20|🇭🇰HK-185.14.47.239-056
-  password: 29c472c5-530a-48a1-bb95-fcd1f2f06352
-  port: 49206
-  server: south.sf0jm.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 20|🇭🇰HK-185.14.47.239-057
-  password: 29c472c5-530a-48a1-bb95-fcd1f2f06352
-  port: 49226
-  server: south.sf0jm.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 20|🇰HK-185.14.47.239-062
-  password: 29c472c5-530a-48a1-bb95-fcd1f2f06352
-  port: 49208
-  server: south.sf0jm.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 20|🇰HK-185.14.47.239-065
-  password: 29c472c5-530a-48a1-bb95-fcd1f2f06352
-  port: 49216
-  server: south.sf0jm.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 20|🇭🇰HK-185.14.47.239-407
-  password: 29c472c5-530a-48a1-bb95-fcd1f2f06352
-  port: 49210
-  server: south.sf0jm.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 20|🇰HK-185.14.47.239-405
-  password: 29c472c5-530a-48a1-bb95-fcd1f2f06352
-  port: 49222
-  server: south.sf0jm.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 20|🇭🇰HK-185.14.47.239-406
-  password: 29c472c5-530a-48a1-bb95-fcd1f2f06352
-  port: 49230
-  server: south.sf0jm.xyz
-  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 26,29|speednode_0048
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
