@@ -7,13 +7,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|0|🇸🇬2 |  3.6MB/s
-  network: tcp
-  port: 50012
-  server: 50012.baidu-cdn.top
-  tls: false
+  name: 11|新加坡 Choopa数据中心
+  network: ws
+  port: 46088
+  server: default.sg.vultr.ddns.ad.989567.xyz
+  tls: true
   type: vmess
-  uuid: 540a5d31-cd1f-41bd-b5bd-92126f2cdc85
+  uuid: 06cef6a6-42db-48fc-ad07-7099c4fd449e
+  ws-opts:
+    headers:
+      Host: default.sg.vultr.ddns.ad.989567.xyz
+    path: /login
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 20,26|🇯🇵 日本特殊|@ripaojiedian
