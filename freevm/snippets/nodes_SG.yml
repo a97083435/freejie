@@ -5,30 +5,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡2|@ripaojiedian
-  password: QEV5BG4YLEABW6LB
-  port: 16012
-  server: 154.196.244.22
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡3|@ripaojiedian
-  password: 5OC1DLZMW4HTN4SU
-  port: 16003
-  server: 154.196.244.13
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.215.205.85
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 20|🇸🇬SG-66.42.62.27-250
@@ -125,6 +101,42 @@ proxies:
     headers:
       Host: default.sg.vultr.ddns.ad.989567.xyz
     path: /login
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 26|🇸🇬 新加坡|@ripaojiedian
+  password: cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1
+  port: 12021
+  server: mdss-sg.04z3susick.download
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.192.75.193
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 27|新加坡2|@ripaojiedian
+  network: tcp
+  port: '50012'
+  server: 50012.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
+- alterId: 0
+  cipher: auto
+  name: 27|新加坡3|@ripaojiedian
+  network: tcp
+  port: '50792'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01

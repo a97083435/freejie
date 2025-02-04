@@ -1,14 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,21,25,26,27|香港|@ripaojiedian
+  name: '13,21,25|13,14|香港|@ripaojiedian #1'
   network: ws
   port: '80'
   server: 111.47.212.184
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
@@ -16,42 +13,30 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '40565'
-  server: 120.232.153.63
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 20|🇰HK-89.213.150.45-057
   password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
   port: 40000
   server: hk.fastsoonlink.com
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港2|@ripaojiedian
-  password: B6FC093YFC5P71QH
-  port: 15015
-  server: 156.245.190.24
+  name: 26|🇭🇰 香港|@ripaojiedian
+  password: cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1
+  port: 12008
+  server: mdss-hk.04z3susick.download
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港4|@ripaojiedian
-  password: E5OU5DTSKBZCOFIQ
-  port: 15012
-  server: 156.245.190.21
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 27|香港2|@ripaojiedian
+  network: tcp
+  port: '50028'
+  server: 50028.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
@@ -78,7 +63,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '28|香港|@ripaojiedian #1'
+  name: 28|香港|@ripaojiedian
   network: tcp
   port: '41492'
   server: 120.232.242.126
@@ -88,7 +73,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 28|香港2|@ripaojiedian
+  name: '28|香港2|@ripaojiedian #1'
   network: tcp
   port: '44805'
   server: hkjcdn03.dorabbb.top
