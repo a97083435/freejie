@@ -18,25 +18,11 @@ proxies:
   cipher: auto
   name: 11|广东省广州市 移动
   network: tcp
-  port: 51037
-  server: 183.236.51.23
+  port: '45402'
+  server: 120.232.153.123
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,20,21,25,27|香港5|@ripaojiedian
-  network: tcp
-  port: '40565'
-  server: 120.232.153.63
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -55,18 +41,63 @@ proxies:
   cipher: auto
   name: 20,21|🇨🇳 广东省广州市 移动
   network: tcp
-  port: '45402'
-  server: 120.232.153.123
+  port: '51037'
+  server: 183.236.51.23
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.232.153.123
+    Host: 183.236.51.23
   ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 20|🇨🇳CN-36.151.194.51-062
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b5c51710-04d9-38a8-9f22-cf1ed29743bf
+  ws-headers:
+    Host: 17.mamamajd.site
+  ws-path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港|@ripaojiedian
+  password: cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1
+  port: 12008
+  server: mdss-hk.04z3susick.download
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港3|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本|@ripaojiedian
+  password: 8cbf6069-29f0-49d5-965f-ac752174de83
+  port: 34102
+  server: 183.214.197.27
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡|@ripaojiedian
+  password: cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1
+  port: 12021
+  server: mdss-sg.04z3susick.download
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇨🇳CN-111.47.212.184-070
+  name: 20|🇨🇳CN-111.47.212.184-347
   network: ws
   port: 80
   server: 111.47.212.184
@@ -77,45 +108,18 @@ proxies:
   ws-headers:
     Host: tms.dingtalk.com
   ws-path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港3|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|🇳CN-111.29.57.113-127
-  network: ws
-  port: 12889
-  server: cs.ktmhy.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 89718007-5cb2-42db-bbb6-15b6dcdd8e41
-  ws-headers:
-    Host: cs.ktmhy.cc
-  ws-path: /
-- cipher: aes-256-gcm
-  name: 20|🇨🇳CN-223.109.230.76-189
-  password: 3f5b5b7c-f6ac-4bcf-9820-e12fba929628
-  port: 3684
-  server: jsyd.piaomiaoxu.net
-  type: ss
 - alterId: 0
   cipher: auto
   name: 21|_中国
   network: ws
-  port: '12889'
-  server: cs.ktmhy.cc
+  port: '80'
+  server: 111.47.212.184
   tls: false
   type: vmess
-  uuid: 89718007-5cb2-42db-bbb6-15b6dcdd8e41
+  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
   ws-opts:
     headers:
-      Host: cs.ktmhy.cc
+      Host: tms.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto

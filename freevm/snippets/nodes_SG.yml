@@ -7,51 +7,50 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,25,27|新加坡2|@ripaojiedian
-  network: tcp
-  port: '50012'
-  server: 50012.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
-- alterId: 0
-  cipher: auto
-  name: 13,25,27|新加坡3|@ripaojiedian
+  name: 13,20,21,25,27|新加坡3|@ripaojiedian
   network: tcp
   port: '50792'
   server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
-- alterId: 0
-  cipher: auto
-  name: 20|🇸🇬SG-66.42.62.27-250
-  network: ws
-  port: 46088
-  server: default.sg.vultr.ddns.ad.989567.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 06cef6a6-42db-48fc-ad07-7099c4fd449e
   ws-headers:
-    Host: default.sg.vultr.ddns.ad.989567.xyz
-  ws-path: /login
-- alterId: 0
-  cipher: auto
-  name: 21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP...
-  network: ws
-  port: 80
-  server: 104.19.48.236
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
+    Host: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  ws-path: /
+- cipher: aes-256-cfb
+  name: 20|SG-54.254.233.138-063
+  password: amazonskr05
+  port: 443
+  server: 54.254.233.138
+  type: ss
+- cipher: aes-256-cfb
+  name: 20|🇬SG-47.129.238.146-066
+  password: amazonskr05
+  port: 443
+  server: 47.129.238.146
+  type: ss
+- cipher: aes-256-cfb
+  name: 20|🇸🇬SG-47.128.13.190-068
+  password: amazonskr05
+  port: 443
+  server: 47.128.13.190
+  type: ss
+- cipher: aes-256-cfb
+  name: 20|🇬SG-13.229.90.203-075
+  password: amazonskr05
+  port: 443
+  server: 13.229.90.203
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.255.198.143
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP... #1'
@@ -68,9 +67,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #4'
+  name: '21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP... #2'
   network: ws
-  port: '80'
+  port: 80
   server: 104.16.155.10
   servername: ''
   tls: false
@@ -108,35 +107,6 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🇸🇬 _新加坡
-  network: ws
-  port: '46088'
-  server: default.sg.vultr.ddns.ad.989567.xyz
-  tls: true
-  type: vmess
-  uuid: 06cef6a6-42db-48fc-ad07-7099c4fd449e
-  ws-opts:
-    headers:
-      Host: default.sg.vultr.ddns.ad.989567.xyz
-    path: /login
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡|@ripaojiedian
-  password: cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1
-  port: 12021
-  server: mdss-sg.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.192.75.193
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
