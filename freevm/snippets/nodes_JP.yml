@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本 东京Amazon数据中心
-  network: ws
-  port: 33443
-  server: tls.05.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13,20,21,25,27|日本2|@ripaojiedian
+  name: 13,20,21|🇯🇵 14|日本2|@ripaojiedian
   network: tcp
   port: '60717'
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
@@ -34,18 +21,36 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.112.160
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 52.192.75.193
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 25,27|日本|@ripaojiedian
+  network: tcp
+  port: '11171'
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本2|@ripaojiedian
+  password: 40983d6d-48be-4c9a-aa48-3aaf3146833e
+  port: 12012
+  server: mdss-jp.04z3susick.download
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.78.197.177
   tfo: false
   type: ss
 - alterId: 0
