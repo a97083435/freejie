@@ -1,63 +1,46 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港2|@ripaojiedian
+  name: 13,20,21,25,27|香港2|@ripaojiedian
   network: tcp
   port: '49838'
   server: 38.147.189.115
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e413fd92-afde-423a-8ba2-b337bf5d7ca2
+  ws-headers:
+    Host: 38.147.189.115
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,21,25,27|香港4|@ripaojiedian
+  name: 13,20,21,25,27|香港4|@ripaojiedian
   network: tcp
   port: '40755'
   server: 38.147.189.158
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 837d93be-fe14-4a50-bd11-ead5c00585d3
+  ws-headers:
+    Host: 38.147.189.158
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 13,21,25,27|香港5|@ripaojiedian
+  name: 13,20,21,25,27|香港5|@ripaojiedian
   network: tcp
   port: '40565'
   server: 120.232.153.63
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港|@ripaojiedian
-  password: b2e5c36c-257c-4a11-ae20-4fb99d44606a
-  port: 12001
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|speednode_0021
-  password: '!!str 65086520307764900'
-  port: 443
-  server: relieved-raccoon.shiner427.skin
-  skip-cert-verify: false
-  sni: relieved-raccoon.shiner427.skin
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港3|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
