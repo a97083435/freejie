@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本 东京Amazon数据中心
-  network: ws
-  port: 33443
-  server: tls.19.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13,25,27|日本2|@ripaojiedian
+  name: 13,21,25,27|日本2|@ripaojiedian
   network: tcp
   port: '39131'
   server: 45.159.51.161
@@ -24,7 +11,7 @@ proxies:
   uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a
 - alterId: 0
   cipher: auto
-  name: 13,25,27|日本3|@ripaojiedian
+  name: 13,21,25,27|日本3|@ripaojiedian
   network: tcp
   port: '60717'
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
@@ -34,16 +21,20 @@ proxies:
   uuid: a173d4cd-4056-41dd-87a3-91c884e472fa
 - alterId: 0
   cipher: auto
-  name: 21|🇯🇵 日本|@ripaojiedian
-  network: tcp
-  port: '11171'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  tls: false
+  name: 21|🇯🇵 日本 东京Amazon数据中心
+  network: ws
+  port: '33443'
+  server: tls.19.node-for-bigairport.win
+  tls: true
   type: vmess
-  uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: tls.19.node-for-bigairport.win
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: '26|🇯🇵 日本|@ripaojiedian #1'
+  name: 26|🇯🇵 日本|@ripaojiedian
   password: b2e5c36c-257c-4a11-ae20-4fb99d44606a
   port: 12012
   server: mdss-jp.04z3susick.download
