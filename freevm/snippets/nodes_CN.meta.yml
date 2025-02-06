@@ -16,6 +16,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 11,20,21|0|🇺🇸3 |  1.1MB/s
+  network: tcp
+  port: '50003'
+  server: 50003.baidu-cdn.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 722ee660-ca57-467f-9eda-5739859212f9
+  ws-headers:
+    Host: 50003.baidu-cdn.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -28,19 +41,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 20,21|0|🇺🇸3 |  1.1MB/s
-  network: tcp
-  port: '50003'
-  server: 50003.baidu-cdn.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 722ee660-ca57-467f-9eda-5739859212f9
-  ws-headers:
-    Host: 50003.baidu-cdn.top
-  ws-path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港|@ripaojiedian
