@@ -35,20 +35,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP... #2'
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #4'
   network: ws
   port: '80'
@@ -77,19 +63,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 25|0|🇸🇬1 |  1.4MB/s
+  name: 25|0|🇸🇬3 |  5.4MB/s
   network: tcp
-  port: 30028
-  server: i.needss.top
+  port: 50011
+  server: 50011.baidu-cdn.top
   tls: false
   type: vmess
-  uuid: ccf3fcfe-b847-4506-99fd-c4cb17e5073a
+  uuid: 722ee660-ca57-467f-9eda-5739859212f9
+- alterId: 0
+  cipher: auto
+  name: 25,27|新加坡|@ripaojiedian
+  network: tcp
+  port: '50012'
+  server: 50012.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 224e3ed4-96d2-4ae0-8d24-070b0039074e
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.192.75.193
+  server: 18.141.25.54
   tfo: false
   type: ss
 - alterId: 0
