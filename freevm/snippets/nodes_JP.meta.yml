@@ -1,13 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|0|🇯🇵2 |  5.7MB/s
-  network: tcp
-  port: 45056
-  server: haa.dashuai.cyou
-  tls: false
+  name: 11|日本 东京Amazon数据中心
+  network: ws
+  port: 33443
+  server: tls.19.node-for-bigairport.win
+  tls: true
   type: vmess
-  uuid: 7e1e1ad8-ad38-4ce5-97e0-a33f99500acd
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 13,25,27|日本2|@ripaojiedian
