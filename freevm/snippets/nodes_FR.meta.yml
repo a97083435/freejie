@@ -1,23 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|法国 OVH
+  name: '13,21|0|🇫🇷1 |  1.9MB/s #1'
   network: ws
-  port: 443
-  server: 51.77.20.137
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '13,21,25|0|🇫🇷1 |  1.9MB/s #1'
-  network: ws
-  port: 80
+  port: '80'
   server: plex.com
   tls: false
   type: vmess
@@ -28,31 +14,36 @@ proxies:
     path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
 - alterId: 0
   cipher: auto
-  name: 21|VMESS-未知>法国-NF解锁法国地区非自制剧-ChatG...
+  name: 20|FR-51.77.20.137-021
   network: ws
   port: 443
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
-- alterId: 0
-  cipher: auto
-  name: 21|0|🇫🇷2 |  27.4MB/s
-  network: ws
-  port: '443'
-  server: plex.com
+  server: 51.77.20.137
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-headers:
+    Host: tilebani.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇫🇷FR-45.158.171.136-041
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.158.171.136
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|🇫🇷 法国 OVH
+  network: ws
+  port: '443'
+  server: 51.77.20.137
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: plex.com
-    path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
+      Host: tilebani.com
+    path: /
 - name: 24|_FR_国
   network: tcp
   password: telegram-id-directvpn
