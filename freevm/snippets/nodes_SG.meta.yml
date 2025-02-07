@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,20,21,25,27|新加坡|@ripaojiedian
+  name: 13,20,21|🇸🇬 新加坡|@ripaojiedian
   network: tcp
   port: '50012'
   server: 50012.baidu-cdn.top
@@ -32,20 +32,16 @@ proxies:
   server: 13.229.128.74
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
+  name: 20|🇸🇬SG-47.129.38.168-190
   password: amazonskr05
   port: 443
   server: 47.129.38.168
-  tfo: false
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
+  name: 20|🇸🇬SG-18.141.25.54-191
   password: amazonskr05
   port: 443
   server: 18.141.25.54
-  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -91,6 +87,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP... #3'
+  network: ws
+  port: 80
+  server: 198.41.209.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
   name: '21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP... #4'
   network: ws
   port: 80
@@ -103,15 +113,38 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
-- alterId: 0
-  cipher: auto
-  name: 25|0|🇸🇬1 |  5.6MB/s
-  network: tcp
-  port: 30028
-  server: i.needss.top
-  tls: false
-  type: vmess
-  uuid: 8df313d2-6dd1-42a0-a297-6af9326fad04
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: '26|🇸🇬 新加坡|@ripaojiedian #1'
+  password: 2XZNFVL28OOLLELR
+  port: 16005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇸🇬 新加坡2|@ripaojiedian
+  password: UEC9F1QB458GMQEK
+  port: 16010
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇸🇬 新加坡3|@ripaojiedian
+  password: 0HBGSZP1UCOGQDZW
+  port: 16002
+  server: 183.61.177.234
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.94.61
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
