@@ -1,32 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13,20,21|🇯🇵 日本2|@ripaojiedian
-  network: tcp
-  port: '39131'
-  server: 45.159.51.161
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a
-  ws-headers:
-    Host: 45.159.51.161
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 13,20,21|🇯🇵 日本3|@ripaojiedian
-  network: tcp
-  port: '60717'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a173d4cd-4056-41dd-87a3-91c884e472fa
-  ws-headers:
-    Host: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  ws-path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 20,26|🇯🇵 日本特殊|@ripaojiedian
@@ -35,6 +7,19 @@ proxies:
   server: 52.195.0.55
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇯🇵 日本2|@ripaojiedian
+  network: tcp
+  port: '39131'
+  server: 45.159.51.161
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a
+  ws-headers:
+    Host: 45.159.51.161
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 26|🇯🇵 日本|@ripaojiedian
