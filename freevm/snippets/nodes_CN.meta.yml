@@ -16,6 +16,15 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: '11,21|_中国 #1'
+  network: tcp
+  port: '50027'
+  server: 50027.baidu-cdn.top
+  tls: false
+  type: vmess
+  uuid: b222084f-7993-4518-a940-b1fdac146995
+- alterId: 0
+  cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -30,134 +39,31 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 20,26,29|speednode_0021
-  password: '!!str 65086520307764900'
-  port: 443
-  server: relieved-raccoon.shiner427.skin
-  skip-cert-verify: false
-  sni: relieved-raccoon.shiner427.skin
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e
-- alterId: 0
-  cipher: auto
-  name: 20,21|0|🌀1- |  5.7MB/s
+  name: 21|_中国
   network: tcp
   port: '50032'
   server: 50032.baidu-cdn.top
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b222084f-7993-4518-a940-b1fdac146995
-  ws-headers:
-    Host: 50032.baidu-cdn.top
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 20,21|🇨🇳 广东省 移动
+  name: '21|_中国 #2'
   network: tcp
-  port: '50003'
-  server: 50003.baidu-cdn.top
-  skip-cert-verify: true
+  port: '50008'
+  server: 50008.baidu-cdn.top
   tls: false
   type: vmess
   uuid: 722ee660-ca57-467f-9eda-5739859212f9
-  ws-headers:
-    Host: 50003.baidu-cdn.top
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-120.232.218.174-042
-  password: f175d66f-7cf5-47aa-83be-a8e969cdbe2d
-  port: 40000
-  server: rk1.boost1.top
-  type: ss
-- cipher: aes-128-gcm
-  name: 20|🇨🇳CN-183.236.51.6-172
-  password: b2e5c36c-257c-4a11-ae20-4fb99d44606a
-  port: 12001
-  server: mdss-hk.04z3susick.download
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港6|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 20,21|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: '40565'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- cipher: aes-128-gcm
-  name: 20|🇨🇳CN-183.236.51.6-178
-  password: b2e5c36c-257c-4a11-ae20-4fb99d44606a
-  port: 12012
-  server: mdss-jp.04z3susick.download
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 20,21|🇯🇵 日本3|@ripaojiedian
-  network: tcp
-  port: '60717'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a173d4cd-4056-41dd-87a3-91c884e472fa
-  ws-headers:
-    Host: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇸🇬 新加坡|@ripaojiedian
+  name: '21|_中国 #3'
   network: tcp
   port: '50012'
   server: 50012.baidu-cdn.top
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 224e3ed4-96d2-4ae0-8d24-070b0039074e
-  ws-headers:
-    Host: 50012.baidu-cdn.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20|🇳CN-36.150.215.193-100
-  network: ws
-  port: 40396
-  server: sd3.forlive.live
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
-  ws-headers:
-    Host: tms.dingtalk.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 21|_中国
-  network: ws
-  port: '40396'
-  server: sd3.forlive.live
-  tls: false
-  type: vmess
-  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian

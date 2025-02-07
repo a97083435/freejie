@@ -1,25 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.195.0.55
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇯🇵 日本2|@ripaojiedian
-  network: tcp
-  port: '39131'
-  server: 45.159.51.161
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a
-  ws-headers:
-    Host: 45.159.51.161
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 26|🇯🇵 日本|@ripaojiedian
@@ -30,7 +9,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: '26|🇯🇵 日本2|@ripaojiedian #1'
+  name: 26|🇯🇵 日本2|@ripaojiedian
   password: K7R8EUUO2R6UWI9I
   port: 18007
   server: 183.232.239.172
@@ -38,7 +17,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: '26|🇯🇵 日本3|@ripaojiedian #1'
+  name: 26|🇯🇵 日本3|@ripaojiedian
   password: 8UB3I39KM113QT9N
   port: 18002
   server: 183.61.177.234
@@ -50,6 +29,14 @@ proxies:
   password: 8RS3Y3L50W6YNV8V
   port: 18004
   server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.195.0.55
   tfo: false
   type: ss
 - alterId: 0
