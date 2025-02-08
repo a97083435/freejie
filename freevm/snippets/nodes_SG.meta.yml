@@ -5,6 +5,15 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '13,25|0|🇸🇬5 |  1.7MB/s #1'
+  network: tcp
+  port: 20014
+  server: i.needss.top
+  tls: false
+  type: vmess
+  uuid: d812a35f-a4de-4eee-b929-0b413c1ecb8a
 - cipher: aes-256-cfb
   name: 20|🇬SG-18.136.211.144-067
   password: amazonskr05
@@ -41,6 +50,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP... #2'
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #10'
   network: ws
   port: '80'
@@ -67,15 +90,6 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
-- alterId: 0
-  cipher: auto
-  name: 25|0|🇸🇬5 |  1.7MB/s
-  network: tcp
-  port: 20014
-  server: i.needss.top
-  tls: false
-  type: vmess
-  uuid: d812a35f-a4de-4eee-b929-0b413c1ecb8a
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡3|@ripaojiedian
