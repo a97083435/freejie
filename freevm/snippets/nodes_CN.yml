@@ -194,7 +194,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26,29|speednode_0005
+  name: 20,26|🇭🇰 香港|@ripaojiedian
   password: 5OVJDT1EY2YS8XDP
   port: 15011
   server: 183.232.239.172
@@ -242,7 +242,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26,29|speednode_0002
+  name: 20,26|🇸🇬 新加坡2|@ripaojiedian
   password: Y2QBIM325HD9CYC2
   port: 16015
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -250,7 +250,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26,29|speednode_0004
+  name: 20,26|🇸🇬 新加坡3|@ripaojiedian
   password: M1F8D6X2MO8ZC6QE
   port: 16008
   server: 183.61.177.234
@@ -258,12 +258,26 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 20,26,29|speednode_0003
+  name: 20,26|🇸🇬 新加坡4|@ripaojiedian
   password: G937RPANX913YS5O
   port: 16007
   server: 183.232.239.172
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21,27|新加坡5|@ripaojiedian
+  network: tcp
+  port: '49549'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
+  ws-headers:
+    Host: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇺🇸 美国3|@ripaojiedian
@@ -280,6 +294,19 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|16|d*********g.com_2
+  network: tcp
+  port: '443'
+  server: 42.236.73.72
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+  ws-headers:
+    Host: 42.236.73.72
+  ws-path: /
 - cipher: aes-256-gcm
   name: 20|🇨🇳CN-183.61.177.234-135
   password: 8OCJMAVUOSVBYS7V
@@ -410,3 +437,36 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
+- cipher: rc4-md5
+  name: 29|CN_speednode_0002
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40254
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0003
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40255
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0004
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40211
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+  udp: true
