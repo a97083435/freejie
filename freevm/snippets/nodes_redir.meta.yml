@@ -149,7 +149,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '2,28|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
+  name: '2,28|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -172,7 +172,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,30|🇺🇸_US_美国->🇨🇳_CN_中国 #4'
+  name: '3,30|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
   network: ws
   port: 8080
   server: 104.19.47.16
@@ -221,7 +221,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,30|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '3,30|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -241,17 +241,17 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '14|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
+  name: 14,21|🇺🇸 美国 Fastly全球Anycast节点
   network: ws
-  port: 80
-  server: www.speedtest.net
+  port: '80'
+  server: join.ISVvpn.fastly80-3.hosting-ip.com
   tls: false
   type: vmess
-  uuid: e6afaf50-e32d-11ef-b534-205c6d5f5d78
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
   ws-opts:
     headers:
-      Host: us-21.hihu.net
-    path: /
+      Host: telegram-isvvpn.ir
+    path: /racevpn
 - alterId: 0
   cipher: auto
   name: '14|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
@@ -266,6 +266,19 @@ proxies:
     headers:
       Host: telegram-isvvpn.ir
     path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
+- alterId: 0
+  cipher: auto
+  name: '14|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  network: ws
+  port: '80'
+  server: 151.101.130.133
+  tls: false
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn?telegram-
 - alterId: 0
   cipher: auto
   name: 24|_SG_->🇺🇸_US_美国
@@ -345,7 +358,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  name: '28|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
   network: ws
   port: 2082
   server: 172.67.130.140
