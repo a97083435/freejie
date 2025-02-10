@@ -7,64 +7,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|新加坡 Microsoft数据中心
+  name: 11,21|🇸🇬 新加坡 Microsoft数据中心
   network: tcp
-  port: 32995
+  port: '32995'
   server: 20.188.117.201
   tls: false
   type: vmess
   uuid: 27cf0b94-a09a-4c7d-9818-9696076d7b52
 - alterId: 0
   cipher: auto
-  name: 20,21|🇩🇪 德国 V2CROSS.COM
-  network: tcp
-  port: '38324'
-  server: 62.146.233.115
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f863ef99-5ef0-4321-aaac-a476a5e8c3fb
-  ws-headers:
-    Host: 62.146.233.115
-  ws-path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡2|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.77.248.74
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26,29|SG_speednode_0143
-  password: amazonskr05
-  port: 443
-  server: 18.139.221.191
-  tfo: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.77.230.72
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸 美国 CloudFlare节点
+  name: 21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP...
   network: ws
-  port: '80'
+  port: 80
   server: 104.19.48.236
   servername: ''
   tls: false
@@ -130,6 +84,22 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇸🇬 新加坡2|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.77.230.72
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
