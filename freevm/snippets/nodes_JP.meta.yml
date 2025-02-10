@@ -11,12 +11,13 @@ proxies:
   uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  name: 26,29|SG_speednode_0176
   password: amazonskr05
   port: 443
   server: 18.139.221.191
   tfo: false
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
@@ -57,8 +58,18 @@ proxies:
     headers:
       Host: linode.appleid.bf
     path: /CAT
+- down: 1000
+  name: 29|JP_speednode_0153
+  password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070
+  port: 30001
+  server: oracle-amd-osaka1.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: osaka.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+  up: 100
 - cipher: aes-256-cfb
-  name: 29|JP_speednode_0015
+  name: 29|JP_speednode_0155
   password: amazonskr05
   port: 443
   server: 57.180.246.231

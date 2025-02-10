@@ -22,17 +22,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 26,29|US_speednode_0049
-  password: Bw5Mz7QkVp
+  name: 26,29|VN_speednode_0201
+  password: 94d219c9-1afc-4d42-b090-8b3794764380
   port: 443
-  server: 149.28.110.226
+  server: 36.50.135.142
   skip-cert-verify: true
-  sni: z-v2-077057.kailib.com
+  sni: bs1.loadingip.com
   tfo: false
   tls: false
   type: trojan
   udp: true
-  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
+  uuid: aec2a761-a1c6-4fe0-a9ed-694fca91f764
 - alterId: 0
   cipher: auto
   name: 27|香港|@ripaojiedian
@@ -115,3 +115,25 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
+- cipher: aes-256-cfb
+  name: 29|HK_speednode_0147
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 29|HK_speednode_0148
+  network: http
+  port: 12875
+  server: 38.147.189.12
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1a3f584c-0960-48ef-a161-942c91e8ab64
