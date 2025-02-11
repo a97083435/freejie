@@ -1,7 +1,46 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|台湾省新竹市 中华电信
+  network: ws
+  port: 25780
+  server: qdfhytmhg.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 6b83a28c-e872-4f7e-9b13-ffcef4b5fc44
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: '11|台湾省新竹市 中华电信 #1'
+  network: ws
+  port: 25774
+  server: tttxbmsm.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 6b83a28c-e872-4f7e-9b13-ffcef4b5fc44
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: '11|台湾省新竹市 中华电信 #2'
+  network: ws
+  port: 25777
+  server: qdfhytmhg.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 6b83a28c-e872-4f7e-9b13-ffcef4b5fc44
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 26,29|CN_speednode_0061
+  name: 26|🇹🇼 台湾|@ripaojiedian
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
@@ -10,7 +49,6 @@ proxies:
   protocol-param: ''
   server: cn00.closeai.one
   type: ssr
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇹🇼 台湾2|@ripaojiedian
