@@ -7,13 +7,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,21|🇸🇬 新加坡 Microsoft数据中心
-  network: tcp
-  port: '32995'
-  server: 20.188.117.201
+  name: 21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP...
+  network: ws
+  port: 80
+  server: 104.19.48.236
+  servername: ''
   tls: false
   type: vmess
-  uuid: 27cf0b94-a09a-4c7d-9818-9696076d7b52
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
 - alterId: 0
   cipher: auto
   name: '21|VMESS-未知>新加坡-NF解锁新加坡自制剧-ChatGP... #1'
@@ -56,6 +61,15 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇸🇬 新加坡 Microsoft数据中心
+  network: tcp
+  port: '32995'
+  server: 20.188.117.201
+  tls: false
+  type: vmess
+  uuid: 27cf0b94-a09a-4c7d-9818-9696076d7b52
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡2|@ripaojiedian
