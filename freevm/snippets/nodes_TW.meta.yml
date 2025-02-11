@@ -1,7 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|台湾省新竹市 中华电信
+  client-fingerprint: chrome
+  name: 11,21,26,27|俄罗斯|@ripaojiedian
+  network: ws
+  port: '25780'
+  server: bvdhgfhfs.fask511.cfd
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: '11|台湾省新竹市 中华电信 #1'
+  network: ws
+  port: 25774
+  server: bvdhgfhfs.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 6b83a28c-e872-4f7e-9b13-ffcef4b5fc44
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: '11|台湾省新竹市 中华电信 #2'
   network: ws
   port: 25780
   server: qdfhytmhg.fask511.cfd
@@ -14,23 +44,10 @@ proxies:
     path: /?ed=1024
 - alterId: 0
   cipher: auto
-  name: '11|台湾省新竹市 中华电信 #1'
+  name: 11,21|🇨🇳 台湾省新竹市 中华电信
   network: ws
-  port: 25774
-  server: tttxbmsm.fask511.cfd
-  tls: false
-  type: vmess
-  uuid: 6b83a28c-e872-4f7e-9b13-ffcef4b5fc44
-  ws-opts:
-    headers:
-      Host: www.douyin.com
-    path: /?ed=1024
-- alterId: 0
-  cipher: auto
-  name: '11|台湾省新竹市 中华电信 #2'
-  network: ws
-  port: 25777
-  server: qdfhytmhg.fask511.cfd
+  port: '25780'
+  server: 114.44.80.187
   tls: false
   type: vmess
   uuid: 6b83a28c-e872-4f7e-9b13-ffcef4b5fc44
