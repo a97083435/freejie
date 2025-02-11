@@ -1,21 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,27|香港2|@ripaojiedian
+  name: 21|🇭🇰 香港2|@ripaojiedian
   network: tcp
   port: '12875'
   server: 38.147.189.12
-  servername: ''
   tls: false
   type: vmess
   uuid: 1a3f584c-0960-48ef-a161-942c91e8ab64
 - alterId: 0
   cipher: auto
-  name: 21,27|香港3|@ripaojiedian
+  name: 21|🇭🇰 香港3|@ripaojiedian
   network: tcp
   port: '31488'
   server: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  servername: ''
   tls: false
   type: vmess
   uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
@@ -32,17 +30,31 @@ proxies:
   tls: false
   type: trojan
   udp: true
-  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
-- alterId: 0
-  cipher: auto
-  name: 27|香港|@ripaojiedian
-  network: tcp
-  port: '18423'
-  server: 38.147.188.94
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d74f7655-eb59-4b48-9f8f-98a9c64a9e10
+  uuid: e1541125-9df4-4ee7-bb05-e68f85d7937f
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 26,29|CN_speednode_0040
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8123
+  protocol: origin
+  protocol-param: ''
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港5|@ripaojiedian
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
@@ -69,7 +81,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '28|香港|@ripaojiedian #1'
+  name: 28|香港|@ripaojiedian
   network: tcp
   port: '41492'
   server: 120.232.242.126
@@ -79,7 +91,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '28|香港2|@ripaojiedian #1'
+  name: 28|香港2|@ripaojiedian
   network: tcp
   port: '44805'
   server: hkjcdn03.dorabbb.top
