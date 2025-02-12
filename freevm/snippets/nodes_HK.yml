@@ -13,30 +13,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 27cf0b94-a09a-4c7d-9818-9696076d7b52
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 26|🇭🇰 香港3|@ripaojiedian
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8123
-  protocol: origin
-  protocol-param: ''
-  server: cn05.closeai.one
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 26,29|CN_speednode_0006
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 27|香港|@ripaojiedian
+  network: tcp
+  port: '49691'
+  server: 193.42.25.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
@@ -63,7 +49,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 28|香港|@ripaojiedian
+  name: '28|香港|@ripaojiedian #1'
   network: tcp
   port: '41492'
   server: 120.232.242.126
