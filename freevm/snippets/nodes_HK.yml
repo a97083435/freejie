@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 26,29|US_speednode_0129
+  name: 20,26,29|US_speednode_0129
   password: '!!str 65086441068973800'
   port: 443
   server: live-serval.shiner427.skin
@@ -15,14 +15,18 @@ proxies:
   uuid: 6eef3448-bbc0-4933-894a-72b3e8786109
 - alterId: 0
   cipher: auto
-  name: 27|香港|@ripaojiedian
+  name: 20,27|香港|@ripaojiedian
   network: tcp
   port: '49691'
   server: 193.42.25.242
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
+  ws-headers:
+    Host: 193.42.25.242
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
