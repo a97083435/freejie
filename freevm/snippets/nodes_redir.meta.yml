@@ -254,19 +254,6 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 14,21|🇺🇸 _美国
-  network: ws
-  port: '80'
-  server: 151.101.0.155
-  tls: false
-  type: vmess
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  ws-opts:
-    headers:
-      Host: telegram-isvvpn.ir
-    path: /racevpn
-- alterId: 0
-  cipher: auto
   name: '14|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
   network: tcp
   port: '15717'
@@ -275,6 +262,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 8b252dc4-b20c-419f-8f62-be72f057938f
+- alterId: 0
+  cipher: auto
+  name: '14,21|VMESS-美国>德国-NF解锁德国自制剧-ChatGPT-... #1'
+  network: ws
+  port: 80
+  server: plex.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
 - alterId: 0
   cipher: auto
   name: 24|_SG_->🇺🇸_US_美国
