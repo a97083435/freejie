@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 20|🇰HK-193.42.25.242-118
-  network: tcp
-  port: 49691
-  server: 193.42.25.242
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
-  ws-headers:
-    Host: 193.42.25.242
-  ws-path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 26|🇭🇰 香港|@ripaojiedian
@@ -41,6 +28,20 @@ proxies:
   tfo: false
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 26,29|GB_speednode_0041
+  password: '!!str 65086441068973800'
+  port: 443
+  server: grown-mackerel.shiner427.skin
+  skip-cert-verify: false
+  sni: live-serval.shiner427.skin
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 93a2deb7-82d6-495a-b37b-1b9a9b5132ef
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
