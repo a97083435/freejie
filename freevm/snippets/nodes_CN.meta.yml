@@ -1,39 +1,23 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 1|_CN_
+  name: 1,20|🇨🇳CN-59.56.77.178-087
   password: hGkQ6915tD
   port: 15082
   server: 59.56.77.178
   type: ss
 - alterId: 64
   cipher: auto
-  name: '3,13,21,30|🇨🇳_CN_中国 #1'
+  name: '3,13,20,21,30|🇨🇳_CN_中国 #1'
   network: tcp
   port: 54882
   server: 183.240.235.162
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,13,21,27|美国2|@ripaojiedian
-  network: tcp
-  port: '45402'
-  server: 120.232.153.123
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,13,21,27|日本|@ripaojiedian
-  network: tcp
-  port: '20803'
-  server: AZHJ.dmak.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+  ws-headers:
+    Host: 183.240.235.162
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '13,16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -48,19 +32,137 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: '21|2,11|2,11|2,11|2,11|2,11|2,11|... #21'
-  network: ws
-  port: '16928'
-  server: vip3.niuniupremium.xyz
-  tls: false
-  type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
-  ws-opts:
-    headers:
-      Host: vip3.niuniupremium.xyz
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇳CN-183.214.197.27-044
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34104
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20,29|CN_speednode_0010
+  password: 1f2a2f7f-d95e-43b6-bab9-212f679b749e
+  port: 34103
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-046
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34102
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-047
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34001
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-048
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34003
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-049
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34004
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-050
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34301
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-051
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34302
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-052
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34501
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-053
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34403
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-054
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34402
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-055
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34303
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-056
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58854
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-057
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58808
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-058
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58831
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-059
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 32306
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-060
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58801
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-061
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58809
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-062
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58846
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇹🇼 台湾|@ripaojiedian
+  password: 961ab95c-7b17-4fea-8a3f-6b27a426172d
+  port: 48497
+  server: wb.kaiqsz.com
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇺🇸 美国|@ripaojiedian
+  password: 961ab95c-7b17-4fea-8a3f-6b27a426172d
+  port: 56257
+  server: wb.kaiqsz.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
@@ -75,13 +177,6 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
-- cipher: chacha20-ietf-poly1305
-  name: 29|CN_speednode_0010
-  password: 1f2a2f7f-d95e-43b6-bab9-212f679b749e
-  port: 34103
-  server: southvip1.pkyun.xyz
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 29|CN_speednode_0012
   password: 7c28b43c-41c4-4af1-81c4-48690133d1cd

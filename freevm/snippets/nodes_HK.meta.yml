@@ -1,38 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,21,27|香港|@ripaojiedian
+  name: 13,20,21,27|香港|@ripaojiedian
   network: tcp
   port: '20776'
   server: AZHJ001.dmak.cyou
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+  ws-headers:
+    Host: AZHJ001.dmak.cyou
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 13,21,27|香港2|@ripaojiedian
+  name: 13,20,21,27|香港2|@ripaojiedian
   network: tcp
   port: '20965'
   server: AZHJ001.dmak.cyou
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 26,29|GB_speednode_0041
-  password: '!!str 65086441068973800'
-  port: 443
-  server: grown-mackerel.shiner427.skin
-  skip-cert-verify: false
-  sni: dynamic-shrew.shiner427.skin
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 93a2deb7-82d6-495a-b37b-1b9a9b5132ef
+  ws-headers:
+    Host: AZHJ001.dmak.cyou
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
