@@ -240,55 +240,55 @@ proxies:
   name: 11|美国 CloudFlare节点
   network: ws
   port: 2082
-  server: s1.db-link01.top
+  server: 104.16.155.10
   servername: ''
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-32-21-187.s1.db-link01.top
-    path: /dabai.in104.25.184.216
+      Host: 100-38-62-25.s5.db-link02.top
+    path: /dabai.in104.18.42.172
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 8080
+  port: 80
+  server: cloudflare.182682.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: kr.cfyyds.filegear-sg.me
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 2086
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-47-154-9.s1.cn-db.top
+    path: /dabai.in104.24.181.189
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: 2095
   server: s1.db-link02.top
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-213-61-102.s1.db-link02.top
-    path: /dabai.in104.21.151.202
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
-  network: ws
-  port: 80
-  server: 104.17.213.241
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11,13,16,21,28|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
+      Host: 100-33-108-197.s1.db-link02.top
+    path: /dabai.in104.24.248.64
 - alterId: 0
   cipher: auto
   name: 11|美国 Fastly全球Anycast节点
@@ -328,6 +328,20 @@ proxies:
   ws-opts:
     headers:
       Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '13,16,21,28|github.com/freefq - 美国CloudFla... #7'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
