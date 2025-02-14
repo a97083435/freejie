@@ -309,10 +309,25 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: 11,13,16,21,28|美国测试节点
+  network: ws
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
   port: 80
   server: cloudflare.182682.xyz
+  servername: ''
   tls: false
   type: vmess
   uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
@@ -322,95 +337,71 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #5'
+  name: 11,21|VMESS-未知>法国-NF解锁法国地区非自制剧-ChatG...
   network: ws
-  port: '80'
-  server: 104.16.155.10
+  port: 443
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  servername: ''
   tls: false
   type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
   ws-opts:
     headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #3'
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
-  port: '2095'
-  server: s1.db-link02.top
+  port: '2052'
+  server: 172.66.45.40
+  servername: ''
   tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: fcc685c0-e718-11ef-b933-205c6d5f5d78
   ws-opts:
     headers:
-      Host: 100-33-108-197.s1.db-link02.top
-    path: /dabai.in104.24.248.64
+      Host: eu-2.hihu.net
+    path: /ek147r26/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #3'
   network: ws
-  port: 8080
-  server: s5.db-link02.top
+  port: 2082
+  server: cf2.yunduanjc.top
   tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: a939459b-0ba3-4c2c-9313-805e906450c5
   ws-opts:
     headers:
-      Host: 100-149-191-2.s5.db-link02.top
-    path: /dabai.in104.20.16.209
-- alterId: 0
-  cipher: auto
-  name: 11,21|🇺🇸 美国 V2CROSS.COM
-  network: ws
-  port: '8443'
-  server: 45.144.48.128
-  tls: true
-  type: vmess
-  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
+      Host: akdg.yunduanjc.top
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #4'
   network: ws
-  port: 2095
-  server: 104.16.155.10
+  port: 8880
+  server: s1.db-link01.top
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-209-47-141.s2.db-link02.top
-    path: /dabai.in104.20.27.115
+      Host: 100-250-32-53.s1.db-link01.top
+    path: /dabai.in172.67.95.35
 - alterId: 0
   cipher: auto
-  name: 11|美国 Fastly全球Anycast节点
+  name: '11|美国 CloudFlare节点 #5'
   network: ws
-  port: 443
-  server: 151.101.194.133
+  port: 8443
+  server: uswuxian.pai50288.uk
   tls: true
   type: vmess
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
   ws-opts:
     headers:
-      Host: telegram-isvvpn.ir
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #4'
-  network: ws
-  port: '80'
-  server: s5.db-link02.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-235-225-209.s5.db-link02.top
-    path: /dabai.in104.18.75.85
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '13,16,21,28|github.com/freefq - 美国CloudFla... #4'
@@ -452,20 +443,6 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13,16,21,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 0
   cipher: auto
   name: '13,16,21,28|github.com/freefq - 美国CloudFla... #6'
@@ -561,6 +538,19 @@ proxies:
     path: /dyajvws
 - alterId: 0
   cipher: auto
+  name: 21|🇺🇸 美国 V2CROSS.COM
+  network: ws
+  port: '8443'
+  server: 45.144.48.128
+  tls: true
+  type: vmess
+  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
   name: 21|🇺🇸 美国 CloudFlare节点
   network: ws
   port: '2086'
@@ -598,6 +588,45 @@ proxies:
     headers:
       Host: 100-47-154-9.s1.cn-db.top
     path: /dabai.in104.24.181.189
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #3'
+  network: ws
+  port: '2095'
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-33-108-197.s1.db-link02.top
+    path: /dabai.in104.24.248.64
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #4'
+  network: ws
+  port: '80'
+  server: s5.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-235-225-209.s5.db-link02.top
+    path: /dabai.in104.18.75.85
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #5'
+  network: ws
+  port: '80'
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸 3,11,17|🇺🇸_US_美国 #20'
