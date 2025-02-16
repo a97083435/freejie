@@ -1,13 +1,13 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 1,20|🇸🇬SG-54.179.87.28-075
+  name: 1,20|🇸SG-54.179.87.28-080
   password: amazonskr05
   port: 443
   server: 54.179.87.28
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,20,21|🇸🇬 11|11|11|15|🇸🇬 新加坡5|@ripaoj...
+  name: 13,20,21|🇸🇬 11|11|11|11|11|15|🇸🇬 新加坡5|@...
   network: tcp
   port: '443'
   server: flying-tuna.treefrog761.one
@@ -18,23 +18,9 @@ proxies:
   ws-headers:
     Host: flying-tuna.treefrog761.one
   ws-path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇸🇬 新加坡2|@ripaojiedian
-  password: LVTKTFKX69RV9GVO
-  port: 16011
-  server: 154.196.244.21
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇸🇬SG-188.253.5.31-034
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇸🇬SG-31.58.142.221-117
+  name: 20|🇸🇬SG-31.58.142.221-122
   network: ws
   port: 8967
   server: 31.58.142.221
@@ -51,6 +37,14 @@ proxies:
   password: DQ2BBMW1APSCW8HD
   port: 16001
   server: 154.196.244.11
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇸🇬 新加坡2|@ripaojiedian
+  password: LVTKTFKX69RV9GVO
+  port: 16011
+  server: 154.196.244.21
   tfo: false
   type: ss
 - cipher: aes-256-cfb
