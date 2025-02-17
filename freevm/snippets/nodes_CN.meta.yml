@@ -18,6 +18,19 @@ proxies:
   ws-headers:
     Host: 183.240.235.162
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '11,20,21|_中国 #3'
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.234.102.229
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '13,16,21,28|github.com/freefq - 广东省移动 7 #1'
@@ -44,19 +57,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 120.198.71.219
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '20,21|_中国 #3'
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
   ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 20|🇨🇳CN-183.214.197.27-040
