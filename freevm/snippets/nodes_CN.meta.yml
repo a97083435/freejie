@@ -1,39 +1,22 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 1,20|🇨🇳CN-59.56.77.178-066
+  name: 1|_CN_
   password: hGkQ6915tD
   port: 15082
   server: 59.56.77.178
   type: ss
 - alterId: 64
   cipher: auto
-  name: '3,20,21,30|🇨🇳_CN_中国 #1'
+  name: '3,30|🇨🇳_CN_中国 #1'
   network: tcp
   port: 54882
   server: 183.240.235.162
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.240.235.162
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '11,20,21|11|11|11|11|11|11|11|11|11|11|... #3'
-  network: tcp
-  port: '45402'
-  server: 120.232.153.123
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.123
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: '16,21,28|github.com/freefq - 广东省移动 7 #1'
+  name: '16,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn
@@ -45,8 +28,21 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '45402'
+  server: 120.232.153.123
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.123
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-023
+  name: 20|🇨🇳CN-183.214.197.27-025
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34104
   server: southvip1.pkyun.xyz
@@ -59,211 +55,113 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-025
+  name: 20|🇨🇳CN-183.214.197.27-027
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34102
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-026
+  name: 20|🇨🇳CN-183.214.197.27-028
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34001
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-027
+  name: 20|🇨🇳CN-183.214.197.27-029
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34003
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-028
+  name: 20|🇨🇳CN-183.214.197.27-030
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34004
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-029
+  name: 20|🇨🇳CN-183.214.197.27-031
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34301
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-030
+  name: 20|🇨🇳CN-183.214.197.27-032
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34302
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-031
+  name: 20|🇨🇳CN-183.214.197.27-033
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34501
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-032
+  name: 20|🇨🇳CN-183.214.197.27-034
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34403
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-033
+  name: 20|🇨🇳CN-183.214.197.27-035
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34402
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-034
+  name: 20|🇨🇳CN-183.214.197.27-036
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 34303
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-035
+  name: 20|🇨🇳CN-183.214.197.27-037
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 58854
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-036
+  name: 20|🇨🇳CN-183.214.197.27-038
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 58808
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-037
+  name: 20|🇨🇳CN-183.214.197.27-039
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 58831
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-038
+  name: 20|🇨🇳CN-183.214.197.27-040
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 32306
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-039
+  name: 20|🇨🇳CN-183.214.197.27-041
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 58801
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-040
+  name: 20|🇨🇳CN-183.214.197.27-042
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 58809
   server: southvip1.pkyun.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇳CN-183.214.197.27-041
+  name: 20|🇨🇳CN-183.214.197.27-043
   password: 95cdd785-13be-40cd-aa0e-45991b631629
   port: 58846
   server: southvip1.pkyun.xyz
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '20,21|11|11|11|11|11|11|11|11|11|11|... #2'
-  network: tcp
-  port: '33184'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d1e704-59f5-48ec-ba97-9a5e2005b37b
-  ws-headers:
-    Host: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|11|11|11|11|11|11|11|11|11|11|... #4'
-  network: tcp
-  port: '20776'
-  server: AZHJ001.dmak.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-  ws-headers:
-    Host: AZHJ001.dmak.cyou
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|11|11|11|11|11|11|11|11|11|11|... #5'
-  network: tcp
-  port: '20965'
-  server: AZHJ001.dmak.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-  ws-headers:
-    Host: AZHJ001.dmak.cyou
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|11|11|11|11|11|11|11|11|11|11|... #6'
-  network: tcp
-  port: '20803'
-  server: AZHJ.dmak.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-  ws-headers:
-    Host: AZHJ.dmak.cyou
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|11|11|11|11|11|11|11|11|11|11|... #7'
-  network: tcp
-  port: '20800'
-  server: AZHJ.dmak.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-  ws-headers:
-    Host: AZHJ.dmak.cyou
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|11|11|11|11|11|11|11|11|11|11|... #8'
-  network: tcp
-  port: '10564'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ead8fb73-ff42-4fce-af33-5991e72006b7
-  ws-headers:
-    Host: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|11|11|11|11|11|11|11|11|11|11,...
-  network: tcp
-  port: '21718'
-  server: AZHJ.dmak.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-  ws-headers:
-    Host: AZHJ.dmak.cyou
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|11|11|11|11|11|11|11|11|11|11,... #2'
-  network: tcp
-  port: '20808'
-  server: AZHJ001.dmak.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-  ws-headers:
-    Host: AZHJ001.dmak.cyou
-  ws-path: /
+- cipher: aes-128-gcm
+  name: 20|🇳CN-119.167.212.243-079
+  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
+  port: 23733
+  server: cu1.guguyun.xyz
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇹🇼 台湾|@ripaojiedian
@@ -279,12 +177,6 @@ proxies:
   port: 21001
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: 20|🇳CN-119.167.212.243-175
-  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
-  port: 23733
-  server: cu1.guguyun.xyz
   type: ss
 - alterId: 0
   cipher: auto
