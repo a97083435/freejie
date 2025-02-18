@@ -1,32 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 20,21,27|香港2|@ripaojiedian
+  name: 21,27|香港2|@ripaojiedian
   network: tcp
   port: '37349'
   server: 38.147.188.81
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: f5d9c282-cee4-479b-98d6-deecd4f70482
-  ws-headers:
-    Host: 38.147.188.81
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 20,21,27|香港4|@ripaojiedian
+  name: 21,27|香港4|@ripaojiedian
   network: tcp
   port: '22666'
   server: 103.30.76.129
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: aede82af-c2ca-425d-9423-c68490ab2277
-  ws-headers:
-    Host: 103.30.76.129
-  ws-path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 26|🇭🇰 香港|@ripaojiedian
@@ -38,6 +30,20 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 26,29|DE_speednode_0031
+  password: '!!str 3782591447421952000'
+  port: 443
+  server: patient-ghost.treefrog761.one
+  skip-cert-verify: true
+  sni: patient-ghost.treefrog761.one
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
