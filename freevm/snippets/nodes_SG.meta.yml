@@ -5,6 +5,19 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|新加坡 亚马逊(Amazon)公司数据中心
+  network: ws
+  port: 23443
+  server: tls.04.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 20,26|🇸🇬 新加坡3|@ripaojiedian
