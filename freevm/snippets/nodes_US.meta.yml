@@ -237,98 +237,69 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #2'
-  network: ws
-  port: '80'
-  server: s1.cn-db.top
+  name: 11|美国 加州
+  network: tcp
+  port: '8881'
+  server: 64.23.128.223
+  servername: ''
   tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-215-151-174.s1.cn-db.top
-    path: /dabai.in172.64.34.18
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: ''
-  name: '11|美国 CloudFlare节点 #1'
-  network: grpc
-  port: '2087'
-  server: 172.64.32.217
-  servername: dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb155138161148.meratnet.ir
-  tls: true
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
+  name: 11|北美地区 V2CROSS.COM
   network: ws
-  port: 2082
-  server: 104.16.155.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-241-177-44.s5.db-link01.top
-    path: /dabai.in104.16.174.235
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
-  network: ws
-  port: 80
-  server: anycast.cf.030419.xyz
-  tls: false
-  type: vmess
-  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
-  ws-opts:
-    headers:
-      Host: 33.bycf.us.kg
-    path: /rongseven?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 11|美国 V2CROSS.COM
-  network: ws
-  port: 30001
-  server: 137.175.42.250
+  port: 443
+  server: 172.111.36.108
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ''
-    path: /path/1739892314173
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 11,21|🇺🇸 美国 CloudFlare节点
+  name: 11|美国 CloudFlare节点
   network: ws
-  port: '8080'
+  port: 8880
   server: s1.db-link01.top
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-79-28-26.s1.db-link01.top
-    path: /dabai.in172.64.55.203
+      Host: 100-250-32-53.s1.db-link01.top
+    path: /dabai.in172.67.95.35
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #5'
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 2095
-  server: s1.db-link02.top
+  port: 443
+  server: 104.18.149.75
+  tls: true
+  type: vmess
+  uuid: 31c37204-2087-4828-8c94-b0a830832cc0
+  ws-opts:
+    headers:
+      Host: oracle.kkp.me.eu.org
+    path: /sg
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 80
+  server: 104.16.155.10
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-33-108-197.s1.db-link02.top
-    path: /dabai.in104.24.248.64
+      Host: 100-49-141-209.s1.db-link02.top
+    path: /dabai.in104.17.169.115
 - alterId: 0
   cipher: auto
-  name: '16,28|github.com/freefq - 美国CloudFla... #4'
+  name: '11,16,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -339,6 +310,46 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: hkvm.gecs.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
+  ws-opts:
+    headers:
+      Host: hkvm.gecs.top
+    path: /vm
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #4'
+  network: ws
+  port: 2082
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-32-21-187.s1.db-link01.top
+    path: /dabai.in104.25.184.216
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #5'
+  network: ws
+  port: 443
+  server: tasnim.ITN24.IR
+  tls: true
+  type: vmess
+  uuid: 8c9a6382-2bbe-41c4-bfa7-c1f518533023
+  ws-opts:
+    headers:
+      Host: ''
+    path: /24820/?ed=2048
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #5'
@@ -594,6 +605,19 @@ proxies:
     path: /dyajvws
 - alterId: 0
   cipher: auto
+  name: 21|🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-79-28-26.s1.db-link01.top
+    path: /dabai.in172.64.55.203
+- alterId: 0
+  cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #1'
   network: ws
   port: '443'
@@ -605,6 +629,19 @@ proxies:
     headers:
       Host: foxlux.fovi.tk
     path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #2'
+  network: ws
+  port: '80'
+  server: s1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-215-151-174.s1.cn-db.top
+    path: /dabai.in172.64.34.18
 - alterId: 0
   cipher: auto
   name: 21|🇺🇸 _美国
