@@ -5,9 +5,15 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇬SG-188.253.5.31-152
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡|@ripaojiedian
+  name: 20,26|🇸🇬 新加坡|@ripaojiedian
   password: CZWGKVVKET2BTRBK
   port: 16002
   server: 154.196.244.12
@@ -15,7 +21,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡2|@ripaojiedian
+  name: 20,26|🇸🇬 新加坡2|@ripaojiedian
   password: Y7Y0EUXF5ZZKJTFU
   port: 16014
   server: 154.196.244.24
@@ -23,7 +29,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡3|@ripaojiedian
+  name: 20,26|🇸🇬 新加坡3|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 103.106.229.219
@@ -31,18 +37,10 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡4|@ripaojiedian
+  name: 20,26|🇸🇬 新加坡4|@ripaojiedian
   password: EXCB3KKW0GXQ3ECD
   port: 16009
   server: 154.196.244.19
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 26|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.79.101.162
   tfo: false
   type: ss
 - alterId: 0
