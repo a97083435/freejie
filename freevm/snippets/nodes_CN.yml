@@ -16,9 +16,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #20'
+  name: '11,20,21|_中国 #21'
   network: tcp
-  port: '26034'
+  port: '26181'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -29,9 +29,9 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #5'
+  name: '11,20,21|_中国 #6'
   network: tcp
-  port: '26013'
+  port: '26081'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -42,9 +42,9 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #27'
+  name: '11,20,21|_中国 #15'
   network: tcp
-  port: '26221'
+  port: '26072'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -55,9 +55,35 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #16'
+  name: '11,20,21|_中国 #18'
   network: tcp
-  port: '26191'
+  port: '26094'
+  server: 183.2.194.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+  ws-headers:
+    Host: 183.2.194.142
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,20,21|_中国 #17'
+  network: tcp
+  port: '40165'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,20,21|_中国 #9'
+  network: tcp
+  port: '26151'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -71,19 +97,6 @@ proxies:
   name: '11,20,21|_中国 #34'
   network: tcp
   port: '26161'
-  server: 183.2.194.142
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-  ws-headers:
-    Host: 183.2.194.142
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #23'
-  network: tcp
-  port: '26023'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -287,9 +300,9 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #6'
+  name: '20,21|_中国 #5'
   network: tcp
-  port: '26081'
+  port: '26013'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -316,19 +329,6 @@ proxies:
   name: '20,21|_中国 #8'
   network: tcp
   port: '26082'
-  server: 183.2.194.142
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-  ws-headers:
-    Host: 183.2.194.142
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #9'
-  network: tcp
-  port: '26151'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -404,35 +404,9 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #15'
+  name: '20,21|_中国 #16'
   network: tcp
-  port: '26072'
-  server: 183.2.194.142
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-  ws-headers:
-    Host: 183.2.194.142
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #17'
-  network: tcp
-  port: '40165'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #18'
-  network: tcp
-  port: '26094'
+  port: '26191'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -456,9 +430,9 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #21'
+  name: '20,21|_中国 #20'
   network: tcp
-  port: '26181'
+  port: '26034'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -472,6 +446,19 @@ proxies:
   name: '20,21|_中国 #22'
   network: tcp
   port: '26093'
+  server: 183.2.194.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+  ws-headers:
+    Host: 183.2.194.142
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #23'
+  network: tcp
+  port: '26023'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
@@ -511,6 +498,19 @@ proxies:
   name: '20,21|_中国 #26'
   network: tcp
   port: '26141'
+  server: 183.2.194.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+  ws-headers:
+    Host: 183.2.194.142
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #27'
+  network: tcp
+  port: '26221'
   server: 183.2.194.142
   skip-cert-verify: true
   tls: false
