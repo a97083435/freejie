@@ -528,6 +528,45 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-49-141-209.s1.db-link02.top
+    path: /dabai.in104.17.169.115
+- alterId: 0
+  cipher: auto
+  name: 11|台湾省台北市 中华电信
+  network: ws
+  port: 25777
+  server: kkkghdragxc.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: tasnim.ITN24.IR
+  tls: true
+  type: vmess
+  uuid: 8c9a6382-2bbe-41c4-bfa7-c1f518533023
+  ws-opts:
+    headers:
+      Host: ''
+    path: /24820/?ed=2048
+- alterId: 0
+  cipher: auto
   name: 11|美国 V2CROSS.COM
   network: ws
   port: 443
@@ -539,32 +578,45 @@ proxies:
     headers:
       Host: tls.94.node-for-bigairport.win
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|北美地区 V2CROSS.COM
+  name: '11|美国 V2CROSS.COM #1'
   network: ws
-  port: 443
-  server: 172.111.36.108
+  port: 30001
+  server: 137.175.42.250
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
+      Host: ''
+    path: /path/1739892314173
 - alterId: 0
   cipher: auto
-  name: 11,21|🇨🇳 台湾省桃园市 中华电信
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
-  port: '25780'
-  server: tttxbmsm.fask511.cfd
+  port: 2086
+  server: s1.db-link01.top
   tls: false
   type: vmess
-  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: tttxbmsm.fask511.cfd
-    path: /?ed=1024
+      Host: 100-191-129-167.s1.db-link01.top
+    path: /dabai.in172.64.32.189
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: 80
+  server: anycast.cf.030419.xyz
+  tls: false
+  type: vmess
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: '11,16,28|github.com/freefq - 印度  2 #1'
@@ -581,105 +633,31 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: anycast.cf.030419.xyz
-  tls: false
-  type: vmess
-  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
-  ws-opts:
-    headers:
-      Host: 33.bycf.us.kg
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '11,16,28|github.com/freefq - 美国CloudFla... #4'
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
+  name: 11,21|VMESS-未知>法国-NF解锁法国地区非自制剧-ChatG...
   network: ws
   port: 443
-  server: tasnim.ITN24.IR
-  tls: true
-  type: vmess
-  uuid: 8c9a6382-2bbe-41c4-bfa7-c1f518533023
-  ws-opts:
-    headers:
-      Host: ''
-    path: /24820/?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
-  network: ws
-  port: 80
-  server: 104.17.221.248
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-49-141-209.s1.db-link02.top
-    path: /dabai.in104.17.169.115
-- alterId: 0
-  cipher: auto
-  name: 11|伊朗 V2CROSS.COM
-  network: tcp
-  port: '15359'
-  server: 188.245.206.4
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 68342e3b-62c3-4622-993f-b515d978275e
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 104.18.149.75
-  tls: true
-  type: vmess
-  uuid: 31c37204-2087-4828-8c94-b0a830832cc0
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
   ws-opts:
     headers:
-      Host: oracle.kkp.me.eu.org
-    path: /sg
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
-  network: ws
-  port: 2095
-  server: 104.16.155.10
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-209-47-141.s2.db-link02.top
-    path: /dabai.in104.20.27.115
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #5'
   network: ws
-  port: 8880
-  server: s5.db-link02.top
+  port: 2086
+  server: s1.db-link02.top
   tls: false
   type: vmess
-  uuid: f518cff0-ee41-3cde-a453-9f3fbccd7ff8
+  uuid: 532e1541-4b65-3409-81f1-43f206846615
   ws-opts:
     headers:
-      Host: 100-70-47-166.s5.db-link02.top
-    path: /dabai.in104.19.19.75
+      Host: 100-236-195-61.s1.db-link02.top
+    path: /dabai.in172.64.2.59
 - alterId: 0
   cipher: auto
   name: '13,20,21,25|如有需要，自行搭建 #3'
@@ -721,6 +699,19 @@ proxies:
     headers:
       Host: sahand.serveminecraft.net
     path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '16,28|github.com/freefq - 美国CloudFla... #4'
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #5'
@@ -905,10 +896,10 @@ proxies:
   port: 8080
   server: 45.158.171.110
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 20,26,29|HK_speednode_0007
+  name: 20,26,29|HK_speednode_0026
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
   server: 104.251.227.182
@@ -918,7 +909,7 @@ proxies:
   tls: false
   type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 026f6c4b-3890-411e-9cee-4c7b3ca5c382
 - alterId: 0
   cipher: auto
   name: 20|🇹🇼TW-1.162.174.203-013
@@ -1813,20 +1804,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 21|VMESS-未知>法国-NF解锁法国地区非自制剧-ChatG...
-  network: ws
-  port: 443
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
-- alterId: 0
-  cipher: auto
   name: 21|VMESS-未知>美国-NF解锁自制剧-ChatGPT-Ti...
   network: ws
   port: 443
@@ -1853,6 +1830,19 @@ proxies:
     headers:
       Host: lax2.ibgfw.top
     path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 台湾省桃园市 中华电信
+  network: ws
+  port: '25780'
+  server: tttxbmsm.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
+  ws-opts:
+    headers:
+      Host: tttxbmsm.fask511.cfd
+    path: /?ed=1024
 - alterId: 0
   cipher: auto
   name: '21|🇨🇳 台湾省桃园市 中华电信 #1'
@@ -2525,12 +2515,13 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 26|🇰🇷 韩国|@ripaojiedian
+  name: 26,29|CN_speednode_0012
   password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
   port: 40032
   server: kr.fastsoonlink.com
   tfo: false
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡|@ripaojiedian
@@ -2549,12 +2540,13 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡4|@ripaojiedian
+  name: 26,29|CN_speednode_0004
   password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
   port: 40005
   server: sgp.fastsoonlink.com
   tfo: false
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡5|@ripaojiedian
@@ -4656,71 +4648,222 @@ proxies:
     headers:
       Host: tw.appleid.bf
     path: /ws?ed=2048
-- client-fingerprint: chrome
-  name: 29|CH_speednode_0001
-  port: 5183
-  reality-opts:
-    public-key: hVFQpNhSU6uRXpnAIES-MIuye5PsS-jmiWMlgwTC4yA
-    short-id: 93ddf2d2c5d8c56b
-  server: Ip-tamiz.barcelonaav.ir
-  servername: wwww.refersion.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0001
+  password: 66061261-61d0-4243-a56f-393f38a6e99d
+  port: 12822
+  server: twn-02-zz.manatraffic.top
+  type: ss
   udp: true
-  uuid: c69d6834-e4a8-4ff0-97e5-ca13746c65d1
-- client-fingerprint: chrome
-  name: 29|CH_speednode_0002
-  port: 8883
-  reality-opts:
-    public-key: hVFQpNhSU6uRXpnAIES-MIuye5PsS-jmiWMlgwTC4yA
-    short-id: 93ddf2d2c5d8c56b
-  server: 188.213.129.63
-  servername: wwww.refersion.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0002
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40033
+  server: idn.fastsoonlink.com
+  type: ss
   udp: true
-  uuid: c69d6834-e4a8-4ff0-97e5-ca13746c65d1
-- cipher: rc4-md5
-  name: 29|CN_speednode_0004
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40204
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0003
+  password: 66061261-61d0-4243-a56f-393f38a6e99d
+  port: 11412
+  server: hkg-02-zz.manatraffic.top
+  type: ss
   udp: true
-- cipher: rc4-md5
+- cipher: chacha20-ietf-poly1305
   name: 29|CN_speednode_0005
+  password: 66061261-61d0-4243-a56f-393f38a6e99d
+  port: 11563
+  server: sgp-03-zz.manatraffic.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0006
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40006
+  server: ml.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0007
+  password: 66061261-61d0-4243-a56f-393f38a6e99d
+  port: 14202
+  server: jpn-02-zz.manatraffic.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0008
+  password: 66061261-61d0-4243-a56f-393f38a6e99d
+  port: 14201
+  server: jpn-01-zz.manatraffic.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0009
+  password: 66061261-61d0-4243-a56f-393f38a6e99d
+  port: 11561
+  server: sgp-01-zz.manatraffic.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0010
+  password: 66061261-61d0-4243-a56f-393f38a6e99d
+  port: 11411
+  server: hkg-01-zz.manatraffic.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0011
+  password: 66061261-61d0-4243-a56f-393f38a6e99d
+  port: 13501
+  server: usa-01-zz.manatraffic.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0013
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40034
+  server: fr.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0015
   obfs: plain
   obfs-param: cd2b692902.6602b8463464108506.microsoft.com
   password: ENZ52K
-  port: 40217
+  port: 40210
   protocol: auth_aes128_md5
   protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
+  server: 2.hublink.pro
   type: ssr
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 29|CN_speednode_0006
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 29|CN_speednode_0016
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40019
+  server: tur.fastsoonlink.com
+  type: ss
   udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+- cipher: rc4-md5
+  name: 29|CN_speednode_0017
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40211
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+  udp: true
+- name: 29|DE_speednode_0019
+  network: ws
+  port: 2086
+  server: 185.135.9.138
+  servername: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 31348b17-4ab2-40c0-b79e-c81032331d30
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+      Host: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - client-fingerprint: chrome
-  name: 29|NL_speednode_0014
+  name: 29|DE_speednode_0020
+  port: 2088
+  reality-opts:
+    public-key: LnJ4SXxNsRigl5MVmGlQ5_I0G1fT3DYEYiL7KUEihxo
+    short-id: c7d80f2b01a1d1fe
+  server: howlearn.reactjsworld.com
+  servername: www.deepseek.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5f8625-a997-4e9c-a79c-7b95f565d675
+- client-fingerprint: chrome
+  name: 29|DE_speednode_0021
+  port: 21313
+  reality-opts:
+    public-key: AlUKGYa7aLWaZ2AGBHmt9pcqT8uNYMmByNrIN_bwfwI
+    short-id: db99da70
+  server: 195.201.25.40
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 59275d0a-c803-4d85-ce13-ba14edc710e8
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|DE_speednode_0022
+  port: 443
+  server: 193.43.104.152
+  servername: fra5.vpntype.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d5adc8c-a34b-4c7f-bb67-429621e838d9
+- http-opts:
+    headers:
+      Host:
+      - www.speedtest.net
+    method: GET
+    path:
+    - /
+  name: 29|FI_speednode_0023
+  network: http
+  port: 6587
+  server: flv4-vip.digitalldns.com
+  servername: www.speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ce961aa3-9ffb-4fed-904e-0cfba9f5aaba
+- client-fingerprint: chrome
+  name: 29|FR_speednode_0024
+  network: ws
+  port: 2053
+  server: 185.16.110.222
+  servername: istap.resources-digikala.com.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5f8625-a997-4e9c-a79c-7b95f565d675
+  ws-opts:
+    headers:
+      Host: istap.resources-digikala.com.
+    path: /@amir?ed=2048
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|GB_speednode_0025
+  port: 443
+  server: 143.47.237.215
+  servername: dj-download-gb.xn--4gq62f52gopi49k.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d09ca4de-431d-4e43-bdfb-ce3d0586d7ba
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|IN_speednode_0027
+  port: 443
+  server: 141.148.196.208
+  servername: dj-downloadin.xn--4gq62f52gopi49k.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d09ca4de-431d-4e43-bdfb-ce3d0586d7ba
+- client-fingerprint: chrome
+  name: 29|NL_speednode_0062
   network: ws
   port: 80
   server: 45.149.12.128
@@ -4733,8 +4876,8 @@ proxies:
   ws-opts:
     headers:
       Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 29|NL_speednode_0011
+    path: /
+- name: 29|NL_speednode_0063
   network: ws
   port: 80
   server: 45.149.12.232
@@ -4747,9 +4890,9 @@ proxies:
   ws-opts:
     headers:
       Host: pormang.webhost99.workers.dev
-    path: /
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - client-fingerprint: chrome
-  name: 29|NL_speednode_0016
+  name: 29|NL_speednode_0065
   network: ws
   port: 80
   server: 45.149.12.206
@@ -4764,7 +4907,7 @@ proxies:
       Host: pormang.webhost99.workers.dev
     path: /
 - client-fingerprint: chrome
-  name: 29|NL_speednode_0022
+  name: 29|NL_speednode_0066
   port: 47221
   reality-opts:
     public-key: iwsj4xiBztuBQ3I1YsrBBUhnlu7mhhPFozP7bkgaal0
@@ -4776,7 +4919,7 @@ proxies:
   type: vless
   udp: true
   uuid: 3373fe14-47b8-42e5-8a18-7ab3e0dd02b3
-- name: 29|RU_speednode_0032
+- name: 29|RU_speednode_0085
   network: ws
   port: 80
   server: 185.174.138.194
@@ -4789,8 +4932,8 @@ proxies:
   ws-opts:
     headers:
       Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 29|RU_speednode_0033
+    path: /
+- name: 29|RU_speednode_0086
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -4804,27 +4947,32 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
+- name: 29|SG_speednode_0087
+  network: ws
+  port: 3333
+  server: free.tharuwa.cfd
+  servername: m.zoom.us
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 29058641-d1a3-4baa-a4c3-bb870384ef9a
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /Free By Tharuwa (0767597317)
 - alpn:
   - h2
   - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|RU_speednode_0034
+  name: 29|UA_speednode_0088
   port: 443
-  server: tel5.vpntype.dev
+  server: 005188006073.sec1org.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c11c7372-a575-4420-923a-3003aa9d14b8
-- cipher: chacha20-ietf-poly1305
-  name: 29|TR_speednode_0035
-  password: CvKVfJ4af6RNcHzI62P3q6
-  port: 65262
-  server: h110vpntr.outlinekeys.net
-  type: ss
-  udp: true
-- name: 29|US_speednode_0055
+  uuid: 7582e721-8c32-4fb1-8669-b3fae590f3eb
+- name: 29|US_speednode_0114
   network: ws
   port: 80
   server: 66.235.200.5
@@ -4838,28 +4986,21 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- cipher: aes-256-cfb
-  name: 29|US_speednode_0051
-  password: amazonskr05
-  port: 443
-  server: 54.184.126.174
-  type: ss
-  udp: true
-- name: 29|US_speednode_0060
-  network: ws
-  port: 80
-  server: 66.235.200.30
-  servername: pormang.webhost99.workers.dev
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|US_speednode_0118
+  port: 7733
+  reality-opts:
+    public-key: bdVahzcZN694ebmTLvPE0nymHucaFWw6_h6cV5hvTlI
+    short-id: 335bfdfb
+  server: ort.gecs.top
+  servername: addons.mozilla.org
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 29|US_speednode_0062
+  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
+- name: 29|US_speednode_0119
   network: ws
   port: 80
   server: 66.235.200.191
@@ -4873,57 +5014,14 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 29|US_speednode_0063
-  network: ws
-  port: 80
-  server: 66.235.200.58
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 29|US_speednode_0065
-  network: ws
-  port: 80
-  server: 66.235.200.149
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: 29|US_speednode_0067
-  port: 2046
-  reality-opts:
-    public-key: P0t-7rDdRNOg0bHvo-S_VgNWzcmXb5cB7b6qA1vtfE4
-    short-id: d4fdce164f84219c
-  server: 40.83.200.62
-  servername: www.apple.com
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|US_speednode_0120
+  port: 443
+  server: 129.153.90.9
+  servername: dj-download-us.xn--4gq62f52gopi49k.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ba00fea2-9c5b-46aa-895d-2e189715c374
-- client-fingerprint: chrome
-  name: 29|US_speednode_0069
-  port: 37528
-  reality-opts:
-    public-key: qBPL3e2Cip0uRxcfXzQ-BNRJep8womQRzupBMojAGH8
-    short-id: 937cf95f39945af1
-  server: 47.79.37.56
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee649780-6a77-4125-9edd-b7e72aa86efe
+  uuid: d09ca4de-431d-4e43-bdfb-ce3d0586d7ba

@@ -24,20 +24,6 @@ proxies:
   ws-headers:
     Host: 57.128.184.119
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 21|VMESS-未知>法国-NF解锁法国地区非自制剧-ChatG...
-  network: ws
-  port: 443
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
 - name: 24|_FR_国
   network: tcp
   password: telegram-id-directvpn
@@ -76,3 +62,18 @@ proxies:
   tls: false
   type: vmess
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
+- client-fingerprint: chrome
+  name: 29|FR_speednode_0024
+  network: ws
+  port: 2053
+  server: 185.16.110.222
+  servername: istap.resources-digikala.com.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5f8625-a997-4e9c-a79c-7b95f565d675
+  ws-opts:
+    headers:
+      Host: istap.resources-digikala.com.
+    path: /@amir?ed=2048
