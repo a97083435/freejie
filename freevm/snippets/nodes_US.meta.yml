@@ -237,14 +237,17 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|美国 加州
-  network: tcp
-  port: '8881'
-  server: 64.23.128.223
-  servername: ''
-  tls: false
+  name: 11|美国 V2CROSS.COM
+  network: ws
+  port: 443
+  server: tls.94.node-for-bigairport.win
+  tls: true
   type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      Host: tls.94.node-for-bigairport.win
+    path: /
 - alterId: 0
   cipher: auto
   name: 11|北美地区 V2CROSS.COM
@@ -262,41 +265,15 @@ proxies:
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 8880
-  server: s1.db-link01.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-250-32-53.s1.db-link01.top
-    path: /dabai.in172.67.95.35
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.18.149.75
-  tls: true
-  type: vmess
-  uuid: 31c37204-2087-4828-8c94-b0a830832cc0
-  ws-opts:
-    headers:
-      Host: oracle.kkp.me.eu.org
-    path: /sg
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
-  network: ws
   port: 80
-  server: 104.16.155.10
+  server: anycast.cf.030419.xyz
   tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
   ws-opts:
     headers:
-      Host: 100-49-141-209.s1.db-link02.top
-    path: /dabai.in104.17.169.115
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: '11,16,28|github.com/freefq - 美国CloudFla... #4'
@@ -312,34 +289,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: hkvm.gecs.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
-  ws-opts:
-    headers:
-      Host: hkvm.gecs.top
-    path: /vm
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
-  network: ws
-  port: 2082
-  server: s1.db-link01.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-32-21-187.s1.db-link01.top
-    path: /dabai.in104.25.184.216
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #5'
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
   port: 443
   server: tasnim.ITN24.IR
@@ -350,6 +300,58 @@ proxies:
     headers:
       Host: ''
     path: /24820/?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 80
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-49-141-209.s1.db-link02.top
+    path: /dabai.in104.17.169.115
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  tls: true
+  type: vmess
+  uuid: 31c37204-2087-4828-8c94-b0a830832cc0
+  ws-opts:
+    headers:
+      Host: oracle.kkp.me.eu.org
+    path: /sg
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #4'
+  network: ws
+  port: 2095
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-209-47-141.s2.db-link02.top
+    path: /dabai.in104.20.27.115
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #5'
+  network: ws
+  port: 8880
+  server: s5.db-link02.top
+  tls: false
+  type: vmess
+  uuid: f518cff0-ee41-3cde-a453-9f3fbccd7ff8
+  ws-opts:
+    headers:
+      Host: 100-70-47-166.s5.db-link02.top
+    path: /dabai.in104.19.19.75
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #5'
@@ -445,12 +447,10 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇺🇸 美国2|@ripaojiedian
+  name: 20|🇸US-23.185.248.17-120
   password: Z7C08JB1HBMWQHVP
   port: 17007
   server: 23.185.248.17
-  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -563,11 +563,10 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 20,21,27|瑞典|@ripaojiedian
+  name: 20,21|🇸🇪 瑞典|@ripaojiedian
   network: tcp
   port: '18000'
   server: 150.241.221.64
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
