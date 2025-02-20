@@ -16,13 +16,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|浙江省杭州市 阿里云
+  name: 11,20,21|🇨🇳 广东省广州市 移动
   network: tcp
-  port: 11126
-  server: 47.97.82.13
+  port: '40165'
+  server: 120.232.153.63
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d09cbc30-d3ac-4fd3-8de5-c5c10455fb40
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
@@ -37,19 +41,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '40165'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
 - cipher: aes-128-gcm
   name: 20|🇨🇳CN-119.167.230.252-024
   password: b637f2e47b7827b308ebf399008075d2
