@@ -1,17 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|德国 法兰克福Oracle云计算数据中心
+  name: 11|法国 V2CROSS.COM
   network: ws
   port: 443
-  server: 130.61.23.77
+  server: 146.19.168.161
   tls: true
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
   ws-opts:
     headers:
-      Host: irvideo.cfd
-    path: /linkws
+      Host: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 20,26,29|HK_speednode_0006
+  password: 1e63e585ab2fef3adcc9ea75a62abc23
+  port: 443
+  server: 104.251.227.182
+  skip-cert-verify: true
+  sni: hezijiasuqi.com
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇫🇷FR-45.158.171.132-016
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.158.171.132
+  type: ss
 - alterId: 0
   cipher: auto
   name: 21|VMESS-未知>法国-NF解锁法国地区非自制剧-ChatG...
@@ -26,6 +46,19 @@ proxies:
     headers:
       Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
     path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 21|🇩🇪 德国 法兰克福Oracle云计算数据中心
+  network: ws
+  port: '443'
+  server: 130.61.23.77
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - name: 24|_FR_国
   network: tcp
   password: telegram-id-directvpn
