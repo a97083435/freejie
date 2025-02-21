@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|香港 Amazon数据中心
+  network: ws
+  port: 23443
+  server: tls.04.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 26,29|CN_speednode_0046
   password: 65f14831-5c67-483f-9e85-f3aa73f21187
