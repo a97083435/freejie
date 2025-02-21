@@ -16,29 +16,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #2'
+  name: '11,20,21|_中国 #6'
   network: tcp
-  port: '40172'
+  port: '40165'
   server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #5'
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.234.102.229
+    Host: 120.232.153.63
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -236,6 +223,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: '20,21|_中国 #2'
+  network: tcp
+  port: '40172'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '20,21|_中国 #3'
   network: tcp
   port: '11126'
@@ -246,6 +246,19 @@ proxies:
   uuid: d09cbc30-d3ac-4fd3-8de5-c5c10455fb40
   ws-headers:
     Host: 47.97.82.13
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #5'
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.234.102.229
   ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -263,19 +276,6 @@ proxies:
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #6'
-  network: tcp
-  port: '40165'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
