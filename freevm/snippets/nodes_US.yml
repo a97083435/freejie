@@ -239,80 +239,93 @@ proxies:
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 2086
-  server: s2.cn-db.top
-  tls: false
+  port: 443
+  server: burt.ns.cloudflare.com
+  tls: true
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: 0cbe0787-95eb-48d4-94cb-4f30d915b167
   ws-opts:
     headers:
-      Host: 100-28-190-253.s2.cn-db.top
-    path: /dabai.in104.18.128.173
+      Host: tunnelnyc.875578.xyz
+    path: /tunnelnyc.875578.xyz
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇺🇸 美国 V2CROSS.COM
+  network: ws
+  port: '20327'
+  server: 45.144.174.175
+  tls: false
+  type: vmess
+  uuid: 26d75361-c745-4c37-a2ed-4fcd485fbefa
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 2086
-  server: s1.db-link02.top
-  tls: false
+  port: 443
+  server: june.ns.cloudflare.com
+  tls: true
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: 6b1f881f-aef0-4577-c8ee-64c53ae79bb9
   ws-opts:
     headers:
-      Host: 100-223-71-166.s1.db-link02.top
-    path: /dabai.in172.64.9.208
+      Host: tunnelsjc.875578.xyz
+    path: /tunnelsjc.875578.xyz
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 _美国 #27'
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
-  port: '443'
-  server: zmkkyc.whmvmkwuey.store
-  tls: false
+  port: 443
+  server: jose.ns.cloudflare.com
+  tls: true
   type: vmess
-  uuid: 026ce5e0-ac10-49b0-9e49-3bcfccccb520
+  uuid: 5acae513-4e9c-432f-d628-48257c8cf1b8
   ws-opts:
     headers:
-      Host: zmkkyc.whmvmkwuey.store
-    path: /
+      Host: tunneljp.875578.xyz
+    path: /tunneljp.875578.xyz
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #1'
+  name: '11|美国 CloudFlare节点 #3'
   network: ws
-  port: '2095'
+  port: 443
+  server: hkvm.gecs.top
+  tls: true
+  type: vmess
+  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
+  ws-opts:
+    headers:
+      Host: hkvm.gecs.top
+    path: /vm
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #2'
+  network: ws
+  port: '8880'
   server: 104.16.155.10
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-209-47-141.s2.db-link02.top
-    path: /dabai.in104.20.27.115
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
-  network: ws
-  port: 2086
-  server: s1.db-link01.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-191-129-167.s1.db-link01.top
-    path: /dabai.in172.64.32.189
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #5'
   network: ws
-  port: 2095
-  server: s2.db-link01.top
-  tls: false
+  port: 443
+  server: iris.ns.cloudflare.com
+  tls: true
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: 59e15857-c87e-4e0f-cc75-861f2a31006c
   ws-opts:
     headers:
-      Host: 100-130-136-50.s2.db-link01.top
-    path: /dabai.in104.21.133.12
+      Host: tunnelkr.875578.xyz
+    path: /tunnelkr.875578.xyz
 - alterId: 2
   cipher: auto
   name: '13,21|2|🇺🇸5 |  6.0MB/s #2'
@@ -645,17 +658,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #2'
+  name: '21|🇺🇸 美国 CloudFlare节点 #1'
   network: ws
-  port: '8880'
+  port: '2095'
   server: 104.16.155.10
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-103-58-39.s1.db-link02.top
-    path: /dabai.in104.25.249.215
+      Host: 100-209-47-141.s2.db-link02.top
+    path: /dabai.in104.20.27.115
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #3'
@@ -669,19 +682,6 @@ proxies:
     headers:
       Host: 100-62-189-118.s5.db-link01.top
     path: /dabai.in104.24.204.143
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸 美国 V2CROSS.COM
-  network: ws
-  port: '20327'
-  server: 45.144.174.175
-  tls: false
-  type: vmess
-  uuid: 26d75361-c745-4c37-a2ed-4fcd485fbefa
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 21|🇺🇸 _美国
@@ -905,6 +905,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '21|🇺🇸 _美国 #27'
+  network: ws
+  port: '443'
+  server: zmkkyc.whmvmkwuey.store
+  tls: false
+  type: vmess
+  uuid: 026ce5e0-ac10-49b0-9e49-3bcfccccb520
+  ws-opts:
+    headers:
+      Host: zmkkyc.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
   name: '21|🇺🇸 _美国 #20'
   network: ws
   port: '443'
@@ -1010,6 +1023,16 @@ proxies:
     headers:
       host: mm3.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 27|美国2|@ripaojiedian
+  network: tcp
+  port: '13447'
+  server: 23.236.68.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e41fa05-75d0-4d8c-9e23-41e2e7a8fa9f
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #20'
