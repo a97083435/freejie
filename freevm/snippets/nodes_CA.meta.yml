@@ -1,35 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 20|CA-149.22.95.183-200
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨CA-142.4.216.225-289
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: ca225.vpnbook.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇨🇦CA-142.4.216.225-291
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: 142.4.216.225
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇦 _加拿大
-  network: ws
-  port: '443'
-  server: 68.168.31.196
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 28|🇨🇦_CA_加拿大
