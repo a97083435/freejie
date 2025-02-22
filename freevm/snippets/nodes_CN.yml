@@ -16,42 +16,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #7'
+  name: '11,20,21|_中国 #1'
   network: tcp
-  port: '40165'
-  server: 120.232.153.63
+  port: '54082'
+  server: 120.232.153.40
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #6'
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #4'
-  network: tcp
-  port: '41259'
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.216
+    Host: 120.232.153.40
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -69,16 +43,16 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #2'
+  name: '20,21|_中国 #6'
   network: tcp
-  port: '40172'
-  server: 120.232.153.63
+  port: '52908'
+  server: 120.234.102.229
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.232.153.63
+    Host: 120.234.102.229
   ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -474,19 +448,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #1'
-  network: tcp
-  port: '54082'
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: '20,21|_中国 #3'
   network: tcp
   port: '40002'
@@ -497,6 +458,32 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 120.232.153.40
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #4'
+  network: tcp
+  port: '41259'
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.216
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #7'
+  network: tcp
+  port: '40165'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.63
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -526,21 +513,6 @@ proxies:
   ws-opts:
     headers:
       Host: zxjp-c.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 29|CN_speednode_0008
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
     path: /
 - alterId: 2
   cipher: auto
