@@ -16,6 +16,32 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 11,20,21|🇨🇳 广东省湛江市 移动
+  network: tcp
+  port: '55482'
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.216
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,20,21|_中国 #10'
+  network: tcp
+  port: '40172'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -40,32 +66,6 @@ proxies:
   uuid: 405fd03c-6913-3817-bfdf-d4bdd575592c
   ws-headers:
     Host: 12.mamamajd.site
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #10'
-  network: tcp
-  port: '40172'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇨🇳 广东省湛江市 移动
-  network: tcp
-  port: '55482'
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.216
   ws-path: /
 - alterId: 2
   cipher: auto
@@ -755,29 +755,16 @@ proxies:
   ws-path: /
 - alterId: 2
   cipher: auto
-  name: 21|🇨🇳 江苏省 移动
+  name: '21|2|🌀1- |  4.2MB/s #1'
   network: ws
-  port: '22641'
-  server: tk.hzlt.tkddns.xyz
-  tls: true
+  port: '23612'
+  server: 12.mamamajd.site
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 405fd03c-6913-3817-bfdf-d4bdd575592c
   ws-opts:
     headers:
-      Host: tk.hzlt.tkddns.xyz
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '21|🇨🇳 江苏省 移动 #1'
-  network: ws
-  port: '22643'
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: tk.hzlt.tkddns.xyz
+      Host: 12.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
@@ -793,248 +780,9 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0008
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12003
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0009
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40202
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0010
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12005
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0011
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12019
-  server: mdss-sg.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0012
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12007
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0013
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12010
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0014
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12004
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0015
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12018
-  server: mdss-sg.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0016
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12001
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 29|CN_speednode_0017
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40200
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0018
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12020
-  server: mdss-sg.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0019
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12021
-  server: mdss-sg.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0020
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12002
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0021
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12022
-  server: mdss-sg.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0022
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12032
-  server: mdss-tw.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0023
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12031
-  server: mdss-tw.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0024
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12033
-  server: mdss-tw.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0025
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12029
-  server: mdss-tw.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0026
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12011
-  server: mdss-jp.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0027
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12012
-  server: mdss-jp.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0028
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12013
-  server: mdss-jp.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0029
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12015
-  server: mdss-jp.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0030
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12014
-  server: mdss-jp.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0031
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12034
-  server: mdss-tw.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0032
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12006
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0033
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12030
-  server: mdss-tw.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0034
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12047
-  server: mdss-other.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0035
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12009
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0036
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12008
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0037
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12017
-  server: mdss-sg.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0038
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12016
-  server: mdss-jp.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0039
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12048
-  server: mdss-other.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0040
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12039
-  server: mdss-other.04z3susick.download
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0041
+  name: 29|CN_speednode_0007
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -1047,16 +795,9 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0042
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12040
-  server: mdss-other.04z3susick.download
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0043
+  name: 29|CN_speednode_0008
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
@@ -1071,7 +812,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0044
+  name: 29|CN_speednode_0009
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -1084,17 +825,3 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0045
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12038
-  server: mdss-other.04z3susick.download
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|CN_speednode_0047
-  password: 885f2012-ff8b-4835-9ce1-22b2382f6715
-  port: 12037
-  server: mdss-other.04z3susick.download
-  type: ss
-  udp: true
