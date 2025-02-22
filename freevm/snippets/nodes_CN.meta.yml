@@ -16,6 +16,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: '11,20,21|_中国 #10'
+  network: tcp
+  port: '40172'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -40,19 +53,6 @@ proxies:
   uuid: 405fd03c-6913-3817-bfdf-d4bdd575592c
   ws-headers:
     Host: 12.mamamajd.site
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #10'
-  network: tcp
-  port: '40172'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
   ws-path: /
 - alterId: 0
   cipher: auto
