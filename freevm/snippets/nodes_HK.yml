@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|香港 Google云计算数据中心
+  network: ws
+  port: 443
+  server: hk2.x-net.vip
+  tls: true
+  type: vmess
+  uuid: a6057e0b-2591-4175-b089-872e449426c4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /index
+- alterId: 0
+  cipher: auto
   name: 13,20,21,25,27|香港3|@ripaojiedian
   network: tcp
   port: '30704'
