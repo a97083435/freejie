@@ -100,28 +100,52 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
+- cipher: rc4-md5
+  name: 29|CN_speednode_0009
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40239
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 29|CN_speednode_0010
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40238
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0007
+  name: 29|CN_speednode_0018
   network: ws
-  port: 22641
+  port: 22643
   server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: tk.hzlt.tkddns.xyz
     path: /
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0008
+  name: 29|CN_speednode_0020
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
@@ -132,7 +156,22 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0009
+  name: 29|CN_speednode_0021
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 29|CN_speednode_0024
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
