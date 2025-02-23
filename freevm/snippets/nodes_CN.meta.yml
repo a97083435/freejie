@@ -16,13 +16,31 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,21|🇨🇳 广东省广州市 移动
+  name: 11|广东省广州市 移动
   network: tcp
-  port: '40172'
-  server: 120.232.153.63
+  port: '51754'
+  server: 183.236.51.38
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '11|广东省广州市 移动 #1'
+  network: tcp
+  port: '59104'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '11|广东省广州市 移动 #2'
+  network: tcp
+  port: '42120'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
@@ -37,55 +55,414 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港6|@ripaojiedian
+  password: RBN1UNGVPF1BQXPK
+  port: 15006
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港2|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 21|_中国
+  name: 20,21|🇨🇳 广东省广州市 移动
   network: tcp
-  port: '42120'
-  server: 183.236.51.38
+  port: '40172'
+  server: 120.232.153.63
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港5|@ripaojiedian
+  password: 2H98UZT9LT1TE3X9
+  port: 15008
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本|@ripaojiedian
+  password: 4S85LF2Q3QK92171
+  port: 18008
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇹🇼 台湾4|@ripaojiedian
+  password: HQJQFA7U2Z5HGZWH
+  port: 21003
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-038
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34104
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-039
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34103
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-040
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34102
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-041
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34001
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-042
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34003
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-043
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34004
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-044
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34301
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-045
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34302
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-046
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34501
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-047
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34403
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-048
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34402
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-049
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 34303
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-050
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58854
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-051
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58808
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-052
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58831
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-053
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 32306
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-054
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58801
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-055
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58809
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-183.214.197.27-056
+  password: 95cdd785-13be-40cd-aa0e-45991b631629
+  port: 58846
+  server: southvip1.pkyun.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-249
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-250
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-251
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-252
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-253
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-254
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-255
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-256
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-257
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-258
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-259
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-260
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-261
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-262
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-263
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31341
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-264
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-265
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-266
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-267
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-268
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31741
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-269
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31721
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-270
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31371
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-271
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31411
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-272
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-273
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-274
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-275
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31571
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-276
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31611
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-277
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31641
+  server: free.2apzhfa.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇨🇳CN-120.232.217.88-278
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31671
+  server: free.2apzhfa.xyz
+  type: ss
+- alterId: 2
   cipher: auto
-  name: '21|_中国 #1'
-  network: tcp
-  port: '54082'
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '21|_中国 #2'
-  network: tcp
-  port: '59104'
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #3'
+  name: 20|🇨🇳CN-123.88.148.148-291
   network: ws
-  port: '41003'
-  server: 45.199.138.226
-  tls: true
-  type: vmess
-  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
-  ws-opts:
-    headers:
-      Host: www.36092822.xyz
-    path: /path/1739875088754
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #4'
-  network: tcp
-  port: '51754'
-  server: 183.236.51.38
+  port: 23615
+  server: 15.mamamajd.site
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: d4efa54f-0964-3c48-b9d0-d4a9d22a947f
+  ws-headers:
+    Host: 15.mamamajd.site
+  ws-path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港4|@ripaojiedian
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇭🇰 香港7|@ripaojiedian
+  password: TCEL1H0XD7TWAKI0
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇹🇼 台湾2|@ripaojiedian
+  password: QF377GGQ00RATCMK
+  port: 21004
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇹🇼 台湾3|@ripaojiedian
+  password: Y2U58S90E3GST1AQ
+  port: 21001
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本2|@ripaojiedian
+  password: YMB3QL85L7F1KJR7
+  port: 18013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 20,26|🇯🇵 日本3|@ripaojiedian
+  password: 84HMRAWILKB49QUZ
+  port: 18002
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|日本2|@ripaojiedian
@@ -101,7 +478,7 @@ proxies:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
 - cipher: rc4-md5
-  name: 29|CN_speednode_0009
+  name: 29|CN_speednode_0006
   obfs: plain
   obfs-param: cd2b692902.6602b8463464108506.microsoft.com
   password: ENZ52K
@@ -112,7 +489,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 29|CN_speednode_0010
+  name: 29|CN_speednode_0007
   obfs: plain
   obfs-param: cd2b692902.6602b8463464108506.microsoft.com
   password: ENZ52K
@@ -124,11 +501,25 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0018
+  name: 29|CN_speednode_0008
   network: ws
-  port: 22643
+  port: 22642
   server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 29|CN_speednode_0009
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -136,11 +527,11 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: tk.hzlt.tkddns.xyz
+      Host: zxjp-a.tkong.cc
     path: /
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0020
+  name: 29|CN_speednode_0012
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -156,10 +547,11 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 29|CN_speednode_0021
+  name: 29|CN_speednode_0011
   network: ws
-  port: 22641
+  port: 22643
   server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -167,20 +559,5 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 29|CN_speednode_0024
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
+      Host: tk.hzlt.tkddns.xyz
     path: /
