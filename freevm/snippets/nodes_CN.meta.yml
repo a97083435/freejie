@@ -16,19 +16,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,20,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '40172'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -57,6 +44,19 @@ proxies:
   server: hk01.x.quickcht3.club
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '40172'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港5|@ripaojiedian
@@ -387,6 +387,19 @@ proxies:
   uuid: d4efa54f-0964-3c48-b9d0-d4a9d22a947f
   ws-headers:
     Host: 15.mamamajd.site
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|2|🇺🇸17 |  3.4MB/s #1'
+  network: tcp
+  port: '50023'
+  server: 50023.baidu-cdn.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fa2c4c94-b477-4809-9db8-3db03ef06202
+  ws-headers:
+    Host: 50023.baidu-cdn.top
   ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
