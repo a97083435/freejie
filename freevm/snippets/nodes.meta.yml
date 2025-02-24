@@ -528,39 +528,45 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,21|🇺🇸 美国 CloudFlare节点
+  name: 11,16,28|美国测试节点
   network: ws
   port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  2 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: 443
   server: 104.18.149.75
   tls: true
   type: vmess
-  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
+  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
   ws-opts:
     headers:
-      Host: jp.insbot.filegear-sg.me
+      Host: hk.insbot.filegear-sg.me
     path: /aa
-- alterId: 0
-  cipher: auto
-  name: 11,20,21|🇨🇳 广东省广州市 移动
-  network: tcp
-  port: '59104'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11|广东省广州市 移动 #1'
-  network: tcp
-  port: '40002'
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: '13,21,25|2|🇺🇸6 |  5.1MB/s #3'
@@ -627,20 +633,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  2 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 印度  3 #1'
@@ -724,20 +716,6 @@ proxies:
     headers:
       Host: pendar.onthewifi.com
     path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 16,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #6'
@@ -933,6 +911,19 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇨🇳 广东省广州市 移动
+  network: tcp
+  port: '59104'
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 20|🏁RELAY-104.18.149.75-028
@@ -1655,6 +1646,19 @@ proxies:
     headers:
       Host: ny1.bulkcash.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: 104.18.149.75
+  tls: true
+  type: vmess
+  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
+  ws-opts:
+    headers:
+      Host: jp.insbot.filegear-sg.me
+    path: /aa
 - alterId: 2
   cipher: auto
   name: 21|_中国

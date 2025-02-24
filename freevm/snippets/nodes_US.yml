@@ -237,16 +237,30 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,21|🇺🇸 美国 CloudFlare节点
+  name: 11,16,28|美国测试节点
   network: ws
   port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: 443
   server: 104.18.149.75
   tls: true
   type: vmess
-  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
+  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
   ws-opts:
     headers:
-      Host: jp.insbot.filegear-sg.me
+      Host: hk.insbot.filegear-sg.me
     path: /aa
 - alterId: 2
   cipher: auto
@@ -302,20 +316,6 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #6'
@@ -469,6 +469,19 @@ proxies:
     headers:
       Host: ny1.bulkcash.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: 104.18.149.75
+  tls: true
+  type: vmess
+  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
+  ws-opts:
+    headers:
+      Host: jp.insbot.filegear-sg.me
+    path: /aa
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
