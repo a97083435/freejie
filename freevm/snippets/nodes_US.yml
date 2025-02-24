@@ -237,17 +237,18 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
+  name: 11,16,28|美国测试节点
   network: ws
-  port: 2052
-  server: s1.db-link02.top
-  tls: false
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
   type: vmess
-  uuid: 975cb2da-5437-37c6-88ba-6a08b74ea53c
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   ws-opts:
     headers:
-      Host: 100-193-104-61.s1.db-link02.top
-    path: /dabai.in104.21.168.159
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '11,16,21,28|github.com/freefq - 美国CloudFla... #7'
@@ -277,6 +278,32 @@ proxies:
     path: /dabai.in104.24.60.200
 - alterId: 0
   cipher: auto
+  name: 11|美国 惠普公司
+  network: ws
+  port: 443
+  server: 15.235.83.228
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: esna.twn24.ir
+  tls: true
+  type: vmess
+  uuid: 568abc0d-42c2-4ba7-f220-fa94e26a61bf
+  ws-opts:
+    headers:
+      Host: esna.twn24.ir
+    path: /53019/mehdi
+- alterId: 0
+  cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 8080
@@ -302,20 +329,6 @@ proxies:
     headers:
       Host: server31.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #6'
@@ -544,6 +557,34 @@ proxies:
     headers:
       host: mm3.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 25|2|🇺🇸1 |  2.6MB/s
+  network: tcp
+  port: 31350
+  server: 510613.frederica.xyz
+  tls: false
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- alterId: 0
+  cipher: auto
+  name: 25|2|🇺🇸6 |  2.8MB/s
+  network: tcp
+  port: 443
+  server: node-us-lax.suvip.xyz
+  servername: node-us-lax.suvip.xyz
+  tls: true
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- alterId: 0
+  cipher: auto
+  name: 25|2|🇺🇸7 |  1.2MB/s
+  network: tcp
+  port: 31112
+  server: 581023.horace.im
+  tls: false
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #20'
