@@ -15,17 +15,29 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '20,26|🇭🇰 香港3|@ripaojiedian #1'
-  password: 1e63e585ab2fef3adcc9ea75a62abc23
-  port: 30704
-  server: 43.247.135.63
-  skip-cert-verify: false
-  sni: hezijiasuqi.com
-  tfo: false
+  name: 20|🇰HK-45.144.174.12-518
+  network: ws
+  port: 20330
+  server: 45.144.174.12
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
+  uuid: beaad91b-40cb-4aa5-9bc8-b412a023f1ca
+  ws-headers:
+    Host: 45.144.174.12
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇭🇰HK-216.250.97.118-364
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: 216.250.97.118
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇭🇰HK-43.249.36.70-365
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: hong-kong-3.keenvpn.me
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787
