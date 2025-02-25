@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '3,30|🇨🇳_CN_中国 #2'
+  name: '3,30|🇨🇳_CN_中国 #1'
   network: tcp
   port: 54882
   server: 183.240.235.162
@@ -16,13 +16,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '14|🇨🇳_CN_中国 #1'
+  name: '11,20,21|_中国 #24'
   network: tcp
-  port: '14100'
-  server: dxv4.pai50288.uk
+  port: '40172'
+  server: 120.232.153.63
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
@@ -602,19 +606,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 112.132.215.12
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #24'
-  network: tcp
-  port: '40172'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
   ws-path: /
 - cipher: aes-128-gcm
   name: 20|🇨🇳CN-119.167.230.252-407
