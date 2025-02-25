@@ -16,19 +16,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #23'
-  network: tcp
-  port: '41259'
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.216
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: '11,20,21|_中国 #25'
   network: tcp
   port: '52908'
@@ -42,29 +29,16 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #24'
+  name: '11,20,21|_中国 #16'
   network: tcp
-  port: '40165'
+  port: '40172'
   server: 120.232.153.63
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
   ws-headers:
     Host: 120.232.153.63
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #19'
-  network: tcp
-  port: '55482'
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.216
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -80,6 +54,19 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #23'
+  network: tcp
+  port: '41259'
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.216
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '20,21|_中国 #21'
@@ -606,6 +593,19 @@ proxies:
   ws-headers:
     Host: 510613.frederica.xyz
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '20,21|_中国 #2'
+  network: tcp
+  port: '53902'
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '20,21|_中国 #20'
@@ -671,6 +671,19 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #19'
+  network: tcp
+  port: '55482'
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.216
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: '20,21|_中国 #12'
@@ -683,19 +696,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 120.198.71.214
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #16'
-  network: tcp
-  port: '40172'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
   ws-path: /
 - cipher: aes-128-gcm
   name: 20|🇨🇳CN-119.167.230.252-164
@@ -733,6 +733,19 @@ proxies:
   port: 28164
   server: 119.167.230.252
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #24'
+  network: tcp
+  port: '40165'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
 - cipher: rc4-md5
   name: 20|🇨🇳CN-113.56.219.230-228
   obfs: plain
