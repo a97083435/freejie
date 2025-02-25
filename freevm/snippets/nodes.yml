@@ -528,6 +528,113 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|美国 Fastly全球Anycast节点
+  network: ws
+  port: 80
+  server: AC.fastly80-2.hosting-ip.com
+  tls: false
+  type: vmess
+  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.dev
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: 2086
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 532e1541-4b65-3409-81f1-43f206846615
+  ws-opts:
+    headers:
+      Host: 100-236-195-61.s1.db-link02.top
+    path: /dabai.in172.64.2.59
+- alterId: 0
+  cipher: auto
+  name: '11,13,20,21|2|🇷🇺5 |  2.1MB/s #2'
+  network: tcp
+  port: '22946'
+  server: 188.130.154.56
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7ed1d138-37f7-41f7-843d-d4f2bdbba913
+  ws-headers:
+    Host: 188.130.154.56
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '11,20,21|_中国 #12'
+  network: tcp
+  port: '30565'
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  2 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '11,20,21|_中国 #19'
+  network: tcp
+  port: '55482'
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.216
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  10 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 美国CloudFla... #7'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '11,20,21|_中国 #22'
   network: tcp
   port: '42120'
@@ -552,98 +659,6 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '11,20,21|_中国 #12'
-  network: tcp
-  port: '30565'
-  server: 120.198.71.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #19'
-  network: tcp
-  port: '55482'
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.216
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #1'
-  network: ws
-  port: '443'
-  server: esna.twn24.ir
-  tls: true
-  type: vmess
-  uuid: 3b86bdfa-14d9-4ca5-b084-a1995019c24f
-  ws-opts:
-    headers:
-      Host: esna.twn24.ir
-    path: /53019/mehdi
-- alterId: 0
-  cipher: auto
-  name: 11|美国 V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 3h-poland1.09vpn.com
-  tls: true
-  type: vmess
-  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #2'
-  network: ws
-  port: '443'
-  server: 104.18.149.76
-  tls: true
-  type: vmess
-  uuid: 506b46ce-568f-47a7-f0dd-0864fb7f8040
-  ws-opts:
-    headers:
-      Host: sg.kkp.me.eu.org
-    path: /aa
-- alterId: 0
-  cipher: auto
-  name: '13,20,21|2|🇷🇺5 |  2.1MB/s #2'
-  network: tcp
-  port: '22946'
-  server: 188.130.154.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7ed1d138-37f7-41f7-843d-d4f2bdbba913
-  ws-headers:
-    Host: 188.130.154.56
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  2 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 印度  3 #1'
@@ -699,34 +714,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  10 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 16,28|美国测试节点
@@ -1813,6 +1800,32 @@ proxies:
     headers:
       Host: us03s.5d8ecf82.cfd
     path: /
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #1'
+  network: ws
+  port: '443'
+  server: esna.twn24.ir
+  tls: true
+  type: vmess
+  uuid: 3b86bdfa-14d9-4ca5-b084-a1995019c24f
+  ws-opts:
+    headers:
+      Host: esna.twn24.ir
+    path: /53019/mehdi
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #2'
+  network: ws
+  port: '443'
+  server: 104.18.149.76
+  tls: true
+  type: vmess
+  uuid: 506b46ce-568f-47a7-f0dd-0864fb7f8040
+  ws-opts:
+    headers:
+      Host: sg.kkp.me.eu.org
+    path: /aa
 - alterId: 0
   cipher: auto
   name: 21|🇮🇳 印度 V2CROSS.COM

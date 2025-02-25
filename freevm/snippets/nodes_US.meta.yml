@@ -237,43 +237,44 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #1'
+  name: 11|美国 Fastly全球Anycast节点
   network: ws
-  port: '443'
-  server: esna.twn24.ir
-  tls: true
+  port: 80
+  server: AC.fastly80-2.hosting-ip.com
+  tls: false
   type: vmess
-  uuid: 3b86bdfa-14d9-4ca5-b084-a1995019c24f
+  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
   ws-opts:
     headers:
-      Host: esna.twn24.ir
-    path: /53019/mehdi
+      Host: telegram-isvvpn.dev
+    path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 11|美国 V2CROSS.COM
+  name: 11|美国 CloudFlare节点
   network: ws
-  port: 8443
-  server: 3h-poland1.09vpn.com
-  tls: true
+  port: 2086
+  server: s1.db-link02.top
+  tls: false
   type: vmess
-  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
+  uuid: 532e1541-4b65-3409-81f1-43f206846615
   ws-opts:
     headers:
-      Host: ''
-    path: /vmess/
+      Host: 100-236-195-61.s1.db-link02.top
+    path: /dabai.in172.64.2.59
 - alterId: 0
   cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #2'
+  name: '11,16,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
-  port: '443'
-  server: 104.18.149.76
-  tls: true
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 506b46ce-568f-47a7-f0dd-0864fb7f8040
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: sg.kkp.me.eu.org
-    path: /aa
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #4'
@@ -300,20 +301,6 @@ proxies:
   ws-opts:
     headers:
       Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -487,6 +474,32 @@ proxies:
     headers:
       Host: us03s.5d8ecf82.cfd
     path: /
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #1'
+  network: ws
+  port: '443'
+  server: esna.twn24.ir
+  tls: true
+  type: vmess
+  uuid: 3b86bdfa-14d9-4ca5-b084-a1995019c24f
+  ws-opts:
+    headers:
+      Host: esna.twn24.ir
+    path: /53019/mehdi
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #2'
+  network: ws
+  port: '443'
+  server: 104.18.149.76
+  tls: true
+  type: vmess
+  uuid: 506b46ce-568f-47a7-f0dd-0864fb7f8040
+  ws-opts:
+    headers:
+      Host: sg.kkp.me.eu.org
+    path: /aa
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
