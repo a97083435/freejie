@@ -240,7 +240,7 @@ proxies:
   name: 11|美国 V2CROSS.COM
   network: ws
   port: 8443
-  server: 3h-poland1.09vpn.com
+  server: 45.144.48.128
   tls: true
   type: vmess
   uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
@@ -263,19 +263,6 @@ proxies:
     path: /vm
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: eb7041.bdcb12a2-e0f2-63ae.buzz
-  tls: false
-  type: vmess
-  uuid: 16cc7066-3cb3-4001-8a7a-d5a146cc8428
-  ws-opts:
-    headers:
-      Host: sg01s.bdcb12a2-e0f2-63ae.buzz
-    path: /
-- alterId: 0
-  cipher: auto
   name: '11,16,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
   port: 8880
@@ -288,6 +275,29 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇺🇸 美国 AOL美国在线公司
+  network: tcp
+  port: '550'
+  server: 172.204.8.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 81bbca70-a35f-487e-88a4-8bd5856b10a5
+- alterId: 0
+  cipher: auto
+  name: '11,21|🇺🇸 美国 CloudFlare节点 #2'
+  network: ws
+  port: '443'
+  server: hkvm.gecs.top
+  tls: true
+  type: vmess
+  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
+  ws-opts:
+    headers:
+      Host: hkvm.gecs.top
+    path: /vm
 - alterId: 2
   cipher: auto
   name: '13,21|2|🇺🇸4 |  6.2MB/s #2'
@@ -437,28 +447,6 @@ proxies:
     headers:
       Host: tw.insbot.filegear-sg.me
     path: /aa
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸 美国 AOL美国在线公司
-  network: tcp
-  port: '550'
-  server: 172.204.8.10
-  tls: false
-  type: vmess
-  uuid: 81bbca70-a35f-487e-88a4-8bd5856b10a5
-- alterId: 0
-  cipher: auto
-  name: '21|🇺🇸 美国 CloudFlare节点 #2'
-  network: ws
-  port: '443'
-  server: hkvm.gecs.top
-  tls: true
-  type: vmess
-  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
-  ws-opts:
-    headers:
-      Host: hkvm.gecs.top
-    path: /vm
 - alterId: 0
   cipher: auto
   name: '24|_US__1 #1'
