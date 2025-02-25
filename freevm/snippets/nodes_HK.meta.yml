@@ -1,41 +1,59 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 20|🇰HK-45.144.174.12-518
-  network: ws
-  port: 20330
-  server: 45.144.174.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: beaad91b-40cb-4aa5-9bc8-b412a023f1ca
-  ws-headers:
-    Host: 45.144.174.12
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|🇭🇰 13|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '30704'
-  server: 43.247.135.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-  ws-headers:
-    Host: 43.247.135.63
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇭🇰HK-216.250.97.118-364
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
+- client-fingerprint: chrome
+  name: 26|🇭🇰 香港3|@ripaojiedian
+  password: Vad3.123a)asd1234-asdasd.asdazzS.123
   port: 443
-  server: 216.250.97.118
+  server: 43.154.83.213
+  skip-cert-verify: false
+  sni: xx.tc.hk.go.107421.xyz
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港2|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港5|@ripaojiedian
+  password: 2H98UZT9LT1TE3X9
+  port: 15008
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港4|@ripaojiedian
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港6|@ripaojiedian
+  password: RBN1UNGVPF1BQXPK
+  port: 15006
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港7|@ripaojiedian
+  password: TCEL1H0XD7TWAKI0
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇭🇰HK-43.249.36.70-365
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: hong-kong-3.keenvpn.me
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港8|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto

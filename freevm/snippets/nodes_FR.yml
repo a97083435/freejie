@@ -1,35 +1,16 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇷FR-185.234.64.35-508
-  password: YTNjNDY5
-  port: 8388
-  server: 185.234.64.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇫🇷FR-89.213.140.30-425
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40034
-  server: fr.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇷FR-45.158.171.151-444
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.158.171.151
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇫🇷FR-57.128.184.119-368
-  network: ws
-  port: 443
-  server: 57.128.184.119
-  skip-cert-verify: true
-  tls: false
+  grpc-opts:
+    grpc-service-name: JbiB8V66V78Hf5bivfsis8vH
+  name: 11|德国 法尔肯施泰因Hetzner
+  network: grpc
+  port: '15145'
+  server: 88.198.172.25
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    Host: 57.128.184.119
-  ws-path: /
+  uuid: 28690833-392e-4cf4-85df-ec85c84492bc
 - alterId: 0
   cipher: auto
   name: 21|VMESS-未知>法国-NF解锁法国地区非自制剧-ChatG...
