@@ -530,49 +530,8 @@ proxies:
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 443
-  server: esna.twn24.ir
-  tls: true
-  type: vmess
-  uuid: da45b52c-d643-4267-e5c4-12ad8a4c2cd3
-  ws-opts:
-    headers:
-      Host: esna.twn24.ir
-    path: /53019/mehdi
-- alterId: 0
-  cipher: auto
-  name: '11,16,28|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,16,21,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
-  network: ws
   port: 2082
-  server: cf2.yunduanjc.top
+  server: cf1.yunduanjc.top
   tls: false
   type: vmess
   uuid: 9b23747a-cd6b-4bcf-9987-2c26f0a704cc
@@ -582,18 +541,40 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 11,20,21|🇺🇸 美国 赛基诺州立大学
+  name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  tls: true
+  type: vmess
+  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
+  ws-opts:
+    headers:
+      Host: tw.insbot.filegear-sg.me
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: 11|美国 AOL美国在线公司
   network: tcp
-  port: '8881'
-  server: 155.138.160.153
-  servername: ''
-  skip-cert-verify: true
+  port: 550
+  server: 172.204.8.10
   tls: false
   type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-  ws-headers:
-    Host: moi.ir
-  ws-path: /
+  uuid: 81bbca70-a35f-487e-88a4-8bd5856b10a5
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  3 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '11,20,21|_中国 #20'
@@ -607,31 +588,58 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: hkvm.gecs.top
+  tls: true
+  type: vmess
+  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
+  ws-opts:
+    headers:
+      Host: hkvm.gecs.top
+    path: /vm
+- alterId: 0
+  cipher: auto
+  name: '11,16,28|github.com/freefq - 印度  10 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
 - alterId: 2
   cipher: auto
-  name: 13|2|🌀2- |  5.2MB/s
+  name: '13,21,25|2|🇺🇸4 |  6.2MB/s #1'
   network: ws
-  port: 23614
-  server: 14.mamamajd.site
+  port: 23617
+  server: 17.mamamajd.site
   tls: false
   type: vmess
   uuid: c8eecd08-d056-351f-9701-edec6e693f64
   ws-opts:
     headers:
-      Host: 14.mamamajd.site
+      Host: 17.mamamajd.site
     path: /
 - alterId: 2
   cipher: auto
-  name: 13|2|🌀3- |  3.1MB/s
+  name: '13,25|2|🇺🇸15 |  5.8MB/s #1'
   network: ws
-  port: 23612
-  server: 12.mamamajd.site
+  port: 23613
+  server: 13.mamamajd.site
   tls: false
   type: vmess
   uuid: c8eecd08-d056-351f-9701-edec6e693f64
   ws-opts:
     headers:
-      Host: 12.mamamajd.site
+      Host: 13.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
@@ -646,20 +654,6 @@ proxies:
   ws-opts:
     headers:
       Host: irsoft.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '16,28|github.com/freefq - 印度  3 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
@@ -704,18 +698,32 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '16,28|github.com/freefq - 印度  10 #1'
+  name: '16,28|github.com/freefq - 美国CloudFla... #7'
   network: ws
-  port: 443
-  server: 202.78.162.5
+  port: 8880
+  server: 104.21.82.183
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,21,28|美国测试节点
+  network: ws
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #6'
@@ -935,6 +943,19 @@ proxies:
   uuid: beaad91b-40cb-4aa5-9bc8-b412a023f1ca
   ws-headers:
     Host: 45.144.174.12
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 20,21|🇺🇸 美国 赛基诺州立大学
+  network: tcp
+  port: '8881'
+  server: 155.138.160.153
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  ws-headers:
+    Host: moi.ir
   ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -2326,19 +2347,6 @@ proxies:
     headers:
       Host: ''
     path: /vmess/
-- alterId: 2
-  cipher: auto
-  name: 21,25|2|🇺🇸4 |  6.2MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: c8eecd08-d056-351f-9701-edec6e693f64
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
   name: '21|🇰🇷 12,13|韩国|@ripaojiedian #1'
@@ -2740,19 +2748,6 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 25|2|🇺🇸15 |  5.8MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: c8eecd08-d056-351f-9701-edec6e693f64
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 26|🇯🇵 日本4|@ripaojiedian
