@@ -528,17 +528,35 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|立陶宛 V2CROSS.COM
+  name: 11,21|🇺🇸 _美国
   network: ws
-  port: 8443
-  server: 89.117.112.235
-  tls: true
+  port: '80'
+  server: AC.fastly80-2.hosting-ip.com
+  tls: false
   type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
   ws-opts:
     headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
+      Host: telegram-isvvpn.dev
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: '11,21|_中国 #2'
+  network: tcp
+  port: '36002'
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '11,21|_中国 #6'
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -554,38 +572,7 @@ proxies:
     path: /dabai.in104.24.60.200
 - alterId: 0
   cipher: auto
-  name: '11,21|_中国 #8'
-  network: tcp
-  port: '50095'
-  server: 120.198.71.219
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '11,21|_中国 #1'
-  network: tcp
-  port: '54082'
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 11|美国 V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 3h-poland1.09vpn.com
-  tls: true
-  type: vmess
-  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '11|美国 V2CROSS.COM #1'
   network: ws
   port: 8443
   server: 45.144.48.128
@@ -596,6 +583,20 @@ proxies:
     headers:
       Host: ''
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '11|美国 Fastly全球Anycast节点 #1'
+  network: ws
+  port: '80'
+  server: 151.101.128.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.dev
+    path: /racevpn
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 印度  2 #1'
@@ -774,28 +775,6 @@ proxies:
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #2'
-  network: tcp
-  port: '36002'
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸 _美国
-  network: ws
-  port: '80'
-  server: AC.fastly80-2.hosting-ip.com
-  tls: false
-  type: vmess
-  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
-  ws-opts:
-    headers:
-      Host: telegram-isvvpn.dev
-    path: /racevpn
-- alterId: 0
-  cipher: auto
   name: 21|🇺🇸 美国 CloudFlare节点
   network: ws
   port: '80'
@@ -863,6 +842,15 @@ proxies:
   uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
 - alterId: 0
   cipher: auto
+  name: '21|_中国 #1'
+  network: tcp
+  port: '54082'
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: '21|_中国 #3'
   network: tcp
   port: '51754'
@@ -881,19 +869,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #6'
+  name: '21|_中国 #7'
   network: tcp
-  port: '52908'
-  server: 120.234.102.229
+  port: '42120'
+  server: 183.236.51.38
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '21|_中国 #7'
+  name: 21,25|1|🇭🇰1 |  2.7MB/s
   network: tcp
-  port: '42120'
-  server: 183.236.51.38
+  port: 50095
+  server: 120.198.71.219
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -1039,32 +1027,15 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 25|2|🇺🇸4 |  2.0MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
+  name: 25|1|🇷🇺1 |  2.0MB/s
+  network: http
+  port: 80
+  server: 91.107.171.73
   tls: false
   type: vmess
-  uuid: a6066c64-e326-35fc-ae91-5293802109ef
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 25|2|🌀1- |  5.8MB/s
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: a6066c64-e326-35fc-ae91-5293802109ef
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
+  uuid: 5d904885-74c5-4c07-95cf-e0989d287c37
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
