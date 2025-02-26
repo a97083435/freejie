@@ -1,12 +1,29 @@
 proxies:
-- client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港3|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 20,26|🇺🇸 美国|@ripaojiedian
   password: Vad3.123a)asd1234-asdasd.asdazzS.123
-  port: 443
-  server: 43.154.83.213
+  port: 50004
+  server: 50004.baidu-cdn.top
   skip-cert-verify: false
   sni: xx.tc.hk.go.107421.xyz
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 26|🇭🇰 香港9|@ripaojiedian
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 20c0d292462.microsoft.com
+    mode: http
+  port: 3603
+  server: pr1.jymzffbquawl.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787

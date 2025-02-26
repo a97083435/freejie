@@ -11,20 +11,24 @@ proxies:
   port: 443
   server: 13.229.59.137
   type: ss
-- cipher: aes-256-cfb
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 20,26|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.128.150.63
+  name: 26|🇸🇬 新加坡5|@ripaojiedian
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 20c0d292462.microsoft.com
+    mode: http
+  port: 6606
+  server: pr3.jymzffbquawl.com
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 20,26|🇸🇬 狮城特殊|@ripaojiedian
+  name: 26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.201.221
+  server: 47.129.8.153
   tfo: false
   type: ss
 - alterId: 0
