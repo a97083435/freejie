@@ -29,6 +29,19 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: '11,20,21|_中国 #18'
+  network: tcp
+  port: '36002'
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -547,19 +560,6 @@ proxies:
   ws-headers:
     Host: 510613.frederica.xyz
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '20,21|_中国 #2'
-  network: tcp
-  port: '53902'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '20,21|_中国 #20'
@@ -572,19 +572,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #18'
-  network: tcp
-  port: '36002'
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
   ws-path: /
 - alterId: 0
   cipher: auto

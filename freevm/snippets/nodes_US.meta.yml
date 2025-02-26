@@ -237,71 +237,52 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,16,28|美国测试节点
+  name: 11|美国 Fastly全球Anycast节点
   network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
+  port: 80
+  server: AC.fastly80-2.hosting-ip.com
+  tls: false
   type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
   ws-opts:
     headers:
-      Host: zheshiscp.com
-    path: /77848824
+      Host: telegram-isvvpn.dev
+    path: /racevpn
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 2082
-  server: 104.16.155.10
+  port: 80
+  server: 172.67.172.168
   tls: false
   type: vmess
-  uuid: 13514c2c-d5a4-335f-965a-5dc292e36759
+  uuid: 4bf074f4-7e9c-4e4b-a10d-156e26199729
   ws-opts:
     headers:
-      Host: 100-87-160-252.s2.db-link02.top
-    path: /dabai.in104.24.60.200
+      Host: us03s.5d8ecf82.cfd
+    path: /
 - alterId: 0
   cipher: auto
-  name: '11,16,28|github.com/freefq - 美国CloudFla... #7'
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
+  port: 80
+  server: 172.67.153.119
   tls: false
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: 4bf074f4-7e9c-4e4b-a10d-156e26199729
   ws-opts:
     headers:
-      Host: server26.beheshtbaneh.com
+      Host: us03s.5d8ecf82.cfd
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: '13,25|2|🇺🇸9 |  1.8MB/s #1'
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
+  name: 11|美国 AOL美国在线公司
+  network: tcp
+  port: 550
+  server: 172.204.8.10
   tls: false
   type: vmess
-  uuid: 8de304ad-9fc5-3381-a162-8c8903424605
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '13,25|2|🇺🇸10 |  6.1MB/s #1'
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 8de304ad-9fc5-3381-a162-8c8903424605
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
+  uuid: 81bbca70-a35f-487e-88a4-8bd5856b10a5
 - alterId: 0
   cipher: auto
   name: 13,25,27|美国|@ripaojiedian
@@ -339,6 +320,34 @@ proxies:
     headers:
       Host: server31.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '16,28|github.com/freefq - 美国CloudFla... #7'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,28|美国测试节点
+  network: ws
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #6'
