@@ -16,29 +16,25 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #7'
+  name: 11|广东省 移动
   network: tcp
-  port: '51754'
-  server: 183.236.51.38
-  skip-cert-verify: true
+  port: 48898
+  server: gy.youaremygod.top
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
+  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #9'
+  name: '11,20,21|_中国 #10'
   network: tcp
-  port: '44014'
-  server: 120.198.71.219
+  port: '40165'
+  server: 120.232.153.63
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.198.71.219
+    Host: 120.232.153.63
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -55,15 +51,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 11|广东省广州市 电信
-  network: tcp
-  port: 48898
-  server: gy.youaremygod.top
-  tls: false
-  type: vmess
-  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
-- alterId: 0
-  cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
@@ -76,19 +63,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #10'
-  network: tcp
-  port: '40165'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港6|@ripaojiedian
@@ -391,6 +365,19 @@ proxies:
   ws-headers:
     Host: 120.198.71.219
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #7'
+  network: tcp
+  port: '51754'
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇸🇬 新加坡3|@ripaojiedian
@@ -407,6 +394,19 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #9'
+  network: tcp
+  port: '44014'
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 20,26|🇭🇰 香港2|@ripaojiedian
