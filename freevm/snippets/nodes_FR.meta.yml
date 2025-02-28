@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|法国 V2CROSS.COM
+  network: ws
+  port: 8443
+  server: 141.11.203.194
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
 - cipher: chacha20-ietf-poly1305
   name: 20|🇫🇷FR-185.234.64.35-091
   password: YTNjNDY5
@@ -30,7 +43,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 25|2|🇫🇷1 |  1.0MB/s
+  name: 25|1|🇫🇷1 |  1.6MB/s
+  network: tcp
+  port: 15113
+  server: hkt-detour-13.grabgo.pro
+  tls: false
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
+- alterId: 0
+  cipher: auto
+  name: 25|1|🇫🇷2 |  1.8MB/s
   network: ws
   port: 80
   server: 151.101.64.155
@@ -39,6 +61,19 @@ proxies:
   type: vmess
   uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
   ws-opts:
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: 25|1|🇫🇷4 |  2.1MB/s
+  network: ws
+  port: 80
+  server: 151.101.128.155
+  tls: false
+  type: vmess
+  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.dev
     path: /racevpn
 - alterId: 0
   cipher: auto
