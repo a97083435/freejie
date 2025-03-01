@@ -3,14 +3,27 @@ proxies:
   cipher: auto
   name: 11|日本 东京Amazon数据中心
   network: tcp
-  port: 21586
-  server: zzsn4-g06.jp01-0986-vm0.entry.fr0307a.art
+  port: 21584
+  server: ywt6t-g04.jp03-7d22-vm0.entry.fr0307a.art
   tls: true
   type: vmess
-  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+  uuid: d91b00bb-3f92-336a-a65b-7c4c9858dae1
 - alterId: 1
   cipher: auto
-  name: 11,20,21|🇯🇵 日本 东京Amazon数据中心
+  name: '11,20,21|🇯🇵 日本 东京Amazon数据中心 #7'
+  network: tcp
+  port: '28785'
+  server: 0q4oh-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 22acc467-7440-386a-927a-d84be554b37e
+  ws-headers:
+    Host: 0q4oh-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: 20,21|🇯🇵 日本 东京Amazon数据中心
   network: tcp
   port: '46482'
   server: gwmx9-g01.jp05-6786-vm0.entry.fr0307a.art
@@ -21,216 +34,6 @@ proxies:
   ws-headers:
     Host: gwmx9-g01.jp05-6786-vm0.entry.fr0307a.art
   ws-path: /
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #2'
-  network: tcp
-  port: 11773
-  server: atkwy-g01.jp02-9a99-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '11,20,21|🇯🇵 日本 东京Amazon数据中心 #8'
-  network: tcp
-  port: '21581'
-  server: uvx7r-g01.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-  ws-headers:
-    Host: uvx7r-g01.jp03-7d22-vm0.entry.fr0307a.art
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #3'
-  network: tcp
-  port: 46487
-  server: 4oxca-g06.jp05-6786-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
-- alterId: 1
-  cipher: auto
-  name: '11|日本 V2CROSS.COM #1'
-  network: tcp
-  port: 21583
-  server: vitsv-g03.jp03-7d22-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 22acc467-7440-386a-927a-d84be554b37e
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #4'
-  network: tcp
-  port: 444
-  server: 3lgr4-g01.jp04-3771-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '11|日本 V2CROSS.COM #2'
-  network: tcp
-  port: 21581
-  server: 7uq8b-g01.jp03-7d22-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #5'
-  network: tcp
-  port: 21581
-  server: rk93c-g01.jp01-0986-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: a6374634-9d44-3a70-9bef-ffa21ea2bb32
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #6'
-  network: tcp
-  port: 11773
-  server: ij4xs-g01.jp02-9a99-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #7'
-  network: tcp
-  port: 21581
-  server: avm8w-g01.jp01-0986-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: a6374634-9d44-3a70-9bef-ffa21ea2bb32
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #8'
-  network: tcp
-  port: 21581
-  server: 0rmnp-g01.jp01-0986-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: a6374634-9d44-3a70-9bef-ffa21ea2bb32
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #9'
-  network: tcp
-  port: 11773
-  server: h1lny-g01.jp02-9a99-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: a6374634-9d44-3a70-9bef-ffa21ea2bb32
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #10'
-  network: tcp
-  port: 444
-  server: n0172-g01.jp04-3771-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: a6374634-9d44-3a70-9bef-ffa21ea2bb32
-- alterId: 1
-  cipher: auto
-  name: '11,20,21|🇯🇵 日本 东京Amazon数据中心 #6'
-  network: tcp
-  port: '21584'
-  server: dbti0-g04.jp01-0986-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d91b00bb-3f92-336a-a65b-7c4c9858dae1
-  ws-headers:
-    Host: dbti0-g04.jp01-0986-vm0.entry.fr0307a.art
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #12'
-  network: tcp
-  port: 28786
-  server: wh6jw-g04.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: d91b00bb-3f92-336a-a65b-7c4c9858dae1
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #13'
-  network: tcp
-  port: 28783
-  server: f51c2-g01.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #14'
-  network: tcp
-  port: 21581
-  server: 395gj-g01.jp01-0986-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #15'
-  network: tcp
-  port: 28783
-  server: 2k0n1-g01.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '11,20,21|🇯🇵 日本 东京Amazon数据中心 #2'
-  network: tcp
-  port: '28788'
-  server: ccz1q-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
-  ws-headers:
-    Host: ccz1q-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #17'
-  network: tcp
-  port: 28783
-  server: ssopv-g01.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '11|日本 V2CROSS.COM #3'
-  network: tcp
-  port: 21584
-  server: o780u-g04.jp03-7d22-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: d91b00bb-3f92-336a-a65b-7c4c9858dae1
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #18'
-  network: tcp
-  port: 46482
-  server: q5aek-g01.jp05-6786-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '11|日本 东京Amazon数据中心 #19'
-  network: tcp
-  port: 21586
-  server: d706z-g06.jp01-0986-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
 - alterId: 1
   cipher: auto
   name: 20,21|🇯🇵 日本 东京都Amazon数据中心
@@ -269,6 +72,19 @@ proxies:
   uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
   ws-headers:
     Host: 8esic-g01.jp04-3771-vm0.entry.fr0307a.art
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: '20,21|🇯🇵 日本 东京Amazon数据中心 #2'
+  network: tcp
+  port: '28788'
+  server: ccz1q-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+  ws-headers:
+    Host: ccz1q-g06.jp06-7c5a-vm0.entry.fr0307a.art
   ws-path: /
 - alterId: 1
   cipher: auto
@@ -363,20 +179,33 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: '20,21|🇯🇵 日本 东京Amazon数据中心 #7'
+  name: '20,21|🇯🇵 日本 东京Amazon数据中心 #6'
   network: tcp
-  port: '28785'
-  server: 0q4oh-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  port: '21584'
+  server: dbti0-g04.jp01-0986-vm0.entry.fr0307a.art
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 22acc467-7440-386a-927a-d84be554b37e
+  uuid: d91b00bb-3f92-336a-a65b-7c4c9858dae1
   ws-headers:
-    Host: 0q4oh-g03.jp06-7c5a-vm0.entry.fr0307a.art
+    Host: dbti0-g04.jp01-0986-vm0.entry.fr0307a.art
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: '20,21|🇯🇵 日本 东京Amazon数据中心 #8'
+  network: tcp
+  port: '21581'
+  server: uvx7r-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
+  ws-headers:
+    Host: uvx7r-g01.jp03-7d22-vm0.entry.fr0307a.art
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 20,21,25,27|香港9|@ripaojiedian
+  name: 20,21,25|13|香港9|@ripaojiedian
   network: tcp
   port: '48889'
   server: gy.youaremygod.top
@@ -393,6 +222,14 @@ proxies:
   password: amazonskr05
   port: 443
   server: 54.238.247.32
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.31.115
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
