@@ -3,24 +3,20 @@ proxies:
   cipher: auto
   name: 11|日本 东京Amazon数据中心
   network: tcp
-  port: 21584
-  server: ywt6t-g04.jp03-7d22-vm0.entry.fr0307a.art
-  tls: true
+  port: 449
+  server: is69n-g06.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
   type: vmess
-  uuid: d91b00bb-3f92-336a-a65b-7c4c9858dae1
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
 - alterId: 1
   cipher: auto
-  name: '11,20,21|🇯🇵 日本 东京Amazon数据中心 #7'
+  name: '11|日本 东京Amazon数据中心 #1'
   network: tcp
-  port: '28785'
-  server: 0q4oh-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
+  port: 46485
+  server: 115qm-g04.jp05-6786-vm0.entry.fr0307a.art
+  tls: false
   type: vmess
-  uuid: 22acc467-7440-386a-927a-d84be554b37e
-  ws-headers:
-    Host: 0q4oh-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  ws-path: /
+  uuid: d91b00bb-3f92-336a-a65b-7c4c9858dae1
 - alterId: 1
   cipher: auto
   name: 20,21|🇯🇵 日本 东京Amazon数据中心
@@ -192,6 +188,19 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
+  name: '20,21|🇯🇵 日本 东京Amazon数据中心 #7'
+  network: tcp
+  port: '28785'
+  server: 0q4oh-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 22acc467-7440-386a-927a-d84be554b37e
+  ws-headers:
+    Host: 0q4oh-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  ws-path: /
+- alterId: 1
+  cipher: auto
   name: '20,21|🇯🇵 日本 东京Amazon数据中心 #8'
   network: tcp
   port: '21581'
@@ -205,11 +214,10 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 20,21,25|13|香港9|@ripaojiedian
+  name: 20,21|🇭🇰 13|香港9|@ripaojiedian
   network: tcp
   port: '48889'
   server: gy.youaremygod.top
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
