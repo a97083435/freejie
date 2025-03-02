@@ -1,16 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '13,20,21,25|13|香港9|@ripaojiedian #1'
+  network: tcp
+  port: '42120'
+  server: 183.236.51.38
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 20,26|🇭🇰 香港10|@ripaojiedian
-  password: Vad3.123a%2529asd1234-asdasd.asdazzS.123
-  port: 443
-  server: 43.154.83.213
+  name: 20,26|🇺🇸 美国2|@ripaojiedian
+  password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c
+  port: 44014
+  server: 120.198.71.219
   skip-cert-verify: false
-  sni: xx.tc.hk.go.107421.xyz
+  sni: mmbiz1.redapricotcloud.com
   tfo: false
   tls: false
-  type: trojan
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   name: 20|🇰HK-43.249.36.70-105
@@ -54,6 +68,16 @@ proxies:
   port: 15007
   server: 156.245.190.16
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 27|香港9|@ripaojiedian
+  network: tcp
+  port: '21639'
+  server: 38.147.189.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2d012bbb-0d12-45e5-ad35-92241360327f
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787

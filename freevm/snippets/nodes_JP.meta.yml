@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|日本 东京Amazon数据中心
+  network: ws
+  port: 22443
+  server: tls.18.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-128-gcm
   name: 20|JP-149.22.87.241-076
   password: shadowsocks
@@ -23,6 +36,24 @@ proxies:
   port: 443
   server: 18.181.211.125
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 26|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.229.213.8
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 27|日本4|@ripaojiedian
+  network: tcp
+  port: '55128'
+  server: 45.159.51.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84f9bc0e-400f-4839-98b5-637d5e9c6606
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356

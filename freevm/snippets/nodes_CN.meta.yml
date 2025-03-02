@@ -16,9 +16,35 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: '11,20,21|_中国 #19'
+  network: tcp
+  port: '42055'
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '11,20,21|_中国 #10'
   network: tcp
   port: '48919'
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,20,21|_中国 #11'
+  network: tcp
+  port: '53902'
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -40,45 +66,18 @@ proxies:
   ws-headers:
     Host: 120.232.153.63
   ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 11,25|2|🇺🇸9 |  3.7MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
-  name: 11,20,21,25,27|香港9|@ripaojiedian
+  name: '11,20,21|_中国 #16'
   network: tcp
-  port: '42120'
-  server: 183.236.51.38
-  servername: ''
+  port: '40172'
+  server: 120.232.153.63
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
   ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #14'
-  network: tcp
-  port: '41259'
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.216
+    Host: 120.232.153.63
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -96,10 +95,11 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #13'
+  name: 20,21,27|美国2|@ripaojiedian
   network: tcp
   port: '44014'
   server: 120.198.71.219
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -400,19 +400,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #11'
-  network: tcp
-  port: '53902'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: '20,21|_中国 #18'
   network: tcp
   port: '35641'
@@ -457,38 +444,25 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #14'
+  network: tcp
+  port: '41259'
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.216
+  ws-path: /
 - cipher: aes-256-gcm
   name: 20|🇨🇳CN-183.61.177.235-197
   password: FCEUOASRQJC0LN0K
   port: 15009
   server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #16'
-  network: tcp
-  port: '40172'
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #19'
-  network: tcp
-  port: '42055'
-  server: 120.198.71.219
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.219
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '20,21|_中国 #21'
