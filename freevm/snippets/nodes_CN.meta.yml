@@ -16,22 +16,27 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,21|_中国 #13'
+  name: '11,21|_中国 #14'
   network: tcp
-  port: '53902'
-  server: 183.236.51.38
+  port: '42055'
+  server: 120.198.71.219
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11,21|_中国
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  tls: false
+  name: 11|广东省广州市 移动
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-a.tkong.cc
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: tk.hzlt.tkddns.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
@@ -57,6 +62,15 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 21|_中国
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: '21|🇷🇺 _俄罗斯 #1'
   network: tcp
   port: '3503'
@@ -64,15 +78,6 @@ proxies:
   tls: false
   type: vmess
   uuid: fa678492-65dd-3df0-800d-11f138b868ab
-- alterId: 0
-  cipher: auto
-  name: '21|_中国 #14'
-  network: tcp
-  port: '42055'
-  server: 120.198.71.219
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '21|_中国 #9'
@@ -111,9 +116,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 21,25|2|🇯🇵2 |  1.7MB/s
+  name: '21|_中国 #4'
   network: tcp
-  port: 35565
+  port: '35565'
   server: 120.198.71.214
   tls: false
   type: vmess
@@ -160,6 +165,15 @@ proxies:
   network: tcp
   port: '40165'
   server: 120.232.153.63
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #13'
+  network: tcp
+  port: '53902'
+  server: 183.236.51.38
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
