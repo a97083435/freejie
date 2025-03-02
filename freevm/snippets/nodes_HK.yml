@@ -14,29 +14,38 @@ proxies:
     Host: 38.147.189.213
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇰HK-43.249.36.70-204
+  name: 20|🇰HK-89.213.150.45-246
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇰HK-43.249.36.70-230
   password: 2afbc97400ca71c8f3306f9843a6e1c2
   port: 443
   server: hong-kong-3.keenvpn.me
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇭🇰HK-43.249.36.70-207
+  name: 20|🇭🇰HK-43.249.36.70-233
   password: 2afbc97400ca71c8f3306f9843a6e1c2
   port: 443
   server: 43.249.36.70
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 20|🇰HK-216.250.97.118-219
+  name: 20|🇰HK-216.250.97.118-245
   password: 2afbc97400ca71c8f3306f9843a6e1c2
   port: 443
   server: hong-kong.keenvpn.me
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|🇰HK-89.213.150.45-220
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 25|2|🇭🇰1 |  3.3MB/s
+  network: tcp
+  port: 63019
+  server: in06.xxxoooxxxooo.net
+  tls: false
+  type: vmess
+  uuid: 26a934b4-d088-3cd6-88c2-11180ed1e53b
 - alterId: 0
   cipher: auto
   name: 28|🇭🇰HK-47.76.35.246-0787

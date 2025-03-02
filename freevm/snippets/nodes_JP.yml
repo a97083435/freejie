@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本 东京Amazon数据中心
-  network: ws
-  port: 443
-  server: tls.06.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-opts:
-    headers:
-      Host: tls.06.node-for-bigairport.win
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13,20,21,25,27|日本4|@ripaojiedian
   network: tcp
   port: '55128'
@@ -26,54 +13,77 @@ proxies:
   ws-headers:
     Host: 45.159.51.189
   ws-path: /
-- cipher: aes-256-cfb
-  name: 20|🇵JP-54.64.124.92-355
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  name: 20|JP-3.113.4.182-019
+  network: ws
   port: 443
-  server: 54.64.124.92
+  server: tls.06.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-headers:
+    Host: tls.06.node-for-bigairport.win
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 20|🇯🇵JP-194.105.89.58-024
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40003
+  server: jp.fastsoonlink.com
   type: ss
 - cipher: aes-256-cfb
-  name: 20|🇯🇵JP-54.178.157.8-357
+  name: 20|🇵JP-13.114.82.97-408
   password: amazonskr05
   port: 443
-  server: 54.178.157.8
+  server: 13.114.82.97
   type: ss
 - cipher: aes-256-cfb
-  name: 20|🇵JP-18.181.211.125-358
+  name: 20|🇵JP-13.230.141.176-413
   password: amazonskr05
   port: 443
-  server: 18.181.211.125
-  type: ss
-- cipher: aes-256-cfb
-  name: 20|🇯🇵JP-52.195.185.114-361
-  password: amazonskr05
-  port: 443
-  server: 52.195.185.114
-  type: ss
-- cipher: aes-256-cfb
-  name: 20|🇯🇵JP-13.230.186.166-362
-  password: amazonskr05
-  port: 443
-  server: 13.230.186.166
+  server: 13.230.141.176
   type: ss
 - cipher: aes-128-gcm
-  name: 20|🇵JP-149.22.87.241-176
+  name: 20|🇵JP-149.22.87.241-202
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
 - cipher: aes-128-gcm
-  name: 20|🇯🇵JP-149.22.87.204-177
+  name: 20|🇯🇵JP-149.22.87.204-203
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
-  name: 20|🇯🇵JP-149.22.87.240-185
+  name: 20|🇯🇵JP-149.22.87.240-211
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|🇯🇵 日本 东京Amazon数据中心
+  network: ws
+  port: '443'
+  server: tls.06.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      Host: tls.06.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 25|2|🇯🇵1 |  3.6MB/s
+  network: tcp
+  port: 63051
+  server: in06.xxxoooxxxooo.net
+  tls: false
+  type: vmess
+  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
 - alterId: 0
   cipher: auto
   name: 28|🇯🇵JP-152.69.197.74-3356
