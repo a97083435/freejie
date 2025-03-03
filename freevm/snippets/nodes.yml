@@ -528,47 +528,20 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '11,16,28|github.com/freefq - 印度  10 #1'
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
+  name: '11,20,21|_中国 #27'
+  network: tcp
+  port: '32077'
+  server: 120.232.153.41
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.41
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: 104.18.149.75
-  tls: true
-  type: vmess
-  uuid: 506b46ce-568f-47a7-f0dd-0864fb7f8040
-  ws-opts:
-    headers:
-      Host: sg.insbot.filegear-sg.me
-    path: /aa
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #12'
-  network: ws
-  port: '8880'
-  server: s2.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-165-40-54.s2.cn-db.top
-    path: /dabai.in104.24.231.155
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
   network: ws
   port: 80
   server: s1.cn-db.top
@@ -579,72 +552,6 @@ proxies:
     headers:
       Host: 100-215-151-174.s1.cn-db.top
     path: /dabai.in172.64.34.18
-- alterId: 0
-  cipher: auto
-  name: 11,16,28|美国测试节点
-  network: ws
-  port: '443'
-  server: gov.uk
-  servername: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #33'
-  network: tcp
-  port: '42055'
-  server: 120.198.71.219
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.219
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
-  network: ws
-  port: 2052
-  server: 104.17.221.248
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-44-70-80.s1.db-link02.top
-    path: /dabai.in172.67.75.187
-- alterId: 0
-  cipher: auto
-  name: 11|西班牙 V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 185.251.83.248
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 11|美国 V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 45.144.48.128
-  tls: true
-  type: vmess
-  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
 - alterId: 0
   cipher: auto
   name: '11,16,28|github.com/freefq - 美国CloudFla... #7'
@@ -661,17 +568,109 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #20'
-  network: tcp
-  port: '35565'
-  server: 120.198.71.214
-  skip-cert-verify: true
+  name: 11|美国 V2CROSS.COM
+  network: ws
+  port: 8443
+  server: 45.144.48.128
+  tls: true
+  type: vmess
+  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 11,14|🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+  network: ws
+  port: '80'
+  server: 151.101.66.168
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 2095
+  server: s5.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-26-239-98.s5.db-link02.top
+    path: /dabai.in172.67.11.171
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇺🇸 _美国
+  network: ws
+  port: '80'
+  server: 151.101.130.168
+  tls: false
+  type: vmess
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 Fastly全球Anycast节点 #2'
+  network: ws
+  port: 80
+  server: 151.101.194.168
+  tls: false
+  type: vmess
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: 2086
+  server: s3.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-237-59-154.s3.cn-db.top
+    path: /dabai.in104.24.43.124
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #4'
+  network: ws
+  port: 443
+  server: biazh.mmzhk.website
+  tls: true
+  type: vmess
+  uuid: 5b2ad717-20db-4e2e-bce7-c388e578ed9e
+  ws-opts:
+    headers:
+      Host: biazh.mmzhk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|立陶宛 V2CROSS.COM
+  network: ws
+  port: 8443
+  server: 89.117.112.235
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
 - alterId: 0
   cipher: auto
   name: 13,20,21,25,27|香港9|@ripaojiedian
@@ -714,20 +713,6 @@ proxies:
   ws-headers:
     Host: 120.198.71.219
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 14|🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-  network: ws
-  port: '80'
-  server: 151.101.66.168
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /XESALISTHEBEST?ed=2048
 - alterId: 0
   cipher: auto
   name: '14,21|🇺🇸 _美国 #2'
@@ -811,6 +796,34 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: '16,28|github.com/freefq - 印度  10 #1'
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 16,28|美国测试节点
+  network: ws
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 美国CloudFla... #6'
@@ -2273,6 +2286,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: '20,21|_中国 #33'
+  network: tcp
+  port: '42055'
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '20,21|_中国 #19'
   network: tcp
   port: '50095'
@@ -2338,6 +2364,19 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: 20,21,25|2|🇯🇵2 |  2.1MB/s
+  network: tcp
+  port: 35565
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '20,21|_中国 #32'
   network: tcp
   port: '52908'
@@ -2399,19 +2438,6 @@ proxies:
   uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
   ws-headers:
     Host: in06.xxxoooxxxooo.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #27'
-  network: tcp
-  port: '32077'
-  server: 120.232.153.41
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.41
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -2693,6 +2719,19 @@ proxies:
     headers:
       Host: la04.818185.xyz
     path: /UHXvYRn3CE81zHBaw7RlmqFIy
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #12'
+  network: ws
+  port: '8880'
+  server: s2.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-165-40-54.s2.cn-db.top
+    path: /dabai.in104.24.231.155
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #13'
@@ -3033,19 +3072,6 @@ proxies:
     path: /UHXvYRn3CE81zHBaw7RlmqFIy
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸 _美国
-  network: ws
-  port: '80'
-  server: 151.101.130.168
-  tls: false
-  type: vmess
-  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /XESALISTHEBEST?ed=2048
-- alterId: 0
-  cipher: auto
   name: '21|🇺🇸 _美国 #1'
   network: ws
   port: '2052'
@@ -3237,6 +3263,19 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 25|2|🌀1- |  2.0MB/s
+  network: ws
+  port: 23611
+  server: 11.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: bc196dc5-48b2-3b6d-b1c0-a9a1c8d64228
+  ws-opts:
+    headers:
+      Host: 11.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #20'
