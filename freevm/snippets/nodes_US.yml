@@ -237,33 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|美国 V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 167.68.5.215
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
   name: 11|美国 CloudFlare节点
-  network: ws
-  port: 2086
-  server: s1.db-link01.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-191-129-167.s1.db-link01.top
-    path: /dabai.in172.64.32.189
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
   network: ws
   port: 2052
   server: 104.16.155.10
@@ -276,17 +250,30 @@ proxies:
     path: /dabai.in104.25.175.137
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: 8880
-  server: s1.db-link01.top
+  port: 2086
+  server: s1.db-link02.top
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-250-32-53.s1.db-link01.top
-    path: /dabai.in172.67.95.35
+      Host: 100-223-71-166.s1.db-link02.top
+    path: /dabai.in172.64.9.208
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 2095
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-33-108-197.s1.db-link02.top
+    path: /dabai.in104.24.248.64
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #3'
@@ -302,43 +289,17 @@ proxies:
     path: /dabai.in172.64.55.203
 - alterId: 0
   cipher: auto
-  name: '11|美国 V2CROSS.COM #1'
-  network: ws
-  port: 8443
-  server: 3h-poland1.09vpn.com
-  tls: true
-  type: vmess
-  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 11|美国 Fastly全球Anycast节点
-  network: ws
-  port: 80
-  server: 151.101.194.168
-  tls: false
-  type: vmess
-  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /XESALISTHEBEST?ed=2048
-- alterId: 0
-  cipher: auto
   name: '11|美国 CloudFlare节点 #4'
   network: ws
-  port: 2095
-  server: 104.16.155.10
+  port: 2052
+  server: 104.21.44.185
   tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: 8088e23c-2332-4422-c754-927729c568bd
   ws-opts:
     headers:
-      Host: 100-209-47-141.s2.db-link02.top
-    path: /dabai.in104.20.27.115
+      Host: Freedomisnear.onetwothree123.ir
+    path: /mehdi
 - alterId: 0
   cipher: auto
   name: 13,20,21,25,27|美国2|@ripaojiedian
@@ -1036,6 +997,19 @@ proxies:
     headers:
       Host: Freedomisnear.onetwothree123.ir
     path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '21|🇺🇸 _美国 #3'
+  network: ws
+  port: '80'
+  server: www.aetv.com
+  tls: false
+  type: vmess
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸 _美国 #5'
