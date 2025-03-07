@@ -240,7 +240,33 @@ proxies:
   name: 11|美国 CloudFlare节点
   network: ws
   port: 443
-  server: 104.21.83.208
+  server: 104.21.83.115
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: 11|美国 V2CROSS.COM
+  network: ws
+  port: 443
+  server: hms26.xpengmotors.sbs
+  tls: true
+  type: vmess
+  uuid: fb0a2de6-bf06-4ff0-97ce-c21abcdc2d55
+  ws-opts:
+    headers:
+      Host: hms26.xpengmotors.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11|美国 Akamai科技公司CDN网络节点
+  network: ws
+  port: 443
+  server: afrhms16v.bestxray.buzz
   tls: true
   type: vmess
   uuid: f584de15-2034-4170-a723-f48c2bae5e0f
@@ -251,19 +277,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.21.74.239
-  tls: true
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      Host: afrhms07.xfixedfloat.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
   network: ws
   port: 2086
   server: s5.db-link02.top
@@ -276,112 +289,33 @@ proxies:
     path: /dabai.in104.25.98.224
 - alterId: 0
   cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 172.67.223.119
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /link
+- alterId: 0
+  cipher: auto
   name: '11|美国 CloudFlare节点 #3'
   network: ws
   port: 443
-  server: 172.67.175.56
+  server: www.visa.com.tw
   tls: true
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  uuid: aab269af-a266-4d1b-b4ce-da36a4b0bdf0
   ws-opts:
     headers:
-      Host: afrhms16v.bestxray.buzz
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|美国 Akamai科技公司CDN网络节点
-  network: ws
-  port: 443
-  server: hms24.ivideos.sbs
-  tls: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ivideos.sbs
-    path: /linkws
+      Host: meat-newfoundland-loads-vegas.trycloudflare.com
+    path: /vmess-argo?ed=2048
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 172.67.220.10
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #5'
-  network: ws
-  port: 2095
-  server: www.speedtest.net
-  tls: false
-  type: vmess
-  uuid: f4f01d19-1782-4b85-9317-0d3cee0f91e2
-  ws-opts:
-    headers:
-      Host: panel2.SEYYEDmtmodidandansax.bloG.
-    path: /Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt?ed=1024
-- alterId: 0
-  cipher: auto
-  name: '11|美国 Akamai科技公司CDN网络节点 #1'
-  network: ws
-  port: 443
-  server: linde06.indiavideo.sbs
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '11,21|🇺🇸 美国 CloudFlare节点 #19'
-  network: ws
-  port: '2086'
-  server: 104.16.155.10
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-47-154-9.s1.cn-db.top
-    path: /dabai.in104.24.181.189
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #7'
-  network: ws
-  port: 443
-  server: 172.67.132.209
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: afrhms16v.bestxray.buzz
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #8'
-  network: ws
-  port: 2095
-  server: s4.db-link02.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-187-244-205.s4.db-link02.top
-    path: /dabai.in104.19.97.91
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #9'
   network: ws
   port: 443
   server: 172.67.161.77
@@ -394,17 +328,122 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: '11|美国 CloudFlare节点 #5'
+  network: ws
+  port: 8080
+  server: s1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-230-189-184.s1.cn-db.top
+    path: /dabai.in104.19.155.231
+- alterId: 0
+  cipher: auto
+  name: 11,21|🇺🇸 _美国
+  network: ws
+  port: '80'
+  server: 151.101.130.168
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #6'
+  network: ws
+  port: 443
+  server: 172.67.196.112
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #7'
+  network: ws
+  port: 2086
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-191-129-167.s1.db-link01.top
+    path: /dabai.in172.64.32.189
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #8'
+  network: ws
+  port: 80
+  server: s2.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-55-60-174.s2.db-link01.top
+    path: /dabai.in172.67.60.154
+- alterId: 0
+  cipher: auto
+  name: '11|美国 Akamai科技公司CDN网络节点 #1'
+  network: ws
+  port: 443
+  server: hms08.gwdef.sbs
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #9'
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  tls: true
+  type: vmess
+  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
+  ws-opts:
+    headers:
+      Host: hk.insbot.filegear-sg.me
+    path: /aa
+- alterId: 0
+  cipher: auto
   name: '11|美国 CloudFlare节点 #10'
   network: ws
-  port: 2082
+  port: 2095
   server: 104.16.155.10
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-38-62-25.s5.db-link02.top
-    path: /dabai.in104.18.42.172
+      Host: 100-209-47-141.s2.db-link02.top
+    path: /dabai.in104.20.27.115
+- alterId: 0
+  cipher: auto
+  name: '11|美国 Akamai科技公司CDN网络节点 #2'
+  network: ws
+  port: 443
+  server: hms24.ivideos.sbs
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ivideos.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 13,20,21,25,27|美国2|@ripaojiedian
@@ -831,6 +870,19 @@ proxies:
     path: /UHXvYRn3CE81zHBaw7RlmqFIy
 - alterId: 0
   cipher: auto
+  name: '21|🇺🇸 美国 CloudFlare节点 #19'
+  network: ws
+  port: '2086'
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-47-154-9.s1.cn-db.top
+    path: /dabai.in104.24.181.189
+- alterId: 0
+  cipher: auto
   name: '21|🇺🇸 美国 CloudFlare节点 #20'
   network: ws
   port: '443'
@@ -1065,19 +1117,6 @@ proxies:
     path: /UHXvYRn3CE81zHBaw7RlmqFIy
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸 _美国
-  network: ws
-  port: '80'
-  server: 151.101.130.168
-  tls: false
-  type: vmess
-  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /XESALISTHEBEST?ed=2048
-- alterId: 0
-  cipher: auto
   name: '21|🇺🇸 _美国 #1'
   network: ws
   port: '2052'
@@ -1157,6 +1196,20 @@ proxies:
     headers:
       host: mm3.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 25|1|🇺🇸8 |  3.2MB/s
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  servername: linde06.indiavideo.sbs
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: '28|🇺🇸_US_美国 #20'
