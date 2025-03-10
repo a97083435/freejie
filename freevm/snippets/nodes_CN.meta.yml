@@ -729,6 +729,19 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: '20,21|_中国 #13'
+  network: tcp
+  port: '63051'
+  server: in06.xxxoooxxxooo.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
+  ws-headers:
+    Host: in06.xxxoooxxxooo.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 20|🇨🇳CN-117.172.176.63-225
   network: ws
   port: 63011
@@ -832,19 +845,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #25'
-  network: tcp
-  port: '63099'
-  server: in06.xxxoooxxxooo.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
-  ws-headers:
-    Host: in06.xxxoooxxxooo.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: '20,21|_中国 #27'
   network: tcp
   port: '32077'
@@ -881,6 +881,19 @@ proxies:
   ws-opts:
     headers:
       Host: de01-cdn.airport-v2.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|_中国 #14'
+  network: ws
+  port: '63011'
+  server: in06.xxxoooxxxooo.net
+  tls: false
+  type: vmess
+  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
+  ws-opts:
+    headers:
+      Host: jp-a-mugua.weibo-cdn.best
     path: /
 - alterId: 0
   cipher: auto
