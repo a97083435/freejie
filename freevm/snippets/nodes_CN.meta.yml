@@ -16,9 +16,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #19'
+  name: '11,20,21|_中国 #33'
   network: tcp
-  port: '50095'
+  port: '42055'
   server: 120.198.71.219
   skip-cert-verify: true
   tls: false
@@ -26,19 +26,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 120.198.71.219
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #20'
-  network: tcp
-  port: '35565'
-  server: 120.198.71.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -734,9 +721,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #33'
+  name: '20,21|_中国 #19'
   network: tcp
-  port: '42055'
+  port: '50095'
   server: 120.198.71.219
   skip-cert-verify: true
   tls: false
@@ -796,6 +783,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #20'
+  network: tcp
+  port: '35565'
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
   ws-path: /
 - alterId: 0
   cipher: auto
