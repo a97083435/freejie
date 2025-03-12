@@ -16,9 +16,44 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,20,21,25|1|🇺🇸5 |  26.2MB/s
+  name: 11|广东省广州市 移动
   network: tcp
-  port: 44014
+  port: 50052
+  server: 120.232.153.123
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '11,20,21|_中国 #20'
+  network: tcp
+  port: '35565'
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,20,21|_中国 #19'
+  network: tcp
+  port: '50095'
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '11,20,21|🇺🇸 13|美国2|@ripaojiedian #1'
+  network: tcp
+  port: '44014'
   server: 120.198.71.219
   skip-cert-verify: true
   tls: false
@@ -721,19 +756,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '20,21|_中国 #19'
-  network: tcp
-  port: '50095'
-  server: 120.198.71.219
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.219
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: '20,21|_中国 #13'
   network: tcp
   port: '63051'
@@ -783,19 +805,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #20'
-  network: tcp
-  port: '35565'
-  server: 120.198.71.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
   ws-path: /
 - alterId: 0
   cipher: auto
