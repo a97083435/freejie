@@ -29,19 +29,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #33'
-  network: tcp
-  port: '42055'
-  server: 120.198.71.219
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.219
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: '11,20,21|_中国 #16'
   network: tcp
   port: '51754'
@@ -53,6 +40,17 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '13,25|1|🌀6-CN |  2.0MB/s #1'
+  network: ws
+  port: 23013
+  server: 212.192.13.68
+  tls: false
+  type: vmess
+  uuid: 6ede9de9-f53e-4391-879a-202a6fc8b543
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
@@ -673,6 +671,19 @@ proxies:
   port: 16009
   server: 8tv68qhq.slashdevslashnetslashtun.net
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #33'
+  network: tcp
+  port: '42055'
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '20,21|_中国 #19'
