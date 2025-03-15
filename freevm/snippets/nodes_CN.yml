@@ -16,43 +16,15 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #16'
-  network: tcp
-  port: '51754'
-  server: 183.236.51.38
-  skip-cert-verify: true
+  name: '13,25|1|🌀6-CN |  2.0MB/s #1'
+  network: ws
+  port: 23013
+  server: 212.192.13.68
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #20'
-  network: tcp
-  port: '35565'
-  server: 120.198.71.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #30'
-  network: tcp
-  port: '59104'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
+  uuid: 6ede9de9-f53e-4391-879a-202a6fc8b543
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
@@ -740,6 +712,32 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: '20,21|_中国 #16'
+  network: tcp
+  port: '51754'
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #20'
+  network: tcp
+  port: '35565'
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '20,21|_中国 #32'
   network: tcp
   port: '52908'
@@ -750,6 +748,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 120.234.102.229
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #30'
+  network: tcp
+  port: '59104'
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
   ws-path: /
 - cipher: aes-256-gcm
   name: 20|🇨🇳CN-120.241.45.2-238
