@@ -16,13 +16,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,25|2|🇺🇸8 |  1.3MB/s
+  name: '11,20,21|_中国 #17'
   network: tcp
-  port: 40102
-  server: 120.232.153.63
+  port: '42120'
+  server: 183.236.51.38
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
@@ -550,19 +554,6 @@ proxies:
   uuid: 26a934b4-d088-3cd6-88c2-11180ed1e53b
   ws-headers:
     Host: in06.xxxoooxxxooo.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #17'
-  network: tcp
-  port: '42120'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
   ws-path: /
 - alterId: 0
   cipher: auto
