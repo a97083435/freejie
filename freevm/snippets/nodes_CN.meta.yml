@@ -16,9 +16,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,20,21|_中国 #29'
+  name: '11,20,21|_中国 #17'
   network: tcp
-  port: '53902'
+  port: '42120'
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -40,6 +40,17 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 13,25|1|🌀6-CN |  2.0MB/s
+  network: ws
+  port: 23013
+  server: 212.192.13.68
+  tls: false
+  type: vmess
+  uuid: 6ede9de9-f53e-4391-879a-202a6fc8b543
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: '16,28|github.com/freefq - 广东省移动 7 #1'
@@ -542,14 +553,6 @@ proxies:
   server: hk01.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 20,26|🇹🇼 台湾2|@ripaojiedian
-  password: OOW5TZHO9I1OFBAF
-  port: 21001
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: '20,21|🇺🇸 13|美国2|@ripaojiedian #1'
@@ -575,19 +578,6 @@ proxies:
   uuid: 26a934b4-d088-3cd6-88c2-11180ed1e53b
   ws-headers:
     Host: in06.xxxoooxxxooo.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #17'
-  network: tcp
-  port: '42120'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -640,6 +630,19 @@ proxies:
   uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
   ws-headers:
     Host: de01-cdn.airport-v2.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #29'
+  network: tcp
+  port: '53902'
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
   ws-path: /
 - cipher: aes-256-gcm
   name: 20|🇨🇳CN-183.61.177.172-220
