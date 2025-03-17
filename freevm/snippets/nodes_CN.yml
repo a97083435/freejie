@@ -16,18 +16,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,25|2|🇫🇷3 |  2.7MB/s
+  name: '11,20,21|_中国 #29'
   network: tcp
-  port: 44550
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '11,20,21|_中国 #16'
-  network: tcp
-  port: '51754'
+  port: '53902'
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -629,19 +620,6 @@ proxies:
   ws-headers:
     Host: de01-cdn.airport-v2.com
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '20,21|_中国 #29'
-  network: tcp
-  port: '53902'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
 - cipher: aes-256-gcm
   name: 20|🇨🇳CN-183.61.177.172-220
   password: WNW5MZJX57ZJUNQU
@@ -712,6 +690,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 120.232.153.63
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '20,21|_中国 #16'
+  network: tcp
+  port: '51754'
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
   ws-path: /
 - alterId: 0
   cipher: auto

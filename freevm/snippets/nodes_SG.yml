@@ -20,13 +20,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,25,26|🇸🇬 新加坡3|@ripaojiedian
+  name: 13,25|2,12|🇸🇬 新加坡3|@ripaojiedian
   network: ws
   port: 46019
   server: fadawtawd.zhangwei.li
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
@@ -36,7 +33,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 13,25,27|新加坡3|@ripaojiedian
+  name: '13,25|13|新加坡3|@ripaojiedian #1'
   network: ws
   port: '46019'
   server: fadawtawd.zhangwei.li
@@ -60,28 +57,12 @@ proxies:
   port: 443
   server: 13.229.55.109
   type: ss
-- cipher: rc4-md5
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 26|🇸🇬 新加坡|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8722
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 26|🇸🇬 新加坡2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8724
-  server: cn01.efan8867801.xyz
+  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
+  port: 12022
+  server: mdss-sg.04z3susick.download
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -89,9 +70,19 @@ proxies:
   name: 26|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.134.156
+  server: 3.0.54.96
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 27|新加坡2|@ripaojiedian
+  network: tcp
+  port: '11003'
+  server: bgp1.bgp1.miaomiaowu114514.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
 - alterId: 0
   cipher: auto
   name: 28|🇸🇬新加坡 01
